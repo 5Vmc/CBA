@@ -1,0 +1,48 @@
+
+ani_touzi.png
+size: 471,319
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hu01
+  rotate: false
+  xy: 2, 3
+  size: 156, 156
+  orig: 159, 156
+  offset: 3, 0
+  index: -1
+hu02
+  rotate: false
+  xy: 318, 2
+  size: 150, 156
+  orig: 151, 160
+  offset: 1, 1
+  index: -1
+hu03
+  rotate: false
+  xy: 160, 161
+  size: 156, 156
+  orig: 159, 160
+  offset: 3, 2
+  index: -1
+hu04
+  rotate: false
+  xy: 318, 160
+  size: 151, 157
+  orig: 151, 163
+  offset: 0, 2
+  index: -1
+hu05
+  rotate: false
+  xy: 160, 3
+  size: 156, 156
+  orig: 159, 161
+  offset: 3, 2
+  index: -1
+hu06
+  rotate: false
+  xy: 2, 161
+  size: 156, 156
+  orig: 159, 161
+  offset: 3, 2
+  index: -1

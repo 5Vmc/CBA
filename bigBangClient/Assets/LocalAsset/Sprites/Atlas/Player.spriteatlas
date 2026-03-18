@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8ae7eb9c3cd39d149b7f2da7e90bd120, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 10295391d0012fb478c99bd9de861e48, type: 3}
+  - {fileID: 21300000, guid: a2835cc1827fb4e928b6609d28ab4009, type: 3}
+  - {fileID: 21300000, guid: e277d0835563c2c428de3819a2d18ede, type: 3}
+  - {fileID: 21300000, guid: 410f73b657be3a849859e4f9d37b4f7a, type: 3}
+  - {fileID: 21300000, guid: e8733e88600004c8ca73ee930075e1ed, type: 3}
+  - {fileID: 21300000, guid: 2a805ee8f69c6fe48b5bcafb97fb6cbf, type: 3}
+  - {fileID: 21300000, guid: 59c1b08a841e04331af85c2005e6d842, type: 3}
+  - {fileID: 21300000, guid: e770c8ba616ca2c4fb69282e1b84c4db, type: 3}
+  - {fileID: 21300000, guid: 78257cbb48a2f8a49b301184bc9dac8f, type: 3}
+  - {fileID: 21300000, guid: 72691c9e78e5b4b7683cda5152cc5c79, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - img_701
+  - state_4
+  - img_700
+  - state_1
+  - state_5
+  - state_3
+  - state_2
+  - img_702
+  - img_168_1
+  - img_168_2
+  m_RenderDataMap: {}
+  m_Tag: Player
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

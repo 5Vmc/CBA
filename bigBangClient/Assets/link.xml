@@ -1,0 +1,16 @@
+﻿<linker>
+    <assembly fullname="Unity.Timeline" preserve="all" />
+    <assembly fullname="DOTween" preserve="all" />
+    <assembly fullname="Assembly-CSharp" preserve="all" />
+    <assembly fullname="HotFix" preserve="all" />
+    <assembly fullname="Babu" preserve="all" />
+
+    <assembly fullname="UnityEngine">
+        <type fullname="UnityEngine.SphereCollider" preserve="all"/>
+		<type fullname="UnityEngine.AudioListener" preserve="all"/>
+        <type fullname="UnityEngine.CoreModule" preserve="all"/>
+    </assembly>
+	<assembly fullname="UnityEditor">
+		<type fullname="UnityEditor.PlayerSettings" preserve="all"/>
+	</assembly>
+</linker>

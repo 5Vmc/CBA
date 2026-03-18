@@ -1,0 +1,23 @@
+编译脚本
+
+修改配置文件
+BabuBuildConfig.json
+
+Assets/Babu/BuildScript/Builer.py
+
+"http://longxigames.com/policy.php";
+
+"http://longxigames.com/privacy.php";
+
+加密暂时去掉
+GameConfigBuilder.EncryptConfigs("Assets/LocalAsset/Config/");
+
+
+
+到项目根目录
+cd /Users/zhaojun/Documents/source/bigBang/bigBangClient
+python3 Assets/Babu/BuildScript/Build.py --env=develop --channel_id=MIGU --project=CBA --major_version=1.0.0 --target_platform=android --defines=RELEASE --public_package=false 
+
+--public_package=false 发布到外网
+--remove_package=true 删除打的包
+--commit_id=			提交的tag号

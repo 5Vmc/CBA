@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 1117,663
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+鸟1
+  rotate: false
+  xy: 2, 2
+  size: 781, 659
+  orig: 785, 661
+  offset: 2, 2
+  index: -1
+鸟2
+  rotate: true
+  xy: 785, 262
+  size: 399, 330
+  orig: 399, 330
+  offset: 0, 0
+  index: -1

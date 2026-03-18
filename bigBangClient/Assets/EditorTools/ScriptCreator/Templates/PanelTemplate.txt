@@ -1,0 +1,31 @@
+using UnityEngine;
+using UnityEngine.UI;
+using deVoid.UIFramework;
+
+namespace BigBang.UI
+{
+    public class #SCRIPTNAME#Properties : PanelProperties
+    {
+        public #SCRIPTNAME#Properties()
+        {
+        }
+    }
+
+    public class #SCRIPTNAME# : APanelController<#SCRIPTNAME#Properties>
+    {
+        protected override void AddListeners()
+        {
+            base.AddListeners();
+        }
+
+        protected override void RemoveListeners()
+        {
+            base.RemoveListeners();
+        }
+
+        protected override void OnPropertiesSet()
+        {
+            base.OnPropertiesSet();
+        }
+    }
+}

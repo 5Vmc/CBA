@@ -1,0 +1,20 @@
+{
+    "name": "Babu.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9ef8e855f7f2b3d4184f7624186596d1",
+        "GUID:2373f786d14518f44b0f475db77ba4de",
+        "GUID:4d1926c9df5b052469a1c63448b7609a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

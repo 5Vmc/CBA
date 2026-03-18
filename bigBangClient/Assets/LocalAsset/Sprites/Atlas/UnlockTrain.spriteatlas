@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UnlockTrain
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e48435d217c9236498fe30c1b3f4247c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cec954a26afebc74cbcad5b8e7057f5c, type: 3}
+  - {fileID: 21300000, guid: 463c9414cef933b41acebeb6644344c3, type: 3}
+  - {fileID: 21300000, guid: 41272de4b977f6249a79aba19d71a968, type: 3}
+  - {fileID: 21300000, guid: 86506555cf63c184b99a21b15adb6219, type: 3}
+  - {fileID: 21300000, guid: 08adb5c6e8c147545b208aee112a3b40, type: 3}
+  - {fileID: 21300000, guid: 3600b3c85c0a278488965e1f4d037c9b, type: 3}
+  - {fileID: 21300000, guid: 6b93137a227f56a4796368a4074e57d2, type: 3}
+  - {fileID: 21300000, guid: cd4a0ecab21fd2a47837a883f0da2086, type: 3}
+  - {fileID: 21300000, guid: ee355f5ba6c79974f8165a0c71fc0c07, type: 3}
+  - {fileID: 21300000, guid: 373e297e67e15ad42a9d2eb851d6f641, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - train5
+  - train10
+  - train1
+  - train3
+  - train6
+  - train2
+  - train4
+  - train9
+  - train7
+  - train8
+  m_RenderDataMap: {}
+  m_Tag: UnlockTrain
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

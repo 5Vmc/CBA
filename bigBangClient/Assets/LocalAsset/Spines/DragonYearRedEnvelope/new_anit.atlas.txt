@@ -1,0 +1,41 @@
+
+new_anit.png
+size: 172,165
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+denglong
+  rotate: false
+  xy: 66, 29
+  size: 33, 42
+  orig: 36, 46
+  offset: 1, 2
+  index: -1
+di
+  rotate: false
+  xy: 2, 9
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+guang
+  rotate: true
+  xy: 2, 73
+  size: 90, 108
+  orig: 94, 111
+  offset: 2, 2
+  index: -1
+longtou
+  rotate: true
+  xy: 112, 86
+  size: 77, 58
+  orig: 77, 59
+  offset: 0, 1
+  index: -1
+longxu
+  rotate: true
+  xy: 112, 2
+  size: 82, 51
+  orig: 82, 51
+  offset: 0, 0
+  index: -1

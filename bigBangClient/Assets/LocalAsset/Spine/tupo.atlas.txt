@@ -1,0 +1,48 @@
+
+tupo.png
+size: 601, 100
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ball
+  rotate: false
+  xy: 313, 2
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+swing11
+  rotate: true
+  xy: 411, 4
+  size: 94, 56
+  orig: 94, 56
+  offset: 0, 0
+  index: -1
+swing12
+  rotate: false
+  xy: 527, 55
+  size: 72, 43
+  orig: 72, 43
+  offset: 0, 0
+  index: -1
+swing21
+  rotate: true
+  xy: 469, 4
+  size: 94, 56
+  orig: 94, 56
+  offset: 0, 0
+  index: -1
+swing22
+  rotate: false
+  xy: 527, 10
+  size: 72, 43
+  orig: 72, 43
+  offset: 0, 0
+  index: -1
+txt2
+  rotate: false
+  xy: 2, 5
+  size: 309, 93
+  orig: 314, 97
+  offset: 3, 2
+  index: -1

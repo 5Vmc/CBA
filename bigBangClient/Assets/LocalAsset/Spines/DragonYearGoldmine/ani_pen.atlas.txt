@@ -1,0 +1,41 @@
+
+ani_pen.png
+size: 1555,584
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 247
+  size: 747, 335
+  orig: 755, 339
+  offset: 4, 2
+  index: -1
+guangquan
+  rotate: false
+  xy: 751, 299
+  size: 705, 283
+  orig: 707, 285
+  offset: 1, 1
+  index: -1
+hongbao
+  rotate: false
+  xy: 697, 2
+  size: 154, 243
+  orig: 157, 245
+  offset: 2, 1
+  index: -1
+penzi
+  rotate: false
+  xy: 853, 18
+  size: 700, 279
+  orig: 703, 281
+  offset: 1, 1
+  index: -1
+qiangai
+  rotate: false
+  xy: 2, 12
+  size: 693, 233
+  orig: 693, 233
+  offset: 0, 0
+  index: -1

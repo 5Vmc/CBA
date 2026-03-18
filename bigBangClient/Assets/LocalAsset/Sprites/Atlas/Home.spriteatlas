@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Home
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: af49a004c546a0a4c847fa2fce857ee1, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 521e67301fb323643813566bc71aa0f8, type: 3}
+  - {fileID: 21300000, guid: 2f2e9a5059afb9f41a7c726b631bc119, type: 3}
+  - {fileID: 21300000, guid: 74a0468013cfed84c87875d9323024e9, type: 3}
+  - {fileID: 21300000, guid: ab977fe1719bf5149ae75772766385dd, type: 3}
+  - {fileID: 21300000, guid: b1bfc0f191823524aab8ab60d524973e, type: 3}
+  - {fileID: 21300000, guid: b041bb022c22ac84aa71c4e527a9e232, type: 3}
+  - {fileID: 21300000, guid: 22257532be01d2d418250d5e32a6812e, type: 3}
+  - {fileID: 21300000, guid: 6e7e5d321044d714b93102d8f0b5bf01, type: 3}
+  - {fileID: 21300000, guid: fcaae4526dba343e9be09ef2df303592, type: 3}
+  - {fileID: 21300000, guid: 3b36ad7227846eb4b851755896f052d3, type: 3}
+  - {fileID: 21300000, guid: 45fd7da289ddba147a8fde750e0470b1, type: 3}
+  - {fileID: 21300000, guid: 3e00fab246029a74597d6f3f1c66d50b, type: 3}
+  - {fileID: 21300000, guid: ed58a9831cdf4f9469d1b57702b439d7, type: 3}
+  - {fileID: 21300000, guid: 921450b3ad4de924fa6e0f6b2e5ad143, type: 3}
+  - {fileID: 21300000, guid: 33ee6b1410df10c4db65e46fdfdbb9a0, type: 3}
+  - {fileID: 21300000, guid: ab446ac4cfba8e3498b41376cf1ee65f, type: 3}
+  - {fileID: 21300000, guid: 0cc206258e3c72345802a87fb0238445, type: 3}
+  - {fileID: 21300000, guid: 85755b16d8b073f489afbd8a76db905e, type: 3}
+  - {fileID: 21300000, guid: ae37b766aec106a429826005d26fcba0, type: 3}
+  - {fileID: 21300000, guid: 7a51e7b6a64b69145a277f2e88c6bcb1, type: 3}
+  - {fileID: 21300000, guid: 0d73d217a1d69f8458afe79befbf8834, type: 3}
+  - {fileID: 21300000, guid: 74fec747f0310e74ca0c2c43c754f03f, type: 3}
+  - {fileID: 21300000, guid: 8a0d5378873b76a4182a90a538ef6192, type: 3}
+  - {fileID: 21300000, guid: 6233a6b8922200c46be18bf8b8d6025b, type: 3}
+  - {fileID: 21300000, guid: db950299c99049f43977ff56b8cf3231, type: 3}
+  - {fileID: 21300000, guid: dfea93e932aa84f6493e44396ceeaef3, type: 3}
+  - {fileID: 21300000, guid: 61ed7f2ad0b3cce45b1b6ca239d6cf6a, type: 3}
+  - {fileID: 21300000, guid: bd4acb3af2a18af458e1c8f3336b84ae, type: 3}
+  - {fileID: 21300000, guid: ebd66a4ad4916ad4fb49ef19538638d8, type: 3}
+  - {fileID: 21300000, guid: 7b2f9f5af27bb1947828cc51615faa20, type: 3}
+  - {fileID: 21300000, guid: 9d4ae98acf7e27b498f3bc2246153781, type: 3}
+  - {fileID: 21300000, guid: d3ccaf4c9d91fb843a41e659d4656f9e, type: 3}
+  - {fileID: 21300000, guid: d963927e294e36c43b5d0c2c4e3f0eb6, type: 3}
+  - {fileID: 21300000, guid: 14ddfbaeedfd944ab8a8b75b8425940c, type: 3}
+  - {fileID: 21300000, guid: 1010d89f18a057f40a0796675cf83663, type: 3}
+  - {fileID: 21300000, guid: 157a78bf29fcee84c87723981f230570, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - module_1300
+  - module_1700
+  - module_2101
+  - banner_2900
+  - module_2303
+  - module_2400
+  - module_2300
+  - module_2103
+  - module_3001
+  - module_2100
+  - module_1800
+  - module_2302
+  - banner_1802
+  - module_2200
+  - module_2102
+  - img_732_2
+  - module_2304
+  - banner_1200
+  - module_2305
+  - img_733
+  - module_1200
+  - title_1200
+  - module_1100
+  - module_1900
+  - module_1702
+  - banner_1801
+  - diamondOnBtn
+  - module_2000
+  - module_1400
+  - module_2301
+  - module_1600
+  - module_1703
+  - title_2900
+  - module_2900
+  - module_1701
+  - module_1500
+  m_RenderDataMap: {}
+  m_Tag: Home
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

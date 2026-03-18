@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Battle
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2bbdc9daba586be4d87daf0673b6b5a6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0ccc06a0337874abca3083ef6b66f178, type: 3}
+  - {fileID: 21300000, guid: 5a14d7c0ecf4546c7b3729e58a174e5a, type: 3}
+  - {fileID: 21300000, guid: ee5601d03ec3b470294846350714d503, type: 3}
+  - {fileID: 21300000, guid: 595f477167ecf40388cce862776ddef0, type: 3}
+  - {fileID: 21300000, guid: 976668813b0f14955902f23eb012cff0, type: 3}
+  - {fileID: 21300000, guid: 0f4eeeb1badf549499a6a86cb5ab037d, type: 3}
+  - {fileID: 21300000, guid: 919e3fc11effa4a818af580b80c8f85c, type: 3}
+  - {fileID: 21300000, guid: 9a14b5e1372e24e4f959f56ac6f38d4d, type: 3}
+  - {fileID: 21300000, guid: 0a231ce10e26e408baa6654ec8524387, type: 3}
+  - {fileID: 21300000, guid: 4ac97a62b5e364ce3861f69d4dd662b5, type: 3}
+  - {fileID: 21300000, guid: 8e7d4392b193f4098bf29634d6fc404d, type: 3}
+  - {fileID: 21300000, guid: 4288420388c15404bbb599f8a01820f3, type: 3}
+  - {fileID: 21300000, guid: 4cf91803f076c4fc9ba0cbaf6ae1c88f, type: 3}
+  - {fileID: 21300000, guid: 17898343d424246b88603bd3bb6e4f6c, type: 3}
+  - {fileID: 21300000, guid: 235db5c3c00454ceeac6e5df702c4aa6, type: 3}
+  - {fileID: 21300000, guid: 69e10fe32a79743b691ac9d061b0b508, type: 3}
+  - {fileID: 21300000, guid: 21c92fe3d6fa14a119a349fbb29059c1, type: 3}
+  - {fileID: 21300000, guid: 01610034266044c289f5592a2381e81b, type: 3}
+  - {fileID: 21300000, guid: 31548b542ea344d23a49dad4f040450d, type: 3}
+  - {fileID: 21300000, guid: 352d09845bee5474d874ab585b4c239e, type: 3}
+  - {fileID: 21300000, guid: 95583c94cd7c2437786fef6292b8699b, type: 3}
+  - {fileID: 21300000, guid: 453c4135bbeaf47a5943516ff026a3cd, type: 3}
+  - {fileID: 21300000, guid: 1ce4aa75f48864b7085b467bce1b4dc1, type: 3}
+  - {fileID: 21300000, guid: 3f979c85b51474e4395396921fe97850, type: 3}
+  - {fileID: 21300000, guid: a97e6795dc71e4755baebeddfdb2bee3, type: 3}
+  - {fileID: 21300000, guid: ffdf4a16ed16b4b02bc8c9e0f7e89be9, type: 3}
+  - {fileID: 21300000, guid: 18d8437665d6a44629ba135586dca045, type: 3}
+  - {fileID: 21300000, guid: 892539861e75140978442a8b558c5e9f, type: 3}
+  - {fileID: 21300000, guid: bd71029629823456586d93dc805e1fef, type: 3}
+  - {fileID: 21300000, guid: 3516c9b6a0ada464e888ff2d40f38d9c, type: 3}
+  - {fileID: 21300000, guid: a0c3dbb6da7da4c7e96aba870f06117b, type: 3}
+  - {fileID: 21300000, guid: e726c8e6744ba40a2927e4eb9720f23e, type: 3}
+  - {fileID: 21300000, guid: 11b0fdf6cf73d41e19e939c03376017d, type: 3}
+  - {fileID: 21300000, guid: b94c34273cfad4ee6b97e27a7d86a7e4, type: 3}
+  - {fileID: 21300000, guid: 5f8ee537e10384586a63de12cacf5058, type: 3}
+  - {fileID: 21300000, guid: 380afc87590624f77b53bcfcb3191da2, type: 3}
+  - {fileID: 21300000, guid: 84ec1f78cd8804283ab3b4aedc1276af, type: 3}
+  - {fileID: 21300000, guid: c2ad8788a532a4b37b6a179474d200ae, type: 3}
+  - {fileID: 21300000, guid: 1896fb88ec02d4145bd0a256f644a8d9, type: 3}
+  - {fileID: 21300000, guid: 63ee3ca80dafb4694b42ffcc17fc18ee, type: 3}
+  - {fileID: 21300000, guid: 1804bee93c643437591e60bf527ed4ef, type: 3}
+  - {fileID: 21300000, guid: 6fddb80aba9eb4e8191ccbe415dd0290, type: 3}
+  - {fileID: 21300000, guid: 752d282af4b7e40cb977101311530128, type: 3}
+  - {fileID: 21300000, guid: 112b556a796ff42b6a6554e98281cf55, type: 3}
+  - {fileID: 21300000, guid: ebcf8a6a401494d1683f7cc9309abd01, type: 3}
+  - {fileID: 21300000, guid: f62929da82d3649858f5cfa0605a6b53, type: 3}
+  - {fileID: 21300000, guid: e83f6c2be041f4049843b399968a817f, type: 3}
+  - {fileID: 21300000, guid: 8f98b26ba4e9f430299be80b86e0e1a7, type: 3}
+  - {fileID: 21300000, guid: df1a756bbc59c48b784f7f3a983f9ec9, type: 3}
+  - {fileID: 21300000, guid: 198caa6b0f1e14ce4bd18eecc9337153, type: 3}
+  - {fileID: 21300000, guid: 21396b6be97d043dd846465b07e86938, type: 3}
+  - {fileID: 21300000, guid: ba134d7b369ed4ed1a19c4dd9bfca556, type: 3}
+  - {fileID: 21300000, guid: 7ecfd9ab6f9f4483eb04dbe2ee53ccf0, type: 3}
+  - {fileID: 21300000, guid: f85be3db34c294223b63e7f57c7ff70d, type: 3}
+  - {fileID: 21300000, guid: 045dceeb5e2a5406f94229f448d55e53, type: 3}
+  - {fileID: 21300000, guid: 053d9c3c6f7b14acb80a52dad553c937, type: 3}
+  - {fileID: 21300000, guid: 89820a8c9cbc44d099b2be10c8c1c49b, type: 3}
+  - {fileID: 21300000, guid: ca4f754da9ab74951845b9abef8fb08c, type: 3}
+  - {fileID: 21300000, guid: 4b0825ed182a54f528e20c3352440436, type: 3}
+  - {fileID: 21300000, guid: ce9d683e466db45b88c40655686c3d0b, type: 3}
+  - {fileID: 21300000, guid: 98a4e66e792f6436fa70d0b31aca8de4, type: 3}
+  - {fileID: 21300000, guid: 08cdab6e30068445ba19f2a32d41f6d3, type: 3}
+  - {fileID: 21300000, guid: 44a719aea5a804026b35e2221a6c8961, type: 3}
+  - {fileID: 21300000, guid: 6fd2e1bedb48b488e97f3c684433006a, type: 3}
+  - {fileID: 21300000, guid: 394b4c0f32ef34b15b226bd7c63df64e, type: 3}
+  - {fileID: 21300000, guid: 6f7f984fa51f8478cb43fed6c6f457a3, type: 3}
+  - {fileID: 21300000, guid: e986185fdbe8c47629ce5cd9605ab941, type: 3}
+  - {fileID: 21300000, guid: 380d5f7f07c174987bbdcf9771013bec, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - stageScore5
+  - BattleCardFire17
+  - BattleCardFire26
+  - BattleCardFire37
+  - stageScore6
+  - stageScore8
+  - Battle2EndScore8
+  - BattleCardFire32
+  - Battle2EndScore0
+  - BattleCardFire25
+  - BattleCardFire55
+  - BattleCardFire24
+  - Battle2EndScore6
+  - StageFire3
+  - BattleCardFire53
+  - BattleCardFire52
+  - Battle2EndScore4
+  - StageFire5
+  - BattleCardFire56
+  - Battle2EndScore9
+  - BattleCardFire11
+  - stageScore9
+  - BattleCardFire22
+  - Battle2EndScore1
+  - BattleCardFire45
+  - BattleCardFire13
+  - BattleCardFire57
+  - Battle2EndScore3
+  - stageScore7
+  - StageFire1
+  - BattleCardFire41
+  - BattleCardFire44
+  - stageScore3
+  - StageFire2
+  - StageFire+
+  - BattleCardFire43
+  - StageFire6
+  - BattleCardFire42
+  - BattleCardFire47
+  - BattleCardFire31
+  - BattleCardFire21
+  - BattleCardFire15
+  - BattleCardFire46
+  - Battle2EndScore2
+  - BattleCardFire33
+  - BattleCardFire54
+  - BattleCardFire23
+  - Battle2EndScore5
+  - BattleCardFire12
+  - BattleCardFire16
+  - StageFire%
+  - StageFire4
+  - stageScore1
+  - stageScore2
+  - BattleCardFire14
+  - BattleCardFire36
+  - BattleCardFire34
+  - BattleCardFire27
+  - BattleCardFire35
+  - StageFire9
+  - StageFire7
+  - BattleCardFire51
+  - stageScore4
+  - StageFire0
+  - Battle2EndScore7
+  - StageFire8
+  - stageScore0
+  - StageFire.
+  m_RenderDataMap: {}
+  m_Tag: Battle
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

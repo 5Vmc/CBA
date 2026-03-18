@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HonourCup
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a3639f16b3651446f80c1757c62c9bc0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b77d2200bdcfb47a3a2a0df93dc1ce6d, type: 3}
+  - {fileID: 21300000, guid: 16fa5ae2cdbcd4fb1a8b52ff0c80b52d, type: 3}
+  - {fileID: 21300000, guid: 00af5353eb4eb4d598c23db5d85bc4dd, type: 3}
+  - {fileID: 21300000, guid: d743ad530bf094362bddeabd9d3a8ebc, type: 3}
+  - {fileID: 21300000, guid: 2d4a8283ad57d46d29145565a7aa850b, type: 3}
+  - {fileID: 21300000, guid: 2f502693ca7ab4dba896c936d9d48264, type: 3}
+  - {fileID: 21300000, guid: e0dfa4a37bf224ca5a7cf9ef952dd2a8, type: 3}
+  - {fileID: 21300000, guid: 1753d5d30844544f58613f6ea701ea0c, type: 3}
+  - {fileID: 21300000, guid: 0f3d7e7449580442da11ad17447dd37f, type: 3}
+  - {fileID: 21300000, guid: acbd15c4543824834b3d4433fe12a5d4, type: 3}
+  - {fileID: 21300000, guid: 61f589f50e53348838b86478eb3ea399, type: 3}
+  - {fileID: 21300000, guid: bc242e47eb84b4cbe94f8a4c39fac225, type: 3}
+  - {fileID: 21300000, guid: f1036b678ff6e434d931e0a24a692ab4, type: 3}
+  - {fileID: 21300000, guid: 9b1de5d7d5b7540c28abb7d0b3998269, type: 3}
+  - {fileID: 21300000, guid: 3498f808e2dcd4268ae145fade2ea2e9, type: 3}
+  - {fileID: 21300000, guid: d2a8e9c8fd3774c2681a6edbe42e4c6a, type: 3}
+  - {fileID: 21300000, guid: df8288d8d5c654c76a1a045862eb78f4, type: 3}
+  - {fileID: 21300000, guid: 2569cb994bb484ad69cbc9d803b01085, type: 3}
+  - {fileID: 21300000, guid: bec191e9c312742908582632d0be971a, type: 3}
+  - {fileID: 21300000, guid: b432eb5b88655484eb3b1a7cfdcf00bd, type: 3}
+  - {fileID: 21300000, guid: ca20d60c087064f37a1b10c5a3cd59c9, type: 3}
+  - {fileID: 21300000, guid: 31ba944cf05154a68837506d52b90a75, type: 3}
+  - {fileID: 21300000, guid: 2fd98e3d8443c4e678f70018a9ba4e6d, type: 3}
+  - {fileID: 21300000, guid: c9ea5c6e41d5b425798c1eec10f67885, type: 3}
+  - {fileID: 21300000, guid: 6e95f00f826454957b77a549a6343b2b, type: 3}
+  - {fileID: 21300000, guid: a771134ff9f4c476aaace4ac292ad086, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 12001002
+  - 11001001
+  - 12008002
+  - 11002003
+  - 11001003
+  - 11003001
+  - 12008003
+  - 11003004
+  - 11002002
+  - 12002001
+  - 12006001
+  - 11003005
+  - 11002001
+  - 12007001
+  - 17001001
+  - 11001002
+  - 12001001
+  - 12004001
+  - 12005001
+  - 11003002
+  - 12008001
+  - 12003001
+  - default
+  - 11003003
+  - 17002001
+  - 12001003
+  m_RenderDataMap: {}
+  m_Tag: HonourCup
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

@@ -1,0 +1,1 @@
+namespace BigBang.UI { public class DragonYearSignHelpUI : SimpleWindowBaseUI<DragonYearSignHelpUI> { } }

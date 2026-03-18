@@ -1,0 +1,15 @@
+{
+    "updateJsonVersion": 1,
+    "clientMinVersion": "1.0.17",
+    "downloadClientUrl": "",
+    "forderUrl": "https://cdncba.ximiplay.com/CbaBundleRes/",
+    "fallbackResVersion": 6121609,
+    "bundleVersionList": [
+        {
+            "bundleVersion": 6121609,
+            "clientVersionList": [
+                "1.0.17",
+            ]
+        }
+    ]
+}

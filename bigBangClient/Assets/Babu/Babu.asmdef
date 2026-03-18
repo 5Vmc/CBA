@@ -1,0 +1,26 @@
+{
+    "name": "Babu",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:bbde805d927e795439d7a746d1749cab",
+        "GUID:a1b2252650d37450abcb19373cd3b371",
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:1c7541bb98e9143c5a0cad72fc36f4b3",
+        "GUID:3adcf96d69a314a39a999afc4ccb601b",
+        "GUID:003176530d5b440dd9b9f8f501dc6166",
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:8b65d8710c3b04373a41cbf6b777ee65",
+        "GUID:3d6bf22a6d95844cea7bde7adc358610",
+        "GUID:c64a64609f8244369b92fb93332f9260"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+    "updateJsonVersion": 1,
+    "clientMinVersion": "1.0.0",
+    "downloadClientUrl": "https://www.baidu.com",
+    "forderUrl": "https://cdncba.ximiplay.com/CbaBundleRes/",
+    "fallbackResVersion": 202303171011,
+    "bundleVersionList": [
+        {
+            "bundleVersion": 202303161803,
+            "clientVersionList": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        {
+            "bundleVersion": 202303171011,
+            "clientVersionList": [
+                "1.0.2",
+                "1.0.3"
+            ]
+        }
+    ]
+}

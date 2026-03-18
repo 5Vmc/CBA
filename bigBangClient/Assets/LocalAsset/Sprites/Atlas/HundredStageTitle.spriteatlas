@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HundredStageTitle
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f715335beee7942b0a9239a012306186, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a7a91f0010d4d44c593263587a951ab6, type: 3}
+  - {fileID: 21300000, guid: 14b6fe204c02f44d2a7131940d6b4da6, type: 3}
+  - {fileID: 21300000, guid: d2f69fe228bc740a884222954b4918ad, type: 3}
+  - {fileID: 21300000, guid: a8063c34ffa074eeb8538b2538aa17ce, type: 3}
+  - {fileID: 21300000, guid: ce6009154a34143e4877c2a2a2fdac89, type: 3}
+  - {fileID: 21300000, guid: d4e64695d9b8a45b88fb00bade4fd32c, type: 3}
+  - {fileID: 21300000, guid: 9d778386a80934bca8e894d7ed21846a, type: 3}
+  - {fileID: 21300000, guid: 3283829774d864b848ff69e3267e7584, type: 3}
+  - {fileID: 21300000, guid: 62ec5a38091c34e05bd1a48a13dbb604, type: 3}
+  - {fileID: 21300000, guid: 1c2a7c29c86ac430abd4155446b05eb0, type: 3}
+  - {fileID: 21300000, guid: 1a9f226a4a3c548f5905c0693715813a, type: 3}
+  - {fileID: 21300000, guid: 9a850dcad6c41409a91a7fdb90faef77, type: 3}
+  - {fileID: 21300000, guid: 16e9d04b7af134e9ebd41f3a7804576a, type: 3}
+  - {fileID: 21300000, guid: 7ff88c8ba225744a79b635bfdde417a7, type: 3}
+  - {fileID: 21300000, guid: cf78ba2ca80194aa4af71e196fd99bc3, type: 3}
+  - {fileID: 21300000, guid: d246ce2eab97e4704b30588414a47053, type: 3}
+  - {fileID: 21300000, guid: a1640b5ed6a4340ea88e49e3b2f5f8d1, type: 3}
+  - {fileID: 21300000, guid: a51939eeb067045b698708f23e2df210, type: 3}
+  - {fileID: 21300000, guid: f779492f6d4c64e80ae6b68b359b2e65, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "hst\u6DD8"
+  - "hst\u516D"
+  - "hst\u4E00"
+  - "hst\u8D5B"
+  - "hst\u533A"
+  - "hst\u51A0"
+  - "hst\u4E03"
+  - "hst\u4E09"
+  - "hst\u56DB"
+  - "hst\u56F4"
+  - "hst\u4E8C"
+  - "hst\u516B"
+  - "hst\u519B"
+  - "hst\u7B2C"
+  - "hst\u4E94"
+  - "hst\u6C70"
+  - "hst\u5165"
+  - "hst\u661F"
+  - "hst\u65B0"
+  m_RenderDataMap: {}
+  m_Tag: HundredStageTitle
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

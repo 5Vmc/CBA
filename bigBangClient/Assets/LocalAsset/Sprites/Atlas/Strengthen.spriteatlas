@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Strengthen
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7a1b5e5c1996b7643822cf9b1db3accb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4505435028a0b4752b4798ff588972ed, type: 3}
+  - {fileID: 21300000, guid: 2bfc14d2a318b624e833cb2d72adb6c9, type: 3}
+  - {fileID: 21300000, guid: 7f9fc3c3e271d4ffba8490a4d684b774, type: 3}
+  - {fileID: 21300000, guid: 2751191556fc2ca41b4a0ef89b93b99a, type: 3}
+  - {fileID: 21300000, guid: 5736e9e5bec672b4db557252fd55fdf8, type: 3}
+  - {fileID: 21300000, guid: 6c4af7e7c2d7138439271c16d2e3d51f, type: 3}
+  - {fileID: 21300000, guid: bb52b608d58414801b0d8d1694e325c7, type: 3}
+  - {fileID: 21300000, guid: dd3a380b9596f4abdae550facd257ed6, type: 3}
+  - {fileID: 21300000, guid: 4e9765bb431e85143b8e5b1b68868fe0, type: 3}
+  - {fileID: 21300000, guid: 27e61bed039ae4836a75e8eba7d5caba, type: 3}
+  - {fileID: 21300000, guid: 61b7fdee2b376a14193bc9d5a3f77469, type: 3}
+  - {fileID: 21300000, guid: 8329ad7fd34de413486a789370d03728, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Stable
+  - Pass
+  - Defence
+  - All
+  - OriginPower
+  - Body
+  - Dunk
+  - Rebound
+  - Shoot
+  - Control
+  - Steal
+  - Block
+  m_RenderDataMap: {}
+  m_Tag: Strengthen
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

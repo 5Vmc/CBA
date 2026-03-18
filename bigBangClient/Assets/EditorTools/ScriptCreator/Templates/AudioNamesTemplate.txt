@@ -1,0 +1,13 @@
+/// <summary>
+/// 自动生成代码
+/// 代码生成脚本:AudioNamesCreator.cs
+/// 模板文件:AudioNamesTemplate.txt
+/// 变量名与音频文件名对应
+/// </summary>
+namespace BigBang
+{
+    public class AudioNames
+    {
+        #PROPERTY#
+    }
+}

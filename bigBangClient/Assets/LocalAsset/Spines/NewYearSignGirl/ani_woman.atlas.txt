@@ -1,0 +1,34 @@
+
+ani_woman.png
+size: 1066,499
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 829, 33
+  size: 66, 34
+  orig: 67, 37
+  offset: 0, 2
+  index: -1
+eye
+  rotate: false
+  xy: 897, 36
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+gebo
+  rotate: false
+  xy: 829, 69
+  size: 235, 428
+  orig: 235, 428
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: true
+  xy: 2, 2
+  size: 495, 825
+  orig: 497, 826
+  offset: 0, 1
+  index: -1

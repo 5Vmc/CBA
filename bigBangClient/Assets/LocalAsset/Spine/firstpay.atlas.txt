@@ -1,0 +1,69 @@
+
+firstpay.png
+size: 1513, 1422
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+9号码
+  rotate: false
+  xy: 1099, 124
+  size: 69, 102
+  orig: 70, 102
+  offset: 0, 0
+  index: -1
+前进箭头
+  rotate: true
+  xy: 1099, 228
+  size: 130, 49
+  orig: 130, 49
+  offset: 0, 0
+  index: -1
+微信图片_20230412142237
+  rotate: false
+  xy: 715, 31
+  size: 85, 28
+  orig: 85, 28
+  offset: 0, 0
+  index: -1
+斜布
+  rotate: true
+  xy: 2, 606
+  size: 814, 1509
+  orig: 814, 1516
+  offset: 0, 4
+  index: -1
+斜布01
+  rotate: true
+  xy: 715, 61
+  size: 88, 345
+  orig: 88, 345
+  offset: 0, 0
+  index: -1
+斜布02
+  rotate: true
+  xy: 1219, 341
+  size: 263, 282
+  orig: 263, 282
+  offset: 0, 0
+  index: -1
+易建联人
+  rotate: false
+  xy: 2, 2
+  size: 711, 602
+  orig: 720, 608
+  offset: 4, 5
+  index: -1
+红色火焰
+  rotate: false
+  xy: 715, 360
+  size: 502, 244
+  orig: 504, 268
+  offset: 1, 1
+  index: -1
+黑色火焰
+  rotate: false
+  xy: 715, 151
+  size: 382, 207
+  orig: 384, 210
+  offset: 1, 0
+  index: -1

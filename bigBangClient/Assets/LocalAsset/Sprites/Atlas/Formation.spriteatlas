@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Formation
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8ee59e78272b5db4fa73cc97fc97ba3e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c9d99164421d64d48a6d42b7ffd09793, type: 3}
+  - {fileID: 21300000, guid: 114060660edcd3849a2b5f0f719eb93b, type: 3}
+  - {fileID: 21300000, guid: 15d676765746e6846bd224e188c62c87, type: 3}
+  - {fileID: 21300000, guid: 97c59aa78637e7a488848eb135cc9945, type: 3}
+  - {fileID: 21300000, guid: ca20b6882ab48441f84f76eb4742da75, type: 3}
+  - {fileID: 21300000, guid: ff8ad8baa36972e43961513e6cf54b35, type: 3}
+  - {fileID: 21300000, guid: 999deaec2bde94bcfbe5ad0a728cae07, type: 3}
+  - {fileID: 21300000, guid: e6707a6e8c7561b47a57b8fc71b0dd32, type: 3}
+  - {fileID: 21300000, guid: 05ea25afa51dc489c9f1ae211c42c719, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FormationMainArrow3
+  - "\u706B\u56FE\u6807\u7070"
+  - "\u706B\u56FE\u6807"
+  - YellowCard
+  - FormationMainArrow2
+  - RedCard
+  - FormationMainArrow4
+  - FormationMainArrow1
+  - FormationMainArrow5
+  m_RenderDataMap: {}
+  m_Tag: Formation
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

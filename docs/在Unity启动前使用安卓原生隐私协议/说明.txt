@@ -1,0 +1,4 @@
+使用MiGuNormal去除游戏内的隐私协议弹窗
+
+替换Unity的Activity文件：
+/Users/hanzijian/Documents/test111/startscreen/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java

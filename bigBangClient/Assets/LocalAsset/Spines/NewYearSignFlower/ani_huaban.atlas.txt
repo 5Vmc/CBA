@@ -1,0 +1,48 @@
+
+ani_huaban.png
+size: 253,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huaban01
+  rotate: true
+  xy: 210, 31
+  size: 60, 41
+  orig: 62, 42
+  offset: 1, 0
+  index: -1
+huaban02
+  rotate: false
+  xy: 47, 2
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+huaban03
+  rotate: false
+  xy: 2, 3
+  size: 43, 33
+  orig: 44, 35
+  offset: 1, 1
+  index: -1
+huaban04
+  rotate: false
+  xy: 85, 5
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+huaban05
+  rotate: true
+  xy: 133, 7
+  size: 84, 75
+  orig: 87, 78
+  offset: 2, 1
+  index: -1
+huaban06
+  rotate: false
+  xy: 2, 38
+  size: 129, 53
+  orig: 129, 54
+  offset: 0, 0
+  index: -1

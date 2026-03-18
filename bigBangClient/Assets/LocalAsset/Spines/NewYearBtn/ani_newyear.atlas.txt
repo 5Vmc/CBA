@@ -1,0 +1,90 @@
+
+ani_newyear.png
+size: 220,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 3
+  size: 98, 72
+  orig: 108, 72
+  offset: 5, 0
+  index: -1
+libao
+  rotate: true
+  xy: 102, 2
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+piaodai01
+  rotate: true
+  xy: 205, 21
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+piaodai02
+  rotate: true
+  xy: 174, 15
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+piaodai03
+  rotate: true
+  xy: 188, 20
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+piaodai04
+  rotate: false
+  xy: 205, 12
+  size: 4, 7
+  orig: 5, 7
+  offset: 1, 0
+  index: -1
+piaodai05
+  rotate: false
+  xy: 186, 4
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+piaodai06
+  rotate: true
+  xy: 197, 20
+  size: 8, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+piaodai07
+  rotate: true
+  xy: 197, 11
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+piaodai08
+  rotate: false
+  xy: 197, 2
+  size: 6, 7
+  orig: 6, 8
+  offset: 0, 1
+  index: -1
+piaodai09
+  rotate: false
+  xy: 174, 3
+  size: 10, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 174, 30
+  size: 45, 44
+  orig: 45, 44
+  offset: 0, 0
+  index: -1

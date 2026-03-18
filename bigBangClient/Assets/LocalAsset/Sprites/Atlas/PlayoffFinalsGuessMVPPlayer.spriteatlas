@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayoffFinalsGuessMVPPlayer
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a06f636c821ec46bcb1780bcc9f3b5ae, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 94fcd380665a94292a2b0aac379c89c7, type: 3}
+  - {fileID: 21300000, guid: 67c03d80b44e3484ba3340316e8cfada, type: 3}
+  - {fileID: 21300000, guid: 9d8e1fd0e3aa1498cb971a0b6d1abce8, type: 3}
+  - {fileID: 21300000, guid: f0c907513cb05444e8969d9691601bb0, type: 3}
+  - {fileID: 21300000, guid: 269521c1bb9f14700a12828094cbeb2d, type: 3}
+  - {fileID: 21300000, guid: 845daee14aa924a219385998e8664e4d, type: 3}
+  - {fileID: 21300000, guid: 41e5b9027198c441098f7eb84686c81e, type: 3}
+  - {fileID: 21300000, guid: 456c42031e96f4f0cb8806e3ce78a386, type: 3}
+  - {fileID: 21300000, guid: 3c609d53ce8604af28c82cd208754c36, type: 3}
+  - {fileID: 21300000, guid: c77f2173c9a984e0fb210b2f907a1fa4, type: 3}
+  - {fileID: 21300000, guid: 783863a38237a4bb99dd6af8225b8181, type: 3}
+  - {fileID: 21300000, guid: 80bcc244d564042c8af70d3310a784df, type: 3}
+  - {fileID: 21300000, guid: c8c70b64361c54e69a8c653a290f5ee2, type: 3}
+  - {fileID: 21300000, guid: b7601e744d9c6440289c646469c9b509, type: 3}
+  - {fileID: 21300000, guid: 14a7e3454978a4ebfb44372fab0af2c3, type: 3}
+  - {fileID: 21300000, guid: 2b981706e3db64f5b9f5d20ccfdffd87, type: 3}
+  - {fileID: 21300000, guid: 9923c6267e47e4b509f007709890aa5b, type: 3}
+  - {fileID: 21300000, guid: 422b3c4670b894d27b9ec4c83a439248, type: 3}
+  - {fileID: 21300000, guid: 663f9d96b64c2400f877a1a6f2611294, type: 3}
+  - {fileID: 21300000, guid: 4bca47a6777d24639965d22452edc4b1, type: 3}
+  - {fileID: 21300000, guid: b07528b675cee415c92672d1a23ec6d8, type: 3}
+  - {fileID: 21300000, guid: 729781186db5249f287895d55ad23a2a, type: 3}
+  - {fileID: 21300000, guid: b9dbd0682504c4eb7a2b5d7979845826, type: 3}
+  - {fileID: 21300000, guid: 013f59d80d02a47ec95a9e67c7a8dda2, type: 3}
+  - {fileID: 21300000, guid: 40bdeef88ac4049448cdbb405bdc45c1, type: 3}
+  - {fileID: 21300000, guid: fea56c194e9d741538f0b5caa8a75c25, type: 3}
+  - {fileID: 21300000, guid: f495f259cfe124842b6d139fdb85a687, type: 3}
+  - {fileID: 21300000, guid: 681cdf0a2b2744f54b6c0e86964cb8ad, type: 3}
+  - {fileID: 21300000, guid: 364a415a375f044e2a96781f7923ac47, type: 3}
+  - {fileID: 21300000, guid: 30ccd20b586b94124a395eddcf703b87, type: 3}
+  - {fileID: 21300000, guid: 2414f51c784bd42029d54feb852ff7c6, type: 3}
+  - {fileID: 21300000, guid: 6ab203ac68a7248bd82a5de34b36562e, type: 3}
+  - {fileID: 21300000, guid: 14332c7da49cf4e4aa1d8ab79ee0e19c, type: 3}
+  - {fileID: 21300000, guid: c3f1796effdcf42b18f114613a50e5a2, type: 3}
+  - {fileID: 21300000, guid: c626ab1f8385545ce962ddc4f4c857a7, type: 3}
+  - {fileID: 21300000, guid: abddfb9f1e15a42688173d394f7c05da, type: 3}
+  - {fileID: 21300000, guid: 10d8d9bf9587c487084bc7b92cc1ee1c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 23
+  - 22
+  - 29
+  - 2
+  - 36
+  - 33
+  - 28
+  - 31
+  - 21
+  - 13
+  - 35
+  - 1
+  - 8
+  - 12
+  - 30
+  - 19
+  - 27
+  - 16
+  - 34
+  - 6
+  - 17
+  - 24
+  - 3
+  - 15
+  - 9
+  - 32
+  - 37
+  - 25
+  - 7
+  - 11
+  - 4
+  - 14
+  - 18
+  - 5
+  - 26
+  - 10
+  - 20
+  m_RenderDataMap: {}
+  m_Tag: PlayoffFinalsGuessMVPPlayer
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

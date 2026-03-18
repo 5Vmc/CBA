@@ -1,0 +1,48 @@
+
+ani_tianjia.png
+size: 463,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+diban
+  rotate: false
+  xy: 2, 2
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+jiahao
+  rotate: false
+  xy: 419, 47
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+kuang02
+  rotate: false
+  xy: 354, 27
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+lanqiu
+  rotate: false
+  xy: 269, 7
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+liangkuang
+  rotate: false
+  xy: 92, 2
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+neikuang01
+  rotate: false
+  xy: 182, 5
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1 @@
+namespace BigBang.UI { public class Olympics2024SignHelpUI : SimpleWindowBaseUI<Olympics2024SignHelpUI> { } }

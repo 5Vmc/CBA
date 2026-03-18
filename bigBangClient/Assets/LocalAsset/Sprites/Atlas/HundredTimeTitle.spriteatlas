@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HundredTimeTitle
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 00ab99324cc9b42c296482c897c3a3f1, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5244ef4127b664b4cb144d9122034854, type: 3}
+  - {fileID: 21300000, guid: eabc9351fb22d47ea9b5206947a32a20, type: 3}
+  - {fileID: 21300000, guid: fb6ed5814ddf84878b1ee370bd2140bd, type: 3}
+  - {fileID: 21300000, guid: e02f20911415a4ea1af8a31a91bfc347, type: 3}
+  - {fileID: 21300000, guid: c1c39cd3397874bff97edefef20ce1b1, type: 3}
+  - {fileID: 21300000, guid: f84155f38114e429aa3ca80d14494bc1, type: 3}
+  - {fileID: 21300000, guid: d8344544347ec42c28f6a428f384a22c, type: 3}
+  - {fileID: 21300000, guid: 0533d7d4f8adb4aa0a97524edca8fbbe, type: 3}
+  - {fileID: 21300000, guid: 95b668154fa474580a507e483624b385, type: 3}
+  - {fileID: 21300000, guid: 5a875d16fb76f4e4d97acec3df626e60, type: 3}
+  - {fileID: 21300000, guid: 952f824669f0d4e28a9adc8650c2da2c, type: 3}
+  - {fileID: 21300000, guid: 1bc38c76b269a443d952469459f05fec, type: 3}
+  - {fileID: 21300000, guid: 33012ec6d9c0e42cea70694c2c588ad2, type: 3}
+  - {fileID: 21300000, guid: 881fc0c79070949dfb1abb740fd937b2, type: 3}
+  - {fileID: 21300000, guid: 966c93a84959a46a69816b29f1fd4bb1, type: 3}
+  - {fileID: 21300000, guid: d04be9d83586f449ab0b11358225a564, type: 3}
+  - {fileID: 21300000, guid: 8cb506f81a43244d18efc6c86726a90d, type: 3}
+  - {fileID: 21300000, guid: 90769b19f956b4451898ffa3685f634e, type: 3}
+  - {fileID: 21300000, guid: 38e6025a20e4945a6abf512c859f6a95, type: 3}
+  - {fileID: 21300000, guid: 15fee86ad1afb4e58b0d5055d0ed0f81, type: 3}
+  - {fileID: 21300000, guid: 124fa2bb9b3cc4a45af8fa1281ea1ec5, type: 3}
+  - {fileID: 21300000, guid: 12c6f7bb4b79c4c51bfcca4eadb4193d, type: 3}
+  - {fileID: 21300000, guid: 7212c1cbb085d458c8a545a24138781e, type: 3}
+  - {fileID: 21300000, guid: f1daa89c6538946189dc16a6d7384cf8, type: 3}
+  - {fileID: 21300000, guid: be3d215db656a4330a40d050ac119f11, type: 3}
+  - {fileID: 21300000, guid: e5e5a4fd961af42e3a1edc5700bca45f, type: 3}
+  - {fileID: 21300000, guid: 1283e5ce010404a9d929cb796d0582a2, type: 3}
+  - {fileID: 21300000, guid: fab7c7de7555246b68c13e38e1ea663c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "htt\u4E00"
+  - htt5
+  - "htt\u5343"
+  - "htt\u5341"
+  - "htt\u5C4A"
+  - "htt\u4E09"
+  - htt1
+  - "htt\u4EBF"
+  - "htt\u4E94"
+  - "htt\u767E"
+  - "htt\u7B2C"
+  - "htt\u4E2A"
+  - htt4
+  - htt9
+  - "htt\u4E03"
+  - htt3
+  - "htt\u56DB"
+  - "htt\u516D"
+  - "htt\u4E8C"
+  - "htt\u516B"
+  - htt7
+  - "htt\u4E07"
+  - htt2
+  - "htt\u4E5D"
+  - "htt\u96F6"
+  - htt8
+  - htt6
+  - htt0
+  m_RenderDataMap: {}
+  m_Tag: HundredTimeTitle
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

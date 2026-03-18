@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shop
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 12e694427fb90934a896391a36a31a8c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e9589c80d91f90b4cae57d226ec218df, type: 3}
+  - {fileID: 21300000, guid: c37033d007525bc4a8667604d38da45d, type: 3}
+  - {fileID: 21300000, guid: 4478cb3277e070145903de8de2483785, type: 3}
+  - {fileID: 21300000, guid: 1c2aa9a2ecae08842886f5c0bcec0015, type: 3}
+  - {fileID: 21300000, guid: 9f49faf2c5c8d2147b104b17182c3f24, type: 3}
+  - {fileID: 21300000, guid: f6a46343bfba5674e8868ac27cbf0852, type: 3}
+  - {fileID: 21300000, guid: c796c473e8363874caffd09c42a6c751, type: 3}
+  - {fileID: 21300000, guid: 15a26b7317bb4734fa82c65830136eac, type: 3}
+  - {fileID: 21300000, guid: 6927fc837363ff64eadb31d56c8a7c1a, type: 3}
+  - {fileID: 21300000, guid: 0d1b980539c4f9b47910e908121eba7a, type: 3}
+  - {fileID: 21300000, guid: 19e0a0b55521fbc4b8861df3b2e89ab0, type: 3}
+  - {fileID: 21300000, guid: c9e19cf54ef744a4bb460c06335cb0dd, type: 3}
+  - {fileID: 21300000, guid: e9e3b437562947547a2aeb7de3d78d9b, type: 3}
+  - {fileID: 21300000, guid: ecc9deb79f6975f4e98f72c4d2ca0b72, type: 3}
+  - {fileID: 21300000, guid: 973aef38ddf0ca94988018ab2ae59d41, type: 3}
+  - {fileID: 21300000, guid: 8a27224a5d1b8b54b85f16c39e124a30, type: 3}
+  - {fileID: 21300000, guid: 9a09a12bb25fda8468e81a8110e0d130, type: 3}
+  - {fileID: 21300000, guid: 98a4ba0cc7bfc1e4391ed1517c729d4c, type: 3}
+  - {fileID: 21300000, guid: 986e041cfb67dac4194d4de5fa413cf9, type: 3}
+  - {fileID: 21300000, guid: 37e6472c2e5c2894e9430e40c6ea0757, type: 3}
+  - {fileID: 21300000, guid: c3b0d82cf2bbaf04995bd357d587400d, type: 3}
+  - {fileID: 21300000, guid: b7309e3c81fa9024ba1e0b0f8847dc8d, type: 3}
+  - {fileID: 21300000, guid: b084c40d365aac944868e3ca97772a5d, type: 3}
+  - {fileID: 21300000, guid: 9541e27de7bb49c46a9c952acacbe360, type: 3}
+  - {fileID: 21300000, guid: 5fa74d6f3bf3f4d40b5ecacb60042945, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2006
+  - 3003
+  - 2001
+  - 1004
+  - 1003
+  - 3004
+  - train2004
+  - 1001
+  - train2005
+  - 1002
+  - 3001
+  - train2002
+  - 2002
+  - 1006
+  - 2003
+  - 3005
+  - 2004
+  - 3007
+  - 2005
+  - train2003
+  - train2006
+  - 3002
+  - 3006
+  - 1005
+  - train2001
+  m_RenderDataMap: {}
+  m_Tag: Shop
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

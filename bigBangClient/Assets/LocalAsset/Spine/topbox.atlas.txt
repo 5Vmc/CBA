@@ -1,0 +1,20 @@
+
+topbox.png
+size: 80, 64
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+礼包1
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 80, 80
+  offset: 11, 8
+  index: -1
+闪烁小星星
+  rotate: false
+  xy: 64, 48
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1

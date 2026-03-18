@@ -1,0 +1,19 @@
+/// <summary>
+/// 自动生成代码
+/// 代码生成脚本:LangIDCreator.cs
+/// 模板文件:LangIDTemplate.txt
+/// </summary>
+namespace Utils
+{
+    //LangID取值范围[1000-1999]
+    public enum LangID
+    {
+        #LANGID_PROPERTY#
+    }
+
+    //ErrorID取值范围[9000-9999]
+    public enum ErrorID
+    {
+        #ERRORID_PROPERTY#
+    }
+}

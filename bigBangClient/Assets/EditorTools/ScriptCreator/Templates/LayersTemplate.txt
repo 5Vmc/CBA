@@ -1,0 +1,12 @@
+/// <summary>
+/// 自动生成代码
+/// 代码生成脚本:LayersCreator.cs
+/// 模板文件:LayersTemplate.txt
+/// </summary>
+
+using UnityEngine;
+
+public class Layers
+{
+#PROPERTIES#
+}  

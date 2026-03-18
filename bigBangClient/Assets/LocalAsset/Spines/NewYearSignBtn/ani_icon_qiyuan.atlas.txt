@@ -1,0 +1,48 @@
+
+ani_icon_qiyuan.png
+size: 133,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hezi
+  rotate: false
+  xy: 49, 2
+  size: 70, 43
+  orig: 70, 43
+  offset: 0, 0
+  index: -1
+qian_he
+  rotate: false
+  xy: 69, 91
+  size: 62, 29
+  orig: 62, 29
+  offset: 0, 0
+  index: -1
+qian_you
+  rotate: true
+  xy: 2, 52
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+qian_zhongjian
+  rotate: true
+  xy: 2, 93
+  size: 27, 65
+  orig: 27, 65
+  offset: 0, 0
+  index: -1
+qian_zuo
+  rotate: true
+  xy: 62, 47
+  size: 42, 59
+  orig: 43, 60
+  offset: 0, 1
+  index: -1
+star
+  rotate: false
+  xy: 2, 6
+  size: 45, 44
+  orig: 45, 44
+  offset: 0, 0
+  index: -1

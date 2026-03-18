@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShootEndStageNum
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5b1920fe7ea81418b996ae5d3eb98866, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 31700f40425b642c9bcb81b2fb48b52a, type: 3}
+  - {fileID: 21300000, guid: 3e61dc62da99240b395419927e617a2f, type: 3}
+  - {fileID: 21300000, guid: 0bb18693ee91f4031b670b7bb698dceb, type: 3}
+  - {fileID: 21300000, guid: 69e1fb745bc854b86a31befdfd4a3c47, type: 3}
+  - {fileID: 21300000, guid: db8aa31574df0415aa5fa1c16191440b, type: 3}
+  - {fileID: 21300000, guid: 5ea0f5a68455e4dfc8cae5be2c5b3ab1, type: 3}
+  - {fileID: 21300000, guid: 3fc26f77031b7488a955e86d97e02eb4, type: 3}
+  - {fileID: 21300000, guid: f3c064590df2445279c5c466405bf43b, type: 3}
+  - {fileID: 21300000, guid: 23b6263ad904d4cd9a829af04e37ac12, type: 3}
+  - {fileID: 21300000, guid: d0c2a84f6595f452ba4eed337f902af2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sesn6
+  - sesn3
+  - sesn4
+  - sesn1
+  - sesn5
+  - sesn9
+  - sesn0
+  - sesn2
+  - sesn8
+  - sesn7
+  m_RenderDataMap: {}
+  m_Tag: ShootEndStageNum
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

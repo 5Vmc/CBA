@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 839,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+划船人1右手
+  rotate: false
+  xy: 812, 58
+  size: 20, 32
+  orig: 332, 735
+  offset: 134, 544
+  index: -1
+划船人1头
+  rotate: false
+  xy: 823, 95
+  size: 13, 13
+  orig: 332, 735
+  offset: 128, 537
+  index: -1
+划船人1左手
+  rotate: true
+  xy: 801, 39
+  size: 17, 23
+  orig: 332, 735
+  offset: 107, 520
+  index: -1
+划船人1浆
+  rotate: true
+  xy: 731, 92
+  size: 69, 90
+  orig: 332, 735
+  offset: 73, 490
+  index: -1
+划船人1身体
+  rotate: false
+  xy: 772, 59
+  size: 38, 31
+  orig: 332, 735
+  offset: 115, 522
+  index: -1
+打鼓人右手
+  rotate: false
+  xy: 772, 30
+  size: 27, 27
+  orig: 332, 735
+  offset: 167, 601
+  index: -1
+打鼓人头
+  rotate: false
+  xy: 823, 110
+  size: 14, 13
+  orig: 332, 735
+  offset: 158, 615
+  index: -1
+打鼓人左手
+  rotate: false
+  xy: 731, 22
+  size: 27, 27
+  orig: 332, 735
+  offset: 136, 601
+  index: -1
+打鼓人身体
+  rotate: true
+  xy: 823, 125
+  size: 36, 14
+  orig: 332, 735
+  offset: 147, 620
+  index: -1
+船
+  rotate: true
+  xy: 2, 2
+  size: 159, 727
+  orig: 332, 735
+  offset: 85, 4
+  index: -1
+鼓
+  rotate: false
+  xy: 731, 51
+  size: 39, 39
+  orig: 332, 735
+  offset: 146, 580
+  index: -1

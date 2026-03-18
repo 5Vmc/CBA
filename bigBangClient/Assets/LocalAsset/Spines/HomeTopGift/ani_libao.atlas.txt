@@ -1,0 +1,97 @@
+
+ani_libao.png
+size: 110,121
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 57
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+dizuo
+  rotate: true
+  xy: 66, 65
+  size: 54, 36
+  orig: 55, 36
+  offset: 0, 0
+  index: -1
+piaodai01
+  rotate: false
+  xy: 35, 5
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+piaodai02
+  rotate: false
+  xy: 66, 51
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+piaodai03
+  rotate: true
+  xy: 2, 2
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+piaodai04
+  rotate: false
+  xy: 104, 112
+  size: 4, 7
+  orig: 5, 7
+  offset: 1, 0
+  index: -1
+piaodai05
+  rotate: false
+  xy: 93, 54
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+piaodai06
+  rotate: true
+  xy: 11, 2
+  size: 8, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+piaodai07
+  rotate: true
+  xy: 19, 3
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+piaodai08
+  rotate: false
+  xy: 27, 3
+  size: 6, 7
+  orig: 6, 8
+  offset: 0, 1
+  index: -1
+piaodai09
+  rotate: false
+  xy: 81, 53
+  size: 10, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+shangbu
+  rotate: false
+  xy: 2, 12
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 62, 5
+  size: 45, 44
+  orig: 45, 44
+  offset: 0, 0
+  index: -1

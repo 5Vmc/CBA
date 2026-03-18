@@ -1,0 +1,27 @@
+
+ani_champion_txk.png
+size: 289,100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 179, 2
+  size: 97, 96
+  orig: 97, 96
+  offset: 0, 0
+  index: -1
+lizi01
+  rotate: false
+  xy: 278, 89
+  size: 9, 9
+  orig: 11, 11
+  offset: 1, 1
+  index: -1
+saoguang
+  rotate: false
+  xy: 2, 2
+  size: 175, 96
+  orig: 181, 96
+  offset: 5, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+ani_pipei_zhengshi.png
+size: 857,185
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 3
+  size: 656, 180
+  orig: 656, 180
+  offset: 0, 0
+  index: -1
+jiantou01
+  rotate: false
+  xy: 660, 2
+  size: 147, 181
+  orig: 149, 181
+  offset: 1, 0
+  index: -1
+pei
+  rotate: true
+  xy: 809, 133
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+pi
+  rotate: true
+  xy: 809, 83
+  size: 48, 45
+  orig: 48, 45
+  offset: 0, 0
+  index: -1
+zhong
+  rotate: false
+  xy: 809, 35
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1

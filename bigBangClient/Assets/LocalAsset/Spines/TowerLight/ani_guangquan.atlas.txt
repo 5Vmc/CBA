@@ -1,0 +1,20 @@
+
+ani_guangquan.png
+size: 345, 198
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+guangxiao01
+  rotate: false
+  xy: 2, 2
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+guangxiao02
+  rotate: false
+  xy: 198, 51
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1

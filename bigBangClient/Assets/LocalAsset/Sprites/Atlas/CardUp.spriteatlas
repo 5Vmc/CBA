@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CardUp
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a55d55eae24f6254a9b0856d7ce26874, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e3e649a0301bd48c7991e15679ed87e3, type: 3}
+  - {fileID: 21300000, guid: bca070d0b86f87d44adb9f2cd97f9d1a, type: 3}
+  - {fileID: 21300000, guid: 654933414c3ae4260b770132fe9cf7cc, type: 3}
+  - {fileID: 21300000, guid: 7b62ee026bbe849b897b413245cc5c8a, type: 3}
+  - {fileID: 21300000, guid: 31151a52b1b1f3a4a835bd9b77185b69, type: 3}
+  - {fileID: 21300000, guid: 82dbfce2fe9cd471bb77da7a1684955b, type: 3}
+  - {fileID: 21300000, guid: e17e36038e0a04630b8b03ee69d772cd, type: 3}
+  - {fileID: 21300000, guid: 65df3e0322c894be49c60d509b3d5f45, type: 3}
+  - {fileID: 21300000, guid: 0f6a7253c34621d439e5830d78adf5a8, type: 3}
+  - {fileID: 21300000, guid: 3b4ac1a3c3f0249738c08bb3e05e8d61, type: 3}
+  - {fileID: 21300000, guid: 16a03b7458ee84ff3abe13c248ddb523, type: 3}
+  - {fileID: 21300000, guid: 2a5e3b746a88d459f8c0b9db6df9991c, type: 3}
+  - {fileID: 21300000, guid: 7791cba5bc8d84cb4a054b482d78e342, type: 3}
+  - {fileID: 21300000, guid: 7a23c8b5ef4fd4ea0888beaf397d8489, type: 3}
+  - {fileID: 21300000, guid: ebc35fe56aaf5ae449951a8d799a2638, type: 3}
+  - {fileID: 21300000, guid: dd74b5a629dda4524abdda36fead85f4, type: 3}
+  - {fileID: 21300000, guid: bb4f56075d4df1c438d7aabd23cb21b8, type: 3}
+  - {fileID: 21300000, guid: 5ea0d82867e495444b26e94cb972e938, type: 3}
+  - {fileID: 21300000, guid: 2fa61b2888aa541238a5dc66c165b48a, type: 3}
+  - {fileID: 21300000, guid: 2360ced8e7187460e9aeba7bc3e67909, type: 3}
+  - {fileID: 21300000, guid: a6e9a809dae5c414893ef169611629ac, type: 3}
+  - {fileID: 21300000, guid: f5ed8089c02b5442ba9b4796054ffb3a, type: 3}
+  - {fileID: 21300000, guid: 96383b4a431964034b3017f1bcc5c4cb, type: 3}
+  - {fileID: 21300000, guid: b034d8abf50744d28ada642c64fccfe0, type: 3}
+  - {fileID: 21300000, guid: a0366b8da804649299178f38eb22c612, type: 3}
+  - {fileID: 21300000, guid: d47536fd700fcb3458b9be22a0839675, type: 3}
+  - {fileID: 21300000, guid: 77a24d1e7ad134d3ca514119602c4dba, type: 3}
+  - {fileID: 21300000, guid: 553c872e4e3cb4bd3aecf6bc5e656b51, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CardLevel8
+  - pos3
+  - CardStage0
+  - CardStage7
+  - LV
+  - CardLevel4
+  - CardLevel1
+  - CardStage8
+  - pos4
+  - CardLevel5
+  - CardLevel2
+  - CardLevel7
+  - CardLevel0
+  - CardStage6
+  - "\u80CC\u5149"
+  - "CardStage\u9636"
+  - pos5
+  - pos2
+  - CardStage4
+  - CardStage5
+  - CardStage2
+  - CardStage3
+  - CardStage9
+  - CardStage1
+  - CardLevel3
+  - pos1
+  - CardLevel9
+  - CardLevel6
+  m_RenderDataMap: {}
+  m_Tag: CardUp
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

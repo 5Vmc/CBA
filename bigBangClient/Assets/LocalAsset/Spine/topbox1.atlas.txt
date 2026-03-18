@@ -1,0 +1,13 @@
+
+topbox1.png
+size: 87, 84
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+festival
+  rotate: false
+  xy: 2, 2
+  size: 83, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1

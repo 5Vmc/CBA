@@ -1,0 +1,25 @@
+using UnityEngine;
+using UnityEngine.UI;
+using DG.Tweening;
+using System;
+
+namespace BigBang.Animation
+{
+    public class #SCRIPTNAME# : AnimBase
+    {
+        public override void Init()
+        {
+            base.Init();
+        }
+
+        public override void PlayEnter()
+        {
+            base.PlayEnter();
+        }
+
+        public override void PlayExit(Action callback)
+        {
+            base.PlayExit(callback);
+        }
+    }
+}

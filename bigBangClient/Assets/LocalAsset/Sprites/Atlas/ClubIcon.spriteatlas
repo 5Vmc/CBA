@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ClubIcon
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 28e99cf6bbf897f4092d75577b0f4d21, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 76580c009e6fe493286881a80bf23aa9, type: 3}
+  - {fileID: 21300000, guid: 7351f090db3c34aa4b66a123228c2a6c, type: 3}
+  - {fileID: 21300000, guid: 8356c7712015840499c7cb642aa4815c, type: 3}
+  - {fileID: 21300000, guid: 89be08818bd3a4c2cb45f29df792a692, type: 3}
+  - {fileID: 21300000, guid: 85bf95b1399664a10ad4695f09615a9a, type: 3}
+  - {fileID: 21300000, guid: d2600c02b908b4af5ab1dc3235beb455, type: 3}
+  - {fileID: 21300000, guid: d23d394259aee465fb0ac2f3c7f8c5bb, type: 3}
+  - {fileID: 21300000, guid: be761623f381d4c5aaa3895258ece8aa, type: 3}
+  - {fileID: 21300000, guid: af002534a24b04b7cbc900e59553b864, type: 3}
+  - {fileID: 21300000, guid: d9fd1f54ae9dd4ba49adbc0457157af3, type: 3}
+  - {fileID: 21300000, guid: e5cbc485298d341209f414d6b0f10b3b, type: 3}
+  - {fileID: 21300000, guid: 53b378b5deeda4d63ba563fd46e0ecaa, type: 3}
+  - {fileID: 21300000, guid: a530e8061bbab4107abda3a8c57a8548, type: 3}
+  - {fileID: 21300000, guid: 030c6b66825474aff999ed636f8279bc, type: 3}
+  - {fileID: 21300000, guid: 02d249c643f784675b42235a9391879a, type: 3}
+  - {fileID: 21300000, guid: ba539837c0461442098e126af1fd0ecb, type: 3}
+  - {fileID: 21300000, guid: 03403ca72afc547009d5f698eebbe2cb, type: 3}
+  - {fileID: 21300000, guid: 868543b861a1c43d6a6f3a652d78bbdb, type: 3}
+  - {fileID: 21300000, guid: 4e20a9b89530c4dfb87ebb6bf151a2b5, type: 3}
+  - {fileID: 21300000, guid: a15c60c8b602a46daa24a8d16237d964, type: 3}
+  - {fileID: 21300000, guid: 31119b898c8ba4a06919ee0b8aee5536, type: 3}
+  - {fileID: 21300000, guid: 9efc4faa4a0b74b9b867f2d6c7339b3c, type: 3}
+  - {fileID: 21300000, guid: ccd413ca151c1464280915bd3526669c, type: 3}
+  - {fileID: 21300000, guid: e096396b4a4364389836cdbd144b222f, type: 3}
+  - {fileID: 21300000, guid: 1670867c49360408188fd4a11f0cbc4a, type: 3}
+  - {fileID: 21300000, guid: 361037bcf9e8e7647aeb87af788d00ca, type: 3}
+  - {fileID: 21300000, guid: 0d4e462dfa9914ac5b267607531d95ea, type: 3}
+  - {fileID: 21300000, guid: 66bfe3adc8d7040dba6e1bad7c325f0a, type: 3}
+  - {fileID: 21300000, guid: 360e862e487eb415fb8c7d5940b33ba3, type: 3}
+  - {fileID: 21300000, guid: a37cec3e0569043ababfbab8ba527233, type: 3}
+  - {fileID: 21300000, guid: 39d2e87e213dd514f8bd9335b460fb6d, type: 3}
+  - {fileID: 21300000, guid: 60f9d5eea1d7f4c6a9fe346edd2dd4c8, type: 3}
+  - {fileID: 21300000, guid: f50ec26f1392a4e318559403c88ca98a, type: 3}
+  - {fileID: 21300000, guid: d9749a6fd36a54993a253cdb4d372c0d, type: 3}
+  - {fileID: 21300000, guid: 00db4d9f92cdb4a1caa023253288e251, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 100110
+  - 100112
+  - 900113
+  - 100102
+  - 900119
+  - 100105
+  - 100108
+  - 100114
+  - 900111
+  - 900110
+  - 900108
+  - 900112
+  - 900107
+  - 900117
+  - 100107
+  - 900102
+  - 100106
+  - 900115
+  - 900109
+  - 900114
+  - 900104
+  - 900118
+  - 900105
+  - 100111
+  - 900101
+  - 0
+  - 100101
+  - 100103
+  - 100113
+  - 900116
+  - 900120
+  - 900103
+  - 100104
+  - 100109
+  - 900106
+  m_RenderDataMap: {}
+  m_Tag: ClubIcon
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CountryFlag
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 60648ae4fa2eb4ca6b4730bd1ee0df70, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0b2fe1205bbc74f99919662ec2d93aa0, type: 3}
+  - {fileID: 21300000, guid: 69b61d30247c34464a5b42dfe585098d, type: 3}
+  - {fileID: 21300000, guid: 0eabd0f0684c745dfb1bb5160da19cf0, type: 3}
+  - {fileID: 21300000, guid: 078d9a01ef8274f219fbb2bc6998bcf5, type: 3}
+  - {fileID: 21300000, guid: fd942d114197e47158cbe29da0898791, type: 3}
+  - {fileID: 21300000, guid: 2d79d281fd5824edab3392c99772e4b3, type: 3}
+  - {fileID: 21300000, guid: cab0b9e19301944e78ea5e4d897f798d, type: 3}
+  - {fileID: 21300000, guid: 307554f1c04b745bb93e3f614f3d98f8, type: 3}
+  - {fileID: 21300000, guid: 723efe52b244c47878521c8d68fb8eba, type: 3}
+  - {fileID: 21300000, guid: 48e6b6623c64e4732b3db3366dd30ff0, type: 3}
+  - {fileID: 21300000, guid: 535b63a2a567a4e7aa5abc2dc84aed9f, type: 3}
+  - {fileID: 21300000, guid: 3c862fe274307457ebf7eb87b1efb946, type: 3}
+  - {fileID: 21300000, guid: f8ca51034145c4bc6a93277e06ff8d6a, type: 3}
+  - {fileID: 21300000, guid: 850e0263cd247424c9115ddbdc9fbc88, type: 3}
+  - {fileID: 21300000, guid: e862e9631312d4611915974f195bf237, type: 3}
+  - {fileID: 21300000, guid: 51f30cb3315c543de8d9eb96e2918b14, type: 3}
+  - {fileID: 21300000, guid: c9db69c3b712a43c8b1edebe901d831f, type: 3}
+  - {fileID: 21300000, guid: 3899f31585db14ed0a4d42273e03b694, type: 3}
+  - {fileID: 21300000, guid: cfc66b559a9804fc09ab5986d6bfebbe, type: 3}
+  - {fileID: 21300000, guid: afd2a765455254628bdcdab5a5d87dc2, type: 3}
+  - {fileID: 21300000, guid: 4dabbef67b3af4b4eab674c604f0968d, type: 3}
+  - {fileID: 21300000, guid: f0c500475609847908aa8e2e3b0f3a81, type: 3}
+  - {fileID: 21300000, guid: 3ad69b57dbfd446bd979ce8359d3cdc8, type: 3}
+  - {fileID: 21300000, guid: edc9c8f7be06647aaad09ced921f8260, type: 3}
+  - {fileID: 21300000, guid: a95dcc083f24c4ef7bb6bd1efae52260, type: 3}
+  - {fileID: 21300000, guid: 18e70a48b3f0b4049ab30d8b00ff30dd, type: 3}
+  - {fileID: 21300000, guid: 22901c58c75bf4cc999bb3c56b197e60, type: 3}
+  - {fileID: 21300000, guid: 115300881deef48c792d4e12fd1d2954, type: 3}
+  - {fileID: 21300000, guid: c4b67f9875098461394126e9b00d1e37, type: 3}
+  - {fileID: 21300000, guid: f0443ad8c468a40a8aea7648f1686e45, type: 3}
+  - {fileID: 21300000, guid: bf4796e8d00454682ab492b9f93726c7, type: 3}
+  - {fileID: 21300000, guid: 714ff6f87fb8b476f9f167c16786cc29, type: 3}
+  - {fileID: 21300000, guid: 3958dc59d74c943e79d82bc76471dd07, type: 3}
+  - {fileID: 21300000, guid: dcf48b99dd9b54a299d2cb52239f2e34, type: 3}
+  - {fileID: 21300000, guid: 8f71dfd9fd4a44c56b80a70d84e25ba1, type: 3}
+  - {fileID: 21300000, guid: bee282aada15246ab89bbfceccbd3f13, type: 3}
+  - {fileID: 21300000, guid: 31d5ce0b47632475ca81d5a8bb25ead7, type: 3}
+  - {fileID: 21300000, guid: 4cdeccdc404394b3dad7fc09f2ec870f, type: 3}
+  - {fileID: 21300000, guid: 2037704d6307a4be0bdcd011103c2239, type: 3}
+  - {fileID: 21300000, guid: c09b5c6dfaa5046ce9c96d26eb31e64e, type: 3}
+  - {fileID: 21300000, guid: 8df2b68d9789944a484d3c6b8d993d21, type: 3}
+  - {fileID: 21300000, guid: ebaaa40ec0fd14fedaf74ec53797f24e, type: 3}
+  - {fileID: 21300000, guid: 558fa71e50ad4455987b2e8a2ba947dd, type: 3}
+  - {fileID: 21300000, guid: cd19202e43d0f46809aabce493536d78, type: 3}
+  - {fileID: 21300000, guid: 82be5aee88d5041fe8f9fd6a763411cf, type: 3}
+  - {fileID: 21300000, guid: d843341f9833c4cda94c7473f08463e4, type: 3}
+  - {fileID: 21300000, guid: 502080bf71c434c46b2880ce721a9664, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 137
+  - 114
+  - 142
+  - 123
+  - 145
+  - 111
+  - 113
+  - 147
+  - 126
+  - 139
+  - 110
+  - 132
+  - 146
+  - 120
+  - 129
+  - 122
+  - 141
+  - 117
+  - 109
+  - 112
+  - 135
+  - 104
+  - 101
+  - 127
+  - 116
+  - 125
+  - 118
+  - 103
+  - 136
+  - 115
+  - 131
+  - 108
+  - 124
+  - 144
+  - 128
+  - 134
+  - 140
+  - 121
+  - 143
+  - 102
+  - 138
+  - 107
+  - 119
+  - 106
+  - 130
+  - 133
+  - 105
+  m_RenderDataMap: {}
+  m_Tag: CountryFlag
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

@@ -1,0 +1,27 @@
+
+ani_Christmas_snow.png
+size: 225,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xuehua01
+  rotate: false
+  xy: 2, 2
+  size: 142, 135
+  orig: 151, 145
+  offset: 4, 5
+  index: -1
+xuehua02
+  rotate: false
+  xy: 146, 51
+  size: 77, 86
+  orig: 79, 88
+  offset: 1, 1
+  index: -1
+xuehua03
+  rotate: false
+  xy: 146, 15
+  size: 33, 34
+  orig: 35, 36
+  offset: 1, 1
+  index: -1

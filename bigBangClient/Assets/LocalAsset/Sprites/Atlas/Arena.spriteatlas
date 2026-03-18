@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Arena
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 03f7164da37c0b74caa2eb4f950a00c5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 934aa3e079b1641ceae46f23a2468bec, type: 3}
+  - {fileID: 21300000, guid: eb0769f016c4042d49961be11ac43b9d, type: 3}
+  - {fileID: 21300000, guid: c7ed0151e58de46f0b536d1ccac839a3, type: 3}
+  - {fileID: 21300000, guid: 74fb38918cefb4454a7f010e6d67c587, type: 3}
+  - {fileID: 21300000, guid: 2dcc85e1c155041e1bb659ec1bd9c958, type: 3}
+  - {fileID: 21300000, guid: a61f3a4250ffb41a998196c154481944, type: 3}
+  - {fileID: 21300000, guid: 687717f2544494eb5a1a02227ebeaac5, type: 3}
+  - {fileID: 21300000, guid: 945a3b93cb2844bb4bf1585ee3efff39, type: 3}
+  - {fileID: 21300000, guid: 3673cf9475bf54d5fb713ad5b2cba717, type: 3}
+  - {fileID: 21300000, guid: 4eb908e41d1d24c608700fcfe9c1cfa8, type: 3}
+  - {fileID: 21300000, guid: 6bf27735538bd7d4aa2e65086620a7dd, type: 3}
+  - {fileID: 21300000, guid: c9a4b47586af14a5996518122f1c62ea, type: 3}
+  - {fileID: 21300000, guid: 49e89f85ac23f431993a9b0009dd4336, type: 3}
+  - {fileID: 21300000, guid: ea10d996f9bd347e8934bbc68080a28a, type: 3}
+  - {fileID: 21300000, guid: 790ea877949c248e18ba740e28d82084, type: 3}
+  - {fileID: 21300000, guid: c30d1818474874df799eb6e5e1e7a7fa, type: 3}
+  - {fileID: 21300000, guid: 11492be9c70a30c4ebcf010c08ca78ea, type: 3}
+  - {fileID: 21300000, guid: 4646f65a2f2db44cd9f3a5bb1746ed72, type: 3}
+  - {fileID: 21300000, guid: 6faa11bbc97e046eb9a00dfa5c205fe1, type: 3}
+  - {fileID: 21300000, guid: 33b1ac1c617884d1d93b99c966b41d3e, type: 3}
+  - {fileID: 21300000, guid: 559d5a6c063e14a9693753df786c54a6, type: 3}
+  - {fileID: 21300000, guid: 3f4f7e0e6c8764701accfa2c62c6a4f4, type: 3}
+  - {fileID: 21300000, guid: af43ff0e205cb4385a28b86193f83a64, type: 3}
+  - {fileID: 21300000, guid: 9c04697efa1b5444793c2be2ac4bcde6, type: 3}
+  - {fileID: 21300000, guid: d4eb33fea95dc4fdba77df7724cf4069, type: 3}
+  - {fileID: 21300000, guid: e8c89bcf93e3b4b248e12eee47048f66, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - badge8
+  - S
+  - badge6
+  - C3
+  - badge3
+  - title_1
+  - D
+  - rank_3
+  - badge4
+  - badge5
+  - badge1
+  - D1
+  - title_2
+  - rank_2
+  - C2
+  - badge2
+  - badge9
+  - A
+  - rank_1
+  - C
+  - badge7
+  - D2
+  - D3
+  - C1
+  - B
+  - title_3
+  m_RenderDataMap: {}
+  m_Tag: Arena
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

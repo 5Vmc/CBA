@@ -1,0 +1,41 @@
+
+ani_ling.png
+size: 132,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 66
+  size: 87, 87
+  orig: 90, 89
+  offset: 1, 1
+  index: -1
+ling
+  rotate: true
+  xy: 66, 6
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+sidai01
+  rotate: false
+  xy: 91, 84
+  size: 13, 31
+  orig: 14, 31
+  offset: 0, 0
+  index: -1
+sidai02
+  rotate: false
+  xy: 91, 117
+  size: 33, 36
+  orig: 33, 37
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,53 @@
+CBA-咪咕云游戏
+
+修改aar代码
+用命令打包aar
+改成zip
+去掉lib中的class.jar
+用命令变回aar
+放到Unity中
+
+https://blog.csdn.net/weixin_43149049/article/details/127891057
+
+[CXX1104] NDK from ndk.dir had version which disagrees with android.ndkVersion
+
+jar cf CbaMiGuLibrary-release.aar -C CbaMiGuLibrary-release .
+jar cf CbaByteDanceLibrary-release.aar -C CbaByteDanceLibrary-release .
+
+巨量广告转化安卓端SDK
+https://bytedance.larkoffice.com/docx/doxcnjAFo7iUImEIq9DuA7Tr69g
+
+飞书通知地址
+https://open.feishu.cn/open-apis/bot/v2/hook/fd2d427e-613e-4db4-86ef-b8541e73bf0d
+
+Gradle下载慢解决
+https://blog.csdn.net/moresi/article/details/136206437
+
+./gradlew :CbaMiGuLibrary:assembleRelease
+./gradlew :CbaByteDanceLibrary:assembleRelease
+
+
+巨量的APPID:649738
+云游戏SDK contentcode ：006220029000
+抖音SDK APPid：649738
+
+com.by.cba.migu
+
+之前的SDK处理：
+去掉QuickSDK
+去掉热云SDK
+去掉TalkingDataSDK
+
+新增SDK：
+咪咕云游戏SDK
+巨量广告转化安卓端SDK
+
+distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-8.2-bin.zip
+
+android:exported="true"
+ndk.dir=/Users/hanzijian/Library/Android/sdk/ndk/21.3.6528147
+
+ndk.dir=/Users/hanzijian/android-ndk-r21d
+
+
+ndkVersion "21.3.6528147"

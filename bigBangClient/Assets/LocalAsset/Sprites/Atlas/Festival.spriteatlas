@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Festival
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a4b9fa4602a8be34e981b35a9b0553ed, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8e00b0b01b48e984aa1059c5dc33217c, type: 3}
+  - {fileID: 21300000, guid: 9c327b814a1fcff44870d2cc5a2c368a, type: 3}
+  - {fileID: 21300000, guid: 1a1809b17f4bae342afc7b6d57aab64d, type: 3}
+  - {fileID: 21300000, guid: dbf1aa123e981c84d969f5386d0310ca, type: 3}
+  - {fileID: 21300000, guid: efc993621d9487e4090da5f33c5141fc, type: 3}
+  - {fileID: 21300000, guid: a7b49ae310782ef4d9bedfdf2ddd8ad5, type: 3}
+  - {fileID: 21300000, guid: e48cff342fa168842a888339029e4391, type: 3}
+  - {fileID: 21300000, guid: 66ed576493ee91d42ba22e01ea5d939b, type: 3}
+  - {fileID: 21300000, guid: fce28fc448e017249aad9434ae2b76da, type: 3}
+  - {fileID: 21300000, guid: a8096ef58784493408e92852ccbc4c54, type: 3}
+  - {fileID: 21300000, guid: a0db45b6e0b00b541acded2851b9b75a, type: 3}
+  - {fileID: 21300000, guid: 6d902e67e76bb1644a8b83b9fbde5338, type: 3}
+  - {fileID: 21300000, guid: 47ad1899a5f4fb842b24f0095caa1e77, type: 3}
+  - {fileID: 21300000, guid: bf86c5f9a93473d4a98a9fff1392fd9c, type: 3}
+  - {fileID: 21300000, guid: 2c7ca26b9c4dcba48a0e44092d14d004, type: 3}
+  - {fileID: 21300000, guid: a3bb1f5c98392e84890c8bb52cc7bf6c, type: 3}
+  - {fileID: 21300000, guid: e9a01f6cb43bf7f40abbe70d3f250d40, type: 3}
+  - {fileID: 21300000, guid: 6dfd40bc481e3f94ebd76cd8fbb10710, type: 3}
+  - {fileID: 21300000, guid: cfb1a50dccfd703488b79d00ddbac6ac, type: 3}
+  - {fileID: 21300000, guid: cf97327d734b9d04eb6684faa56f72b6, type: 3}
+  - {fileID: 21300000, guid: 302eed0e10d41bb49995ef94da02a06b, type: 3}
+  - {fileID: 21300000, guid: a21d33aec3a0c0141a7be04b8cf802b2, type: 3}
+  - {fileID: 21300000, guid: 34af21ded83a599498513df2599de9d1, type: 3}
+  - {fileID: 21300000, guid: 7cdd281fb8066d248b5a927f1c8af965, type: 3}
+  - {fileID: 21300000, guid: e36e312f1bab4204e9f7be025eff8c29, type: 3}
+  - {fileID: 21300000, guid: 8f79b6afe2d27c24493c99b81d6fa13d, type: 3}
+  - {fileID: 21300000, guid: e7da02ef40e28dc4e8eb02e83fc64f1f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - t1_img_684
+  - t2_img_524
+  - t1_img_683
+  - t1_img_686
+  - t1_img_686_2
+  - t2_totalPaybg
+  - t1_img_687
+  - t1_payTitle
+  - t1_img_524
+  - t2_img_688_2
+  - t1_img_688_2
+  - t2_img_517_4
+  - t2_img_687
+  - t1_img_681
+  - t1_img_517_4
+  - t2_img_686_2
+  - t2_img_686
+  - t1_img_685
+  - t1_img_682
+  - t1_img_688
+  - t2_img_691
+  - t1_img_691
+  - t2_img_688
+  - t1_img_679
+  - t1_totalPaybg
+  - t1_img_680
+  - t2_payTitle
+  m_RenderDataMap: {}
+  m_Tag: Festival
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

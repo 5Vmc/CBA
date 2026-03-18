@@ -1,0 +1,12 @@
+/// <summary>
+/// 自动生成代码
+/// 代码生成脚本:AtlasNamesCreator.cs
+/// 模板文件:AtlasNamesTemplate.txt
+/// </summary>
+namespace BigBang
+{
+    public class AtlasNames
+    {
+        #PROPERTY#
+    }
+}

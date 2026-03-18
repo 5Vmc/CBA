@@ -1,0 +1,41 @@
+
+activitybtn.png
+size: 137, 45
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+活动
+  rotate: false
+  xy: 2, 2
+  size: 54, 41
+  orig: 80, 80
+  offset: 13, 6
+  index: -1
+红色
+  rotate: false
+  xy: 58, 6
+  size: 23, 37
+  orig: 24, 38
+  offset: 0, 1
+  index: -1
+组311
+  rotate: true
+  xy: 106, 25
+  size: 18, 29
+  orig: 18, 30
+  offset: 0, 1
+  index: -1
+闪烁小星星
+  rotate: false
+  xy: 106, 9
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+黄色
+  rotate: false
+  xy: 83, 5
+  size: 21, 38
+  orig: 22, 38
+  offset: 0, 0
+  index: -1

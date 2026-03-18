@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FightPoint
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b8f75f28b5eb6514ebea15bc43ee5da3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f426ff70b27f0a840874bba582b7fb9b, type: 3}
+  - {fileID: 21300000, guid: 0d2aa3b1319097b4e9b200665e168b82, type: 3}
+  - {fileID: 21300000, guid: 5738e8f1afeae2545a0927a39dca1f54, type: 3}
+  - {fileID: 21300000, guid: 8f97fc625bb6d2c45803910e69f79af4, type: 3}
+  - {fileID: 21300000, guid: feb3f2c29a1547144add9102c503912d, type: 3}
+  - {fileID: 21300000, guid: 0deeb6c228d8a884085f011c39c0baca, type: 3}
+  - {fileID: 21300000, guid: 8adab7032f4d140409e630d189c27972, type: 3}
+  - {fileID: 21300000, guid: fde3eb33cb7f093448a4d4b4b52107d1, type: 3}
+  - {fileID: 21300000, guid: 9bfb9aa3122e63b4bae649ba13d09563, type: 3}
+  - {fileID: 21300000, guid: 4a8f2624fef732c4c8f336b3995c9494, type: 3}
+  - {fileID: 21300000, guid: f56b2054a09a74f408043872dd25b42d, type: 3}
+  - {fileID: 21300000, guid: d50be3546e69406409d39ec14ee3fe5c, type: 3}
+  - {fileID: 21300000, guid: a840b464821c6c9408e22f26d4325348, type: 3}
+  - {fileID: 21300000, guid: 1d9eba941444dfd4fa4dac96b83c8699, type: 3}
+  - {fileID: 21300000, guid: b2bb43b4082631241930c81c2b79626c, type: 3}
+  - {fileID: 21300000, guid: 5cf434d469f540a488cce97c62477f27, type: 3}
+  - {fileID: 21300000, guid: c2eac0065a5cb5545860d2343a72ebc8, type: 3}
+  - {fileID: 21300000, guid: 79a02726ff081614e8698abd931e4a6f, type: 3}
+  - {fileID: 21300000, guid: 9c7ff237cebac284081d80ae00662470, type: 3}
+  - {fileID: 21300000, guid: 5f051ef7f555c0442a1669d40669610b, type: 3}
+  - {fileID: 21300000, guid: 46ab3e389a79f8147bc5e1807cfc1081, type: 3}
+  - {fileID: 21300000, guid: 7401c6e879ce040429372e136b3929f5, type: 3}
+  - {fileID: 21300000, guid: d875fc398bc39d34a97ef057686a5fb4, type: 3}
+  - {fileID: 21300000, guid: 95b705a96decbb6439d79b6cb6b9d8db, type: 3}
+  - {fileID: 21300000, guid: 512650c9c892f7741a6d2f3a963036d4, type: 3}
+  - {fileID: 21300000, guid: 7f16be6a5ed996b49b23ae4233090398, type: 3}
+  - {fileID: 21300000, guid: 6fd7267b0efe9194eba5923fc49e6749, type: 3}
+  - {fileID: 21300000, guid: b3cbc88b526e6bc49868c0809ce2f21e, type: 3}
+  - {fileID: 21300000, guid: 7881fcbb9da5b924f983df0917ac8e6f, type: 3}
+  - {fileID: 21300000, guid: f90bbddbba3fc0e4a8b90011d8478d82, type: 3}
+  - {fileID: 21300000, guid: be94838d16ec98d40b598c82304922b5, type: 3}
+  - {fileID: 21300000, guid: 65ca4abd3535ea140bc0e5859000a486, type: 3}
+  - {fileID: 21300000, guid: 37d9b0ede9d7d914fba86be921cf1d8a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ft2
+  - ft6
+  - ebarnum1
+  - lv
+  - barnum2
+  - barnum0
+  - barnum6
+  - barnum3
+  - ft5
+  - barnum5
+  - ft0
+  - ebarnum3
+  - barnum9
+  - ebarnum5
+  - ebarnum9
+  - ft1
+  - ebarnum4
+  - ft9
+  - ebarnum8
+  - barnum7
+  - ft4
+  - ebarnum2
+  - ft3
+  - barnum4
+  - ebarnum6
+  - ft7
+  - ft8
+  - progressbg
+  - barnum1
+  - barnum8
+  - ebarnum0
+  - progressbar
+  - ebarnum7
+  m_RenderDataMap: {}
+  m_Tag: FightPoint
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

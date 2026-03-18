@@ -1,0 +1,51 @@
+{
+    "default": {
+        "config_path": "Assets/LocalAsset/Config/",
+        "dev_icon_path": "Assets/Sprites/Icon/iconIos.png",
+        "package_name": "com.by.cba.migu",
+        "project_name": "中职篮:全力以赴",
+        "purchase_product_ids": "",
+
+        "android": {
+            "custom_keystore": false,
+            "keystore_path": "androidKey/cba.keystore",
+            "keystore_password": "cba123456",
+            "keyalias_name": "cba",
+            "keyalias_password": "cba123456",
+            
+            "package_name": "com.by.cba.migu",
+            "project_name": "中职篮:全力以赴"
+        },
+
+        "ios": {
+            "team_id": "DU67BP698S",
+            "debug_profile_id": "62614ce3-1313-4819-9d82-9ee0cf5b84f7",
+            "release_profile_id": "dbdf0ced-9762-4be3-b266-210a1f52e5a2",
+
+            "api_key": "DF79PAT279",
+            "api_issuer": "f1f98ce7-6264-4736-af7c-a54b1319043e",
+            "export_option_plist_path": "ExportOptions.plist",
+
+            "package_name": "com.cbaqlyf.ximi.bigbang",
+            "project_name_ios": "CBA全力以赴"
+        }
+    },
+
+    "app_store_oversea": {
+        "package_name": "com.qiduo.cba.bigbang.oversea",
+
+        "ios": {
+            "team_id": "TSU3A57XV2",
+            "debug_profile_id": "c85080f1-c654-450f-9276-7b8f75bda18d",
+            "release_profile_id": "0974aab6-e424-42a5-818f-d20196d5d71e",
+
+            "api_key": "B7C4W5TB9H",
+            "api_issuer": "258bbfcd-92a1-4728-80d7-b9aaea7e92b0",
+            "export_option_plist_path": "ExportOptionsOversea.plist"
+        }
+    },
+
+    "google_play": {
+        "package_name": "com.qiduo.cba.bigbang.oversea"
+    }
+}

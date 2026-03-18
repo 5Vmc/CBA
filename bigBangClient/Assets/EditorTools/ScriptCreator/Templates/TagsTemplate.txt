@@ -1,0 +1,10 @@
+/// <summary>
+/// 自动生成代码
+/// 代码生成脚本:TagsCreator.cs
+/// 模板文件:TagsTemplate.txt
+/// </summary>
+
+public class Tags
+{
+#PROPERTIES#
+}  

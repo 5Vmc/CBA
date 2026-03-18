@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PortraitYellow
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e436d7f5ccd084a82a1a050a32742c1a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1b638d317d9fa42a6a3ccce827b0834a, type: 3}
+  - {fileID: 21300000, guid: 8a3249410dd2b4c1d9784f35ee1b6996, type: 3}
+  - {fileID: 21300000, guid: b9038f41b9ff84854a753cf6768d8258, type: 3}
+  - {fileID: 21300000, guid: f0a1736106a74d64984818e8240cecfc, type: 3}
+  - {fileID: 21300000, guid: bf6329a1e3801d04cb42b870741a0c31, type: 3}
+  - {fileID: 21300000, guid: 2b4fadc1c98f74c708a1873b501b7b0c, type: 3}
+  - {fileID: 21300000, guid: 875433f1e4cbf274c97c88ed044c5086, type: 3}
+  - {fileID: 21300000, guid: 8319cf024e3234c7298ec1d345dd7246, type: 3}
+  - {fileID: 21300000, guid: 09860182cd3374a5990c1c78948ec9ff, type: 3}
+  - {fileID: 21300000, guid: 15797f03077b340c788553203d75f457, type: 3}
+  - {fileID: 21300000, guid: c6b1a7137c0b04ffd90a270aa1bf5991, type: 3}
+  - {fileID: 21300000, guid: ede44d8373601ef48a0264adf7b91ec2, type: 3}
+  - {fileID: 21300000, guid: 08bdd2c32d0dd40459a947a7edcfaa3c, type: 3}
+  - {fileID: 21300000, guid: 0585bce39940d4027b6525c5de13bf1a, type: 3}
+  - {fileID: 21300000, guid: 01938404b268e4957893387c7e02b46a, type: 3}
+  - {fileID: 21300000, guid: 32f3a3748730f43c18bf0001ac8b677a, type: 3}
+  - {fileID: 21300000, guid: bf670975b4a0c4182ac1a94fb80fc1af, type: 3}
+  - {fileID: 21300000, guid: bcaa1746fd57e4d21a02361d6d7aa01d, type: 3}
+  - {fileID: 21300000, guid: cc18d5a6f1f844f7ab82f2bde7d6bf72, type: 3}
+  - {fileID: 21300000, guid: dd185017558b54238a96db9a7f1d0d37, type: 3}
+  - {fileID: 21300000, guid: 95e56197ea40541188f3e7d831c15ce8, type: 3}
+  - {fileID: 21300000, guid: 9470e5a7d58264c099fed5345ecc578e, type: 3}
+  - {fileID: 21300000, guid: c4bd365844ee04a8a898b8daffec056a, type: 3}
+  - {fileID: 21300000, guid: 1d1b49a8e0d79b140a933fba5395d93b, type: 3}
+  - {fileID: 21300000, guid: 63df5d190bdf54230beec680153db7f3, type: 3}
+  - {fileID: 21300000, guid: b5c9ecc9b046a48bfbf444b17f29d14d, type: 3}
+  - {fileID: 21300000, guid: 2309eb4a3e40643c09b49f474b84907f, type: 3}
+  - {fileID: 21300000, guid: cef55dfae3d325a4283b6920568f7d85, type: 3}
+  - {fileID: 21300000, guid: 964b1d6bd39124ec38bd95193474013f, type: 3}
+  - {fileID: 21300000, guid: ef1283abcba194d55b6d98bdf3da1010, type: 3}
+  - {fileID: 21300000, guid: 225522cb64b9344a59e22bc7ef87961b, type: 3}
+  - {fileID: 21300000, guid: 47cb66db32231480cafafdb7a6f06f98, type: 3}
+  - {fileID: 21300000, guid: 36df38ebbbeb44a399bd81f10e95c511, type: 3}
+  - {fileID: 21300000, guid: 70aea3ac0435948259d84afd7b04a613, type: 3}
+  - {fileID: 21300000, guid: 1ab657acd1ae3d34e8dd4b4f81719161, type: 3}
+  - {fileID: 21300000, guid: 91d0f9fc75d3c466a95ce0d5c0405185, type: 3}
+  - {fileID: 21300000, guid: 65f4840d3e0fe496abdbc44cbba2130d, type: 3}
+  - {fileID: 21300000, guid: 24cec2ed54739454c9e2066e0056b3e6, type: 3}
+  - {fileID: 21300000, guid: c8ce390e0840145679a9c798b5afbe82, type: 3}
+  - {fileID: 21300000, guid: 65f2723ee265a4019881f165b3cbaf1b, type: 3}
+  - {fileID: 21300000, guid: 17772a3e3893d477e9943d681cf1c715, type: 3}
+  - {fileID: 21300000, guid: 3309035e63f9849a7bfaf610dc2518f4, type: 3}
+  - {fileID: 21300000, guid: a2507f7e147e2467691dcf07285c8cee, type: 3}
+  - {fileID: 21300000, guid: 414799be028d84b398b930863dea21ab, type: 3}
+  - {fileID: 21300000, guid: dcdc602f3ad2c48fda8b4ddcfa6f767b, type: 3}
+  - {fileID: 21300000, guid: 9793f13fa7c0c40bdb5a27af3bebb902, type: 3}
+  - {fileID: 21300000, guid: b76a777f7d61b4ef6b0535402782c900, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 104036
+  - 104004
+  - 104002
+  - 104033
+  - 104034
+  - 104018
+  - 104001
+  - 104014
+  - 104006
+  - 104047
+  - 104021
+  - 104035
+  - 104046
+  - 104043
+  - 104027
+  - 104038
+  - 104024
+  - 104020
+  - 104025
+  - 104013
+  - 104007
+  - 104012
+  - 104044
+  - 104005
+  - 104017
+  - 104030
+  - 104023
+  - 104031
+  - 104009
+  - 104015
+  - 104010
+  - 104037
+  - 104041
+  - 104008
+  - 104032
+  - 104022
+  - 104040
+  - 104026
+  - 104029
+  - 104028
+  - 104016
+  - 104019
+  - 104045
+  - 104003
+  - 104039
+  - 104042
+  - 104011
+  m_RenderDataMap: {}
+  m_Tag: PortraitYellow
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

@@ -1,0 +1,19 @@
+{
+    "name": "FindNullReference.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7793e5cd8d2e94e21b56de41db6606bb",
+        "GUID:76041160d5386f14a8d80443755131f8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

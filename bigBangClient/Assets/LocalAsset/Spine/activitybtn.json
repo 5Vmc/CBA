@@ -1,0 +1,122 @@
+{
+"skeleton": {
+	"hash": "7RF7POfIrn4",
+	"spine": "3.8",
+	"x": -40,
+	"y": -40,
+	"width": 80,
+	"height": 80,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "balloon1", "parent": "root", "length": 28.81, "rotation": 90.58, "x": -15.84, "y": 6.11 },
+	{ "name": "balloon2", "parent": "root", "length": 30.85, "rotation": 89.46, "x": -0.71, "y": 7.86 },
+	{ "name": "balloon3", "parent": "root", "length": 31.72, "rotation": 88.95, "x": 14.43, "y": 2.33 },
+	{ "name": "star1", "parent": "root", "length": 7.57, "rotation": 87.8, "x": 20.83 },
+	{ "name": "star2", "parent": "root", "length": 9.9, "rotation": 88.32, "x": -25.15, "y": 2.33 }
+],
+"slots": [
+	{ "name": "红色", "bone": "balloon1", "attachment": "红色" },
+	{ "name": "组311", "bone": "balloon3", "attachment": "组311" },
+	{ "name": "黄色", "bone": "balloon2", "attachment": "黄色" },
+	{ "name": "闪烁小星星", "bone": "star1", "attachment": "闪烁小星星" },
+	{ "name": "闪烁小星星2", "bone": "star2", "attachment": "闪烁小星星" },
+	{ "name": "活动", "bone": "root", "attachment": "活动" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"活动": {
+				"活动": { "width": 80, "height": 80 }
+			},
+			"红色": {
+				"红色": { "x": 5.87, "y": -1.9, "rotation": -90.58, "width": 24, "height": 38 }
+			},
+			"组311": {
+				"组311": { "x": 12.53, "y": -0.93, "rotation": -88.95, "width": 18, "height": 30 }
+			},
+			"闪烁小星星": {
+				"闪烁小星星": { "x": -0.58, "y": -0.02, "rotation": -87.8, "width": 16, "height": 16 }
+			},
+			"闪烁小星星2": {
+				"闪烁小星星": { "x": -0.56, "y": -0.89, "rotation": -88.32, "width": 16, "height": 16 }
+			},
+			"黄色": {
+				"黄色": { "x": 12.53, "y": -1.34, "rotation": -89.46, "width": 22, "height": 38 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"balloon1": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -3.58, "y": 2.62 },
+					{ "time": 0.6667, "x": 1.46, "y": 5.33 },
+					{ "time": 1, "x": -0.09, "y": 8.86 },
+					{ "time": 1.3333, "x": 1.46, "y": 5.33 },
+					{ "time": 1.6667, "x": -3.58, "y": 2.62 },
+					{ "time": 2 }
+				]
+			},
+			"balloon2": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -3.07, "y": 3.29 },
+					{ "time": 0.6667, "x": 2.94, "y": 6.49 },
+					{ "time": 1, "x": 0.09, "y": 9.78 },
+					{ "time": 1.3333, "x": -3.07, "y": 3.29 },
+					{ "time": 1.6667, "x": 2.94, "y": 6.49 },
+					{ "time": 2 }
+				]
+			},
+			"balloon3": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -2.54, "y": 4.54 },
+					{ "time": 0.6667, "x": 6.69, "y": 6.99 },
+					{ "time": 1, "x": 0.08, "y": 4.48 },
+					{ "time": 1.3333, "x": -2.54, "y": 4.54 },
+					{ "time": 1.6667, "x": 6.69, "y": 6.99 },
+					{ "time": 2 }
+				]
+			},
+			"star1": {
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 2, "y": 2 },
+					{ "time": 0.4 },
+					{ "time": 0.6, "x": 2, "y": 2 },
+					{ "time": 0.8 },
+					{ "time": 1, "x": 2, "y": 2 },
+					{ "time": 1.2 },
+					{ "time": 1.4, "x": 2, "y": 2 },
+					{ "time": 1.6 },
+					{ "time": 1.8, "x": 2, "y": 2 },
+					{ "time": 2 }
+				]
+			},
+			"star2": {
+				"scale": [
+					{ "x": 2, "y": 2 },
+					{ "time": 0.2 },
+					{ "time": 0.4, "x": 2, "y": 2 },
+					{ "time": 0.6 },
+					{ "time": 0.8, "x": 2, "y": 2 },
+					{ "time": 1 },
+					{ "time": 1.2, "x": 2, "y": 2 },
+					{ "time": 1.4 },
+					{ "time": 1.6, "x": 2, "y": 2 },
+					{ "time": 1.8 },
+					{ "time": 2, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

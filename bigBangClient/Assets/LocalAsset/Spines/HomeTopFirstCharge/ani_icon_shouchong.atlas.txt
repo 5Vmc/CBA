@@ -1,0 +1,27 @@
+
+ani_icon_shouchong.png
+size: 213,91
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 91, 27
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 2
+  size: 87, 87
+  orig: 90, 89
+  offset: 1, 1
+  index: -1
+touxiang
+  rotate: false
+  xy: 155, 22
+  size: 56, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1

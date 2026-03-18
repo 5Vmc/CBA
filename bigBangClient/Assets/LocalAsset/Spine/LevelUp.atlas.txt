@@ -1,0 +1,69 @@
+
+LevelUp.png
+size: 883, 460
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ball
+  rotate: false
+  xy: 717, 199
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 2, 2
+  size: 456, 471
+  orig: 500, 515
+  offset: 22, 22
+  index: -1
+star_left1
+  rotate: true
+  xy: 715, 39
+  size: 68, 72
+  orig: 69, 73
+  offset: 1, 1
+  index: -1
+star_left2
+  rotate: true
+  xy: 789, 45
+  size: 62, 58
+  orig: 62, 59
+  offset: 0, 1
+  index: -1
+star_right2
+  rotate: false
+  xy: 811, 129
+  size: 70, 68
+  orig: 70, 68
+  offset: 0, 0
+  index: -1
+start_right1
+  rotate: false
+  xy: 717, 109
+  size: 92, 88
+  orig: 92, 88
+  offset: 0, 0
+  index: -1
+swing_left
+  rotate: false
+  xy: 475, 125
+  size: 240, 222
+  orig: 248, 236
+  offset: 8, 7
+  index: -1
+txt
+  rotate: false
+  xy: 475, 38
+  size: 238, 85
+  orig: 242, 89
+  offset: 2, 2
+  index: -1
+txtframe
+  rotate: false
+  xy: 475, 349
+  size: 359, 109
+  orig: 359, 109
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeagueStartTimeNum
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b646527d83ab24d73bcbba10ac650b6f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b7588161700bf4c529c9b680353f9532, type: 3}
+  - {fileID: 21300000, guid: 2d565c6144a504c9ab0e65738afb7fd6, type: 3}
+  - {fileID: 21300000, guid: 15403db56b1564d6b826f38380839f5f, type: 3}
+  - {fileID: 21300000, guid: 7c362f16d59b84df3bb9aea98da8b3b8, type: 3}
+  - {fileID: 21300000, guid: 772a2d2688d10412d8a3580475b5bec3, type: 3}
+  - {fileID: 21300000, guid: 43a30e089801b41379ef9ee29f230c67, type: 3}
+  - {fileID: 21300000, guid: bc8d8418bcbab49a1b22788b454acd9d, type: 3}
+  - {fileID: 21300000, guid: ae5f5aa8d86a942d394d6c758d178147, type: 3}
+  - {fileID: 21300000, guid: d2a84549d4cc9432086dc743b6567aa1, type: 3}
+  - {fileID: 21300000, guid: 418ba6e93359b478d9258b91e8051651, type: 3}
+  - {fileID: 21300000, guid: 70a8002f21e594d7fa38496e07071193, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - lstn1
+  - lstn2
+  - lstn9
+  - lstn_
+  - lstn0
+  - lstn4
+  - lstn5
+  - lstn3
+  - lstn6
+  - lstn8
+  - lstn7
+  m_RenderDataMap: {}
+  m_Tag: LeagueStartTimeNum
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

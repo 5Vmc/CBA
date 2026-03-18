@@ -1,0 +1,55 @@
+
+fail.png
+size: 227, 465
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ball
+  rotate: false
+  xy: 2, 317
+  size: 147, 146
+  orig: 147, 146
+  offset: 0, 0
+  index: -1
+flag
+  rotate: true
+  xy: 99, 88
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+swing_11
+  rotate: true
+  xy: 151, 331
+  size: 132, 74
+  orig: 133, 74
+  offset: 0, 0
+  index: -1
+swing_12
+  rotate: true
+  xy: 2, 12
+  size: 119, 84
+  orig: 120, 85
+  offset: 1, 1
+  index: -1
+swing_21
+  rotate: true
+  xy: 151, 197
+  size: 132, 74
+  orig: 133, 74
+  offset: 1, 0
+  index: -1
+swing_22
+  rotate: false
+  xy: 88, 2
+  size: 118, 84
+  orig: 118, 85
+  offset: 0, 1
+  index: -1
+txt_fail
+  rotate: true
+  xy: 2, 133
+  size: 182, 95
+  orig: 188, 99
+  offset: 3, 2
+  index: -1
