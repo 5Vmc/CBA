@@ -11,12 +11,13 @@ namespace Babu.UI
         [SerializeField] List<TabViewElement> _tabViewElements;
         [SerializeField] int _defaultSelectedIndex = 0;
 
-        public new event Action<int> OnToggleChanged;
+        public event Action<int> OnToggleChanged;
 
         private int _curSelectedIndex = -1;
 
-        void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             for (int i = 0; i < _tabViewToggles.Count; i++)
             {
                 var toggle = _tabViewToggles[i];
@@ -38,8 +39,9 @@ namespace Babu.UI
             }
         }
 
-        void Start()
+        protected override void Start()
         {
+            base.Start();
             _tabViewToggles[_defaultSelectedIndex].isOn = true;
         }
 

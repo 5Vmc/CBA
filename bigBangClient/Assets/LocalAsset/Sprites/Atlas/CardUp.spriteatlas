@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CardUp
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,35 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - e3e649a0301bd48c7991e15679ed87e3: 21300000
+    - bca070d0b86f87d44adb9f2cd97f9d1a: 21300000
+    - 654933414c3ae4260b770132fe9cf7cc: 21300000
+    - 7b62ee026bbe849b897b413245cc5c8a: 21300000
+    - 31151a52b1b1f3a4a835bd9b77185b69: 21300000
+    - 82dbfce2fe9cd471bb77da7a1684955b: 21300000
+    - e17e36038e0a04630b8b03ee69d772cd: 21300000
+    - 65df3e0322c894be49c60d509b3d5f45: 21300000
+    - 0f6a7253c34621d439e5830d78adf5a8: 21300000
+    - 3b4ac1a3c3f0249738c08bb3e05e8d61: 21300000
+    - 16a03b7458ee84ff3abe13c248ddb523: 21300000
+    - 2a5e3b746a88d459f8c0b9db6df9991c: 21300000
+    - 7791cba5bc8d84cb4a054b482d78e342: 21300000
+    - 7a23c8b5ef4fd4ea0888beaf397d8489: 21300000
+    - ebc35fe56aaf5ae449951a8d799a2638: 21300000
+    - dd74b5a629dda4524abdda36fead85f4: 21300000
+    - bb4f56075d4df1c438d7aabd23cb21b8: 21300000
+    - 5ea0d82867e495444b26e94cb972e938: 21300000
+    - 2fa61b2888aa541238a5dc66c165b48a: 21300000
+    - 2360ced8e7187460e9aeba7bc3e67909: 21300000
+    - a6e9a809dae5c414893ef169611629ac: 21300000
+    - f5ed8089c02b5442ba9b4796054ffb3a: 21300000
+    - 96383b4a431964034b3017f1bcc5c4cb: 21300000
+    - b034d8abf50744d28ada642c64fccfe0: 21300000
+    - a0366b8da804649299178f38eb22c612: 21300000
+    - d47536fd700fcb3458b9be22a0839675: 21300000
+    - 77a24d1e7ad134d3ca514119602c4dba: 21300000
+    - 553c872e4e3cb4bd3aecf6bc5e656b51: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: e3e649a0301bd48c7991e15679ed87e3, type: 3}
@@ -135,4 +166,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: CardUp
   m_IsVariant: 0
-  m_IsPlaceholder: 0

@@ -6,8 +6,9 @@ namespace Babu.UI
     {
         StatusController _statusController;
 
-        void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _statusController = GetComponent<StatusController>();
             onValueChanged.AddListener((show) =>
             {

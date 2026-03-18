@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: League
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,23 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 23f81370d70d18546862721ee13930e5: 21300000
+    - 0c5c1a82e9fe1514cabcdd41bb7f3f5b: 21300000
+    - f2aabf82b58347f4d8aaebe5ff6d6a8c: 21300000
+    - 1b61774385172c24db8cbc08373864ab: 21300000
+    - 19fa376318645dc44bca745655b19285: 21300000
+    - b17b8575823e9564bbea6c2d2eafcbcf: 21300000
+    - 0e1c283994728ac4c80e2238ee1b6295: 21300000
+    - a8c387a987a2b6c4aa21b1b2377e28f2: 21300000
+    - 6e5c850a773f8374babd1c3dd977e8f7: 21300000
+    - 1667e54b853e8314caa713fceab06e82: 21300000
+    - fb90c77bc9c4bd04da45712de1371871: 21300000
+    - ffc200cb5b601804fb24241bd1c9f579: 21300000
+    - 0158883c2f0bc584e89905da1651e7ed: 21300000
+    - ed1716aea814b644f9901addd15290b1: 21300000
+    - 24d97a5f83cec664eaee29106eef9ca9: 21300000
+    - c7194e7f62cfe7d40ac5fd285f192be0: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 23f81370d70d18546862721ee13930e5, type: 3}
@@ -111,4 +130,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: League
   m_IsVariant: 0
-  m_IsPlaceholder: 0

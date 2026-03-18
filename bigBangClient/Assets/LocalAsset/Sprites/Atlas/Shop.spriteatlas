@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shop
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,32 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - e9589c80d91f90b4cae57d226ec218df: 21300000
+    - c37033d007525bc4a8667604d38da45d: 21300000
+    - 4478cb3277e070145903de8de2483785: 21300000
+    - 1c2aa9a2ecae08842886f5c0bcec0015: 21300000
+    - 9f49faf2c5c8d2147b104b17182c3f24: 21300000
+    - f6a46343bfba5674e8868ac27cbf0852: 21300000
+    - c796c473e8363874caffd09c42a6c751: 21300000
+    - 15a26b7317bb4734fa82c65830136eac: 21300000
+    - 6927fc837363ff64eadb31d56c8a7c1a: 21300000
+    - 0d1b980539c4f9b47910e908121eba7a: 21300000
+    - 19e0a0b55521fbc4b8861df3b2e89ab0: 21300000
+    - c9e19cf54ef744a4bb460c06335cb0dd: 21300000
+    - e9e3b437562947547a2aeb7de3d78d9b: 21300000
+    - ecc9deb79f6975f4e98f72c4d2ca0b72: 21300000
+    - 973aef38ddf0ca94988018ab2ae59d41: 21300000
+    - 8a27224a5d1b8b54b85f16c39e124a30: 21300000
+    - 9a09a12bb25fda8468e81a8110e0d130: 21300000
+    - 98a4ba0cc7bfc1e4391ed1517c729d4c: 21300000
+    - 986e041cfb67dac4194d4de5fa413cf9: 21300000
+    - 37e6472c2e5c2894e9430e40c6ea0757: 21300000
+    - c3b0d82cf2bbaf04995bd357d587400d: 21300000
+    - b7309e3c81fa9024ba1e0b0f8847dc8d: 21300000
+    - b084c40d365aac944868e3ca97772a5d: 21300000
+    - 9541e27de7bb49c46a9c952acacbe360: 21300000
+    - 5fa74d6f3bf3f4d40b5ecacb60042945: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: e9589c80d91f90b4cae57d226ec218df, type: 3}
@@ -129,4 +157,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Shop
   m_IsVariant: 0
-  m_IsPlaceholder: 0

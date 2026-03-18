@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Task
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,23 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d11818005ba47664d9f32ead9aa735c2: 21300000
+    - 0ba81001208c79b46ab9ee544a764c47: 21300000
+    - 5c76a411c4322774ea50fe35678320a2: 21300000
+    - ab0bb72142a8a04499f4dc067951d004: 21300000
+    - de851583bcd1f8246a62852eac565401: 21300000
+    - 110704c3927fd3c48b04e3cc618a0654: 21300000
+    - 25f7bf47881e6854b9739e4bdc8234a7: 21300000
+    - 18ee07489bdcb614da6dd55563e849bd: 21300000
+    - b0e5fc78d8323284ea050c921589484d: 21300000
+    - 3596ac4966e82e347b46ce6fb10f6adf: 21300000
+    - b69317da19fc8db48b967f80527dd500: 21300000
+    - 1552b8db5f417e14986b5c89cde750ef: 21300000
+    - 17bd2dace5ce38344a2c726b5d49f844: 21300000
+    - d5cb141e83965014eb40f7a67395067f: 21300000
+    - 94f148ce38fab6049addb69128626550: 21300000
+    - 8ada8bdfa609c684aa67408dcddf48e9: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: d11818005ba47664d9f32ead9aa735c2, type: 3}
@@ -111,4 +130,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Task
   m_IsVariant: 0
-  m_IsPlaceholder: 0

@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TrainUI
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,15 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 6e37b0d2bdfd4ca488fee210f5e93a6a: 21300000
+    - 8228b5b48f438f24193e41886d657953: 21300000
+    - 9180e12634b09e84eac1415cb0d4a4b1: 21300000
+    - b23156264788e4742aac4b99795d79a5: 21300000
+    - fee2d186e09dd974980666450669da63: 21300000
+    - 79cd1d9871623734cb8c1a2f23bb15f7: 21300000
+    - f63b9af97e8167e4794ad0bdb84a7adc: 21300000
+    - a503632c5bcc019458461775a4460479: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 6e37b0d2bdfd4ca488fee210f5e93a6a, type: 3}
@@ -95,4 +106,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: TrainUI
   m_IsVariant: 0
-  m_IsPlaceholder: 0

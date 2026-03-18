@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Scout
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,14 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 998ce3b020128d44c9b74cbfd397b654: 21300000
+    - c3516e02a64569f40a4eea7c83dc4413: 21300000
+    - 12b55332aa067264cba20aaf4340e005: 21300000
+    - 5b798dea640585d45a5f1b1f7de1e5ba: 21300000
+    - 3614e74b5632d4b378d292d248a5441f: 21300000
+    - 8d88539c00ef333429460c4202f51750: 21300000
+    - 40bfb1ff0bda1ad46b6f8dd3af8fccbc: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 998ce3b020128d44c9b74cbfd397b654, type: 3}
@@ -93,4 +103,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Scout
   m_IsVariant: 0
-  m_IsPlaceholder: 0

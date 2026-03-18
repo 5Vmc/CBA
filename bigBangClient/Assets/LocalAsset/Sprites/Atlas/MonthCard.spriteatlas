@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MonthCard
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,22 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 894df390169f34862b63bde24f5c1e28: 21300000
+    - 0868937185d6f4d84a6c1e7146b3c659: 21300000
+    - fd61b0829d9c0914cbe5bf579d93ab86: 21300000
+    - 858421f22fd53644c9cf90ec4518c1d6: 21300000
+    - e79466735a41b429aa098d89be134c78: 21300000
+    - 3a7e80a342bda054e980ad59bd394851: 21300000
+    - 4c49b544530144f4c809648cfc754db0: 21300000
+    - 90af83548d199454db36b4b55110784b: 21300000
+    - 044e1246d72ef4c4d9fcbcc65b39102a: 21300000
+    - 43cd5897d2160432e9450209a3f0e10b: 21300000
+    - 11b707b794294b848bb6ffa45bf6853d: 21300000
+    - 3562b9d7c34e5924aab8a0aa95d41a59: 21300000
+    - 386c3648b859f4c528da361c80032895: 21300000
+    - c0c5cc1e5dc666b4ba44999a2973cb3f: 21300000
+    - 3c2ce06e21fd4ed49bd7da9ec9ee6038: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 894df390169f34862b63bde24f5c1e28, type: 3}
@@ -109,4 +127,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: MonthCard
   m_IsVariant: 0
-  m_IsPlaceholder: 0

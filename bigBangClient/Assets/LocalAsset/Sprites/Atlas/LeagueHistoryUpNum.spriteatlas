@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LeagueHistoryUpNum
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,23 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3ee48d01b3a464d61b06e4e4c58a5418: 21300000
+    - fc49b9516028349b5bf2e944bd5fbef5: 21300000
+    - 18f8c103581db44b088928c219e57182: 21300000
+    - 6252ece58e9bc4414a63a701215cd799: 21300000
+    - 5e4d6d264589540108695962e6258f46: 21300000
+    - a5926b476415d4c079a39616b0eece0a: 21300000
+    - 7d91e967e7f5e465390beaa61d08dc2c: 21300000
+    - 450435876063b45948442d11555c0e70: 21300000
+    - 0b48970ad01f94966b139e789d9ca771: 21300000
+    - 3c1ed5ca4215d4bb881c283d21a91606: 21300000
+    - 6ebe43bb863854a5fa5e9f6b7b35a7f4: 21300000
+    - e41ed7bb48108411e894c5776ef0a689: 21300000
+    - aa3e4f2dd0f064b11b07542aa51996c0: 21300000
+    - 580d619d9cc5241e8a2be5e13914c653: 21300000
+    - 83bd096ef05a14a9a92914d8a46c26e8: 21300000
+    - b03dd8dece2db45c99bb543f270212a5: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 3ee48d01b3a464d61b06e4e4c58a5418, type: 3}
@@ -111,4 +130,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: LeagueHistoryUpNum
   m_IsVariant: 0
-  m_IsPlaceholder: 0

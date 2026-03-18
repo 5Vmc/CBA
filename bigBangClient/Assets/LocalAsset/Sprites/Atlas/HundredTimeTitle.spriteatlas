@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HundredTimeTitle
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,35 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 5244ef4127b664b4cb144d9122034854: 21300000
+    - eabc9351fb22d47ea9b5206947a32a20: 21300000
+    - fb6ed5814ddf84878b1ee370bd2140bd: 21300000
+    - e02f20911415a4ea1af8a31a91bfc347: 21300000
+    - c1c39cd3397874bff97edefef20ce1b1: 21300000
+    - f84155f38114e429aa3ca80d14494bc1: 21300000
+    - d8344544347ec42c28f6a428f384a22c: 21300000
+    - 0533d7d4f8adb4aa0a97524edca8fbbe: 21300000
+    - 95b668154fa474580a507e483624b385: 21300000
+    - 5a875d16fb76f4e4d97acec3df626e60: 21300000
+    - 952f824669f0d4e28a9adc8650c2da2c: 21300000
+    - 1bc38c76b269a443d952469459f05fec: 21300000
+    - 33012ec6d9c0e42cea70694c2c588ad2: 21300000
+    - 881fc0c79070949dfb1abb740fd937b2: 21300000
+    - 966c93a84959a46a69816b29f1fd4bb1: 21300000
+    - d04be9d83586f449ab0b11358225a564: 21300000
+    - 8cb506f81a43244d18efc6c86726a90d: 21300000
+    - 90769b19f956b4451898ffa3685f634e: 21300000
+    - 38e6025a20e4945a6abf512c859f6a95: 21300000
+    - 15fee86ad1afb4e58b0d5055d0ed0f81: 21300000
+    - 124fa2bb9b3cc4a45af8fa1281ea1ec5: 21300000
+    - 12c6f7bb4b79c4c51bfcca4eadb4193d: 21300000
+    - 7212c1cbb085d458c8a545a24138781e: 21300000
+    - f1daa89c6538946189dc16a6d7384cf8: 21300000
+    - be3d215db656a4330a40d050ac119f11: 21300000
+    - e5e5a4fd961af42e3a1edc5700bca45f: 21300000
+    - 1283e5ce010404a9d929cb796d0582a2: 21300000
+    - fab7c7de7555246b68c13e38e1ea663c: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 5244ef4127b664b4cb144d9122034854, type: 3}
@@ -135,4 +166,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: HundredTimeTitle
   m_IsVariant: 0
-  m_IsPlaceholder: 0

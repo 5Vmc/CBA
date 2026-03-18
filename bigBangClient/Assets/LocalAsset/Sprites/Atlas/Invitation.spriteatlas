@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Invitation
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -74,6 +76,24 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c84d2b806abb2de45beecf2f754e52c8: 21300000
+    - 4d8791b0e564c1d4eb9d2352e99b7b71: 21300000
+    - 8613ade05d547e540a2828985ec47a02: 21300000
+    - c79b0915278d6dd428733fdf4cbc0450: 21300000
+    - bef30796a4fee1d4eafc4db10f80436d: 21300000
+    - 3bd88d289db81424cb07520509d05db6: 21300000
+    - 1151498967b5ce44f9db5f60b4c1e0fb: 21300000
+    - e82a5ba9f2694c046af358b40b04136e: 21300000
+    - 58d0582a3ffbcd14f8c0f46c0fba8e1a: 21300000
+    - 61bdffca195ddba48af3227ed2bc758e: 21300000
+    - 1404675cbe4d45d4a94de410ace73506: 21300000
+    - 091599ac93aa8b545af0c06eace55618: 21300000
+    - 28ccf97d8a593624bae1846939d03063: 21300000
+    - e0d0904fa268bf64fbc7a502900f1bed: 21300000
+    - f50ec26f1392a4e318559403c88ca98a: 21300000
+    - 581d25bf266776949a027f74cd37863e: 21300000
+    - 3ee9f8cf7b658bb45bcb0baa5568d8a1: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: c84d2b806abb2de45beecf2f754e52c8, type: 3}
@@ -114,4 +134,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Invitation
   m_IsVariant: 0
-  m_IsPlaceholder: 0

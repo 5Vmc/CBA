@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PortraitYellow
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,54 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 1b638d317d9fa42a6a3ccce827b0834a: 21300000
+    - 8a3249410dd2b4c1d9784f35ee1b6996: 21300000
+    - b9038f41b9ff84854a753cf6768d8258: 21300000
+    - f0a1736106a74d64984818e8240cecfc: 21300000
+    - bf6329a1e3801d04cb42b870741a0c31: 21300000
+    - 2b4fadc1c98f74c708a1873b501b7b0c: 21300000
+    - 875433f1e4cbf274c97c88ed044c5086: 21300000
+    - 8319cf024e3234c7298ec1d345dd7246: 21300000
+    - 09860182cd3374a5990c1c78948ec9ff: 21300000
+    - 15797f03077b340c788553203d75f457: 21300000
+    - c6b1a7137c0b04ffd90a270aa1bf5991: 21300000
+    - ede44d8373601ef48a0264adf7b91ec2: 21300000
+    - 08bdd2c32d0dd40459a947a7edcfaa3c: 21300000
+    - 0585bce39940d4027b6525c5de13bf1a: 21300000
+    - 01938404b268e4957893387c7e02b46a: 21300000
+    - 32f3a3748730f43c18bf0001ac8b677a: 21300000
+    - bf670975b4a0c4182ac1a94fb80fc1af: 21300000
+    - bcaa1746fd57e4d21a02361d6d7aa01d: 21300000
+    - cc18d5a6f1f844f7ab82f2bde7d6bf72: 21300000
+    - dd185017558b54238a96db9a7f1d0d37: 21300000
+    - 95e56197ea40541188f3e7d831c15ce8: 21300000
+    - 9470e5a7d58264c099fed5345ecc578e: 21300000
+    - c4bd365844ee04a8a898b8daffec056a: 21300000
+    - 1d1b49a8e0d79b140a933fba5395d93b: 21300000
+    - 63df5d190bdf54230beec680153db7f3: 21300000
+    - b5c9ecc9b046a48bfbf444b17f29d14d: 21300000
+    - 2309eb4a3e40643c09b49f474b84907f: 21300000
+    - cef55dfae3d325a4283b6920568f7d85: 21300000
+    - 964b1d6bd39124ec38bd95193474013f: 21300000
+    - ef1283abcba194d55b6d98bdf3da1010: 21300000
+    - 225522cb64b9344a59e22bc7ef87961b: 21300000
+    - 47cb66db32231480cafafdb7a6f06f98: 21300000
+    - 36df38ebbbeb44a399bd81f10e95c511: 21300000
+    - 70aea3ac0435948259d84afd7b04a613: 21300000
+    - 1ab657acd1ae3d34e8dd4b4f81719161: 21300000
+    - 91d0f9fc75d3c466a95ce0d5c0405185: 21300000
+    - 65f4840d3e0fe496abdbc44cbba2130d: 21300000
+    - 24cec2ed54739454c9e2066e0056b3e6: 21300000
+    - c8ce390e0840145679a9c798b5afbe82: 21300000
+    - 65f2723ee265a4019881f165b3cbaf1b: 21300000
+    - 17772a3e3893d477e9943d681cf1c715: 21300000
+    - 3309035e63f9849a7bfaf610dc2518f4: 21300000
+    - a2507f7e147e2467691dcf07285c8cee: 21300000
+    - 414799be028d84b398b930863dea21ab: 21300000
+    - dcdc602f3ad2c48fda8b4ddcfa6f767b: 21300000
+    - 9793f13fa7c0c40bdb5a27af3bebb902: 21300000
+    - b76a777f7d61b4ef6b0535402782c900: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 1b638d317d9fa42a6a3ccce827b0834a, type: 3}
@@ -173,4 +223,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: PortraitYellow
   m_IsVariant: 0
-  m_IsPlaceholder: 0

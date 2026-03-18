@@ -1,4 +1,6 @@
 using System.Collections;
+using System;
+using System.Reflection;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -12,6 +14,9 @@ namespace Babu
     /// </summary>
     public class UnityHttpServiceFix : BabuSingleton<UnityHttpServiceFix>
     {
+        static PropertyInfo insecureHttpOptionProperty;
+        static Type insecureHttpOptionEnumType;
+
         public delegate void HttpResponseCallback(bool result, string response);
 
         public void AsyncGet(string url, HttpResponseCallback callback, int timeout = 2)
@@ -26,8 +31,10 @@ namespace Babu
 
         IEnumerator AsyncGetInner(string url, ArrayList headers, HttpResponseCallback callback, int timeout = 2)
         {
+            url = NormalizeUrl(url);
             Debug.Log("Request Url: " + url);
             using UnityWebRequest request = UnityWebRequest.Get(url);
+            ConfigureInsecureHttpIfNeeded(request, url);
             request.timeout = timeout;
             if (headers != null && headers.Count > 0)
             {
@@ -92,9 +99,11 @@ namespace Babu
 
         IEnumerator AsyncPostInner(string url, string contentType, ArrayList headers, byte[] data, HttpResponseCallback callback, int timeout = 2)
         {
+            url = NormalizeUrl(url);
             Debug.Log("Request Url: " + url);
             //Debug.Log("Request Data: " + Encoding.UTF8.GetString(data));
             using UnityWebRequest request = new UnityWebRequest(url, "POST");
+            ConfigureInsecureHttpIfNeeded(request, url);
             request.uploadHandler?.Dispose();
             using UploadHandler uploadHandler = (UploadHandler)new UploadHandlerRaw(data);
             request.uploadHandler = uploadHandler;
@@ -128,6 +137,60 @@ namespace Babu
             else
             {
                 callback(true, request.downloadHandler.text);
+            }
+        }
+
+        static string NormalizeUrl(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url) || url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) == false)
+            {
+                return url;
+            }
+
+            if (Uri.TryCreate(url, UriKind.Absolute, out Uri uri) == false)
+            {
+                return url;
+            }
+
+            // Production domains already have HTTPS endpoints, so upgrade them proactively.
+            if (uri.Host.EndsWith("ximiplay.com", StringComparison.OrdinalIgnoreCase) ||
+                uri.Host.EndsWith("babuyo.com", StringComparison.OrdinalIgnoreCase) ||
+                uri.Host.EndsWith("migunft.hzboyoutech.com", StringComparison.OrdinalIgnoreCase))
+            {
+                return "https://" + url.Substring("http://".Length);
+            }
+
+            return url;
+        }
+
+        static void ConfigureInsecureHttpIfNeeded(UnityWebRequest request, string url)
+        {
+            if (request == null || string.IsNullOrWhiteSpace(url) || url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) == false)
+            {
+                return;
+            }
+
+            insecureHttpOptionProperty ??= typeof(UnityWebRequest).GetProperty("insecureHttpOption", BindingFlags.Instance | BindingFlags.Public);
+            if (insecureHttpOptionProperty == null)
+            {
+                return;
+            }
+
+            insecureHttpOptionEnumType ??= insecureHttpOptionProperty.PropertyType;
+            if (insecureHttpOptionEnumType == null || insecureHttpOptionEnumType.IsEnum == false)
+            {
+                return;
+            }
+
+            try
+            {
+                object option = Enum.Parse(insecureHttpOptionEnumType, "AlwaysAllowed");
+                insecureHttpOptionProperty.SetValue(request, option);
+                Debug.LogWarning($"Plain HTTP enabled for request: {url}");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"Failed to configure insecure HTTP option for request: {url}. {ex.Message}");
             }
         }
     }

@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UnlockTrain
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -49,6 +49,17 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - cec954a26afebc74cbcad5b8e7057f5c: 21300000
+    - 463c9414cef933b41acebeb6644344c3: 21300000
+    - 41272de4b977f6249a79aba19d71a968: 21300000
+    - 86506555cf63c184b99a21b15adb6219: 21300000
+    - 08adb5c6e8c147545b208aee112a3b40: 21300000
+    - 3600b3c85c0a278488965e1f4d037c9b: 21300000
+    - 6b93137a227f56a4796368a4074e57d2: 21300000
+    - cd4a0ecab21fd2a47837a883f0da2086: 21300000
+    - ee355f5ba6c79974f8165a0c71fc0c07: 21300000
+    - 373e297e67e15ad42a9d2eb851d6f641: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: cec954a26afebc74cbcad5b8e7057f5c, type: 3}
@@ -75,4 +86,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: UnlockTrain
   m_IsVariant: 0
-  m_IsPlaceholder: 0

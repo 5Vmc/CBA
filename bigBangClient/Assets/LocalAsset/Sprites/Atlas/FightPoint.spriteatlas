@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FightPoint
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,40 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f426ff70b27f0a840874bba582b7fb9b: 21300000
+    - 0d2aa3b1319097b4e9b200665e168b82: 21300000
+    - 5738e8f1afeae2545a0927a39dca1f54: 21300000
+    - 8f97fc625bb6d2c45803910e69f79af4: 21300000
+    - feb3f2c29a1547144add9102c503912d: 21300000
+    - 0deeb6c228d8a884085f011c39c0baca: 21300000
+    - 8adab7032f4d140409e630d189c27972: 21300000
+    - fde3eb33cb7f093448a4d4b4b52107d1: 21300000
+    - 9bfb9aa3122e63b4bae649ba13d09563: 21300000
+    - 4a8f2624fef732c4c8f336b3995c9494: 21300000
+    - f56b2054a09a74f408043872dd25b42d: 21300000
+    - d50be3546e69406409d39ec14ee3fe5c: 21300000
+    - a840b464821c6c9408e22f26d4325348: 21300000
+    - 1d9eba941444dfd4fa4dac96b83c8699: 21300000
+    - b2bb43b4082631241930c81c2b79626c: 21300000
+    - 5cf434d469f540a488cce97c62477f27: 21300000
+    - c2eac0065a5cb5545860d2343a72ebc8: 21300000
+    - 79a02726ff081614e8698abd931e4a6f: 21300000
+    - 9c7ff237cebac284081d80ae00662470: 21300000
+    - 5f051ef7f555c0442a1669d40669610b: 21300000
+    - 46ab3e389a79f8147bc5e1807cfc1081: 21300000
+    - 7401c6e879ce040429372e136b3929f5: 21300000
+    - d875fc398bc39d34a97ef057686a5fb4: 21300000
+    - 95b705a96decbb6439d79b6cb6b9d8db: 21300000
+    - 512650c9c892f7741a6d2f3a963036d4: 21300000
+    - 7f16be6a5ed996b49b23ae4233090398: 21300000
+    - 6fd7267b0efe9194eba5923fc49e6749: 21300000
+    - b3cbc88b526e6bc49868c0809ce2f21e: 21300000
+    - 7881fcbb9da5b924f983df0917ac8e6f: 21300000
+    - f90bbddbba3fc0e4a8b90011d8478d82: 21300000
+    - be94838d16ec98d40b598c82304922b5: 21300000
+    - 65ca4abd3535ea140bc0e5859000a486: 21300000
+    - 37d9b0ede9d7d914fba86be921cf1d8a: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: f426ff70b27f0a840874bba582b7fb9b, type: 3}
@@ -145,4 +181,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: FightPoint
   m_IsVariant: 0
-  m_IsPlaceholder: 0

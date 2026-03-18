@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Public
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,23 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - ea579ba00750540ab85595d7162f471e: 21300000
+    - 727809b2559df4af6afde0118a74f524: 21300000
+    - 56a652d276ae5470e8ab335e7df920a3: 21300000
+    - ffa4ee9364d174675beb555e206da582: 21300000
+    - ea7e5ab37917a48d196a8a1060ec6604: 21300000
+    - 3910ef04a8c3641b5a3b10d705fa6a40: 21300000
+    - 5242a0f4cde384a7d91cf9f67289c98f: 21300000
+    - c434de35cf796425c8bda27ab3863f25: 21300000
+    - 88614ba680a184819921fc295f7f8cb8: 21300000
+    - b6c273177a8f0491fa1a67561c2d380f: 21300000
+    - 3e32f6b7e123f4b62847be4f91e8aef3: 21300000
+    - 6f577ab7de870470db05f4fa15e076d1: 21300000
+    - 1b4634c7f1f9d430a94d5537473ae7e1: 21300000
+    - 5d84b1d9277ae4bbe872f5d567c18787: 21300000
+    - 0547608a9b5004babb513b2f16bbe79b: 21300000
+    - b549ac6ba3fe1446aad4bd3bf50b089c: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: ea579ba00750540ab85595d7162f471e, type: 3}
@@ -111,4 +130,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Public
   m_IsVariant: 0
-  m_IsPlaceholder: 0

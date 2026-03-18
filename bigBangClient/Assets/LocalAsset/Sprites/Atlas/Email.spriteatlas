@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Email
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,18 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 7de2bbb21f2209940acdd9e4ef639478: 21300000
+    - ba65881480eda364690b159d6a498962: 21300000
+    - 17f23db4f030a6442b7944eb283437e5: 21300000
+    - cdc8d1857481d464b9770ca951d87f8e: 21300000
+    - 6ab46ef58bf7d1a42b97298019cb5e62: 21300000
+    - edc11996d7f032e41bf0adeea272b4a6: 21300000
+    - 816e3688ddc6a434e9159e03ae809b61: 21300000
+    - 781e5d6995f0b134db6587ed48296970: 21300000
+    - a0fb25cc8196902408c2f57a82974661: 21300000
+    - 5bfa94ec64d09fa4d94dd6d5e99a2344: 21300000
+    - 5e7eaacf3b8a8464a886a4237df2b4d3: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 7de2bbb21f2209940acdd9e4ef639478, type: 3}
@@ -101,4 +115,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Email
   m_IsVariant: 0
-  m_IsPlaceholder: 0

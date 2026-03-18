@@ -1,6 +1,4 @@
 
-
-using System.Security.Policy;
 /**
 * 定义服务器地址
 */
@@ -45,9 +43,10 @@ namespace BigBang
 #else
                     UsedServerHostUrl = ServerHostOnline;
 #endif
-                    UnityEngine.PlayerPrefs.SetString("ServerHostUrl", UsedServerHostUrl);
                 }
 
+                UsedServerHostUrl = NormalizeServerUrl(UsedServerHostUrl);
+                UnityEngine.PlayerPrefs.SetString("ServerHostUrl", UsedServerHostUrl);
                 UnityEngine.Debug.Log("UsedServerHostUrl = " + UsedServerHostUrl);
                 return UsedServerHostUrl;
             }
@@ -65,12 +64,31 @@ namespace BigBang
 #else
                     UsedServerBattleHostUrl = ServerBattleHostOnline;
 #endif
-                    UnityEngine.PlayerPrefs.SetString("ServerBattleHostUrl", UsedServerBattleHostUrl);
                 }
 
+                UsedServerBattleHostUrl = NormalizeServerUrl(UsedServerBattleHostUrl);
+                UnityEngine.PlayerPrefs.SetString("ServerBattleHostUrl", UsedServerBattleHostUrl);
                 UnityEngine.Debug.Log("UsedServerBattleHostUrl = " + UsedServerBattleHostUrl);
                 return UsedServerBattleHostUrl;
             }
+        }
+
+        static string NormalizeServerUrl(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                return url;
+            }
+
+            if (url.StartsWith("http://cba.gateway.ximiplay.com", System.StringComparison.OrdinalIgnoreCase) ||
+                url.StartsWith("http://cba.playback.ximiplay.com", System.StringComparison.OrdinalIgnoreCase) ||
+                url.StartsWith("http://gateway.migunft.hzboyoutech.com", System.StringComparison.OrdinalIgnoreCase) ||
+                url.StartsWith("http://battle.migunft.hzboyoutech.com", System.StringComparison.OrdinalIgnoreCase))
+            {
+                return "https://" + url.Substring("http://".Length);
+            }
+
+            return url;
         }
 
         public const string LOG_KEY = "CBA202403";

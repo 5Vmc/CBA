@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Arena
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,33 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 934aa3e079b1641ceae46f23a2468bec: 21300000
+    - eb0769f016c4042d49961be11ac43b9d: 21300000
+    - c7ed0151e58de46f0b536d1ccac839a3: 21300000
+    - 74fb38918cefb4454a7f010e6d67c587: 21300000
+    - 2dcc85e1c155041e1bb659ec1bd9c958: 21300000
+    - a61f3a4250ffb41a998196c154481944: 21300000
+    - 687717f2544494eb5a1a02227ebeaac5: 21300000
+    - 945a3b93cb2844bb4bf1585ee3efff39: 21300000
+    - 3673cf9475bf54d5fb713ad5b2cba717: 21300000
+    - 4eb908e41d1d24c608700fcfe9c1cfa8: 21300000
+    - 6bf27735538bd7d4aa2e65086620a7dd: 21300000
+    - c9a4b47586af14a5996518122f1c62ea: 21300000
+    - 49e89f85ac23f431993a9b0009dd4336: 21300000
+    - ea10d996f9bd347e8934bbc68080a28a: 21300000
+    - 790ea877949c248e18ba740e28d82084: 21300000
+    - c30d1818474874df799eb6e5e1e7a7fa: 21300000
+    - 11492be9c70a30c4ebcf010c08ca78ea: 21300000
+    - 4646f65a2f2db44cd9f3a5bb1746ed72: 21300000
+    - 6faa11bbc97e046eb9a00dfa5c205fe1: 21300000
+    - 33b1ac1c617884d1d93b99c966b41d3e: 21300000
+    - 559d5a6c063e14a9693753df786c54a6: 21300000
+    - 3f4f7e0e6c8764701accfa2c62c6a4f4: 21300000
+    - af43ff0e205cb4385a28b86193f83a64: 21300000
+    - 9c04697efa1b5444793c2be2ac4bcde6: 21300000
+    - d4eb33fea95dc4fdba77df7724cf4069: 21300000
+    - e8c89bcf93e3b4b248e12eee47048f66: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 934aa3e079b1641ceae46f23a2468bec, type: 3}
@@ -131,4 +160,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Arena
   m_IsVariant: 0
-  m_IsPlaceholder: 0

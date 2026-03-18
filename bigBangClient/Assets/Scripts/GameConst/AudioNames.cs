@@ -8,9 +8,6 @@ namespace BigBang
 {
     public class AudioNames
     {
-        public const string OPENREDENVELOPE = "OpenRedEnvelope.mp3";
-        public const string SPRINGFESTIVALBG = "SpringFestivalBg.mp3";
-        public const string A_SHORT_A_LONG = "a_short_a_long.ogg";
         public const string ANI_BBBOARDREF = "ani_bbboardref.ogg";
         public const string ANI_BBBTNPOP = "ani_bbbtnpop.ogg";
         public const string ANI_BBBTNSHUT_STANDBY = "ani_bbbtnshut_standby.ogg";
@@ -24,9 +21,9 @@ namespace BigBang
         public const string ANI_QUICKCD = "ani_quickcd.ogg";
         public const string ANI_SCOUT = "ani_scout.ogg";
         public const string ANI_SCOUT10_SHOW_UP = "ani_scout10_show_up.ogg";
+        public const string ANI_SCOUTFRAG = "ani_scoutfrag.ogg";
         public const string ANI_SCOUT_DING = "ani_scout_ding.ogg";
         public const string ANI_SCOUT_SHOW_UP = "ani_scout_show_up.ogg";
-        public const string ANI_SCOUTFRAG = "ani_scoutfrag.ogg";
         public const string ANI_SETSQUAD = "ani_setsquad.ogg";
         public const string ANI_STUDYLIST = "ani_studylist.ogg";
         public const string ANI_TECHBOARDPOP = "ani_techboardpop.ogg";
@@ -34,6 +31,7 @@ namespace BigBang
         public const string ANI_TIPS = "ani_tips.ogg";
         public const string ANI_TLIST = "ani_tlist.ogg";
         public const string ANI_UNLOCKSKILL = "ani_unlockskill.ogg";
+        public const string A_SHORT_A_LONG = "a_short_a_long.ogg";
         public const string BACK_TLIST = "back_tlist.ogg";
         public const string BATTLE_BALL_HIT_GROUND = "battle_ball_hit_ground.mp3";
         public const string BATTLE_BG = "battle_bg.ogg";
@@ -44,13 +42,13 @@ namespace BigBang
         public const string BATTLE_HIT_IRONFRAME = "battle_hit_ironFrame.mp3";
         public const string BATTLE_SLAM = "battle_slam.mp3";
         public const string BATTLE_START_WHISTLE = "battle_start_whistle.mp3";
-        public const string BG_BIGBANG_LOOP = "bg_bigbang_Loop.ogg";
         public const string BGM_HOME = "bgm_home.ogg";
         public const string BGM_TRAINING = "bgm_training.ogg";
+        public const string BG_BIGBANG_LOOP = "bg_bigbang_Loop.ogg";
         public const string BIBI = "bibi.mp3";
+        public const string BOARDINFO_POP = "boardinfo_pop.ogg";
         public const string BOARD_POP = "board_pop.ogg";
         public const string BOARD_SHUT = "board_shut.ogg";
-        public const string BOARDINFO_POP = "boardinfo_pop.ogg";
         public const string BTN_1 = "btn_1.ogg";
         public const string BTN_2 = "btn_2.ogg";
         public const string BTN_3 = "btn_3.ogg";
@@ -100,12 +98,14 @@ namespace BigBang
         public const string LONG_WHISTLE = "long_whistle.ogg";
         public const string MATCHVSINFO_POP = "matchvsinfo_pop.ogg";
         public const string MEETING_CHATPOP = "meeting_chatpop.ogg";
+        public const string OPENREDENVELOPE = "OpenRedEnvelope.mp3";
         public const string PLANE = "plane.mp3";
         public const string RSLT_INFO = "rslt_info.ogg";
         public const string RSLT_WIN_01 = "rslt_win_01.ogg";
         public const string RSLT_WIN_02 = "rslt_win_02.ogg";
         public const string RSLT_WIN_03 = "rslt_win_03.ogg";
         public const string SHORT_WHISTLE = "short_whistle.ogg";
+        public const string SPRINGFESTIVALBG = "SpringFestivalBg.mp3";
         public const string SWITCH_COL = "switch_col.ogg";
         public const string SWITCH_HOME = "switch_home.ogg";
         public const string SWITCH_MAX_1 = "switch_max_1.ogg";

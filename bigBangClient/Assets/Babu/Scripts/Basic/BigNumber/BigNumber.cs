@@ -363,6 +363,16 @@ namespace Babu.BigNumber
             return $"{{{Value} {UnitId}}}";
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is BigNumber other && this == other;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Value, UnitId);
+        }
+
         public BigNumber Clone()
         {
             return new BigNumber(this.Value, this.UnitId);

@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HundredStageTitle
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,26 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a7a91f0010d4d44c593263587a951ab6: 21300000
+    - 14b6fe204c02f44d2a7131940d6b4da6: 21300000
+    - d2f69fe228bc740a884222954b4918ad: 21300000
+    - a8063c34ffa074eeb8538b2538aa17ce: 21300000
+    - ce6009154a34143e4877c2a2a2fdac89: 21300000
+    - d4e64695d9b8a45b88fb00bade4fd32c: 21300000
+    - 9d778386a80934bca8e894d7ed21846a: 21300000
+    - 3283829774d864b848ff69e3267e7584: 21300000
+    - 62ec5a38091c34e05bd1a48a13dbb604: 21300000
+    - 1c2a7c29c86ac430abd4155446b05eb0: 21300000
+    - 1a9f226a4a3c548f5905c0693715813a: 21300000
+    - 9a850dcad6c41409a91a7fdb90faef77: 21300000
+    - 16e9d04b7af134e9ebd41f3a7804576a: 21300000
+    - 7ff88c8ba225744a79b635bfdde417a7: 21300000
+    - cf78ba2ca80194aa4af71e196fd99bc3: 21300000
+    - d246ce2eab97e4704b30588414a47053: 21300000
+    - a1640b5ed6a4340ea88e49e3b2f5f8d1: 21300000
+    - a51939eeb067045b698708f23e2df210: 21300000
+    - f779492f6d4c64e80ae6b68b359b2e65: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: a7a91f0010d4d44c593263587a951ab6, type: 3}
@@ -117,4 +139,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: HundredStageTitle
   m_IsVariant: 0
-  m_IsPlaceholder: 0

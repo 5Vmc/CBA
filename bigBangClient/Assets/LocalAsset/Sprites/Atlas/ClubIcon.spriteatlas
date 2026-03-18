@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ClubIcon
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,42 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 76580c009e6fe493286881a80bf23aa9: 21300000
+    - 7351f090db3c34aa4b66a123228c2a6c: 21300000
+    - 8356c7712015840499c7cb642aa4815c: 21300000
+    - 89be08818bd3a4c2cb45f29df792a692: 21300000
+    - 85bf95b1399664a10ad4695f09615a9a: 21300000
+    - d2600c02b908b4af5ab1dc3235beb455: 21300000
+    - d23d394259aee465fb0ac2f3c7f8c5bb: 21300000
+    - be761623f381d4c5aaa3895258ece8aa: 21300000
+    - af002534a24b04b7cbc900e59553b864: 21300000
+    - d9fd1f54ae9dd4ba49adbc0457157af3: 21300000
+    - e5cbc485298d341209f414d6b0f10b3b: 21300000
+    - 53b378b5deeda4d63ba563fd46e0ecaa: 21300000
+    - a530e8061bbab4107abda3a8c57a8548: 21300000
+    - 030c6b66825474aff999ed636f8279bc: 21300000
+    - 02d249c643f784675b42235a9391879a: 21300000
+    - ba539837c0461442098e126af1fd0ecb: 21300000
+    - 03403ca72afc547009d5f698eebbe2cb: 21300000
+    - 868543b861a1c43d6a6f3a652d78bbdb: 21300000
+    - 4e20a9b89530c4dfb87ebb6bf151a2b5: 21300000
+    - a15c60c8b602a46daa24a8d16237d964: 21300000
+    - 31119b898c8ba4a06919ee0b8aee5536: 21300000
+    - 9efc4faa4a0b74b9b867f2d6c7339b3c: 21300000
+    - ccd413ca151c1464280915bd3526669c: 21300000
+    - e096396b4a4364389836cdbd144b222f: 21300000
+    - 1670867c49360408188fd4a11f0cbc4a: 21300000
+    - 361037bcf9e8e7647aeb87af788d00ca: 21300000
+    - 0d4e462dfa9914ac5b267607531d95ea: 21300000
+    - 66bfe3adc8d7040dba6e1bad7c325f0a: 21300000
+    - 360e862e487eb415fb8c7d5940b33ba3: 21300000
+    - a37cec3e0569043ababfbab8ba527233: 21300000
+    - 39d2e87e213dd514f8bd9335b460fb6d: 21300000
+    - 60f9d5eea1d7f4c6a9fe346edd2dd4c8: 21300000
+    - f50ec26f1392a4e318559403c88ca98a: 21300000
+    - d9749a6fd36a54993a253cdb4d372c0d: 21300000
+    - 00db4d9f92cdb4a1caa023253288e251: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 76580c009e6fe493286881a80bf23aa9, type: 3}
@@ -149,4 +187,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: ClubIcon
   m_IsVariant: 0
-  m_IsPlaceholder: 0

@@ -7,7 +7,6 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HonourCup
-  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -32,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -44,6 +44,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     - serializedVersion: 3
@@ -56,6 +57,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -73,6 +75,33 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b77d2200bdcfb47a3a2a0df93dc1ce6d: 21300000
+    - 16fa5ae2cdbcd4fb1a8b52ff0c80b52d: 21300000
+    - 00af5353eb4eb4d598c23db5d85bc4dd: 21300000
+    - d743ad530bf094362bddeabd9d3a8ebc: 21300000
+    - 2d4a8283ad57d46d29145565a7aa850b: 21300000
+    - 2f502693ca7ab4dba896c936d9d48264: 21300000
+    - e0dfa4a37bf224ca5a7cf9ef952dd2a8: 21300000
+    - 1753d5d30844544f58613f6ea701ea0c: 21300000
+    - 0f3d7e7449580442da11ad17447dd37f: 21300000
+    - acbd15c4543824834b3d4433fe12a5d4: 21300000
+    - 61f589f50e53348838b86478eb3ea399: 21300000
+    - bc242e47eb84b4cbe94f8a4c39fac225: 21300000
+    - f1036b678ff6e434d931e0a24a692ab4: 21300000
+    - 9b1de5d7d5b7540c28abb7d0b3998269: 21300000
+    - 3498f808e2dcd4268ae145fade2ea2e9: 21300000
+    - d2a8e9c8fd3774c2681a6edbe42e4c6a: 21300000
+    - df8288d8d5c654c76a1a045862eb78f4: 21300000
+    - 2569cb994bb484ad69cbc9d803b01085: 21300000
+    - bec191e9c312742908582632d0be971a: 21300000
+    - b432eb5b88655484eb3b1a7cfdcf00bd: 21300000
+    - ca20d60c087064f37a1b10c5a3cd59c9: 21300000
+    - 31ba944cf05154a68837506d52b90a75: 21300000
+    - 2fd98e3d8443c4e678f70018a9ba4e6d: 21300000
+    - c9ea5c6e41d5b425798c1eec10f67885: 21300000
+    - 6e95f00f826454957b77a549a6343b2b: 21300000
+    - a771134ff9f4c476aaace4ac292ad086: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: b77d2200bdcfb47a3a2a0df93dc1ce6d, type: 3}
@@ -131,4 +160,3 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: HonourCup
   m_IsVariant: 0
-  m_IsPlaceholder: 0
