@@ -1,0 +1,12 @@
+﻿Id,Desc,DescPart1,DescPart2,DescOperator,EffectTrainId,TrainIconName
+0,全体球员属性,全体属性,加成,+,99,All
+9,身体属性,身体,加成,+,1,Body
+3,传球属性,传球,加成,+,2,Pass
+6,防守属性,防守,加成,+,3,Defence
+8,扣篮属性,扣篮,加成,+,4,Dunk
+2,篮板属性,篮板,加成,+,5,Rebound
+1,投篮属性,投篮,加成,+,6,Shoot
+5,抢断属性,抢断,加成,+,7,Steal
+4,控球属性,控球,加成,+,8,Control
+7,盖帽属性,盖帽,加成,+,9,Block
+10,稳定属性,稳定,加成,+,10,Stable

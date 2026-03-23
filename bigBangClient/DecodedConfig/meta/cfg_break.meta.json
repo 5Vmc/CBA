@@ -1,0 +1,54 @@
+{
+  "class_name": "BreakConfig",
+  "table_name": "cfg_break",
+  "field_count": 9,
+  "row_count": 3520,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TrainId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BreakIndex",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TargetLevel",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BuffType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BuffValue",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "CardBuffType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CardBuffValue",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "CardTotalValue",
+      "type": "float",
+      "reader": "GetFloat32"
+    }
+  ]
+}

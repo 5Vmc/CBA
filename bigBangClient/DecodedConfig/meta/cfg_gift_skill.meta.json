@@ -1,0 +1,89 @@
+{
+  "class_name": "GiftSkillConfig",
+  "table_name": "cfg_gift_skill",
+  "field_count": 16,
+  "row_count": 1710,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Skindex",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Sklv",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Action",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Actparam",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Actobj",
+      "type": "string[]",
+      "reader": "GetStringArray"
+    },
+    {
+      "name": "Side",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "When",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Wparam2",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Wparam1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Bufftime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Time",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Fire",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "class_name": "TaskConfig",
+  "table_name": "cfg_task",
+  "field_count": 13,
+  "row_count": 238,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "NextTask",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TriggerId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CompareType",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Condition",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Point",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Way",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Moduleid",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Zlpoint",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "IsHide",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "class_name": "TacticsConfig",
+  "table_name": "cfg_tactics",
+  "field_count": 7,
+  "row_count": 10,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Restrain",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "MainPosition",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Restrain1",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

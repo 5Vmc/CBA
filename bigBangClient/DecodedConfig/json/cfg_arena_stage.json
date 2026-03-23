@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 9,
+    "Name": "S级",
+    "Icon": "badge9",
+    "Score": 8000,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 8,
+    "Name": "A级",
+    "Icon": "badge8",
+    "Score": 7000,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 7,
+    "Name": "B级",
+    "Icon": "badge7",
+    "Score": 6000,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 6,
+    "Name": "C1级",
+    "Icon": "badge6",
+    "Score": 5000,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 5,
+    "Name": "C2级",
+    "Icon": "badge5",
+    "Score": 4000,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 4,
+    "Name": "C3级",
+    "Icon": "badge4",
+    "Score": 1500,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 3,
+    "Name": "D1级",
+    "Icon": "badge3",
+    "Score": 800,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 2,
+    "Name": "D2级",
+    "Icon": "badge2",
+    "Score": 300,
+    "NextInitStage": 1
+  },
+  {
+    "Id": 1,
+    "Name": "D3级",
+    "Icon": "badge1",
+    "Score": 0,
+    "NextInitStage": 1
+  }
+]

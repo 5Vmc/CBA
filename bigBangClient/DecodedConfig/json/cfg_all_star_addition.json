@@ -1,0 +1,1112 @@
+[
+  {
+    "Id": 104001,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 104002,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104003,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 104004,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 104005,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104006,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104007,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 104008,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104009,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104010,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 104011,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104012,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104013,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 104014,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104015,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104016,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 104017,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 104018,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104019,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104020,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 104022,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5,
+      4
+    ]
+  },
+  {
+    "Id": 104023,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104024,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 104025,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 104026,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5,
+      4
+    ]
+  },
+  {
+    "Id": 104027,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 104028,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 104029,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      2
+    ]
+  },
+  {
+    "Id": 104030,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3,
+      2
+    ]
+  },
+  {
+    "Id": 104031,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 104032,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 104033,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 104034,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 104035,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104036,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 104037,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 104038,
+    "Type": 2,
+    "Addition": 3.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 104039,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 104040,
+    "Type": 1,
+    "Addition": 5.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 104041,
+    "Type": 1,
+    "Addition": 5.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103001,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 103002,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103003,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5,
+      4
+    ]
+  },
+  {
+    "Id": 103004,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103005,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103006,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 103007,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 103008,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103009,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5,
+      4
+    ]
+  },
+  {
+    "Id": 103010,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 103011,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 103012,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 103013,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 103014,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 103015,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103016,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103017,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 103018,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 103019,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 103020,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 103021,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103022,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103023,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 103024,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103025,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 103026,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103027,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 103028,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103029,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103030,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 103031,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 103032,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 103033,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103034,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103035,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 103036,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 103037,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 103038,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 103039,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 103040,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103041,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 103042,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 102001,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 102002,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 102003,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 102004,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3,
+      1
+    ]
+  },
+  {
+    "Id": 102005,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 102006,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2
+    ]
+  },
+  {
+    "Id": 102007,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 102008,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 102009,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 102010,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 102011,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 102012,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 102013,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 102014,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 102015,
+    "Type": 3,
+    "Addition": 2.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 102016,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 102017,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 101001,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 101002,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 101003,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 101004,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 101005,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      2
+    ]
+  },
+  {
+    "Id": 101006,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 101007,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      4
+    ]
+  },
+  {
+    "Id": 101008,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      4
+    ]
+  },
+  {
+    "Id": 101009,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 101010,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      1
+    ]
+  },
+  {
+    "Id": 101011,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 101012,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      3
+    ]
+  },
+  {
+    "Id": 101013,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": 101014,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      2,
+      1
+    ]
+  },
+  {
+    "Id": 101015,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      3,
+      2
+    ]
+  },
+  {
+    "Id": 101016,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 1,
+    "AdaptPosition": [
+      5
+    ]
+  },
+  {
+    "Id": 101017,
+    "Type": 4,
+    "Addition": 1.0,
+    "Area": 2,
+    "AdaptPosition": [
+      5
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "class_name": "RandomClubNameConfig",
+  "table_name": "cfg_random_club_name",
+  "field_count": 2,
+  "row_count": 1732,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

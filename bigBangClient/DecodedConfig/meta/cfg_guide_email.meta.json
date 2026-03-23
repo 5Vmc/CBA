@@ -1,0 +1,39 @@
+{
+  "class_name": "GuideEmailConfig",
+  "table_name": "cfg_guide_email",
+  "field_count": 6,
+  "row_count": 12,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Title",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Receiver",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Sender",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Content",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

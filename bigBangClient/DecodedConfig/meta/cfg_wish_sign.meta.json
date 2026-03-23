@@ -1,0 +1,29 @@
+{
+  "class_name": "WishSignConfig",
+  "table_name": "cfg_wish_sign",
+  "field_count": 4,
+  "row_count": 5,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "RewardCount",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "DailyPoint",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

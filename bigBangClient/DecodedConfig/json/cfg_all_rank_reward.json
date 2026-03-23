@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 10101,
+    "Cycle": 1,
+    "Type": 1,
+    "Min": 1,
+    "Max": 1,
+    "Rewards": ""
+  },
+  {
+    "Id": 10102,
+    "Cycle": 1,
+    "Type": 1,
+    "Min": 2,
+    "Max": 2,
+    "Rewards": ""
+  },
+  {
+    "Id": 10103,
+    "Cycle": 1,
+    "Type": 1,
+    "Min": 3,
+    "Max": 3,
+    "Rewards": ""
+  },
+  {
+    "Id": 10104,
+    "Cycle": 1,
+    "Type": 1,
+    "Min": 4,
+    "Max": 4,
+    "Rewards": ""
+  },
+  {
+    "Id": 10105,
+    "Cycle": 1,
+    "Type": 1,
+    "Min": 5,
+    "Max": 500,
+    "Rewards": ""
+  },
+  {
+    "Id": 20101,
+    "Cycle": 2,
+    "Type": 1,
+    "Min": 1,
+    "Max": 1,
+    "Rewards": ""
+  },
+  {
+    "Id": 20102,
+    "Cycle": 2,
+    "Type": 1,
+    "Min": 2,
+    "Max": 2,
+    "Rewards": ""
+  },
+  {
+    "Id": 20103,
+    "Cycle": 2,
+    "Type": 1,
+    "Min": 3,
+    "Max": 3,
+    "Rewards": ""
+  },
+  {
+    "Id": 20104,
+    "Cycle": 2,
+    "Type": 1,
+    "Min": 4,
+    "Max": 4,
+    "Rewards": ""
+  },
+  {
+    "Id": 20105,
+    "Cycle": 2,
+    "Type": 1,
+    "Min": 5,
+    "Max": 500,
+    "Rewards": ""
+  }
+]

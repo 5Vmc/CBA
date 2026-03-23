@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "MinLevel": 0,
+    "MaxLevel": 35
+  },
+  {
+    "Id": 2,
+    "MinLevel": 36,
+    "MaxLevel": 60
+  },
+  {
+    "Id": 3,
+    "MinLevel": 61,
+    "MaxLevel": 80
+  },
+  {
+    "Id": 4,
+    "MinLevel": 81,
+    "MaxLevel": 95
+  },
+  {
+    "Id": 5,
+    "MinLevel": 96,
+    "MaxLevel": 999
+  }
+]

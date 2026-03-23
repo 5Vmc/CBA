@@ -1,0 +1,34 @@
+{
+  "class_name": "LeagueCourseConfig",
+  "table_name": "cfg_league_course",
+  "field_count": 5,
+  "row_count": 38,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Round",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CourseMap",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "NoonTimeOffset",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "NightTimeOffset",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

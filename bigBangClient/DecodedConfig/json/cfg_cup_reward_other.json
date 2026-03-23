@@ -1,0 +1,247 @@
+[
+  {
+    "Id": 1,
+    "DescText": "得分王奖励",
+    "Reward": "1:1:300",
+    "MailTitle": "得分王奖励",
+    "MailContent": "得分王奖励"
+  },
+  {
+    "Id": 2,
+    "DescText": "助攻王奖励",
+    "Reward": "1:1:300",
+    "MailTitle": "助攻王奖励",
+    "MailContent": "助攻王奖励"
+  },
+  {
+    "Id": 3,
+    "DescText": "篮板王奖励",
+    "Reward": "1:1:300",
+    "MailTitle": "篮板王奖励",
+    "MailContent": "篮板王奖励"
+  },
+  {
+    "Id": 4,
+    "DescText": "抢断王奖励",
+    "Reward": "1:1:300",
+    "MailTitle": "抢断王奖励",
+    "MailContent": "抢断王奖励"
+  },
+  {
+    "Id": 5,
+    "DescText": "盖帽王奖励",
+    "Reward": "1:1:300",
+    "MailTitle": "盖帽王奖励",
+    "MailContent": "盖帽王奖励"
+  },
+  {
+    "Id": 6,
+    "DescText": "1级每场基础奖励",
+    "Reward": "1:2:500",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 7,
+    "DescText": "2级每场基础奖励",
+    "Reward": "1:2:600",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 8,
+    "DescText": "3级每场基础奖励",
+    "Reward": "1:2:700",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 9,
+    "DescText": "4级每场基础奖励",
+    "Reward": "1:2:800",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 10,
+    "DescText": "5级每场基础奖励",
+    "Reward": "1:2:900",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 11,
+    "DescText": "6级每场基础奖励",
+    "Reward": "1:2:1000",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 12,
+    "DescText": "7级每场基础奖励",
+    "Reward": "1:2:1100",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 13,
+    "DescText": "8级每场基础奖励",
+    "Reward": "1:2:1200",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 14,
+    "DescText": "9级每场基础奖励",
+    "Reward": "1:2:1300",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 15,
+    "DescText": "10级每场基础奖励",
+    "Reward": "1:2:1400",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 16,
+    "DescText": "11级每场基础奖励",
+    "Reward": "1:2:1500",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 17,
+    "DescText": "12级每场基础奖励",
+    "Reward": "1:2:1600",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 18,
+    "DescText": "13级每场基础奖励",
+    "Reward": "1:2:1700",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 19,
+    "DescText": "14级每场基础奖励",
+    "Reward": "1:2:1800",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 20,
+    "DescText": "15级每场基础奖励",
+    "Reward": "1:2:1900",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 21,
+    "DescText": "16级每场基础奖励",
+    "Reward": "1:2:2000",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 22,
+    "DescText": "17级每场基础奖励",
+    "Reward": "1:2:2100",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 23,
+    "DescText": "18级每场基础奖励",
+    "Reward": "1:2:2200",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 24,
+    "DescText": "19级每场基础奖励",
+    "Reward": "1:2:2300",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 25,
+    "DescText": "20级每场基础奖励",
+    "Reward": "1:2:2400",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 26,
+    "DescText": "21级每场基础奖励",
+    "Reward": "1:2:2500",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 27,
+    "DescText": "22级每场基础奖励",
+    "Reward": "1:2:2600",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 28,
+    "DescText": "23级每场基础奖励",
+    "Reward": "1:2:2700",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 29,
+    "DescText": "24级每场基础奖励",
+    "Reward": "1:2:2800",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 30,
+    "DescText": "25级每场基础奖励",
+    "Reward": "1:2:2900",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 31,
+    "DescText": "26级每场基础奖励",
+    "Reward": "1:2:3000",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 32,
+    "DescText": "27级每场基础奖励",
+    "Reward": "1:2:3100",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 33,
+    "DescText": "28级每场基础奖励",
+    "Reward": "1:2:3200",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 34,
+    "DescText": "29级每场基础奖励",
+    "Reward": "1:2:3300",
+    "MailTitle": "",
+    "MailContent": ""
+  },
+  {
+    "Id": 35,
+    "DescText": "30级每场基础奖励",
+    "Reward": "1:2:3400",
+    "MailTitle": "",
+    "MailContent": ""
+  }
+]

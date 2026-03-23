@@ -1,0 +1,39 @@
+{
+  "class_name": "ArenaRewardConfig",
+  "table_name": "cfg_arena_reward",
+  "field_count": 6,
+  "row_count": 40,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Stage",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RankMin",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RankMax",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

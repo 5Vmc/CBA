@@ -1,0 +1,428 @@
+[
+  {
+    "Id": 10001,
+    "Type": 1,
+    "Name": "UNLOCK_TRAIN_ELEMENT_COUNT",
+    "Desc": "解锁训练项目数量变动"
+  },
+  {
+    "Id": 10002,
+    "Type": 1,
+    "Name": "MIN_TRAIN_ITEM_LEVEL",
+    "Desc": "最小训练项目等级"
+  },
+  {
+    "Id": 10003,
+    "Type": 1,
+    "Name": "ORANGE_CARD_COUNT",
+    "Desc": "橙色球员卡片数量"
+  },
+  {
+    "Id": 10004,
+    "Type": 1,
+    "Name": "RECEUIT_CARD_COUNT",
+    "Desc": "招募球员次数"
+  },
+  {
+    "Id": 10005,
+    "Type": 1,
+    "Name": "PVE_SUCC_ID",
+    "Desc": "PVE挑战成功关卡"
+  },
+  {
+    "Id": 10006,
+    "Type": 1,
+    "Name": "LEAGUE_1_COUNT",
+    "Desc": "一级联赛比赛次数"
+  },
+  {
+    "Id": 10007,
+    "Type": 1,
+    "Name": "LEAGUE_2_COUNT",
+    "Desc": "二级联赛比赛次数"
+  },
+  {
+    "Id": 10008,
+    "Type": 1,
+    "Name": "LEAGUE_3_COUNT",
+    "Desc": "三级联赛比赛次数"
+  },
+  {
+    "Id": 10009,
+    "Type": 1,
+    "Name": "LEAGUE_4_COUNT",
+    "Desc": "四级联赛比赛次数"
+  },
+  {
+    "Id": 10010,
+    "Type": 1,
+    "Name": "LEAGUE_5_COUNT",
+    "Desc": "五级联赛比赛次数"
+  },
+  {
+    "Id": 10011,
+    "Type": 1,
+    "Name": "LEAGUE_1_RANK",
+    "Desc": "一级联赛最好排名"
+  },
+  {
+    "Id": 10012,
+    "Type": 1,
+    "Name": "LEAGUE_2_RANK",
+    "Desc": "二级联赛最好排名"
+  },
+  {
+    "Id": 10013,
+    "Type": 1,
+    "Name": "LEAGUE_3_RANK",
+    "Desc": "三级联赛最好排名"
+  },
+  {
+    "Id": 10014,
+    "Type": 1,
+    "Name": "LEAGUE_4_RANK",
+    "Desc": "四级联赛最好排名"
+  },
+  {
+    "Id": 10015,
+    "Type": 1,
+    "Name": "LEAGUE_5_RANK",
+    "Desc": "五级联赛最好排名"
+  },
+  {
+    "Id": 10016,
+    "Type": 1,
+    "Name": "CUP_COUNT",
+    "Desc": "杯赛比赛次数"
+  },
+  {
+    "Id": 10017,
+    "Type": 1,
+    "Name": "CHAMPION_COUNT",
+    "Desc": "冠军杯比赛次数"
+  },
+  {
+    "Id": 10018,
+    "Type": 1,
+    "Name": "MAX_TRAIN_ITEM_LEVEL",
+    "Desc": "最高训练项目等级"
+  },
+  {
+    "Id": 10019,
+    "Type": 1,
+    "Name": "ORANGE_STAR2_CARD",
+    "Desc": "2星橙色球员数量"
+  },
+  {
+    "Id": 10020,
+    "Type": 1,
+    "Name": "TEN_RECEUIT_CARD",
+    "Desc": "10连抽次数"
+  },
+  {
+    "Id": 10021,
+    "Type": 1,
+    "Name": "CREATE_ROLE",
+    "Desc": "创建角色"
+  },
+  {
+    "Id": 11001,
+    "Type": 1,
+    "Name": "ONOFF_UNLOCK_1",
+    "Desc": "解锁联赛"
+  },
+  {
+    "Id": 11002,
+    "Type": 1,
+    "Name": "ONOFF_UNLOCK_2",
+    "Desc": "解锁挑战"
+  },
+  {
+    "Id": 11003,
+    "Type": 1,
+    "Name": "ONOFF_UNLOCK_3",
+    "Desc": "解锁招募"
+  },
+  {
+    "Id": 11004,
+    "Type": 1,
+    "Name": "ONOFF_UNLOCK_4",
+    "Desc": "解锁杯赛"
+  },
+  {
+    "Id": 20001,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT",
+    "Desc": "升级训练项目"
+  },
+  {
+    "Id": 20002,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_1",
+    "Desc": "升级训练项目1"
+  },
+  {
+    "Id": 20003,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_2",
+    "Desc": "升级训练项目2"
+  },
+  {
+    "Id": 20004,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_3",
+    "Desc": "升级训练项目3"
+  },
+  {
+    "Id": 20005,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_4",
+    "Desc": "升级训练项目4"
+  },
+  {
+    "Id": 20006,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_5",
+    "Desc": "升级训练项目5"
+  },
+  {
+    "Id": 20007,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_6",
+    "Desc": "升级训练项目6"
+  },
+  {
+    "Id": 20008,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_7",
+    "Desc": "升级训练项目7"
+  },
+  {
+    "Id": 20009,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_8",
+    "Desc": "升级训练项目8"
+  },
+  {
+    "Id": 20010,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_9",
+    "Desc": "升级训练项目9"
+  },
+  {
+    "Id": 20011,
+    "Type": 2,
+    "Name": "UPGRADE_TRAIN_ELEMENT_10",
+    "Desc": "升级训练项目10"
+  },
+  {
+    "Id": 20012,
+    "Type": 2,
+    "Name": "STRENGTHEN_TRAIN",
+    "Desc": "强化训练"
+  },
+  {
+    "Id": 20013,
+    "Type": 2,
+    "Name": "COLLECTED_OFFLINE_TRAIN_EXP",
+    "Desc": "领取离线奖励"
+  },
+  {
+    "Id": 20014,
+    "Type": 2,
+    "Name": "COMPLETE_INVITE_MATCH",
+    "Desc": "完成邀请赛"
+  },
+  {
+    "Id": 20015,
+    "Type": 2,
+    "Name": "BIGBANG",
+    "Desc": "超能训练"
+  },
+  {
+    "Id": 20016,
+    "Type": 2,
+    "Name": "RECEUIT_CARD",
+    "Desc": "球员招募"
+  },
+  {
+    "Id": 20017,
+    "Type": 2,
+    "Name": "RECYCLE_FRAGMENT",
+    "Desc": "碎片回收"
+  },
+  {
+    "Id": 20018,
+    "Type": 2,
+    "Name": "LEAN_SKILL",
+    "Desc": "特技学习"
+  },
+  {
+    "Id": 20019,
+    "Type": 2,
+    "Name": "COMPLETE_CHALLENGE",
+    "Desc": "完成挑战"
+  },
+  {
+    "Id": 20020,
+    "Type": 2,
+    "Name": "COMMAND_LEAGUE",
+    "Desc": "指挥一场联赛"
+  },
+  {
+    "Id": 20021,
+    "Type": 2,
+    "Name": "COST_DIAMOND",
+    "Desc": "消费钻石"
+  },
+  {
+    "Id": 20022,
+    "Type": 2,
+    "Name": "UPGRADE_CARD_STAR",
+    "Desc": "球员升星"
+  },
+  {
+    "Id": 20023,
+    "Type": 2,
+    "Name": "WIN_LEAGUE",
+    "Desc": "联赛获胜"
+  },
+  {
+    "Id": 20024,
+    "Type": 2,
+    "Name": "WIN_CUP",
+    "Desc": "杯赛获胜"
+  },
+  {
+    "Id": 20025,
+    "Type": 2,
+    "Name": "WIN_CHAMPION",
+    "Desc": "冠军赛获胜"
+  },
+  {
+    "Id": 20026,
+    "Type": 2,
+    "Name": "GET_DAILY_POINT",
+    "Desc": "获得日常活跃点"
+  },
+  {
+    "Id": 20027,
+    "Type": 2,
+    "Name": "ADVANCE_QUALITY",
+    "Desc": "球员升阶"
+  },
+  {
+    "Id": 20028,
+    "Type": 2,
+    "Name": "UPGRADE_SKILL",
+    "Desc": "升级特技"
+  },
+  {
+    "Id": 30001,
+    "Type": 3,
+    "Name": "USER_LEVEL",
+    "Desc": "玩家等级/球队等级"
+  },
+  {
+    "Id": 20029,
+    "Type": 2,
+    "Name": "ARENA_CHALLENGE",
+    "Desc": "竞技场次数"
+  },
+  {
+    "Id": 20030,
+    "Type": 2,
+    "Name": "FIRST_GET_CARD",
+    "Desc": "首次获得某个球员"
+  },
+  {
+    "Id": 20031,
+    "Type": 2,
+    "Name": "BOUGHT_GIFT_ID",
+    "Desc": "购买了某个礼包"
+  },
+  {
+    "Id": 20032,
+    "Type": 2,
+    "Name": "BOUNTY_TASK_FINISH",
+    "Desc": "悬赏任务完成"
+  },
+  {
+    "Id": 20033,
+    "Type": 2,
+    "Name": "TOWER_CHALLENGE_STAR",
+    "Desc": "篮球殿堂星星"
+  },
+  {
+    "Id": 20034,
+    "Type": 2,
+    "Name": "COST_ENERGY",
+    "Desc": "消耗体力"
+  },
+  {
+    "Id": 20035,
+    "Type": 2,
+    "Name": "COMPLETE_HERO_CHALLENGE",
+    "Desc": "完成剧情赛"
+  },
+  {
+    "Id": 20036,
+    "Type": 2,
+    "Name": "FINISH_SHOOT_GAME",
+    "Desc": "完成投篮小游戏"
+  },
+  {
+    "Id": 20037,
+    "Type": 2,
+    "Name": "UPGRADE_CARD_LEVEL",
+    "Desc": "球员升级"
+  },
+  {
+    "Id": 20038,
+    "Type": 2,
+    "Name": "COST_MONEY",
+    "Desc": "消费金币"
+  },
+  {
+    "Id": 20039,
+    "Type": 2,
+    "Name": "SIGN_UP_HUNDRED",
+    "Desc": "参与百分大战"
+  },
+  {
+    "Id": 20040,
+    "Type": 2,
+    "Name": "SIGN_UP_HUNDRED_PLAYOFF",
+    "Desc": "入围百分大战淘汰赛"
+  },
+  {
+    "Id": 20041,
+    "Type": 2,
+    "Name": "SHOOT_GAME_POINT",
+    "Desc": "投篮小游戏得分"
+  },
+  {
+    "Id": 20042,
+    "Type": 2,
+    "Name": "TEAM_POINT",
+    "Desc": "球队累计得分"
+  },
+  {
+    "Id": 20043,
+    "Type": 2,
+    "Name": "CARD_BOOK_EXP",
+    "Desc": "消耗经验书获得经验"
+  },
+  {
+    "Id": 20044,
+    "Type": 2,
+    "Name": "UPGRADE_PURPLE_CARD_STAR",
+    "Desc": "紫色球员升星"
+  },
+  {
+    "Id": 20045,
+    "Type": 2,
+    "Name": "SIGN_UP_LAEGUE",
+    "Desc": "手动报名联赛"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "Id": 1,
+    "Team": 1,
+    "Name": "库珀",
+    "Icon": 1,
+    "Position": 0
+  },
+  {
+    "Id": 2,
+    "Team": 1,
+    "Name": "付豪",
+    "Icon": 2,
+    "Position": 0
+  },
+  {
+    "Id": 3,
+    "Team": 1,
+    "Name": "赵继伟",
+    "Icon": 3,
+    "Position": 0
+  },
+  {
+    "Id": 4,
+    "Team": 1,
+    "Name": "弗格",
+    "Icon": 4,
+    "Position": 0
+  },
+  {
+    "Id": 5,
+    "Team": 1,
+    "Name": "周俊成",
+    "Icon": 5,
+    "Position": 0
+  },
+  {
+    "Id": 6,
+    "Team": 1,
+    "Name": "赵率舟",
+    "Icon": 6,
+    "Position": 0
+  },
+  {
+    "Id": 7,
+    "Team": 1,
+    "Name": "丛明晨",
+    "Icon": 7,
+    "Position": 0
+  },
+  {
+    "Id": 8,
+    "Team": 1,
+    "Name": "张峻豪",
+    "Icon": 8,
+    "Position": 0
+  },
+  {
+    "Id": 9,
+    "Team": 1,
+    "Name": "郭艾伦",
+    "Icon": 9,
+    "Position": 0
+  },
+  {
+    "Id": 10,
+    "Team": 1,
+    "Name": "刘雁宇",
+    "Icon": 10,
+    "Position": 0
+  },
+  {
+    "Id": 11,
+    "Team": 1,
+    "Name": "李晓旭",
+    "Icon": 11,
+    "Position": 0
+  },
+  {
+    "Id": 12,
+    "Team": 1,
+    "Name": "莫兰德",
+    "Icon": 12,
+    "Position": 0
+  },
+  {
+    "Id": 13,
+    "Team": 1,
+    "Name": "俞泽辰",
+    "Icon": 13,
+    "Position": 0
+  },
+  {
+    "Id": 14,
+    "Team": 1,
+    "Name": "卢梓杰",
+    "Icon": 14,
+    "Position": 0
+  },
+  {
+    "Id": 15,
+    "Team": 1,
+    "Name": "鄢手骐",
+    "Icon": 15,
+    "Position": 0
+  },
+  {
+    "Id": 16,
+    "Team": 1,
+    "Name": "李虎翼",
+    "Icon": 16,
+    "Position": 0
+  },
+  {
+    "Id": 17,
+    "Team": 1,
+    "Name": "韩德君",
+    "Icon": 17,
+    "Position": 0
+  },
+  {
+    "Id": 18,
+    "Team": 1,
+    "Name": "张镇麟",
+    "Icon": 18,
+    "Position": 0
+  },
+  {
+    "Id": 19,
+    "Team": 2,
+    "Name": "西尔扎提",
+    "Icon": 19,
+    "Position": 0
+  },
+  {
+    "Id": 20,
+    "Team": 2,
+    "Name": "黄荣奇",
+    "Icon": 20,
+    "Position": 0
+  },
+  {
+    "Id": 21,
+    "Team": 2,
+    "Name": "米艾力",
+    "Icon": 21,
+    "Position": 0
+  },
+  {
+    "Id": 22,
+    "Team": 2,
+    "Name": "克里克",
+    "Icon": 22,
+    "Position": 0
+  },
+  {
+    "Id": 23,
+    "Team": 2,
+    "Name": "艾孜麦提",
+    "Icon": 23,
+    "Position": 0
+  },
+  {
+    "Id": 24,
+    "Team": 2,
+    "Name": "唐才育",
+    "Icon": 24,
+    "Position": 0
+  },
+  {
+    "Id": 25,
+    "Team": 2,
+    "Name": "吴冠希",
+    "Icon": 25,
+    "Position": 0
+  },
+  {
+    "Id": 26,
+    "Team": 2,
+    "Name": "齐麟",
+    "Icon": 26,
+    "Position": 0
+  },
+  {
+    "Id": 27,
+    "Team": 2,
+    "Name": "李炎哲",
+    "Icon": 27,
+    "Position": 0
+  },
+  {
+    "Id": 28,
+    "Team": 2,
+    "Name": "于德豪",
+    "Icon": 28,
+    "Position": 0
+  },
+  {
+    "Id": 29,
+    "Team": 2,
+    "Name": "朱旭航",
+    "Icon": 29,
+    "Position": 0
+  },
+  {
+    "Id": 30,
+    "Team": 2,
+    "Name": "阿不都沙拉木",
+    "Icon": 30,
+    "Position": 0
+  },
+  {
+    "Id": 31,
+    "Team": 2,
+    "Name": "郭昱彰",
+    "Icon": 31,
+    "Position": 0
+  },
+  {
+    "Id": 32,
+    "Team": 2,
+    "Name": "鲁吐布拉",
+    "Icon": 32,
+    "Position": 0
+  },
+  {
+    "Id": 33,
+    "Team": 2,
+    "Name": "曲笑宇",
+    "Icon": 33,
+    "Position": 0
+  },
+  {
+    "Id": 34,
+    "Team": 2,
+    "Name": "威金顿",
+    "Icon": 34,
+    "Position": 0
+  },
+  {
+    "Id": 35,
+    "Team": 2,
+    "Name": "琼斯",
+    "Icon": 35,
+    "Position": 0
+  },
+  {
+    "Id": 36,
+    "Team": 2,
+    "Name": "王泉泽",
+    "Icon": 36,
+    "Position": 0
+  },
+  {
+    "Id": 37,
+    "Team": 2,
+    "Name": "赵睿",
+    "Icon": 37,
+    "Position": 0
+  }
+]

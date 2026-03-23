@@ -1,0 +1,44 @@
+{
+  "class_name": "CardBuffTypeConfig",
+  "table_name": "cfg_card_buff_type",
+  "field_count": 7,
+  "row_count": 11,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DescPart1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DescPart2",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DescOperator",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "EffectTrainId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TrainIconName",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

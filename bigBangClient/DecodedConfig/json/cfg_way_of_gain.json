@@ -1,0 +1,1252 @@
+[
+  {
+    "Id": 1000002,
+    "GameItemType": 1,
+    "GameItemId": 1,
+    "Way": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "Id": 2400101,
+    "GameItemType": 2,
+    "GameItemId": 400101,
+    "Way": [
+      8
+    ]
+  },
+  {
+    "Id": 2400102,
+    "GameItemType": 2,
+    "GameItemId": 400102,
+    "Way": [
+      9
+    ]
+  },
+  {
+    "Id": 2400103,
+    "GameItemType": 2,
+    "GameItemId": 400103,
+    "Way": [
+      10
+    ]
+  },
+  {
+    "Id": 2400104,
+    "GameItemType": 2,
+    "GameItemId": 400104,
+    "Way": [
+      11
+    ]
+  },
+  {
+    "Id": 2400105,
+    "GameItemType": 2,
+    "GameItemId": 400105,
+    "Way": [
+      12
+    ]
+  },
+  {
+    "Id": 2301001,
+    "GameItemType": 2,
+    "GameItemId": 301001,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2301002,
+    "GameItemType": 2,
+    "GameItemId": 301002,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2301003,
+    "GameItemType": 2,
+    "GameItemId": 301003,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302001,
+    "GameItemType": 2,
+    "GameItemId": 302001,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302002,
+    "GameItemType": 2,
+    "GameItemId": 302002,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302003,
+    "GameItemType": 2,
+    "GameItemId": 302003,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302004,
+    "GameItemType": 2,
+    "GameItemId": 302004,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302005,
+    "GameItemType": 2,
+    "GameItemId": 302005,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302006,
+    "GameItemType": 2,
+    "GameItemId": 302006,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302007,
+    "GameItemType": 2,
+    "GameItemId": 302007,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302008,
+    "GameItemType": 2,
+    "GameItemId": 302008,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302009,
+    "GameItemType": 2,
+    "GameItemId": 302009,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302010,
+    "GameItemType": 2,
+    "GameItemId": 302010,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302011,
+    "GameItemType": 2,
+    "GameItemId": 302011,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302012,
+    "GameItemType": 2,
+    "GameItemId": 302012,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302013,
+    "GameItemType": 2,
+    "GameItemId": 302013,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302014,
+    "GameItemType": 2,
+    "GameItemId": 302014,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302015,
+    "GameItemType": 2,
+    "GameItemId": 302015,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302016,
+    "GameItemType": 2,
+    "GameItemId": 302016,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302017,
+    "GameItemType": 2,
+    "GameItemId": 302017,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302018,
+    "GameItemType": 2,
+    "GameItemId": 302018,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302019,
+    "GameItemType": 2,
+    "GameItemId": 302019,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302020,
+    "GameItemType": 2,
+    "GameItemId": 302020,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302021,
+    "GameItemType": 2,
+    "GameItemId": 302021,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302022,
+    "GameItemType": 2,
+    "GameItemId": 302022,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302023,
+    "GameItemType": 2,
+    "GameItemId": 302023,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302024,
+    "GameItemType": 2,
+    "GameItemId": 302024,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302025,
+    "GameItemType": 2,
+    "GameItemId": 302025,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302026,
+    "GameItemType": 2,
+    "GameItemId": 302026,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302027,
+    "GameItemType": 2,
+    "GameItemId": 302027,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302028,
+    "GameItemType": 2,
+    "GameItemId": 302028,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302029,
+    "GameItemType": 2,
+    "GameItemId": 302029,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302030,
+    "GameItemType": 2,
+    "GameItemId": 302030,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2302031,
+    "GameItemType": 2,
+    "GameItemId": 302031,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303001,
+    "GameItemType": 2,
+    "GameItemId": 303001,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303002,
+    "GameItemType": 2,
+    "GameItemId": 303002,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303003,
+    "GameItemType": 2,
+    "GameItemId": 303003,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303004,
+    "GameItemType": 2,
+    "GameItemId": 303004,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303005,
+    "GameItemType": 2,
+    "GameItemId": 303005,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303006,
+    "GameItemType": 2,
+    "GameItemId": 303006,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303007,
+    "GameItemType": 2,
+    "GameItemId": 303007,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303008,
+    "GameItemType": 2,
+    "GameItemId": 303008,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303009,
+    "GameItemType": 2,
+    "GameItemId": 303009,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303010,
+    "GameItemType": 2,
+    "GameItemId": 303010,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303011,
+    "GameItemType": 2,
+    "GameItemId": 303011,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303012,
+    "GameItemType": 2,
+    "GameItemId": 303012,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303013,
+    "GameItemType": 2,
+    "GameItemId": 303013,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303014,
+    "GameItemType": 2,
+    "GameItemId": 303014,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303015,
+    "GameItemType": 2,
+    "GameItemId": 303015,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303016,
+    "GameItemType": 2,
+    "GameItemId": 303016,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303017,
+    "GameItemType": 2,
+    "GameItemId": 303017,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303018,
+    "GameItemType": 2,
+    "GameItemId": 303018,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303019,
+    "GameItemType": 2,
+    "GameItemId": 303019,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303020,
+    "GameItemType": 2,
+    "GameItemId": 303020,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303021,
+    "GameItemType": 2,
+    "GameItemId": 303021,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303022,
+    "GameItemType": 2,
+    "GameItemId": 303022,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2303023,
+    "GameItemType": 2,
+    "GameItemId": 303023,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304001,
+    "GameItemType": 2,
+    "GameItemId": 304001,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304002,
+    "GameItemType": 2,
+    "GameItemId": 304002,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304003,
+    "GameItemType": 2,
+    "GameItemId": 304003,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304004,
+    "GameItemType": 2,
+    "GameItemId": 304004,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304005,
+    "GameItemType": 2,
+    "GameItemId": 304005,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304006,
+    "GameItemType": 2,
+    "GameItemId": 304006,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304007,
+    "GameItemType": 2,
+    "GameItemId": 304007,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304008,
+    "GameItemType": 2,
+    "GameItemId": 304008,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304009,
+    "GameItemType": 2,
+    "GameItemId": 304009,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304010,
+    "GameItemType": 2,
+    "GameItemId": 304010,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304011,
+    "GameItemType": 2,
+    "GameItemId": 304011,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2304012,
+    "GameItemType": 2,
+    "GameItemId": 304012,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305001,
+    "GameItemType": 2,
+    "GameItemId": 305001,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305002,
+    "GameItemType": 2,
+    "GameItemId": 305002,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305003,
+    "GameItemType": 2,
+    "GameItemId": 305003,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305004,
+    "GameItemType": 2,
+    "GameItemId": 305004,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305005,
+    "GameItemType": 2,
+    "GameItemId": 305005,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305006,
+    "GameItemType": 2,
+    "GameItemId": 305006,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305007,
+    "GameItemType": 2,
+    "GameItemId": 305007,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305008,
+    "GameItemType": 2,
+    "GameItemId": 305008,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305009,
+    "GameItemType": 2,
+    "GameItemId": 305009,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2305010,
+    "GameItemType": 2,
+    "GameItemId": 305010,
+    "Way": [
+      2
+    ]
+  },
+  {
+    "Id": 2400206,
+    "GameItemType": 2,
+    "GameItemId": 400206,
+    "Way": [
+      8
+    ]
+  },
+  {
+    "Id": 2400207,
+    "GameItemType": 2,
+    "GameItemId": 400207,
+    "Way": [
+      9
+    ]
+  },
+  {
+    "Id": 2400208,
+    "GameItemType": 2,
+    "GameItemId": 400208,
+    "Way": [
+      10
+    ]
+  },
+  {
+    "Id": 2400209,
+    "GameItemType": 2,
+    "GameItemId": 400209,
+    "Way": [
+      8
+    ]
+  },
+  {
+    "Id": 2400210,
+    "GameItemType": 2,
+    "GameItemId": 400210,
+    "Way": [
+      9
+    ]
+  },
+  {
+    "Id": 2400211,
+    "GameItemType": 2,
+    "GameItemId": 400211,
+    "Way": [
+      10
+    ]
+  },
+  {
+    "Id": 2400205,
+    "GameItemType": 2,
+    "GameItemId": 400205,
+    "Way": [
+      13
+    ]
+  },
+  {
+    "Id": 2600101,
+    "GameItemType": 2,
+    "GameItemId": 600101,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600102,
+    "GameItemType": 2,
+    "GameItemId": 600102,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600103,
+    "GameItemType": 2,
+    "GameItemId": 600103,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600104,
+    "GameItemType": 2,
+    "GameItemId": 600104,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600105,
+    "GameItemType": 2,
+    "GameItemId": 600105,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600106,
+    "GameItemType": 2,
+    "GameItemId": 600106,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600107,
+    "GameItemType": 2,
+    "GameItemId": 600107,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600108,
+    "GameItemType": 2,
+    "GameItemId": 600108,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600109,
+    "GameItemType": 2,
+    "GameItemId": 600109,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600110,
+    "GameItemType": 2,
+    "GameItemId": 600110,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600201,
+    "GameItemType": 2,
+    "GameItemId": 600201,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600202,
+    "GameItemType": 2,
+    "GameItemId": 600202,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600203,
+    "GameItemType": 2,
+    "GameItemId": 600203,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600204,
+    "GameItemType": 2,
+    "GameItemId": 600204,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600205,
+    "GameItemType": 2,
+    "GameItemId": 600205,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600206,
+    "GameItemType": 2,
+    "GameItemId": 600206,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600207,
+    "GameItemType": 2,
+    "GameItemId": 600207,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600208,
+    "GameItemType": 2,
+    "GameItemId": 600208,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600209,
+    "GameItemType": 2,
+    "GameItemId": 600209,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600210,
+    "GameItemType": 2,
+    "GameItemId": 600210,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600301,
+    "GameItemType": 2,
+    "GameItemId": 600301,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600302,
+    "GameItemType": 2,
+    "GameItemId": 600302,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600303,
+    "GameItemType": 2,
+    "GameItemId": 600303,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600304,
+    "GameItemType": 2,
+    "GameItemId": 600304,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600305,
+    "GameItemType": 2,
+    "GameItemId": 600305,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600306,
+    "GameItemType": 2,
+    "GameItemId": 600306,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600307,
+    "GameItemType": 2,
+    "GameItemId": 600307,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600308,
+    "GameItemType": 2,
+    "GameItemId": 600308,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600309,
+    "GameItemType": 2,
+    "GameItemId": 600309,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600310,
+    "GameItemType": 2,
+    "GameItemId": 600310,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600401,
+    "GameItemType": 2,
+    "GameItemId": 600401,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600402,
+    "GameItemType": 2,
+    "GameItemId": 600402,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600403,
+    "GameItemType": 2,
+    "GameItemId": 600403,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600404,
+    "GameItemType": 2,
+    "GameItemId": 600404,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600405,
+    "GameItemType": 2,
+    "GameItemId": 600405,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600406,
+    "GameItemType": 2,
+    "GameItemId": 600406,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600407,
+    "GameItemType": 2,
+    "GameItemId": 600407,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600408,
+    "GameItemType": 2,
+    "GameItemId": 600408,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600409,
+    "GameItemType": 2,
+    "GameItemId": 600409,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600410,
+    "GameItemType": 2,
+    "GameItemId": 600410,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600501,
+    "GameItemType": 2,
+    "GameItemId": 600501,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600502,
+    "GameItemType": 2,
+    "GameItemId": 600502,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600503,
+    "GameItemType": 2,
+    "GameItemId": 600503,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600504,
+    "GameItemType": 2,
+    "GameItemId": 600504,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600505,
+    "GameItemType": 2,
+    "GameItemId": 600505,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600506,
+    "GameItemType": 2,
+    "GameItemId": 600506,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600507,
+    "GameItemType": 2,
+    "GameItemId": 600507,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600508,
+    "GameItemType": 2,
+    "GameItemId": 600508,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600509,
+    "GameItemType": 2,
+    "GameItemId": 600509,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600510,
+    "GameItemType": 2,
+    "GameItemId": 600510,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600601,
+    "GameItemType": 2,
+    "GameItemId": 600601,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600602,
+    "GameItemType": 2,
+    "GameItemId": 600602,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600603,
+    "GameItemType": 2,
+    "GameItemId": 600603,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600604,
+    "GameItemType": 2,
+    "GameItemId": 600604,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600605,
+    "GameItemType": 2,
+    "GameItemId": 600605,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600606,
+    "GameItemType": 2,
+    "GameItemId": 600606,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600607,
+    "GameItemType": 2,
+    "GameItemId": 600607,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600608,
+    "GameItemType": 2,
+    "GameItemId": 600608,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600609,
+    "GameItemType": 2,
+    "GameItemId": 600609,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2600610,
+    "GameItemType": 2,
+    "GameItemId": 600610,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2100104,
+    "GameItemType": 2,
+    "GameItemId": 100104,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2100105,
+    "GameItemType": 2,
+    "GameItemId": 100105,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2100106,
+    "GameItemType": 2,
+    "GameItemId": 100106,
+    "Way": [
+      14
+    ]
+  },
+  {
+    "Id": 2100107,
+    "GameItemType": 2,
+    "GameItemId": 100107,
+    "Way": [
+      14
+    ]
+  }
+]

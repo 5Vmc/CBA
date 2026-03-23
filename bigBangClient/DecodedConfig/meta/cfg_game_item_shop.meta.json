@@ -1,0 +1,49 @@
+{
+  "class_name": "GameItemShopConfig",
+  "table_name": "cfg_game_item_shop",
+  "field_count": 8,
+  "row_count": 55,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Item",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Cost",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DayLimit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "WeekLimit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "SeasonLimit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Limit",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

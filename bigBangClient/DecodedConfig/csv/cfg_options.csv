@@ -1,0 +1,11 @@
+﻿Id,Type,Content,Value
+1,1,全部品质,0
+2,1,<color=#BE2D2D>红色品质</color>,5
+3,1,<color=#E2AE32>橙色品质</color>,4
+4,1,<color=#A64EFF>紫色品质</color>,3
+5,1,<color=#2D9FF5>蓝色品质</color>,2
+6,1,<color=#2CC03D>绿色品质</color>,1
+7,2,所有,0
+8,2,中锋,3
+9,2,前锋,2
+10,2,后卫,1

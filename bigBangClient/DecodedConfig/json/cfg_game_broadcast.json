@@ -1,0 +1,1325 @@
+[
+  {
+    "Id": 1,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "哨声响起，比赛开始。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 2,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "跳球，全场比赛开始。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 3,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "随着主裁判的哨响，比赛开始。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 4,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "万众期待的比赛开始了。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 5,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "比赛开始，今天上座率很高啊。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 6,
+    "EventId": 100,
+    "Weight": 10,
+    "Content": "{2}助攻{1}不看篮框投篮 命中{point}",
+    "GroupContent": ""
+  },
+  {
+    "Id": 7,
+    "EventId": 101,
+    "Weight": 10,
+    "Content": "第1节比赛结束，分数 {0}:{1}",
+    "GroupContent": ""
+  },
+  {
+    "Id": 8,
+    "EventId": 102,
+    "Weight": 10,
+    "Content": "半场比赛结束，分数 {0}:{1} 进入中场休息",
+    "GroupContent": ""
+  },
+  {
+    "Id": 9,
+    "EventId": 103,
+    "Weight": 10,
+    "Content": "第3节比赛结束，分数 {0}:{1}",
+    "GroupContent": ""
+  },
+  {
+    "Id": 10,
+    "EventId": 104,
+    "Weight": 10,
+    "Content": "双方战成{0}平，比赛拖入加时赛",
+    "GroupContent": ""
+  },
+  {
+    "Id": 11,
+    "EventId": 104,
+    "Weight": 10,
+    "Content": "双方4节比赛打平，进入加时赛",
+    "GroupContent": ""
+  },
+  {
+    "Id": 12,
+    "EventId": 105,
+    "Weight": 10,
+    "Content": "随着裁判的哨响，全场比赛结束。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 13,
+    "EventId": 105,
+    "Weight": 10,
+    "Content": "全场比赛结束。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 14,
+    "EventId": 105,
+    "Weight": 10,
+    "Content": "双方球队贡献了一场精彩的比赛。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 15,
+    "EventId": 105,
+    "Weight": 10,
+    "Content": "这场万众瞩目的比赛结束了。",
+    "GroupContent": ""
+  },
+  {
+    "Id": 16,
+    "EventId": 201,
+    "Weight": 10,
+    "Content": "{time} {1}不看篮框投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}不看篮框投篮 命中{point}"
+  },
+  {
+    "Id": 17,
+    "EventId": 202,
+    "Weight": 10,
+    "Content": "{time} {1}跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跳投 命中{point}"
+  },
+  {
+    "Id": 18,
+    "EventId": 203,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}勾手投篮 命中{point}"
+  },
+  {
+    "Id": 19,
+    "EventId": 204,
+    "Weight": 10,
+    "Content": "{time} {1}上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}上篮 命中{point}"
+  },
+  {
+    "Id": 20,
+    "EventId": 205,
+    "Weight": 10,
+    "Content": "{time} {1}灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}灌篮 命中{point}"
+  },
+  {
+    "Id": 21,
+    "EventId": 206,
+    "Weight": 10,
+    "Content": "{time} {1}上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}上篮 命中{point}"
+  },
+  {
+    "Id": 22,
+    "EventId": 207,
+    "Weight": 10,
+    "Content": "{time} {1}跑动上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动上篮 命中{point}"
+  },
+  {
+    "Id": 23,
+    "EventId": 208,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入上篮 命中{point}"
+  },
+  {
+    "Id": 24,
+    "EventId": 209,
+    "Weight": 10,
+    "Content": "{time} {1}空中接力上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}空中接力上篮 命中{point}"
+  },
+  {
+    "Id": 25,
+    "EventId": 210,
+    "Weight": 10,
+    "Content": "{time} {1}反手上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}反手上篮 命中{point}"
+  },
+  {
+    "Id": 26,
+    "EventId": 211,
+    "Weight": 10,
+    "Content": "{time} {1}跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跳投 命中{point}"
+  },
+  {
+    "Id": 27,
+    "EventId": 212,
+    "Weight": 10,
+    "Content": "{time} {1}跑动三分跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动三分跳投 命中{point}"
+  },
+  {
+    "Id": 28,
+    "EventId": 213,
+    "Weight": 10,
+    "Content": "{time} {1}转身跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身跳投 命中{point}"
+  },
+  {
+    "Id": 29,
+    "EventId": 214,
+    "Weight": 10,
+    "Content": "{time} {1}灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}灌篮 命中{point}"
+  },
+  {
+    "Id": 30,
+    "EventId": 215,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入灌篮 命中{point}"
+  },
+  {
+    "Id": 31,
+    "EventId": 216,
+    "Weight": 10,
+    "Content": "{time} {1}跑动灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动灌篮 命中{point}"
+  },
+  {
+    "Id": 32,
+    "EventId": 217,
+    "Weight": 10,
+    "Content": "{time} {1}反手灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}反手灌篮 命中{point}"
+  },
+  {
+    "Id": 33,
+    "EventId": 218,
+    "Weight": 10,
+    "Content": "{time} {1}空中接力灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}空中接力灌篮 命中{point}"
+  },
+  {
+    "Id": 34,
+    "EventId": 219,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}勾手投篮 命中{point}"
+  },
+  {
+    "Id": 35,
+    "EventId": 220,
+    "Weight": 10,
+    "Content": "{time} {1}跑动勾手投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动勾手投篮 命中{point}"
+  },
+  {
+    "Id": 36,
+    "EventId": 221,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入勾手投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入勾手投篮 命中{point}"
+  },
+  {
+    "Id": 37,
+    "EventId": 222,
+    "Weight": 10,
+    "Content": "{time} {1}转身勾手投篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身勾手投篮 命中{point}"
+  },
+  {
+    "Id": 38,
+    "EventId": 223,
+    "Weight": 10,
+    "Content": "{time} {1}后仰跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}后仰跳投 命中{point}"
+  },
+  {
+    "Id": 39,
+    "EventId": 224,
+    "Weight": 10,
+    "Content": "{time} {1}跳投打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跳投打板 命中{point}"
+  },
+  {
+    "Id": 40,
+    "EventId": 225,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}勾手投篮打板 命中{point}"
+  },
+  {
+    "Id": 41,
+    "EventId": 226,
+    "Weight": 10,
+    "Content": "{time} {1}挑篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}挑篮 命中{point}"
+  },
+  {
+    "Id": 42,
+    "EventId": 227,
+    "Weight": 10,
+    "Content": "{time} {1}补篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}补篮 命中{point}"
+  },
+  {
+    "Id": 43,
+    "EventId": 228,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入反手上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入反手上篮 命中{point}"
+  },
+  {
+    "Id": 44,
+    "EventId": 229,
+    "Weight": 10,
+    "Content": "{time} {1}跑动反手上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动反手上篮 命中{point}"
+  },
+  {
+    "Id": 45,
+    "EventId": 230,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入挑篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入挑篮 命中{point}"
+  },
+  {
+    "Id": 46,
+    "EventId": 231,
+    "Weight": 10,
+    "Content": "{time} {1}跑动挑篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动挑篮 命中{point}"
+  },
+  {
+    "Id": 47,
+    "EventId": 232,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入跳投 命中{point}"
+  },
+  {
+    "Id": 48,
+    "EventId": 233,
+    "Weight": 10,
+    "Content": "{time} {1}提前拋投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}提前拋投 命中{point}"
+  },
+  {
+    "Id": 49,
+    "EventId": 234,
+    "Weight": 10,
+    "Content": "{time} {1}急停跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}急停跳投 命中{point}"
+  },
+  {
+    "Id": 50,
+    "EventId": 235,
+    "Weight": 10,
+    "Content": "{time} {1}后撤步跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}后撤步跳投 命中{point}"
+  },
+  {
+    "Id": 51,
+    "EventId": 236,
+    "Weight": 10,
+    "Content": "{time} {1}急停跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}急停跳投 命中{point}"
+  },
+  {
+    "Id": 52,
+    "EventId": 237,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入投篮打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入投篮打板 命中{point}"
+  },
+  {
+    "Id": 53,
+    "EventId": 238,
+    "Weight": 10,
+    "Content": "{time} {1}后仰跳投打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}后仰跳投打板 命中{point}"
+  },
+  {
+    "Id": 54,
+    "EventId": 239,
+    "Weight": 10,
+    "Content": "{time} {1}转身投篮打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身投篮打板 命中{point}"
+  },
+  {
+    "Id": 55,
+    "EventId": 240,
+    "Weight": 10,
+    "Content": "{time} {1}转身后仰跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身后仰跳投 命中{point}"
+  },
+  {
+    "Id": 56,
+    "EventId": 241,
+    "Weight": 10,
+    "Content": "{time} {1}补扣 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}补扣 命中{point}"
+  },
+  {
+    "Id": 57,
+    "EventId": 242,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入勾手投篮打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入勾手投篮打板 命中{point}"
+  },
+  {
+    "Id": 58,
+    "EventId": 243,
+    "Weight": 10,
+    "Content": "{time} {1}转身勾手打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身勾手打板 命中{point}"
+  },
+  {
+    "Id": 59,
+    "EventId": 244,
+    "Weight": 10,
+    "Content": "{time} {1}托球上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}托球上篮 命中{point}"
+  },
+  {
+    "Id": 60,
+    "EventId": 245,
+    "Weight": 10,
+    "Content": "{time} {1}空切上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}空切上篮 命中{point}"
+  },
+  {
+    "Id": 61,
+    "EventId": 246,
+    "Weight": 10,
+    "Content": "{time} {1}空切挑篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}空切挑篮 命中{point}"
+  },
+  {
+    "Id": 62,
+    "EventId": 247,
+    "Weight": 10,
+    "Content": "{time} {1}跑动空中接力上篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动空中接力上篮 命中{point}"
+  },
+  {
+    "Id": 63,
+    "EventId": 248,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入提前抛投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入提前抛投 命中{point}"
+  },
+  {
+    "Id": 64,
+    "EventId": 249,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入提前拋投打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入提前拋投打板 命中{point}"
+  },
+  {
+    "Id": 65,
+    "EventId": 250,
+    "Weight": 10,
+    "Content": "{time} {1}跑动急停跳投 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动急停跳投 命中{point}"
+  },
+  {
+    "Id": 66,
+    "EventId": 251,
+    "Weight": 10,
+    "Content": "{time} {1}后撤步跳投打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}后撤步跳投打板 命中{point}"
+  },
+  {
+    "Id": 67,
+    "EventId": 252,
+    "Weight": 10,
+    "Content": "{time} {1}转身后仰跳投打板 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}转身后仰跳投打板 命中{point}"
+  },
+  {
+    "Id": 68,
+    "EventId": 253,
+    "Weight": 10,
+    "Content": "{time} {1}跑动空中接力灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动空中接力灌篮 命中{point}"
+  },
+  {
+    "Id": 69,
+    "EventId": 254,
+    "Weight": 10,
+    "Content": "{time} {1}托球灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}托球灌篮 命中{point}"
+  },
+  {
+    "Id": 70,
+    "EventId": 255,
+    "Weight": 10,
+    "Content": "{time} {1}空切灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}空切灌篮 命中{point}"
+  },
+  {
+    "Id": 71,
+    "EventId": 256,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入反手灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}带球切入反手灌篮 命中{point}"
+  },
+  {
+    "Id": 72,
+    "EventId": 257,
+    "Weight": 10,
+    "Content": "{time} {1}跑动反手灌篮 命中{point}",
+    "GroupContent": "{time} {2}助攻{1}跑动反手灌篮 命中{point}"
+  },
+  {
+    "Id": 73,
+    "EventId": 258,
+    "Weight": 10,
+    "Content": "{time} {1}不看篮框投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}不看篮框投篮 不中"
+  },
+  {
+    "Id": 74,
+    "EventId": 259,
+    "Weight": 10,
+    "Content": "{time} {1}跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跳投 不中"
+  },
+  {
+    "Id": 75,
+    "EventId": 260,
+    "Weight": 10,
+    "Content": "{time} {1}跑动跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动跳投 不中"
+  },
+  {
+    "Id": 76,
+    "EventId": 261,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}勾手投篮 不中"
+  },
+  {
+    "Id": 77,
+    "EventId": 262,
+    "Weight": 10,
+    "Content": "{time} {1}上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}上篮 不中"
+  },
+  {
+    "Id": 78,
+    "EventId": 263,
+    "Weight": 10,
+    "Content": "{time} {1}灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}灌篮 不中"
+  },
+  {
+    "Id": 79,
+    "EventId": 264,
+    "Weight": 10,
+    "Content": "{time} {1}上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}上篮 不中"
+  },
+  {
+    "Id": 80,
+    "EventId": 265,
+    "Weight": 10,
+    "Content": "{time} {1}跑动上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动上篮 不中"
+  },
+  {
+    "Id": 81,
+    "EventId": 266,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入上篮 不中"
+  },
+  {
+    "Id": 82,
+    "EventId": 267,
+    "Weight": 10,
+    "Content": "{time} {1}空中接力上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}空中接力上篮 不中"
+  },
+  {
+    "Id": 83,
+    "EventId": 268,
+    "Weight": 10,
+    "Content": "{time} {1}反手上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}反手上篮 不中"
+  },
+  {
+    "Id": 84,
+    "EventId": 269,
+    "Weight": 10,
+    "Content": "{time} {1}跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跳投 不中"
+  },
+  {
+    "Id": 85,
+    "EventId": 270,
+    "Weight": 10,
+    "Content": "{time} {1}跑动三分跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动三分跳投 不中"
+  },
+  {
+    "Id": 86,
+    "EventId": 271,
+    "Weight": 10,
+    "Content": "{time} {1}转身跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转身跳投 不中"
+  },
+  {
+    "Id": 87,
+    "EventId": 272,
+    "Weight": 10,
+    "Content": "{time} {1}灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}灌篮 不中"
+  },
+  {
+    "Id": 88,
+    "EventId": 273,
+    "Weight": 10,
+    "Content": "{time} {1}跑动灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动灌篮 不中"
+  },
+  {
+    "Id": 89,
+    "EventId": 274,
+    "Weight": 10,
+    "Content": "{time} {1}跑动灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动灌篮 不中"
+  },
+  {
+    "Id": 90,
+    "EventId": 275,
+    "Weight": 10,
+    "Content": "{time} {1}反手灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}反手灌篮 不中"
+  },
+  {
+    "Id": 91,
+    "EventId": 276,
+    "Weight": 10,
+    "Content": "{time} {1}空中接力灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}空中接力灌篮 不中"
+  },
+  {
+    "Id": 92,
+    "EventId": 277,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}勾手投篮 不中"
+  },
+  {
+    "Id": 93,
+    "EventId": 278,
+    "Weight": 10,
+    "Content": "{time} {1}跑动勾手投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动勾手投篮 不中"
+  },
+  {
+    "Id": 94,
+    "EventId": 279,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入勾手投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入勾手投篮 不中"
+  },
+  {
+    "Id": 95,
+    "EventId": 280,
+    "Weight": 10,
+    "Content": "{time} {1}转身勾手投篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转身勾手投篮 不中"
+  },
+  {
+    "Id": 96,
+    "EventId": 281,
+    "Weight": 10,
+    "Content": "{time} {1}后仰跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}后仰跳投 不中"
+  },
+  {
+    "Id": 97,
+    "EventId": 282,
+    "Weight": 10,
+    "Content": "{time} {1}跳投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跳投打板 不中"
+  },
+  {
+    "Id": 98,
+    "EventId": 283,
+    "Weight": 10,
+    "Content": "{time} {1}勾手投篮打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}勾手投篮打板 不中"
+  },
+  {
+    "Id": 99,
+    "EventId": 284,
+    "Weight": 10,
+    "Content": "{time} {1}挑篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}挑篮 不中"
+  },
+  {
+    "Id": 100,
+    "EventId": 285,
+    "Weight": 10,
+    "Content": "{time} {1}补篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}补篮 不中"
+  },
+  {
+    "Id": 101,
+    "EventId": 286,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入反手上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入反手上篮 不中"
+  },
+  {
+    "Id": 102,
+    "EventId": 287,
+    "Weight": 10,
+    "Content": "{time} {1}跑动反手上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动反手上篮 不中"
+  },
+  {
+    "Id": 103,
+    "EventId": 288,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入挑篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入挑篮 不中"
+  },
+  {
+    "Id": 104,
+    "EventId": 289,
+    "Weight": 10,
+    "Content": "{time} {1}跑动挑篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动挑篮 不中"
+  },
+  {
+    "Id": 105,
+    "EventId": 290,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入跳投 不中"
+  },
+  {
+    "Id": 106,
+    "EventId": 291,
+    "Weight": 10,
+    "Content": "{time} {1}提前抛投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}提前抛投 不中"
+  },
+  {
+    "Id": 107,
+    "EventId": 292,
+    "Weight": 10,
+    "Content": "{time} {1}急停跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}急停跳投 不中"
+  },
+  {
+    "Id": 108,
+    "EventId": 293,
+    "Weight": 10,
+    "Content": "{time} {1}后撤步三分跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}后撤步三分跳投 不中"
+  },
+  {
+    "Id": 109,
+    "EventId": 294,
+    "Weight": 10,
+    "Content": "{time} {1}急停跳投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}急停跳投打板 不中"
+  },
+  {
+    "Id": 110,
+    "EventId": 295,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入投篮打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入投篮打板 不中"
+  },
+  {
+    "Id": 111,
+    "EventId": 296,
+    "Weight": 10,
+    "Content": "{time} {1}后仰跳投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}后仰跳投打板 不中"
+  },
+  {
+    "Id": 112,
+    "EventId": 297,
+    "Weight": 10,
+    "Content": "{time} {1}转身投篮打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转身投篮打板 不中"
+  },
+  {
+    "Id": 113,
+    "EventId": 298,
+    "Weight": 10,
+    "Content": "{time} {1}转身后仰跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转身后仰跳投 不中"
+  },
+  {
+    "Id": 114,
+    "EventId": 299,
+    "Weight": 10,
+    "Content": "{time} {1}补扣 不中",
+    "GroupContent": "{time} {3}盖帽，{1}补扣 不中"
+  },
+  {
+    "Id": 115,
+    "EventId": 300,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入投篮打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入投篮打板 不中"
+  },
+  {
+    "Id": 116,
+    "EventId": 301,
+    "Weight": 10,
+    "Content": "{time} {1}转身勾手投篮打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转身勾手投篮打板 不中"
+  },
+  {
+    "Id": 117,
+    "EventId": 302,
+    "Weight": 10,
+    "Content": "{time} {1}托球上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}托球上篮 不中"
+  },
+  {
+    "Id": 118,
+    "EventId": 303,
+    "Weight": 10,
+    "Content": "{time} {1}空切上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}空切上篮 不中"
+  },
+  {
+    "Id": 119,
+    "EventId": 304,
+    "Weight": 10,
+    "Content": "{time} {1}空切挑篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}空切挑篮 不中"
+  },
+  {
+    "Id": 120,
+    "EventId": 305,
+    "Weight": 10,
+    "Content": "{time} {1}跑动空中接力上篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动空中接力上篮 不中"
+  },
+  {
+    "Id": 121,
+    "EventId": 306,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入提前抛投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入提前抛投 不中"
+  },
+  {
+    "Id": 122,
+    "EventId": 307,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入提前抛投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入提前抛投打板 不中"
+  },
+  {
+    "Id": 123,
+    "EventId": 308,
+    "Weight": 10,
+    "Content": "{time} {1}跑动三分急停跳投 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动三分急停跳投 不中"
+  },
+  {
+    "Id": 124,
+    "EventId": 309,
+    "Weight": 10,
+    "Content": "{time} {1}后撤步跳投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}后撤步跳投打板 不中"
+  },
+  {
+    "Id": 125,
+    "EventId": 310,
+    "Weight": 10,
+    "Content": "{time} {1}转生后仰跳投打板 不中",
+    "GroupContent": "{time} {3}盖帽，{1}转生后仰跳投打板 不中"
+  },
+  {
+    "Id": 126,
+    "EventId": 311,
+    "Weight": 10,
+    "Content": "{time} {1}跑动空中接力灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}跑动空中接力灌篮 不中"
+  },
+  {
+    "Id": 127,
+    "EventId": 312,
+    "Weight": 10,
+    "Content": "{time} {1}托球灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}托球灌篮 不中"
+  },
+  {
+    "Id": 128,
+    "EventId": 313,
+    "Weight": 10,
+    "Content": "{time} {1}空切灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}空切灌篮 不中"
+  },
+  {
+    "Id": 129,
+    "EventId": 314,
+    "Weight": 10,
+    "Content": "{time} {1}带球切入反手灌篮 不中",
+    "GroupContent": "{time} {3}盖帽，{1}带球切入反手灌篮 不中"
+  },
+  {
+    "Id": 130,
+    "EventId": 315,
+    "Weight": 10,
+    "Content": "{time} {1}单罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 131,
+    "EventId": 316,
+    "Weight": 10,
+    "Content": "{time} {1}两罚1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 132,
+    "EventId": 317,
+    "Weight": 10,
+    "Content": "{time} {1}两罚2罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 133,
+    "EventId": 318,
+    "Weight": 10,
+    "Content": "{time} {1}三罚1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 134,
+    "EventId": 319,
+    "Weight": 10,
+    "Content": "{time} {1}三罚2罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 135,
+    "EventId": 320,
+    "Weight": 10,
+    "Content": "{time} {1}三罚3罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 136,
+    "EventId": 321,
+    "Weight": 10,
+    "Content": "{time} {1}技术犯规罚球1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 137,
+    "EventId": 322,
+    "Weight": 10,
+    "Content": "{time} {1}恶意犯规两罚1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 138,
+    "EventId": 323,
+    "Weight": 10,
+    "Content": "{time} {1}恶意犯规两罚2罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 139,
+    "EventId": 324,
+    "Weight": 10,
+    "Content": "{time} {1}两罚1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 140,
+    "EventId": 325,
+    "Weight": 10,
+    "Content": "{time} {1}两罚1罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 141,
+    "EventId": 326,
+    "Weight": 10,
+    "Content": "{time} {1}两罚2罚 命中+1",
+    "GroupContent": ""
+  },
+  {
+    "Id": 142,
+    "EventId": 327,
+    "Weight": 10,
+    "Content": "{time} {1}抢到篮板球",
+    "GroupContent": ""
+  },
+  {
+    "Id": 143,
+    "EventId": 329,
+    "Weight": 10,
+    "Content": "{time} {1}失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 144,
+    "EventId": 330,
+    "Weight": 10,
+    "Content": "{time} {1}传球失误",
+    "GroupContent": "{time} {2}抢断 {1}传球失误"
+  },
+  {
+    "Id": 145,
+    "EventId": 331,
+    "Weight": 10,
+    "Content": "{time} {1}丢球失误",
+    "GroupContent": "{time} {1}丢球失误 {2}抢断"
+  },
+  {
+    "Id": 146,
+    "EventId": 332,
+    "Weight": 10,
+    "Content": "{time} {1}出界失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 147,
+    "EventId": 333,
+    "Weight": 10,
+    "Content": "{time} {1}走步违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 148,
+    "EventId": 334,
+    "Weight": 10,
+    "Content": "{time} {1}失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 149,
+    "EventId": 335,
+    "Weight": 10,
+    "Content": "{time} {1}两次运球失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 150,
+    "EventId": 336,
+    "Weight": 10,
+    "Content": "{time} {1}运球失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 151,
+    "EventId": 337,
+    "Weight": 10,
+    "Content": "{time} {1}3秒违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 152,
+    "EventId": 338,
+    "Weight": 10,
+    "Content": "{time} {1}5秒违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 153,
+    "EventId": 339,
+    "Weight": 10,
+    "Content": "{time} {1}8秒违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 154,
+    "EventId": 341,
+    "Weight": 10,
+    "Content": "{time} {1}发边线球违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 155,
+    "EventId": 342,
+    "Weight": 10,
+    "Content": "{time} {1}回场违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 156,
+    "EventId": 343,
+    "Weight": 10,
+    "Content": "{time} {1}干扰球",
+    "GroupContent": ""
+  },
+  {
+    "Id": 157,
+    "EventId": 344,
+    "Weight": 10,
+    "Content": "{time} {1}提前入线违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 158,
+    "EventId": 345,
+    "Weight": 10,
+    "Content": "{time} {1}跳球违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 159,
+    "EventId": 346,
+    "Weight": 10,
+    "Content": "{time} {1}脚踢球失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 160,
+    "EventId": 347,
+    "Weight": 10,
+    "Content": "{time} {1}非法掩护",
+    "GroupContent": ""
+  },
+  {
+    "Id": 161,
+    "EventId": 348,
+    "Weight": 10,
+    "Content": "{time} {1}翻腕",
+    "GroupContent": ""
+  },
+  {
+    "Id": 162,
+    "EventId": 349,
+    "Weight": 10,
+    "Content": "{time} {1}运球失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 163,
+    "EventId": 350,
+    "Weight": 10,
+    "Content": "{time} {1}过分挥肘",
+    "GroupContent": ""
+  },
+  {
+    "Id": 164,
+    "EventId": 351,
+    "Weight": 10,
+    "Content": "{time} {1}投篮违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 165,
+    "EventId": 352,
+    "Weight": 10,
+    "Content": "{time} {1}非法掩护",
+    "GroupContent": ""
+  },
+  {
+    "Id": 166,
+    "EventId": 353,
+    "Weight": 10,
+    "Content": "{time} {1}进攻犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 167,
+    "EventId": 354,
+    "Weight": 10,
+    "Content": "{time} {1}发边线球5秒违例",
+    "GroupContent": ""
+  },
+  {
+    "Id": 168,
+    "EventId": 355,
+    "Weight": 10,
+    "Content": "{time} {1}踩线失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 169,
+    "EventId": 356,
+    "Weight": 10,
+    "Content": "{time} {1}运球出界",
+    "GroupContent": ""
+  },
+  {
+    "Id": 170,
+    "EventId": 357,
+    "Weight": 10,
+    "Content": "{time} {1}传球失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 171,
+    "EventId": 358,
+    "Weight": 10,
+    "Content": "{time} {1}出界失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 172,
+    "EventId": 359,
+    "Weight": 10,
+    "Content": "{time} {1}传球出界失误",
+    "GroupContent": ""
+  },
+  {
+    "Id": 173,
+    "EventId": 360,
+    "Weight": 10,
+    "Content": "{time} {1}犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 174,
+    "EventId": 361,
+    "Weight": 10,
+    "Content": "{time} {1}掩护犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 175,
+    "EventId": 362,
+    "Weight": 10,
+    "Content": "{time} {1}争抢球犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 176,
+    "EventId": 363,
+    "Weight": 10,
+    "Content": "{time} {1}进攻犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 177,
+    "EventId": 364,
+    "Weight": 10,
+    "Content": "{time} {1}犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 178,
+    "EventId": 365,
+    "Weight": 10,
+    "Content": "{time} {1}无球犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 179,
+    "EventId": 366,
+    "Weight": 10,
+    "Content": "{time} {1}犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 180,
+    "EventId": 367,
+    "Weight": 10,
+    "Content": "{time} {1}技术犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 181,
+    "EventId": 368,
+    "Weight": 10,
+    "Content": "{time} {1}违体犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 182,
+    "EventId": 369,
+    "Weight": 10,
+    "Content": "{time} {1}犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 183,
+    "EventId": 370,
+    "Weight": 10,
+    "Content": "{time} {1}2级恶意犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 184,
+    "EventId": 371,
+    "Weight": 10,
+    "Content": "{time} {1}1级犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 185,
+    "EventId": 374,
+    "Weight": 10,
+    "Content": "{time} {1}言语犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 186,
+    "EventId": 375,
+    "Weight": 10,
+    "Content": "{time} {1}进攻撞人犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 187,
+    "EventId": 376,
+    "Weight": 10,
+    "Content": "{time} {1}盖帽犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 188,
+    "EventId": 377,
+    "Weight": 10,
+    "Content": "{time} {1}个人延误犯规",
+    "GroupContent": ""
+  },
+  {
+    "Id": 189,
+    "EventId": 378,
+    "Weight": 10,
+    "Content": "{time} {1}盖帽犯规",
+    "GroupContent": ""
+  }
+]

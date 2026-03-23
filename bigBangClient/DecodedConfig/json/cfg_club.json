@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Name": "巴塞罗那",
+    "TrainLevel": 180
+  },
+  {
+    "Id": 2,
+    "Name": "皇马",
+    "TrainLevel": 190
+  }
+]

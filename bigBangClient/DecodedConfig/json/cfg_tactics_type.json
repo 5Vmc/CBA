@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "Name": "进攻战术",
+    "PrefabsType": 104,
+    "Tips": "进攻战术"
+  },
+  {
+    "Id": 2,
+    "Name": "防守战术",
+    "PrefabsType": 103,
+    "Tips": "防守战术"
+  }
+]

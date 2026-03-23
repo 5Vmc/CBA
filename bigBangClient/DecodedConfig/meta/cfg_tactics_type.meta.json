@@ -1,0 +1,29 @@
+{
+  "class_name": "TacticsTypeConfig",
+  "table_name": "cfg_tactics_type",
+  "field_count": 4,
+  "row_count": 2,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "PrefabsType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Tips",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

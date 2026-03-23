@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "罚球",
+    "Action": 1
+  },
+  {
+    "Id": 2,
+    "Name": "两分",
+    "Action": 2
+  },
+  {
+    "Id": 3,
+    "Name": "三分",
+    "Action": 3
+  },
+  {
+    "Id": 4,
+    "Name": "两分助攻",
+    "Action": 4
+  },
+  {
+    "Id": 5,
+    "Name": "三分助攻",
+    "Action": 5
+  },
+  {
+    "Id": 6,
+    "Name": "罚球未中",
+    "Action": 6
+  },
+  {
+    "Id": 7,
+    "Name": "两分未中",
+    "Action": 7
+  },
+  {
+    "Id": 8,
+    "Name": "三分未中",
+    "Action": 8
+  },
+  {
+    "Id": 9,
+    "Name": "篮板",
+    "Action": 9
+  },
+  {
+    "Id": 10,
+    "Name": "抢断失误",
+    "Action": 10
+  },
+  {
+    "Id": 11,
+    "Name": "盖帽",
+    "Action": 11
+  },
+  {
+    "Id": 12,
+    "Name": "失误",
+    "Action": 12
+  },
+  {
+    "Id": 13,
+    "Name": "犯规",
+    "Action": 13
+  },
+  {
+    "Id": 14,
+    "Name": "技术犯规",
+    "Action": 14
+  },
+  {
+    "Id": 15,
+    "Name": "受伤",
+    "Action": 15
+  },
+  {
+    "Id": 16,
+    "Name": "换人",
+    "Action": 16
+  }
+]

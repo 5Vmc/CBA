@@ -1,0 +1,34 @@
+{
+  "class_name": "QualityUpgradeConfig",
+  "table_name": "cfg_quality_upgrade",
+  "field_count": 5,
+  "row_count": 4,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostMoney",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostGoods",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "CostSelf",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

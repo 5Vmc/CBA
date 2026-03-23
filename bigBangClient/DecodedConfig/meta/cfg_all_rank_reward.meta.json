@@ -1,0 +1,39 @@
+{
+  "class_name": "AllRankRewardConfig",
+  "table_name": "cfg_all_rank_reward",
+  "field_count": 6,
+  "row_count": 10,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Cycle",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Min",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Max",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

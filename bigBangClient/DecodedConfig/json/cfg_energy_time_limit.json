@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "MinTime": 12,
+    "MaxTime": 14,
+    "Rewards": "1:6:150"
+  },
+  {
+    "Id": 2,
+    "MinTime": 18,
+    "MaxTime": 20,
+    "Rewards": "1:6:150"
+  },
+  {
+    "Id": 3,
+    "MinTime": 21,
+    "MaxTime": 23,
+    "Rewards": "1:6:150"
+  }
+]

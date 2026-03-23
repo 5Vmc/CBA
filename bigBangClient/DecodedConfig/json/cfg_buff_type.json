@@ -1,0 +1,416 @@
+[
+  {
+    "Id": 0,
+    "Desc": "全体训练项目收益",
+    "DescPart1": "全体训练项目",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 1,
+    "Desc": "身体训练收益",
+    "DescPart1": "身体训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 1,
+    "TrainIconName": "Body"
+  },
+  {
+    "Id": 2,
+    "Desc": "传球训练收益",
+    "DescPart1": "传球训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 2,
+    "TrainIconName": "Pass"
+  },
+  {
+    "Id": 3,
+    "Desc": "防守训练收益",
+    "DescPart1": "防守训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 3,
+    "TrainIconName": "Defence"
+  },
+  {
+    "Id": 4,
+    "Desc": "扣篮训练收益",
+    "DescPart1": "扣篮训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 4,
+    "TrainIconName": "Dunk"
+  },
+  {
+    "Id": 5,
+    "Desc": "篮板训练收益",
+    "DescPart1": "篮板训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 5,
+    "TrainIconName": "Rebound"
+  },
+  {
+    "Id": 6,
+    "Desc": "投篮训练收益",
+    "DescPart1": "投篮训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 6,
+    "TrainIconName": "Shoot"
+  },
+  {
+    "Id": 7,
+    "Desc": "抢断训练收益",
+    "DescPart1": "抢断训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 7,
+    "TrainIconName": "Steal"
+  },
+  {
+    "Id": 8,
+    "Desc": "控球训练收益",
+    "DescPart1": "控球训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 8,
+    "TrainIconName": "Control"
+  },
+  {
+    "Id": 9,
+    "Desc": "盖帽训练收益",
+    "DescPart1": "盖帽训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 9,
+    "TrainIconName": "Block"
+  },
+  {
+    "Id": 10,
+    "Desc": "稳定训练收益",
+    "DescPart1": "稳定训练",
+    "DescPart2": "收益",
+    "DescOperator": "x",
+    "EffectTrainId": 10,
+    "TrainIconName": "Stable"
+  },
+  {
+    "Id": 100,
+    "Desc": "源力加成",
+    "DescPart1": "源力",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 99,
+    "TrainIconName": "OriginPower"
+  },
+  {
+    "Id": 101,
+    "Desc": "经验",
+    "DescPart1": "经验",
+    "DescPart2": "",
+    "DescOperator": "+",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 200,
+    "Desc": "全体训练项目等级",
+    "DescPart1": "全体训练项目",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 201,
+    "Desc": "身体训练等级",
+    "DescPart1": "身体训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 1,
+    "TrainIconName": "Body"
+  },
+  {
+    "Id": 202,
+    "Desc": "传球训练等级",
+    "DescPart1": "传球训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 2,
+    "TrainIconName": "Pass"
+  },
+  {
+    "Id": 203,
+    "Desc": "防守训练等级",
+    "DescPart1": "防守训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 3,
+    "TrainIconName": "Defence"
+  },
+  {
+    "Id": 204,
+    "Desc": "扣篮训练等级",
+    "DescPart1": "扣篮训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 4,
+    "TrainIconName": "Dunk"
+  },
+  {
+    "Id": 205,
+    "Desc": "篮板训练等级",
+    "DescPart1": "篮板训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 5,
+    "TrainIconName": "Rebound"
+  },
+  {
+    "Id": 206,
+    "Desc": "投篮训练等级",
+    "DescPart1": "投篮训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 6,
+    "TrainIconName": "Shoot"
+  },
+  {
+    "Id": 207,
+    "Desc": "抢断训练等级",
+    "DescPart1": "抢断训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 7,
+    "TrainIconName": "Steal"
+  },
+  {
+    "Id": 208,
+    "Desc": "控球训练等级",
+    "DescPart1": "控球训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 8,
+    "TrainIconName": "Control"
+  },
+  {
+    "Id": 209,
+    "Desc": "盖帽训练等级",
+    "DescPart1": "盖帽训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 9,
+    "TrainIconName": "Block"
+  },
+  {
+    "Id": 210,
+    "Desc": "稳定训练等级",
+    "DescPart1": "稳定训练",
+    "DescPart2": "等级",
+    "DescOperator": "+",
+    "EffectTrainId": 10,
+    "TrainIconName": "Stable"
+  },
+  {
+    "Id": 300,
+    "Desc": "全体训练项目升級消耗",
+    "DescPart1": "全体训练项目",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 301,
+    "Desc": "身体训练升級消耗",
+    "DescPart1": "身体训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 1,
+    "TrainIconName": "Body"
+  },
+  {
+    "Id": 302,
+    "Desc": "传球训练升級消耗",
+    "DescPart1": "传球训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 2,
+    "TrainIconName": "Pass"
+  },
+  {
+    "Id": 303,
+    "Desc": "防守训练升級消耗",
+    "DescPart1": "防守训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 3,
+    "TrainIconName": "Defence"
+  },
+  {
+    "Id": 304,
+    "Desc": "扣篮训练升級消耗",
+    "DescPart1": "扣篮训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 4,
+    "TrainIconName": "Dunk"
+  },
+  {
+    "Id": 305,
+    "Desc": "篮板训练升級消耗",
+    "DescPart1": "篮板训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 5,
+    "TrainIconName": "Rebound"
+  },
+  {
+    "Id": 306,
+    "Desc": "投篮训练升級消耗",
+    "DescPart1": "投篮训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 6,
+    "TrainIconName": "Shoot"
+  },
+  {
+    "Id": 307,
+    "Desc": "抢断训练升級消耗",
+    "DescPart1": "抢断训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 7,
+    "TrainIconName": "Steal"
+  },
+  {
+    "Id": 308,
+    "Desc": "控球训练升級消耗",
+    "DescPart1": "控球训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 8,
+    "TrainIconName": "Control"
+  },
+  {
+    "Id": 309,
+    "Desc": "盖帽训练升級消耗",
+    "DescPart1": "盖帽训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 9,
+    "TrainIconName": "Block"
+  },
+  {
+    "Id": 310,
+    "Desc": "稳定训练升級消耗",
+    "DescPart1": "稳定训练",
+    "DescPart2": "升級消耗",
+    "DescOperator": "-",
+    "EffectTrainId": 10,
+    "TrainIconName": "Stable"
+  },
+  {
+    "Id": 400,
+    "Desc": "全体训练项目效率",
+    "DescPart1": "全体训练项目",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 401,
+    "Desc": "身体训练效率",
+    "DescPart1": "身体训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 1,
+    "TrainIconName": "Body"
+  },
+  {
+    "Id": 402,
+    "Desc": "传球训练效率",
+    "DescPart1": "传球训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 2,
+    "TrainIconName": "Pass"
+  },
+  {
+    "Id": 403,
+    "Desc": "防守训练效率",
+    "DescPart1": "防守训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 3,
+    "TrainIconName": "Defence"
+  },
+  {
+    "Id": 404,
+    "Desc": "扣篮训练效率",
+    "DescPart1": "扣篮训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 4,
+    "TrainIconName": "Dunk"
+  },
+  {
+    "Id": 405,
+    "Desc": "篮板训练效率",
+    "DescPart1": "篮板训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 5,
+    "TrainIconName": "Rebound"
+  },
+  {
+    "Id": 406,
+    "Desc": "投篮训练效率",
+    "DescPart1": "投篮训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 6,
+    "TrainIconName": "Shoot"
+  },
+  {
+    "Id": 407,
+    "Desc": "抢断训练效率",
+    "DescPart1": "抢断训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 7,
+    "TrainIconName": "Steal"
+  },
+  {
+    "Id": 408,
+    "Desc": "控球训练效率",
+    "DescPart1": "控球训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 8,
+    "TrainIconName": "Control"
+  },
+  {
+    "Id": 409,
+    "Desc": "盖帽训练效率",
+    "DescPart1": "盖帽训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 9,
+    "TrainIconName": "Block"
+  },
+  {
+    "Id": 410,
+    "Desc": "稳定训练效率",
+    "DescPart1": "稳定训练",
+    "DescPart2": "效率",
+    "DescOperator": "x",
+    "EffectTrainId": 10,
+    "TrainIconName": "Stable"
+  }
+]

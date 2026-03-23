@@ -1,0 +1,39 @@
+{
+  "class_name": "ActivityPayRewardConfig",
+  "table_name": "cfg_activity_pay_reward",
+  "field_count": 6,
+  "row_count": 36,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Option",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rebate",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

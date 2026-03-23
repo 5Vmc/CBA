@@ -1,0 +1,34 @@
+{
+  "class_name": "AllStarAdditionConfig",
+  "table_name": "cfg_all_star_addition",
+  "field_count": 5,
+  "row_count": 116,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Addition",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Area",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "AdaptPosition",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

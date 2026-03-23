@@ -1,0 +1,101 @@
+[
+  {
+    "Id": 0,
+    "Desc": "全体球员属性",
+    "DescPart1": "全体属性",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 99,
+    "TrainIconName": "All"
+  },
+  {
+    "Id": 9,
+    "Desc": "身体属性",
+    "DescPart1": "身体",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 1,
+    "TrainIconName": "Body"
+  },
+  {
+    "Id": 3,
+    "Desc": "传球属性",
+    "DescPart1": "传球",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 2,
+    "TrainIconName": "Pass"
+  },
+  {
+    "Id": 6,
+    "Desc": "防守属性",
+    "DescPart1": "防守",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 3,
+    "TrainIconName": "Defence"
+  },
+  {
+    "Id": 8,
+    "Desc": "扣篮属性",
+    "DescPart1": "扣篮",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 4,
+    "TrainIconName": "Dunk"
+  },
+  {
+    "Id": 2,
+    "Desc": "篮板属性",
+    "DescPart1": "篮板",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 5,
+    "TrainIconName": "Rebound"
+  },
+  {
+    "Id": 1,
+    "Desc": "投篮属性",
+    "DescPart1": "投篮",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 6,
+    "TrainIconName": "Shoot"
+  },
+  {
+    "Id": 5,
+    "Desc": "抢断属性",
+    "DescPart1": "抢断",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 7,
+    "TrainIconName": "Steal"
+  },
+  {
+    "Id": 4,
+    "Desc": "控球属性",
+    "DescPart1": "控球",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 8,
+    "TrainIconName": "Control"
+  },
+  {
+    "Id": 7,
+    "Desc": "盖帽属性",
+    "DescPart1": "盖帽",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 9,
+    "TrainIconName": "Block"
+  },
+  {
+    "Id": 10,
+    "Desc": "稳定属性",
+    "DescPart1": "稳定",
+    "DescPart2": "加成",
+    "DescOperator": "+",
+    "EffectTrainId": 10,
+    "TrainIconName": "Stable"
+  }
+]

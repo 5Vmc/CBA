@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 2001,
+    "Name": "得分王奖杯",
+    "Scale": 10.0,
+    "ZOffset": 0.0,
+    "Buffname": "联赛体能消耗下降80%",
+    "Price": 5000,
+    "Buffparam": 80,
+    "Pic": 2001
+  },
+  {
+    "Id": 2002,
+    "Name": "中国篮球至尊鼎",
+    "Scale": 30.0,
+    "ZOffset": 5.0,
+    "Buffname": "联赛伤病率下降80%",
+    "Price": 10000,
+    "Buffparam": 80,
+    "Pic": 2002
+  },
+  {
+    "Id": 2003,
+    "Name": "MVP奖杯",
+    "Scale": 50.0,
+    "ZOffset": 4.590000152587891,
+    "Buffname": "联赛状态下降概率减少80%",
+    "Price": 20000,
+    "Buffparam": 80,
+    "Pic": 2003
+  }
+]

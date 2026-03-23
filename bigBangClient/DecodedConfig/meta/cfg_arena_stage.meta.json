@@ -1,0 +1,34 @@
+{
+  "class_name": "ArenaStageConfig",
+  "table_name": "cfg_arena_stage",
+  "field_count": 5,
+  "row_count": 9,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Score",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "NextInitStage",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

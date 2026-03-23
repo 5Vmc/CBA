@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Quality": 2,
+    "CostMoney": 500,
+    "CostGoods": {
+      "400154": 10
+    },
+    "CostSelf": 0
+  },
+  {
+    "Id": 2,
+    "Quality": 3,
+    "CostMoney": 5000,
+    "CostGoods": {
+      "400153": 20
+    },
+    "CostSelf": 0
+  },
+  {
+    "Id": 3,
+    "Quality": 4,
+    "CostMoney": 50000,
+    "CostGoods": {
+      "400152": 30
+    },
+    "CostSelf": 0
+  },
+  {
+    "Id": 4,
+    "Quality": 5,
+    "CostMoney": 500000,
+    "CostGoods": {
+      "400151": 50
+    },
+    "CostSelf": 0
+  }
+]

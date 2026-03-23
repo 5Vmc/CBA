@@ -1,0 +1,34 @@
+{
+  "class_name": "NpcCardConfig",
+  "table_name": "cfg_npc_card",
+  "field_count": 5,
+  "row_count": 2,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ClubId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ModelId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Skills",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

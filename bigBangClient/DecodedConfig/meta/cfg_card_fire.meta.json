@@ -1,0 +1,34 @@
+{
+  "class_name": "CardFireConfig",
+  "table_name": "cfg_card_fire",
+  "field_count": 5,
+  "row_count": 5,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ReturnGoods",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "ReturnPercent",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Money",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "Id": 1,
+    "Point": 10,
+    "FinishPoint": 0,
+    "Second": 30,
+    "ServeBall": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 40.0,
+    "ShakeParam": 0.0,
+    "Reward": "1:6:10"
+  },
+  {
+    "Id": 2,
+    "Point": 25,
+    "FinishPoint": 10,
+    "Second": 10,
+    "ServeBall": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 45.0,
+    "ShakeParam": 5.0,
+    "Reward": "1:6:15"
+  },
+  {
+    "Id": 3,
+    "Point": 40,
+    "FinishPoint": 25,
+    "Second": 8,
+    "ServeBall": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 50.0,
+    "ShakeParam": 10.0,
+    "Reward": "1:6:25"
+  },
+  {
+    "Id": 4,
+    "Point": 55,
+    "FinishPoint": 40,
+    "Second": 8,
+    "ServeBall": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 55.0,
+    "ShakeParam": 20.0,
+    "Reward": "1:1:25"
+  },
+  {
+    "Id": 5,
+    "Point": 70,
+    "FinishPoint": 55,
+    "Second": 8,
+    "ServeBall": [
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 60.0,
+    "ShakeParam": 25.0,
+    "Reward": "1:1:25"
+  },
+  {
+    "Id": 6,
+    "Point": 85,
+    "FinishPoint": 70,
+    "Second": 5,
+    "ServeBall": [
+      2,
+      2,
+      3
+    ],
+    "SlideParam": 70.0,
+    "ShakeParam": 30.0,
+    "Reward": "1:1:50"
+  },
+  {
+    "Id": 7,
+    "Point": 90,
+    "FinishPoint": 85,
+    "Second": 5,
+    "ServeBall": [
+      2,
+      3
+    ],
+    "SlideParam": 75.0,
+    "ShakeParam": 35.0,
+    "Reward": ""
+  },
+  {
+    "Id": 8,
+    "Point": 105,
+    "FinishPoint": 90,
+    "Second": 5,
+    "ServeBall": [
+      2,
+      3
+    ],
+    "SlideParam": 80.0,
+    "ShakeParam": 45.0,
+    "Reward": ""
+  },
+  {
+    "Id": 9,
+    "Point": 125,
+    "FinishPoint": 105,
+    "Second": 5,
+    "ServeBall": [
+      3
+    ],
+    "SlideParam": 85.0,
+    "ShakeParam": 50.0,
+    "Reward": ""
+  },
+  {
+    "Id": 10,
+    "Point": 160,
+    "FinishPoint": 125,
+    "Second": 5,
+    "ServeBall": [
+      3
+    ],
+    "SlideParam": 90.0,
+    "ShakeParam": 65.0,
+    "Reward": ""
+  },
+  {
+    "Id": 11,
+    "Point": 999,
+    "FinishPoint": 160,
+    "Second": 5,
+    "ServeBall": [
+      3
+    ],
+    "SlideParam": 90.0,
+    "ShakeParam": 75.0,
+    "Reward": ""
+  }
+]

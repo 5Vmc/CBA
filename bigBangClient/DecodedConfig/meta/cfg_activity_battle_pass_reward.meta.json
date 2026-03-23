@@ -1,0 +1,44 @@
+{
+  "class_name": "ActivityBattlePassRewardConfig",
+  "table_name": "cfg_activity_battle_pass_reward",
+  "field_count": 7,
+  "row_count": 50,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Option",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Exp",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rewards2",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "RewardsStep",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "class_name": "ActivityTopRewardConfig",
+  "table_name": "cfg_activity_top_reward",
+  "field_count": 5,
+  "row_count": 168,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Min",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Max",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

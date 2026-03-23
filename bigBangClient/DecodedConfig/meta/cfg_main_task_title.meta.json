@@ -1,0 +1,19 @@
+{
+  "class_name": "MainTaskTitleConfig",
+  "table_name": "cfg_main_task_title",
+  "field_count": 2,
+  "row_count": 6,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Title",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

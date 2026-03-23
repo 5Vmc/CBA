@@ -1,0 +1,44 @@
+{
+  "class_name": "DiamondShopConfig",
+  "table_name": "cfg_diamond_shop",
+  "field_count": 7,
+  "row_count": 6,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ProductId",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Obtain",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Give",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rmb",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Dollar",
+      "type": "float",
+      "reader": "GetFloat32"
+    }
+  ]
+}

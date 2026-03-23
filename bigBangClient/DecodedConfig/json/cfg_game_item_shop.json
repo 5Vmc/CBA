@@ -1,0 +1,552 @@
+[
+  {
+    "Id": 6001,
+    "Type": 6,
+    "Item": "3:104009:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6002,
+    "Type": 6,
+    "Item": "3:104012:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6003,
+    "Type": 6,
+    "Item": "3:104015:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6004,
+    "Type": 6,
+    "Item": "3:104017:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6005,
+    "Type": 6,
+    "Item": "3:104018:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6006,
+    "Type": 6,
+    "Item": "3:104023:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6007,
+    "Type": 6,
+    "Item": "3:104025:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6008,
+    "Type": 6,
+    "Item": "3:104026:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6009,
+    "Type": 6,
+    "Item": "3:104027:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6010,
+    "Type": 6,
+    "Item": "3:104028:1",
+    "Cost": "2:400502:8400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6011,
+    "Type": 6,
+    "Item": "3:103001:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6012,
+    "Type": 6,
+    "Item": "3:103002:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6013,
+    "Type": 6,
+    "Item": "3:103003:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6014,
+    "Type": 6,
+    "Item": "3:103004:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6015,
+    "Type": 6,
+    "Item": "3:103005:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6016,
+    "Type": 6,
+    "Item": "3:103006:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6017,
+    "Type": 6,
+    "Item": "3:103011:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6018,
+    "Type": 6,
+    "Item": "3:103013:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6019,
+    "Type": 6,
+    "Item": "3:103014:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6020,
+    "Type": 6,
+    "Item": "3:103020:1",
+    "Cost": "2:400502:2400",
+    "DayLimit": 2,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6500,
+    "Type": 5,
+    "Item": "2:400154:1",
+    "Cost": "2:400503:50",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6501,
+    "Type": 5,
+    "Item": "2:400153:1",
+    "Cost": "2:400503:65",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6502,
+    "Type": 5,
+    "Item": "2:400152:1",
+    "Cost": "2:400503:400",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6503,
+    "Type": 5,
+    "Item": "2:100108:1",
+    "Cost": "2:400503:60",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6504,
+    "Type": 5,
+    "Item": "2:400201:1",
+    "Cost": "2:400503:500",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6505,
+    "Type": 5,
+    "Item": "2:400152:1",
+    "Cost": "2:400504:4",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6506,
+    "Type": 5,
+    "Item": "2:400151:1",
+    "Cost": "2:400504:8",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6507,
+    "Type": 5,
+    "Item": "2:100108:1",
+    "Cost": "2:400504:5",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 6508,
+    "Type": 5,
+    "Item": "2:400201:1",
+    "Cost": "2:400504:16",
+    "DayLimit": 1,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7001,
+    "Type": 7,
+    "Item": "2:400154:1",
+    "Cost": "2:100109:50",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7002,
+    "Type": 7,
+    "Item": "2:400153:1",
+    "Cost": "2:100109:200",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7003,
+    "Type": 7,
+    "Item": "2:400152:1",
+    "Cost": "2:100109:350",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7004,
+    "Type": 7,
+    "Item": "2:400151:1",
+    "Cost": "2:100109:500",
+    "DayLimit": 5,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7005,
+    "Type": 7,
+    "Item": "2:400154:1",
+    "Cost": "2:100109:100",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7006,
+    "Type": 7,
+    "Item": "2:400153:1",
+    "Cost": "2:100109:400",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7007,
+    "Type": 7,
+    "Item": "2:400152:1",
+    "Cost": "2:100109:700",
+    "DayLimit": 20,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 7008,
+    "Type": 7,
+    "Item": "2:400151:1",
+    "Cost": "2:100109:1500",
+    "DayLimit": 5,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 10001,
+    "Type": 10,
+    "Item": "2:400201:1",
+    "Cost": "1:1:300",
+    "DayLimit": 99999,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 10002,
+    "Type": 10,
+    "Item": "2:400210:1",
+    "Cost": "1:1:300",
+    "DayLimit": 99999,
+    "WeekLimit": -1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11001,
+    "Type": 11,
+    "Item": "2:400207:1",
+    "Cost": "2:100110:5",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11002,
+    "Type": 11,
+    "Item": "2:400209:1",
+    "Cost": "2:100110:5",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11003,
+    "Type": 11,
+    "Item": "2:400208:1",
+    "Cost": "2:100110:5",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11004,
+    "Type": 11,
+    "Item": "1:2:10000",
+    "Cost": "2:100110:10",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11005,
+    "Type": 11,
+    "Item": "1:2:30000",
+    "Cost": "2:100110:30",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11006,
+    "Type": 11,
+    "Item": "1:2:100000",
+    "Cost": "2:100110:80",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11008,
+    "Type": 11,
+    "Item": "1:6:50",
+    "Cost": "2:100110:10",
+    "DayLimit": -1,
+    "WeekLimit": 3,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11009,
+    "Type": 11,
+    "Item": "2:400201:1",
+    "Cost": "2:100110:30",
+    "DayLimit": -1,
+    "WeekLimit": 5,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11010,
+    "Type": 11,
+    "Item": "2:100106:20",
+    "Cost": "2:100110:25",
+    "DayLimit": -1,
+    "WeekLimit": 3,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11011,
+    "Type": 11,
+    "Item": "2:200211:1",
+    "Cost": "2:100110:88",
+    "DayLimit": -1,
+    "WeekLimit": 1,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11012,
+    "Type": 11,
+    "Item": "2:400103:3",
+    "Cost": "2:100110:10",
+    "DayLimit": -1,
+    "WeekLimit": 2,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11013,
+    "Type": 11,
+    "Item": "2:400102:2",
+    "Cost": "2:100110:60",
+    "DayLimit": -1,
+    "WeekLimit": 2,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11014,
+    "Type": 11,
+    "Item": "2:400152:1",
+    "Cost": "2:100110:10",
+    "DayLimit": -1,
+    "WeekLimit": 3,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11015,
+    "Type": 11,
+    "Item": "2:400151:1",
+    "Cost": "2:100110:50",
+    "DayLimit": -1,
+    "WeekLimit": 2,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11016,
+    "Type": 11,
+    "Item": "2:200232:1",
+    "Cost": "2:100110:12",
+    "DayLimit": -1,
+    "WeekLimit": 3,
+    "SeasonLimit": -1,
+    "Limit": -1
+  },
+  {
+    "Id": 11017,
+    "Type": 11,
+    "Item": "2:200231:1",
+    "Cost": "2:100110:65",
+    "DayLimit": -1,
+    "WeekLimit": 2,
+    "SeasonLimit": -1,
+    "Limit": -1
+  }
+]

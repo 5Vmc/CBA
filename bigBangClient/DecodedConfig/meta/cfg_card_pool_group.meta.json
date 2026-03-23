@@ -1,0 +1,44 @@
+{
+  "class_name": "CardPoolGroupConfig",
+  "table_name": "cfg_card_pool_group",
+  "field_count": 7,
+  "row_count": 360,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PoolInfo",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Operator",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Operand",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PoolId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Nxtinfo",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

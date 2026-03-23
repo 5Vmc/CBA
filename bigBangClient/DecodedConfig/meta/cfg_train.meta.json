@@ -1,0 +1,59 @@
+{
+  "class_name": "TrainConfig",
+  "table_name": "cfg_train",
+  "field_count": 10,
+  "row_count": 10,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BaseAdd",
+      "type": "Babu.BigNumber.BigNumber",
+      "reader": "GetBigNumber"
+    },
+    {
+      "name": "BaseTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BaseCost",
+      "type": "Babu.BigNumber.BigNumber",
+      "reader": "GetBigNumber"
+    },
+    {
+      "name": "CostAdd",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "UnlockReward",
+      "type": "Babu.BigNumber.BigNumber",
+      "reader": "GetBigNumber"
+    },
+    {
+      "name": "Attribute",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Cameraid",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

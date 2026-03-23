@@ -1,0 +1,39 @@
+{
+  "class_name": "CommonTriggerConfig",
+  "table_name": "cfg_common_trigger",
+  "field_count": 6,
+  "row_count": 392,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TriggerId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CompareType",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Condition",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Action",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ActionParam",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

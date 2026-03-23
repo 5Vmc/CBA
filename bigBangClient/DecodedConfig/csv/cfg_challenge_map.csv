@@ -1,0 +1,16 @@
+﻿Id,Name,NodeName,IconUI,IconNew,ScenePrefab,Des,Level,LevelTxt,IdleAnim,TransferAnim,Next,Number,Order,Icon3D
+101,亚洲,chNode9,AsiaUI,Asia,Xuanguan_Yazhou,亚洲乙级联赛,1,普通,Idle_Asia,AsiaToAfrica,102,20,1,1
+102,非洲,chNode13,AfricaUI,Africa,Xuanguan_Feizhou,非洲乙级联赛,1,普通,Idle_Africa,AfricaToNorthAmerica,103,20,2,2
+103,北美,chNode2,NorthAmericaUI,NorthAmerica,Xuanguan_Beimei,北美洲乙级联赛,1,普通,Idle_NorthAmerica,NorthAmericaToSouthAmerica,104,20,5,3
+104,南美,chNode5,SouthAmericaUI,SouthAmerica,Xuanguan_Nanmei,南美洲乙级联赛,1,普通,Idle_SouthAmerica,SouthAmericaToEurope,105,20,3,4
+105,欧洲,chNode10,EuropeUI,Europe,Xuanguan_Ouzhou,欧洲乙级联赛,1,普通,Idle_Europe,EuropeToAsia,201,20,4,5
+201,亚洲,chNode8,AsiaUI,Asia,Xuanguan_Yazhou,亚洲甲级联赛,2,困难,Idle_Asia,AsiaToAfrica,202,20,6,6
+202,非洲,chNode14,AfricaUI,Africa,Xuanguan_Feizhou,非洲甲级联赛,2,困难,Idle_Africa,AfricaToNorthAmerica,203,20,7,7
+203,北美,chNode1,NorthAmericaUI,NorthAmerica,Xuanguan_Beimei,北美洲甲级联赛,2,困难,Idle_NorthAmerica,NorthAmericaToSouthAmerica,204,20,10,8
+204,南美,chNode4,SouthAmericaUI,SouthAmerica,Xuanguan_Nanmei,南美洲甲级联赛,2,困难,Idle_SouthAmerica,SouthAmericaToEurope,205,20,8,9
+205,欧洲,chNode11,EuropeUI,Europe,Xuanguan_Ouzhou,欧洲甲级联赛,2,困难,Idle_Europe,EuropeToAsia,301,20,9,10
+301,亚洲,chNode7,AsiaUI,Asia,Xuanguan_Yazhou,亚洲超级联赛,3,挑战,Idle_Asia,AsiaToAfrica,302,20,11,11
+302,非洲,chNode15,AfricaUI,Africa,Xuanguan_Feizhou,非洲超级联赛,3,挑战,Idle_Africa,AfricaToNorthAmerica,303,20,12,12
+303,北美,chNode3,NorthAmericaUI,NorthAmerica,Xuanguan_Beimei,北美洲超级联赛,3,挑战,Idle_NorthAmerica,NorthAmericaToSouthAmerica,304,20,15,13
+304,南美,chNode6,SouthAmericaUI,SouthAmerica,Xuanguan_Nanmei,南美洲超级联赛,3,挑战,Idle_SouthAmerica,SouthAmericaToEurope,305,20,13,14
+305,欧洲,chNode12,EuropeUI,Europe,Xuanguan_Ouzhou,欧洲超级联赛,3,挑战,Idle_Europe,0,0,20,14,15

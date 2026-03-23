@@ -1,0 +1,29 @@
+{
+  "class_name": "WayOfGainConfig",
+  "table_name": "cfg_way_of_gain",
+  "field_count": 4,
+  "row_count": 156,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GameItemType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GameItemId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Way",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

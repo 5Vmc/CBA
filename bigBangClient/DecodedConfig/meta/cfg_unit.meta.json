@@ -1,0 +1,19 @@
+{
+  "class_name": "UnitConfig",
+  "table_name": "cfg_unit",
+  "field_count": 2,
+  "row_count": 577,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "UnitName",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

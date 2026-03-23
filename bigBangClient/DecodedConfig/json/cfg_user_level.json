@@ -1,0 +1,842 @@
+[
+  {
+    "Id": 1,
+    "Exp": 200,
+    "ExpTotal": 0,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 2,
+    "Exp": 300,
+    "ExpTotal": 200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 3,
+    "Exp": 500,
+    "ExpTotal": 500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 4,
+    "Exp": 500,
+    "ExpTotal": 1000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 5,
+    "Exp": 500,
+    "ExpTotal": 1500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 6,
+    "Exp": 1500,
+    "ExpTotal": 2000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 7,
+    "Exp": 2000,
+    "ExpTotal": 3500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 8,
+    "Exp": 2000,
+    "ExpTotal": 5500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 9,
+    "Exp": 2500,
+    "ExpTotal": 7500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 10,
+    "Exp": 2500,
+    "ExpTotal": 10000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 11,
+    "Exp": 2500,
+    "ExpTotal": 12500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 12,
+    "Exp": 2500,
+    "ExpTotal": 15000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 13,
+    "Exp": 2500,
+    "ExpTotal": 17500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 14,
+    "Exp": 12000,
+    "ExpTotal": 20000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 15,
+    "Exp": 12000,
+    "ExpTotal": 32000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 16,
+    "Exp": 12000,
+    "ExpTotal": 44000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 17,
+    "Exp": 12000,
+    "ExpTotal": 56000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 18,
+    "Exp": 12000,
+    "ExpTotal": 68000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 19,
+    "Exp": 12000,
+    "ExpTotal": 80000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 20,
+    "Exp": 10800,
+    "ExpTotal": 92000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 21,
+    "Exp": 13200,
+    "ExpTotal": 102800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 22,
+    "Exp": 12000,
+    "ExpTotal": 116000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 23,
+    "Exp": 12000,
+    "ExpTotal": 128000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 24,
+    "Exp": 12000,
+    "ExpTotal": 140000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 25,
+    "Exp": 12000,
+    "ExpTotal": 152000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 26,
+    "Exp": 12000,
+    "ExpTotal": 164000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 27,
+    "Exp": 16100,
+    "ExpTotal": 176000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 28,
+    "Exp": 16100,
+    "ExpTotal": 192100,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 29,
+    "Exp": 16100,
+    "ExpTotal": 208200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 30,
+    "Exp": 16100,
+    "ExpTotal": 224300,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 31,
+    "Exp": 16400,
+    "ExpTotal": 240400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 32,
+    "Exp": 16800,
+    "ExpTotal": 256800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 33,
+    "Exp": 16800,
+    "ExpTotal": 273600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 34,
+    "Exp": 16800,
+    "ExpTotal": 290400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 35,
+    "Exp": 14300,
+    "ExpTotal": 307200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 36,
+    "Exp": 17500,
+    "ExpTotal": 321500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 37,
+    "Exp": 17500,
+    "ExpTotal": 339000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 38,
+    "Exp": 17500,
+    "ExpTotal": 356500,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 39,
+    "Exp": 16800,
+    "ExpTotal": 374000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 3
+  },
+  {
+    "Id": 40,
+    "Exp": 16800,
+    "ExpTotal": 390800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 41,
+    "Exp": 16800,
+    "ExpTotal": 407600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 42,
+    "Exp": 16400,
+    "ExpTotal": 424400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 43,
+    "Exp": 23200,
+    "ExpTotal": 440800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 44,
+    "Exp": 23200,
+    "ExpTotal": 464000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 45,
+    "Exp": 18400,
+    "ExpTotal": 487200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 46,
+    "Exp": 60800,
+    "ExpTotal": 505600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 47,
+    "Exp": 60800,
+    "ExpTotal": 566400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 48,
+    "Exp": 60800,
+    "ExpTotal": 627200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 49,
+    "Exp": 60800,
+    "ExpTotal": 688000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 50,
+    "Exp": 60800,
+    "ExpTotal": 748800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 51,
+    "Exp": 60800,
+    "ExpTotal": 809600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 52,
+    "Exp": 60800,
+    "ExpTotal": 870400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 53,
+    "Exp": 60800,
+    "ExpTotal": 931200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 54,
+    "Exp": 60800,
+    "ExpTotal": 992000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 55,
+    "Exp": 60800,
+    "ExpTotal": 1052800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 56,
+    "Exp": 119600,
+    "ExpTotal": 1113600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 57,
+    "Exp": 75800,
+    "ExpTotal": 1233200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 58,
+    "Exp": 75800,
+    "ExpTotal": 1309000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 59,
+    "Exp": 75800,
+    "ExpTotal": 1384800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 4
+  },
+  {
+    "Id": 60,
+    "Exp": 74600,
+    "ExpTotal": 1460600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 61,
+    "Exp": 74600,
+    "ExpTotal": 1535200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 62,
+    "Exp": 74600,
+    "ExpTotal": 1609800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 63,
+    "Exp": 74600,
+    "ExpTotal": 1684400,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 64,
+    "Exp": 78200,
+    "ExpTotal": 1759000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 65,
+    "Exp": 62800,
+    "ExpTotal": 1837200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 66,
+    "Exp": 117600,
+    "ExpTotal": 1900000,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 67,
+    "Exp": 117600,
+    "ExpTotal": 2017600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 68,
+    "Exp": 117600,
+    "ExpTotal": 2135200,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 69,
+    "Exp": 64800,
+    "ExpTotal": 2252800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 70,
+    "Exp": 100000,
+    "ExpTotal": 2317600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 71,
+    "Exp": 100000,
+    "ExpTotal": 2417600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 72,
+    "Exp": 100000,
+    "ExpTotal": 2517600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 73,
+    "Exp": 100000,
+    "ExpTotal": 2617600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 74,
+    "Exp": 100000,
+    "ExpTotal": 2717600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 75,
+    "Exp": 100000,
+    "ExpTotal": 2817600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 76,
+    "Exp": 100000,
+    "ExpTotal": 2917600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 77,
+    "Exp": 100000,
+    "ExpTotal": 3017600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 78,
+    "Exp": 100000,
+    "ExpTotal": 3117600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 79,
+    "Exp": 100000,
+    "ExpTotal": 3217600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 80,
+    "Exp": 100000,
+    "ExpTotal": 3317600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 81,
+    "Exp": 100000,
+    "ExpTotal": 3417600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 82,
+    "Exp": 100000,
+    "ExpTotal": 3517600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 83,
+    "Exp": 139200,
+    "ExpTotal": 3617600,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 84,
+    "Exp": 149000,
+    "ExpTotal": 3756800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 85,
+    "Exp": 149000,
+    "ExpTotal": 3905800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 86,
+    "Exp": 149000,
+    "ExpTotal": 4054800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 87,
+    "Exp": 149000,
+    "ExpTotal": 4203800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 88,
+    "Exp": 149000,
+    "ExpTotal": 4352800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 89,
+    "Exp": 149000,
+    "ExpTotal": 4501800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 90,
+    "Exp": 149000,
+    "ExpTotal": 4650800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 91,
+    "Exp": 149000,
+    "ExpTotal": 4799800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 92,
+    "Exp": 149000,
+    "ExpTotal": 4948800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 93,
+    "Exp": 149000,
+    "ExpTotal": 5097800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 94,
+    "Exp": 149000,
+    "ExpTotal": 5246800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 95,
+    "Exp": 149000,
+    "ExpTotal": 5395800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 96,
+    "Exp": 149000,
+    "ExpTotal": 5544800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 97,
+    "Exp": 149000,
+    "ExpTotal": 5693800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 98,
+    "Exp": 149000,
+    "ExpTotal": 5842800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 99,
+    "Exp": 149000,
+    "ExpTotal": 5991800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 100,
+    "Exp": 149000,
+    "ExpTotal": 6140800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 101,
+    "Exp": 149000,
+    "ExpTotal": 6289800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 102,
+    "Exp": 149000,
+    "ExpTotal": 6438800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 103,
+    "Exp": 149000,
+    "ExpTotal": 6587800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 104,
+    "Exp": 149000,
+    "ExpTotal": 6736800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 105,
+    "Exp": 149000,
+    "ExpTotal": 6885800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 106,
+    "Exp": 149000,
+    "ExpTotal": 7034800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 107,
+    "Exp": 149000,
+    "ExpTotal": 7183800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 108,
+    "Exp": 149000,
+    "ExpTotal": 7332800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 109,
+    "Exp": 149000,
+    "ExpTotal": 7481800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 110,
+    "Exp": 149000,
+    "ExpTotal": 7630800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 111,
+    "Exp": 149000,
+    "ExpTotal": 7779800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 112,
+    "Exp": 149000,
+    "ExpTotal": 7928800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 113,
+    "Exp": 149000,
+    "ExpTotal": 8077800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 114,
+    "Exp": 149000,
+    "ExpTotal": 8226800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 115,
+    "Exp": 149000,
+    "ExpTotal": 8375800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 116,
+    "Exp": 149000,
+    "ExpTotal": 8524800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 117,
+    "Exp": 149000,
+    "ExpTotal": 8673800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 118,
+    "Exp": 149000,
+    "ExpTotal": 8822800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 119,
+    "Exp": 149000,
+    "ExpTotal": 8971800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  },
+  {
+    "Id": 120,
+    "Exp": 99999999,
+    "ExpTotal": 9120800,
+    "Rewards": "1:6:100|1:2:1000|1:1:10",
+    "BountyTaskCount": 5
+  }
+]

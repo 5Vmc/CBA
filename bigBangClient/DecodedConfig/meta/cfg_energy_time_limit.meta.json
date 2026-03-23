@@ -1,0 +1,29 @@
+{
+  "class_name": "EnergyTimeLimitConfig",
+  "table_name": "cfg_energy_time_limit",
+  "field_count": 4,
+  "row_count": 3,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "MinTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "MaxTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

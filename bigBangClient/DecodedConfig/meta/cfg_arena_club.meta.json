@@ -1,0 +1,54 @@
+{
+  "class_name": "ArenaClubConfig",
+  "table_name": "cfg_arena_club",
+  "field_count": 9,
+  "row_count": 90,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Tactics",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "TacticsLevels",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Formation",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Strength",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RankStage",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Score",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

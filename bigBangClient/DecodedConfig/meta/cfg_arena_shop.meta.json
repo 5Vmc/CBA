@@ -1,0 +1,39 @@
+{
+  "class_name": "ArenaShopConfig",
+  "table_name": "cfg_arena_shop",
+  "field_count": 6,
+  "row_count": 33,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Item",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Cost",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Stage",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Limit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "WeekLimit",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

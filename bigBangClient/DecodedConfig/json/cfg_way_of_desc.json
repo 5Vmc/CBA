@@ -1,0 +1,346 @@
+[
+  {
+    "Id": 1100,
+    "ModuleName": "经典赛",
+    "SubModuleName": "",
+    "Desc": "中获得。",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1101,
+    "ModuleName": "经典赛",
+    "SubModuleName": "三星宝箱",
+    "Desc": "中获得。",
+    "DropItem": "1:1:1|1:2:2|2:400201:1",
+    "ItemRange": "100104:100107:1"
+  },
+  {
+    "Id": 1102,
+    "ModuleName": "经典赛",
+    "SubModuleName": "关卡",
+    "Desc": "挑战后掉落。",
+    "DropItem": "1:4:1",
+    "ItemRange": "600101:600610:10|100104:100107:10"
+  },
+  {
+    "Id": 1200,
+    "ModuleName": "剧情赛",
+    "SubModuleName": "三星宝箱",
+    "Desc": "中获得。",
+    "DropItem": "2:400201:1",
+    "ItemRange": "301001:304099:1"
+  },
+  {
+    "Id": 1300,
+    "ModuleName": "排位赛",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1301,
+    "ModuleName": "排位赛",
+    "SubModuleName": "进阶奖励",
+    "Desc": "中获得。",
+    "DropItem": "1:1:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1302,
+    "ModuleName": "排位赛",
+    "SubModuleName": "每日奖励",
+    "Desc": "中获得。",
+    "DropItem": "2:400501:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1303,
+    "ModuleName": "排位赛",
+    "SubModuleName": "赛季奖励",
+    "Desc": "中获得。",
+    "DropItem": "1:1:1|2:400501:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1304,
+    "ModuleName": "排位赛",
+    "SubModuleName": "里程商店",
+    "Desc": "中兑换。",
+    "DropItem": "2:400201:1|1:2:1|2:200229:1|2:400154:1|1:1:1|2:200215:1|2:100105:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1305,
+    "ModuleName": "排位赛",
+    "SubModuleName": "日常商店",
+    "Desc": "中兑换。",
+    "DropItem": "2:100108:1|2:400151:1|2:400152:1|2:400153:1|2:400154:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1400,
+    "ModuleName": "赛事（PVP）",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1401,
+    "ModuleName": "",
+    "SubModuleName": "联赛",
+    "Desc": "中获得。",
+    "DropItem": "1:2:1|2:200104:1|1:1:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1402,
+    "ModuleName": "",
+    "SubModuleName": "杯赛",
+    "Desc": "中获得。",
+    "DropItem": "2:200105:1|1:1:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1500,
+    "ModuleName": "球员训练",
+    "SubModuleName": "",
+    "Desc": "中获得。",
+    "DropItem": "1:3:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1501,
+    "ModuleName": "强化训练",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1502,
+    "ModuleName": "超能训练",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1503,
+    "ModuleName": "邀请赛",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1600,
+    "ModuleName": "特技",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1700,
+    "ModuleName": "任务",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1701,
+    "ModuleName": "日常任务",
+    "SubModuleName": "活跃度宝箱",
+    "Desc": "中获得。",
+    "DropItem": "1:4:1|2:400201:1|2:400202:1|2:400204:1|2:400206:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1702,
+    "ModuleName": "周常任务",
+    "SubModuleName": "活跃度宝箱",
+    "Desc": "中获得。",
+    "DropItem": "1:4:1|2:400201:1|2:400208:1|2:400209:1|2:400207:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1703,
+    "ModuleName": "悬赏任务",
+    "SubModuleName": "",
+    "Desc": "中获得。",
+    "DropItem": "1:2:1|2:400401:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1800,
+    "ModuleName": "小游戏",
+    "SubModuleName": "",
+    "Desc": "中获得。",
+    "DropItem": "1:1:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 1900,
+    "ModuleName": "藏品",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2000,
+    "ModuleName": "生涯",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2100,
+    "ModuleName": "球员养成",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2101,
+    "ModuleName": "升级",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2102,
+    "ModuleName": "装备",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2103,
+    "ModuleName": "升星",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2200,
+    "ModuleName": "招募",
+    "SubModuleName": "",
+    "Desc": "中获得。",
+    "DropItem": "2:400502:1|2:304009:1|2:304011:1|2:304012:1|2:304015:1|2:304017:1|2:304018:1|2:304019:1|2:304020:1|2:304023:1|2:304025:1|2:304026:1|2:304027:1|2:304028:1|2:304030:1",
+    "ItemRange": "301001:301015:10|302001:302015:10|303001:303040:10"
+  },
+  {
+    "Id": 2300,
+    "ModuleName": "活动",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2301,
+    "ModuleName": "每日登录/30日签到",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2302,
+    "ModuleName": "月卡",
+    "SubModuleName": "",
+    "Desc": "每日领取。",
+    "DropItem": "1:1:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2303,
+    "ModuleName": "新手目标",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2304,
+    "ModuleName": "七日签到",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2305,
+    "ModuleName": "首充",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2400,
+    "ModuleName": "成就",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2500,
+    "ModuleName": "背包",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2501,
+    "ModuleName": "碎片回收",
+    "SubModuleName": "",
+    "Desc": "后获得。",
+    "DropItem": "2:400101:1|2:400102:1|2:400103:1|2:400104:1|2:400105:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2600,
+    "ModuleName": "布阵",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 2601,
+    "ModuleName": "战术",
+    "SubModuleName": "",
+    "Desc": "",
+    "DropItem": "",
+    "ItemRange": ""
+  },
+  {
+    "Id": 3001,
+    "ModuleName": "百分大战",
+    "SubModuleName": "应援",
+    "Desc": "中获得。",
+    "DropItem": "2:100110:1",
+    "ItemRange": ""
+  },
+  {
+    "Id": 9999,
+    "ModuleName": "快捷购买",
+    "SubModuleName": "",
+    "Desc": "后获得。",
+    "DropItem": "2:400201:1|2:400210:1",
+    "ItemRange": ""
+  }
+]

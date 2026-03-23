@@ -1,0 +1,4574 @@
+[
+  {
+    "Id": 1,
+    "BoxId": 200101,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 2000,
+    "Weight": 100
+  },
+  {
+    "Id": 2,
+    "BoxId": 200101,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200109,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 3,
+    "BoxId": 200101,
+    "Group": 3,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 200,
+    "Weight": 100
+  },
+  {
+    "Id": 4,
+    "BoxId": 200101,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100104,
+    "RewardNum": 50,
+    "Weight": 100
+  },
+  {
+    "Id": 5,
+    "BoxId": 200102,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 10000,
+    "Weight": 100
+  },
+  {
+    "Id": 6,
+    "BoxId": 200103,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 50,
+    "Weight": 100
+  },
+  {
+    "Id": 7,
+    "BoxId": 200103,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 100101,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 8,
+    "BoxId": 200103,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 100102,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 9,
+    "BoxId": 200103,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 100103,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 10,
+    "BoxId": 200103,
+    "Group": 2,
+    "RewardType": 0,
+    "RewardId": 0,
+    "RewardNum": 0,
+    "Weight": 100
+  },
+  {
+    "Id": 11,
+    "BoxId": 200104,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 1,
+    "Weight": 9500
+  },
+  {
+    "Id": 12,
+    "BoxId": 200104,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 10,
+    "Weight": 300
+  },
+  {
+    "Id": 13,
+    "BoxId": 200104,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 1000,
+    "Weight": 100
+  },
+  {
+    "Id": 14,
+    "BoxId": 200104,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200201,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 15,
+    "BoxId": 200104,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200204,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 16,
+    "BoxId": 200105,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 1,
+    "Weight": 9500
+  },
+  {
+    "Id": 17,
+    "BoxId": 200105,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 10,
+    "Weight": 300
+  },
+  {
+    "Id": 18,
+    "BoxId": 200105,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 1000,
+    "Weight": 100
+  },
+  {
+    "Id": 19,
+    "BoxId": 200105,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200201,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 20,
+    "BoxId": 200105,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200203,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 21,
+    "BoxId": 200106,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 1,
+    "Weight": 9500
+  },
+  {
+    "Id": 22,
+    "BoxId": 200106,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 10,
+    "Weight": 300
+  },
+  {
+    "Id": 23,
+    "BoxId": 200106,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 1000,
+    "Weight": 100
+  },
+  {
+    "Id": 24,
+    "BoxId": 200106,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200201,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 25,
+    "BoxId": 200106,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200202,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 26,
+    "BoxId": 200107,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 3,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 27,
+    "BoxId": 200108,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 3,
+    "RewardNum": 60,
+    "Weight": 100
+  },
+  {
+    "Id": 28,
+    "BoxId": 200109,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 29,
+    "BoxId": 200109,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200110,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 30,
+    "BoxId": 200109,
+    "Group": 3,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 200,
+    "Weight": 100
+  },
+  {
+    "Id": 31,
+    "BoxId": 200109,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 32,
+    "BoxId": 200110,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 33,
+    "BoxId": 200110,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200111,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 34,
+    "BoxId": 200110,
+    "Group": 3,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 200,
+    "Weight": 100
+  },
+  {
+    "Id": 35,
+    "BoxId": 200110,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 36,
+    "BoxId": 200111,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 37,
+    "BoxId": 200111,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200112,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 38,
+    "BoxId": 200111,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400105,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 39,
+    "BoxId": 200111,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 40,
+    "BoxId": 200112,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 41,
+    "BoxId": 200112,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200113,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 42,
+    "BoxId": 200112,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400105,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 43,
+    "BoxId": 200112,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 44,
+    "BoxId": 200113,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 45,
+    "BoxId": 200113,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200114,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 46,
+    "BoxId": 200113,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400105,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 47,
+    "BoxId": 200113,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 48,
+    "BoxId": 200114,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 49,
+    "BoxId": 200114,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200115,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 50,
+    "BoxId": 200114,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400104,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 51,
+    "BoxId": 200114,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 52,
+    "BoxId": 200115,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 53,
+    "BoxId": 200115,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200116,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 54,
+    "BoxId": 200115,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400104,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 55,
+    "BoxId": 200115,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 56,
+    "BoxId": 200116,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 57,
+    "BoxId": 200116,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200117,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 58,
+    "BoxId": 200116,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400104,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 59,
+    "BoxId": 200116,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 60,
+    "BoxId": 200117,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 61,
+    "BoxId": 200117,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200118,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 62,
+    "BoxId": 200117,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400104,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 63,
+    "BoxId": 200117,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 64,
+    "BoxId": 200118,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 65,
+    "BoxId": 200118,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200119,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 66,
+    "BoxId": 200118,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400103,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 67,
+    "BoxId": 200118,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 68,
+    "BoxId": 200119,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 69,
+    "BoxId": 200119,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200120,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 70,
+    "BoxId": 200119,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400103,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 71,
+    "BoxId": 200119,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 72,
+    "BoxId": 200120,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 73,
+    "BoxId": 200120,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 400103,
+    "RewardNum": 30,
+    "Weight": 100
+  },
+  {
+    "Id": 74,
+    "BoxId": 200120,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 100108,
+    "RewardNum": 20,
+    "Weight": 100
+  },
+  {
+    "Id": 75,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104009,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 76,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104011,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 77,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104012,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 78,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104015,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 79,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104017,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 80,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104018,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 81,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104019,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 82,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104020,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 83,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 84,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104025,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 85,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 86,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 87,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104028,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 88,
+    "BoxId": 200201,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104030,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 89,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104012,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 90,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104017,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 91,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104018,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 92,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104020,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 93,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 94,
+    "BoxId": 200202,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104025,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 95,
+    "BoxId": 200203,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104026,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 96,
+    "BoxId": 200203,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104028,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 97,
+    "BoxId": 200203,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104030,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 98,
+    "BoxId": 200204,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 99,
+    "BoxId": 200204,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104011,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 100,
+    "BoxId": 200204,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104015,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 101,
+    "BoxId": 200204,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104019,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 102,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103001,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 103,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103002,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 104,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 105,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 106,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103005,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 107,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 108,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 109,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 110,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 111,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 112,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103011,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 113,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 114,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103013,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 115,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 116,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103015,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 117,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103016,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 118,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103017,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 119,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103018,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 120,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103019,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 121,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103020,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 122,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103021,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 123,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103022,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 124,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 125,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103024,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 126,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103025,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 127,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 128,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 129,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103028,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 130,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103029,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 131,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103030,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 132,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103031,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 133,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103032,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 134,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103033,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 135,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103034,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 136,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103035,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 137,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103036,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 138,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103037,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 139,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103038,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 140,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103039,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 141,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103040,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 142,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103041,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 143,
+    "BoxId": 200211,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103042,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 144,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 145,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103005,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 146,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 147,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 148,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 149,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 150,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103016,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 151,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103019,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 152,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103021,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 153,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103024,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 154,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 155,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103028,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 156,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103030,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 157,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103032,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 158,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103038,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 159,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103040,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 160,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103041,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 161,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103042,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 162,
+    "BoxId": 200212,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102005,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 163,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103002,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 164,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103011,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 165,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103013,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 166,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 167,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103015,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 168,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103020,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 169,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103022,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 170,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103025,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 171,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 172,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103029,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 173,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103031,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 174,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103033,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 175,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103034,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 176,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103035,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 177,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103036,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 178,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103037,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 179,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103039,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 180,
+    "BoxId": 200213,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102005,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 181,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103001,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 182,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 183,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 184,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 185,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103017,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 186,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103018,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 187,
+    "BoxId": 200214,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 103023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 188,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600101,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 189,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600102,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 190,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600103,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 191,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600104,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 192,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600105,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 193,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600106,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 194,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600107,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 195,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600108,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 196,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600109,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 197,
+    "BoxId": 200215,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600110,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 198,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600201,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 199,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600202,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 200,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600203,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 201,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600204,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 202,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600205,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 203,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600206,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 204,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600207,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 205,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600208,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 206,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600209,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 207,
+    "BoxId": 200216,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600210,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 208,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600301,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 209,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600302,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 210,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600303,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 211,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600304,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 212,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600305,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 213,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600306,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 214,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600307,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 215,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600308,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 216,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600309,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 217,
+    "BoxId": 200217,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600310,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 218,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600401,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 219,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600402,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 220,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600403,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 221,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600404,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 222,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600405,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 223,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600406,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 224,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600407,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 225,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600408,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 226,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600409,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 227,
+    "BoxId": 200218,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600410,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 228,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600501,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 229,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600502,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 230,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600503,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 231,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600504,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 232,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600505,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 233,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600506,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 234,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600507,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 235,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600508,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 236,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600509,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 237,
+    "BoxId": 200219,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600510,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 238,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600601,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 239,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600602,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 240,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600603,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 241,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600604,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 242,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600605,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 243,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600606,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 244,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600607,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 245,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600608,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 246,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600609,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 247,
+    "BoxId": 200220,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 600610,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 248,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102001,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 249,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102002,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 250,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 251,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 252,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102005,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 253,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 254,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 255,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 256,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 257,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 258,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102011,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 259,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 260,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102013,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 261,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 262,
+    "BoxId": 200229,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 102015,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 263,
+    "BoxId": 200251,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 300,
+    "Weight": 100
+  },
+  {
+    "Id": 264,
+    "BoxId": 200251,
+    "Group": 2,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 5000,
+    "Weight": 100
+  },
+  {
+    "Id": 265,
+    "BoxId": 200251,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 100105,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 266,
+    "BoxId": 200251,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 200216,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 267,
+    "BoxId": 200252,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 100,
+    "Weight": 100
+  },
+  {
+    "Id": 268,
+    "BoxId": 200252,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 400201,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 269,
+    "BoxId": 200252,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 100105,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 270,
+    "BoxId": 200252,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 200216,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 271,
+    "BoxId": 200253,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400206,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 272,
+    "BoxId": 200253,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 400202,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 273,
+    "BoxId": 200253,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 400203,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 274,
+    "BoxId": 200253,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 400204,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 275,
+    "BoxId": 200254,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 300,
+    "Weight": 100
+  },
+  {
+    "Id": 276,
+    "BoxId": 200254,
+    "Group": 2,
+    "RewardType": 2,
+    "RewardId": 200107,
+    "RewardNum": 5,
+    "Weight": 100
+  },
+  {
+    "Id": 277,
+    "BoxId": 200254,
+    "Group": 3,
+    "RewardType": 2,
+    "RewardId": 100105,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 278,
+    "BoxId": 200254,
+    "Group": 4,
+    "RewardType": 2,
+    "RewardId": 200216,
+    "RewardNum": 10,
+    "Weight": 100
+  },
+  {
+    "Id": 279,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303001,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 280,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303002,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 281,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303003,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 282,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303004,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 283,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303005,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 284,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303006,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 285,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303007,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 286,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303008,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 287,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303009,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 288,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303010,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 289,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303011,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 290,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303012,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 291,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303013,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 292,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303014,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 293,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303015,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 294,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303016,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 295,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303017,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 296,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303018,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 297,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303019,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 298,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303020,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 299,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303021,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 300,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303022,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 301,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303023,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 302,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303024,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 303,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303025,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 304,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303026,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 305,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303027,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 306,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303028,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 307,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303029,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 308,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303030,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 309,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303031,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 310,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303032,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 311,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303033,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 312,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303034,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 313,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303035,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 314,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303036,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 315,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303037,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 316,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303038,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 317,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303039,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 318,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 303040,
+    "RewardNum": 1,
+    "Weight": 25
+  },
+  {
+    "Id": 319,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302001,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 320,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302002,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 321,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302003,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 322,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302004,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 323,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302005,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 324,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302006,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 325,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302007,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 326,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302008,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 327,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302009,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 328,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302010,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 329,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302011,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 330,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302012,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 331,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302013,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 332,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302014,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 333,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 302015,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 334,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301001,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 335,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301002,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 336,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301003,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 337,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301004,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 338,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301005,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 339,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301006,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 340,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301007,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 341,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301008,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 342,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301009,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 343,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301010,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 344,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301011,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 345,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301012,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 346,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301013,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 347,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301014,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 348,
+    "BoxId": 200255,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 301015,
+    "RewardNum": 1,
+    "Weight": 5600
+  },
+  {
+    "Id": 349,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400202,
+    "RewardNum": 1,
+    "Weight": 750
+  },
+  {
+    "Id": 350,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400204,
+    "RewardNum": 1,
+    "Weight": 700
+  },
+  {
+    "Id": 351,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400206,
+    "RewardNum": 1,
+    "Weight": 700
+  },
+  {
+    "Id": 352,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 350
+  },
+  {
+    "Id": 353,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 350
+  },
+  {
+    "Id": 354,
+    "BoxId": 200256,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 350
+  },
+  {
+    "Id": 355,
+    "BoxId": 200257,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 1,
+    "Weight": 9500
+  },
+  {
+    "Id": 356,
+    "BoxId": 200257,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 10,
+    "Weight": 300
+  },
+  {
+    "Id": 357,
+    "BoxId": 200257,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 1000,
+    "Weight": 100
+  },
+  {
+    "Id": 358,
+    "BoxId": 200257,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200201,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 359,
+    "BoxId": 200257,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200202,
+    "RewardNum": 1,
+    "Weight": 30
+  },
+  {
+    "Id": 360,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 2023,
+    "Weight": 5
+  },
+  {
+    "Id": 361,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 88888,
+    "Weight": 15
+  },
+  {
+    "Id": 362,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 5,
+    "Weight": 20
+  },
+  {
+    "Id": 363,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400102,
+    "RewardNum": 5,
+    "Weight": 35
+  },
+  {
+    "Id": 364,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 18888,
+    "Weight": 200
+  },
+  {
+    "Id": 365,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 288,
+    "Weight": 130
+  },
+  {
+    "Id": 366,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400103,
+    "RewardNum": 5,
+    "Weight": 200
+  },
+  {
+    "Id": 367,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501011,
+    "RewardNum": 5,
+    "Weight": 200
+  },
+  {
+    "Id": 368,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 6888,
+    "Weight": 610
+  },
+  {
+    "Id": 369,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 68,
+    "Weight": 485
+  },
+  {
+    "Id": 370,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 700
+  },
+  {
+    "Id": 371,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 700
+  },
+  {
+    "Id": 372,
+    "BoxId": 200258,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 700
+  },
+  {
+    "Id": 373,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 2023,
+    "Weight": 5
+  },
+  {
+    "Id": 374,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 88888,
+    "Weight": 145
+  },
+  {
+    "Id": 375,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 5,
+    "Weight": 150
+  },
+  {
+    "Id": 376,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400102,
+    "RewardNum": 5,
+    "Weight": 200
+  },
+  {
+    "Id": 377,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 18888,
+    "Weight": 600
+  },
+  {
+    "Id": 378,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 288,
+    "Weight": 550
+  },
+  {
+    "Id": 379,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400103,
+    "RewardNum": 5,
+    "Weight": 550
+  },
+  {
+    "Id": 380,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501011,
+    "RewardNum": 5,
+    "Weight": 550
+  },
+  {
+    "Id": 381,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 6888,
+    "Weight": 250
+  },
+  {
+    "Id": 382,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 68,
+    "Weight": 400
+  },
+  {
+    "Id": 383,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 200
+  },
+  {
+    "Id": 384,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 200
+  },
+  {
+    "Id": 385,
+    "BoxId": 200259,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 200
+  },
+  {
+    "Id": 386,
+    "BoxId": 200260,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 2023,
+    "Weight": 100
+  },
+  {
+    "Id": 387,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 888,
+    "Weight": 8000000
+  },
+  {
+    "Id": 388,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 6666,
+    "Weight": 10000
+  },
+  {
+    "Id": 389,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 8888,
+    "Weight": 8000
+  },
+  {
+    "Id": 390,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 66666,
+    "Weight": 1000
+  },
+  {
+    "Id": 391,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 88888,
+    "Weight": 300
+  },
+  {
+    "Id": 392,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 10,
+    "Weight": 1000000
+  },
+  {
+    "Id": 393,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 18,
+    "Weight": 600000
+  },
+  {
+    "Id": 394,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 28,
+    "Weight": 50000
+  },
+  {
+    "Id": 395,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 38,
+    "Weight": 20000
+  },
+  {
+    "Id": 396,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 66,
+    "Weight": 10000
+  },
+  {
+    "Id": 397,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 88,
+    "Weight": 8000
+  },
+  {
+    "Id": 398,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 188,
+    "Weight": 2000
+  },
+  {
+    "Id": 399,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 666,
+    "Weight": 800
+  },
+  {
+    "Id": 400,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 888,
+    "Weight": 350
+  },
+  {
+    "Id": 401,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 1,
+    "RewardNum": 2024,
+    "Weight": 200
+  },
+  {
+    "Id": 402,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 100106,
+    "RewardNum": 66,
+    "Weight": 50
+  },
+  {
+    "Id": 403,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 100107,
+    "RewardNum": 8,
+    "Weight": 50
+  },
+  {
+    "Id": 404,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 2000
+  },
+  {
+    "Id": 405,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 2000
+  },
+  {
+    "Id": 406,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 2000
+  },
+  {
+    "Id": 407,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400102,
+    "RewardNum": 1,
+    "Weight": 300
+  },
+  {
+    "Id": 408,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400102,
+    "RewardNum": 3,
+    "Weight": 100
+  },
+  {
+    "Id": 409,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200231,
+    "RewardNum": 3,
+    "Weight": 50
+  },
+  {
+    "Id": 410,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400151,
+    "RewardNum": 1,
+    "Weight": 180
+  },
+  {
+    "Id": 411,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400201,
+    "RewardNum": 1,
+    "Weight": 300
+  },
+  {
+    "Id": 412,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400201,
+    "RewardNum": 10,
+    "Weight": 50
+  },
+  {
+    "Id": 413,
+    "BoxId": 200261,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200201,
+    "RewardNum": 1,
+    "Weight": 50
+  },
+  {
+    "Id": 414,
+    "BoxId": 200262,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 415,
+    "BoxId": 200262,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 416,
+    "BoxId": 200262,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 417,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 418,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304038,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 419,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 420,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 421,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 422,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 423,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304032,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 424,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 425,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304035,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 426,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 427,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304031,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 428,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 429,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 430,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 431,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 432,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304034,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 433,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 434,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304016,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 435,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304033,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 436,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304040,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 437,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304041,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 438,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304042,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 439,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304043,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 440,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304044,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 441,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304045,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 442,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304046,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 443,
+    "BoxId": 200263,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 304047,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 444,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 445,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104038,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 446,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 447,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 448,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 449,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 450,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104032,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 451,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 452,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104035,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 453,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 454,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104031,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 455,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 456,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 457,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 458,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 459,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104034,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 460,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 461,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104016,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 462,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104033,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 463,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104040,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 464,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104041,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 465,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104042,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 466,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104043,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 467,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104044,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 468,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104045,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 469,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104046,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 470,
+    "BoxId": 200264,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104047,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 471,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104003,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 472,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104038,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 473,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104010,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 474,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104006,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 475,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104004,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 476,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104026,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 477,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104032,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 478,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104023,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 479,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104035,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 480,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104007,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 481,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104031,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 482,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104014,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 483,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104012,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 484,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104027,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 485,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104008,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 486,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104034,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 487,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104009,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 488,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104016,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 489,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104033,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 490,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104040,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 491,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104041,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 492,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104042,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 493,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104043,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 494,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104044,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 495,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104045,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 496,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104046,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 497,
+    "BoxId": 200265,
+    "Group": 1,
+    "RewardType": 3,
+    "RewardId": 104047,
+    "RewardNum": 1,
+    "Weight": 100
+  },
+  {
+    "Id": 498,
+    "BoxId": 200266,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400202,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 499,
+    "BoxId": 200266,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400204,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 500,
+    "BoxId": 200266,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400206,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 501,
+    "BoxId": 200267,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400207,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 502,
+    "BoxId": 200267,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400208,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 503,
+    "BoxId": 200267,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400209,
+    "RewardNum": 1,
+    "Weight": 1000
+  },
+  {
+    "Id": 504,
+    "BoxId": 200268,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 200260,
+    "RewardNum": 1,
+    "Weight": 300
+  },
+  {
+    "Id": 505,
+    "BoxId": 200268,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 501001,
+    "RewardNum": 1,
+    "Weight": 500
+  },
+  {
+    "Id": 506,
+    "BoxId": 200268,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400101,
+    "RewardNum": 1,
+    "Weight": 150
+  },
+  {
+    "Id": 507,
+    "BoxId": 200268,
+    "Group": 1,
+    "RewardType": 2,
+    "RewardId": 400102,
+    "RewardNum": 1,
+    "Weight": 300
+  },
+  {
+    "Id": 508,
+    "BoxId": 200268,
+    "Group": 1,
+    "RewardType": 1,
+    "RewardId": 2,
+    "RewardNum": 10000,
+    "Weight": 900
+  }
+]

@@ -1,0 +1,1660 @@
+[
+  {
+    "Id": 1,
+    "Name": "急停跳投",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 1,
+    "Desc": "投篮命中率提升。",
+    "UnlockConditions": {
+      "6": 100
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 1,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 2,
+    "Name": "后撤步",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 2,
+    "Desc": "摆脱防守成功率提升。",
+    "UnlockConditions": {
+      "5": 200
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 4,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 3,
+    "Name": "长传球",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 3,
+    "Desc": "传球成功率提升。",
+    "UnlockConditions": {
+      "2": 500
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 2,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 4,
+    "Name": "篮板精英",
+    "Quality": 3,
+    "Type": 2,
+    "Icon": 4,
+    "Desc": "篮板成功率提升。",
+    "UnlockConditions": {
+      "9": 700
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 7,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 5,
+    "Name": "小动作",
+    "Quality": 3,
+    "Type": 2,
+    "Icon": 5,
+    "Desc": "防守成功率提升。",
+    "UnlockConditions": {
+      "1": 500,
+      "10": 800
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 6,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 6,
+    "Name": "擦板投篮",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 6,
+    "Desc": "投篮命中率提升。",
+    "UnlockConditions": {
+      "6": 1000
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 1,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 7,
+    "Name": "变向运球",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 7,
+    "Desc": "突破成功率提升。",
+    "UnlockConditions": {
+      "8": 1300
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 3,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 8,
+    "Name": "防守悍将",
+    "Quality": 3,
+    "Type": 2,
+    "Icon": 8,
+    "Desc": "防守成功率提升。",
+    "UnlockConditions": {
+      "3": 1100,
+      "10": 1500
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 6,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 9,
+    "Name": "屏障",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 9,
+    "Desc": "高阶特技，防守成功率大幅提升。",
+    "UnlockConditions": {
+      "4": 1500
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 6,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 10,
+    "Name": "天勾",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 10,
+    "Desc": "高阶特技，投篮命中率大幅提升。",
+    "UnlockConditions": {
+      "6": 2100,
+      "5": 1800
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 1,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 11,
+    "Name": "声东击西",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 11,
+    "Desc": "传球成功率提升。",
+    "UnlockConditions": {
+      "2": 3300
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 2,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 12,
+    "Name": "飞身切球",
+    "Quality": 3,
+    "Type": 2,
+    "Icon": 12,
+    "Desc": "抢断成功率提升。",
+    "UnlockConditions": {
+      "7": 3000,
+      "4": 2000
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 5,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 13,
+    "Name": "禁区卡位",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 13,
+    "Desc": "高阶特技，篮板成功率大幅提升。",
+    "UnlockConditions": {
+      "9": 3800,
+      "1": 2100
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 7,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 14,
+    "Name": "无球跑位",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 14,
+    "Desc": "摆脱防守成功率提升。",
+    "UnlockConditions": {
+      "5": 3250
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 4,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 15,
+    "Name": "拜佛运球",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 15,
+    "Desc": "高阶特技，突破成功率大幅提升。",
+    "UnlockConditions": {
+      "8": 4400
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 3,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 16,
+    "Name": "苍蝇拍",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 16,
+    "Desc": "高阶特技，盖帽成功率大幅提升。",
+    "UnlockConditions": {
+      "3": 3300
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 8,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 17,
+    "Name": "超级恢复",
+    "Quality": 4,
+    "Type": 3,
+    "Icon": 17,
+    "Desc": "高阶特技，受伤后恢复时间大幅降低。",
+    "UnlockConditions": {
+      "10": 6000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 9,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 18,
+    "Name": "百步穿杨",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 18,
+    "Desc": "高阶特技，投篮命中率大幅提升。",
+    "UnlockConditions": {
+      "6": 5000,
+      "2": 6500
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 1,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 19,
+    "Name": "击地传球",
+    "Quality": 3,
+    "Type": 1,
+    "Icon": 19,
+    "Desc": "传球成功率提升。",
+    "UnlockConditions": {
+      "2": 7600
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 2,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 20,
+    "Name": "球手一体",
+    "Quality": 3,
+    "Type": 2,
+    "Icon": 20,
+    "Desc": "抢断成功率提升。",
+    "UnlockConditions": {
+      "7": 6450,
+      "1": 4000
+    },
+    "UnlockMoney": 10000,
+    "BuffType": 5,
+    "BuffValue": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "EffectaddValue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "TrainTime": 86400
+  },
+  {
+    "Id": 21,
+    "Name": "篮板王",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 21,
+    "Desc": "高阶特技，篮板成功率大幅提升。",
+    "UnlockConditions": {
+      "9": 7800
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 7,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 22,
+    "Name": "梦幻脚步",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 22,
+    "Desc": "高阶特技，摆脱防守成功率大幅提升。",
+    "UnlockConditions": {
+      "5": 6500,
+      "4": 5600
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 4,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 23,
+    "Name": "欧洲步",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 23,
+    "Desc": "高阶特技，突破成功率大幅提升。",
+    "UnlockConditions": {
+      "8": 8500
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 3,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 24,
+    "Name": "滑步防守",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 24,
+    "Desc": "高阶特技，防守成功率大幅提升。",
+    "UnlockConditions": {
+      "1": 5600
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 6,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 25,
+    "Name": "空中接力",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 25,
+    "Desc": "高阶特技，传球成功率大幅提升。",
+    "UnlockConditions": {
+      "2": 11500
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 2,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 26,
+    "Name": "盯人防守",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 26,
+    "Desc": "高阶特技，防守成功率大幅提升。",
+    "UnlockConditions": {
+      "3": 7200
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 6,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 27,
+    "Name": "靠打转身",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 27,
+    "Desc": "高阶特技，摆脱防守成功率大幅提升。",
+    "UnlockConditions": {
+      "4": 8400
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 4,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 28,
+    "Name": "猴子偷桃",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 28,
+    "Desc": "高阶特技，抢断成功率大幅提升。",
+    "UnlockConditions": {
+      "10": 13500,
+      "1": 5000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 5,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 29,
+    "Name": "金鸡独立",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 29,
+    "Desc": "高阶特技，投篮命中率大幅提升。",
+    "UnlockConditions": {
+      "6": 11200
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 1,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 30,
+    "Name": "交叉步",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 30,
+    "Desc": "高阶特技，突破成功率大幅提升。",
+    "UnlockConditions": {
+      "8": 13600
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 3,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 31,
+    "Name": "传球预判",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 31,
+    "Desc": "高阶特技，抢断成功率大幅提升。",
+    "UnlockConditions": {
+      "7": 13500
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 5,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 32,
+    "Name": "换手上篮",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 32,
+    "Desc": "高阶特技，摆脱防守成功率大幅提升。",
+    "UnlockConditions": {
+      "5": 12400,
+      "4": 10000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 4,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 33,
+    "Name": "背后传球",
+    "Quality": 4,
+    "Type": 1,
+    "Icon": 33,
+    "Desc": "高阶特技，传球成功率大幅提升。",
+    "UnlockConditions": {
+      "2": 19000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 2,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 34,
+    "Name": "冲抢篮板",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 34,
+    "Desc": "高阶特技，篮板成功率大幅提升。",
+    "UnlockConditions": {
+      "9": 18700
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 7,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 35,
+    "Name": "坦克突破",
+    "Quality": 5,
+    "Type": 1,
+    "Icon": 35,
+    "Desc": "绝技，突入禁区犹如坦克。",
+    "UnlockConditions": {
+      "8": 19200
+    },
+    "UnlockMoney": 300000,
+    "BuffType": 3,
+    "BuffValue": [
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450
+    ],
+    "EffectaddValue": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "TrainTime": 259200
+  },
+  {
+    "Id": 36,
+    "Name": "投篮预判",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 36,
+    "Desc": "高阶特技，盖帽成功率大幅提升。",
+    "UnlockConditions": {
+      "3": 14300,
+      "1": 12000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 8,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 37,
+    "Name": "遮天蔽日",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 37,
+    "Desc": "高阶特技，盖帽成功率大幅提升。",
+    "UnlockConditions": {
+      "1": 14000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 8,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 38,
+    "Name": "手术刀",
+    "Quality": 5,
+    "Type": 1,
+    "Icon": 38,
+    "Desc": "绝技，再小的缝隙也能精准的传达。",
+    "UnlockConditions": {
+      "2": 28500,
+      "6": 20000
+    },
+    "UnlockMoney": 300000,
+    "BuffType": 2,
+    "BuffValue": [
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450
+    ],
+    "EffectaddValue": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "TrainTime": 259200
+  },
+  {
+    "Id": 39,
+    "Name": "闪电出击",
+    "Quality": 4,
+    "Type": 2,
+    "Icon": 39,
+    "Desc": "高阶特技，抢断成功率大幅提升。",
+    "UnlockConditions": {
+      "7": 24000
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 5,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 40,
+    "Name": "铁人",
+    "Quality": 4,
+    "Type": 3,
+    "Icon": 40,
+    "Desc": "高阶特技，比赛体能消耗大幅降低。",
+    "UnlockConditions": {
+      "10": 30600
+    },
+    "UnlockMoney": 50000,
+    "BuffType": 10,
+    "BuffValue": [
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280
+    ],
+    "EffectaddValue": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "TrainTime": 172800
+  },
+  {
+    "Id": 41,
+    "Name": "干拔跳投",
+    "Quality": 5,
+    "Type": 1,
+    "Icon": 41,
+    "Desc": "绝技，无视防守的跳投技巧。",
+    "UnlockConditions": {
+      "6": 25200,
+      "1": 15000
+    },
+    "UnlockMoney": 300000,
+    "BuffType": 1,
+    "BuffValue": [
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450
+    ],
+    "EffectaddValue": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "TrainTime": 259200
+  },
+  {
+    "Id": 42,
+    "Name": "迷踪步",
+    "Quality": 5,
+    "Type": 1,
+    "Icon": 42,
+    "Desc": "绝技，你根本无法跟上他的节奏。",
+    "UnlockConditions": {
+      "8": 30400
+    },
+    "UnlockMoney": 300000,
+    "BuffType": 3,
+    "BuffValue": [
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450
+    ],
+    "EffectaddValue": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "TrainTime": 259200
+  },
+  {
+    "Id": 43,
+    "Name": "后仰跳投",
+    "Quality": 5,
+    "Type": 1,
+    "Icon": 43,
+    "Desc": "绝技，难以封盖的投篮技巧。",
+    "UnlockConditions": {
+      "4": 24000,
+      "8": 31500
+    },
+    "UnlockMoney": 300000,
+    "BuffType": 1,
+    "BuffValue": [
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450
+    ],
+    "EffectaddValue": [
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "TrainTime": 259200
+  }
+]

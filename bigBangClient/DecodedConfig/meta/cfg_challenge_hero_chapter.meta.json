@@ -1,0 +1,79 @@
+{
+  "class_name": "ChallengeHeroChapterConfig",
+  "table_name": "cfg_challenge_hero_chapter",
+  "field_count": 14,
+  "row_count": 187,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Hero",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Prev",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Des",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star1",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Star2",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward2",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Star3",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward3",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Showrewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

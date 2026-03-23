@@ -1,0 +1,29 @@
+{
+  "class_name": "ProductPriceConfig",
+  "table_name": "cfg_product_price",
+  "field_count": 4,
+  "row_count": 14,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ProductId",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rmb",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Dollar",
+      "type": "float",
+      "reader": "GetFloat32"
+    }
+  ]
+}

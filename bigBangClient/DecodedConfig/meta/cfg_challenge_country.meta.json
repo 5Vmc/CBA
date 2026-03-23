@@ -1,0 +1,94 @@
+{
+  "class_name": "ChallengeCountryConfig",
+  "table_name": "cfg_challenge_country",
+  "field_count": 17,
+  "row_count": 141,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Des",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "UserLevel",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Level",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Map",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "LevelTxt",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star1",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Star2",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward2",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Star3",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward3",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Unlock",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Icon",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "NodeName",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

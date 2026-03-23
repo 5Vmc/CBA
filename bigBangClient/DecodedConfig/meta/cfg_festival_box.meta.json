@@ -1,0 +1,39 @@
+{
+  "class_name": "FestivalBoxConfig",
+  "table_name": "cfg_festival_box",
+  "field_count": 6,
+  "row_count": 1,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BoxId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GuaranteeBoxes",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "KeyId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BatchCount",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "FestivalTaskActivity",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

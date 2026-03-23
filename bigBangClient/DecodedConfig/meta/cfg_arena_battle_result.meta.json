@@ -1,0 +1,24 @@
+{
+  "class_name": "ArenaBattleResultConfig",
+  "table_name": "cfg_arena_battle_result",
+  "field_count": 3,
+  "row_count": 6,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Result",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

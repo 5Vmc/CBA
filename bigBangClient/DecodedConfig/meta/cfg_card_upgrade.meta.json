@@ -1,0 +1,49 @@
+{
+  "class_name": "CardUpgradeConfig",
+  "table_name": "cfg_card_upgrade",
+  "field_count": 8,
+  "row_count": 1443,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CardId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "AbilityAdd",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "Sklv",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "AbilityRatio",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "Power",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

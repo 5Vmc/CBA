@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "ClubId": 1,
+    "ModelId": 1,
+    "Star": 1,
+    "Skills": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 2,
+    "ClubId": 1,
+    "ModelId": 1,
+    "Star": 2,
+    "Skills": [
+      3,
+      4
+    ]
+  }
+]

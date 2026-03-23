@@ -1,0 +1,69 @@
+{
+  "class_name": "GoodsConfig",
+  "table_name": "cfg_goods",
+  "field_count": 12,
+  "row_count": 325,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Param1",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Param2",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Price",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ExpirationTime",
+      "type": "long",
+      "reader": "GetInt64"
+    },
+    {
+      "name": "StackNum",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Uselv",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

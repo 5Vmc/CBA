@@ -1,0 +1,39 @@
+{
+  "class_name": "TacticsUpgradeConfig",
+  "table_name": "cfg_tactics_upgrade",
+  "field_count": 6,
+  "row_count": 100,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TacticsId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Level",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostCard",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PositionAdd",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "Kezhi",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

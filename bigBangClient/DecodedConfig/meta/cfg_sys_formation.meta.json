@@ -1,0 +1,24 @@
+{
+  "class_name": "SysFormationConfig",
+  "table_name": "cfg_sys_formation",
+  "field_count": 3,
+  "row_count": 1,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "BoardIdList",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

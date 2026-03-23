@@ -1,0 +1,34 @@
+{
+  "class_name": "SkillUpgradeConfig",
+  "table_name": "cfg_skill_upgrade",
+  "field_count": 5,
+  "row_count": 27,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TargetLevel",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostMoney",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostGoods",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    }
+  ]
+}

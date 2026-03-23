@@ -1,0 +1,245 @@
+[
+  {
+    "Id": 3002,
+    "Quality": 3,
+    "TargetLevel": 2,
+    "CostMoney": 1000,
+    "CostGoods": {
+      "400253": 1
+    }
+  },
+  {
+    "Id": 3003,
+    "Quality": 3,
+    "TargetLevel": 3,
+    "CostMoney": 2000,
+    "CostGoods": {
+      "400253": 2
+    }
+  },
+  {
+    "Id": 3004,
+    "Quality": 3,
+    "TargetLevel": 4,
+    "CostMoney": 3000,
+    "CostGoods": {
+      "400253": 3
+    }
+  },
+  {
+    "Id": 3005,
+    "Quality": 3,
+    "TargetLevel": 5,
+    "CostMoney": 4000,
+    "CostGoods": {
+      "400253": 4
+    }
+  },
+  {
+    "Id": 3006,
+    "Quality": 3,
+    "TargetLevel": 6,
+    "CostMoney": 5000,
+    "CostGoods": {
+      "400253": 5
+    }
+  },
+  {
+    "Id": 3007,
+    "Quality": 3,
+    "TargetLevel": 7,
+    "CostMoney": 6000,
+    "CostGoods": {
+      "400253": 6
+    }
+  },
+  {
+    "Id": 3008,
+    "Quality": 3,
+    "TargetLevel": 8,
+    "CostMoney": 7000,
+    "CostGoods": {
+      "400253": 7
+    }
+  },
+  {
+    "Id": 3009,
+    "Quality": 3,
+    "TargetLevel": 9,
+    "CostMoney": 8000,
+    "CostGoods": {
+      "400253": 8
+    }
+  },
+  {
+    "Id": 3010,
+    "Quality": 3,
+    "TargetLevel": 10,
+    "CostMoney": 9000,
+    "CostGoods": {
+      "400253": 9
+    }
+  },
+  {
+    "Id": 4002,
+    "Quality": 4,
+    "TargetLevel": 2,
+    "CostMoney": 10000,
+    "CostGoods": {
+      "400252": 1
+    }
+  },
+  {
+    "Id": 4003,
+    "Quality": 4,
+    "TargetLevel": 3,
+    "CostMoney": 20000,
+    "CostGoods": {
+      "400252": 2
+    }
+  },
+  {
+    "Id": 4004,
+    "Quality": 4,
+    "TargetLevel": 4,
+    "CostMoney": 30000,
+    "CostGoods": {
+      "400252": 3
+    }
+  },
+  {
+    "Id": 4005,
+    "Quality": 4,
+    "TargetLevel": 5,
+    "CostMoney": 40000,
+    "CostGoods": {
+      "400252": 4
+    }
+  },
+  {
+    "Id": 4006,
+    "Quality": 4,
+    "TargetLevel": 6,
+    "CostMoney": 50000,
+    "CostGoods": {
+      "400252": 5
+    }
+  },
+  {
+    "Id": 4007,
+    "Quality": 4,
+    "TargetLevel": 7,
+    "CostMoney": 60000,
+    "CostGoods": {
+      "400252": 6
+    }
+  },
+  {
+    "Id": 4008,
+    "Quality": 4,
+    "TargetLevel": 8,
+    "CostMoney": 70000,
+    "CostGoods": {
+      "400252": 7
+    }
+  },
+  {
+    "Id": 4009,
+    "Quality": 4,
+    "TargetLevel": 9,
+    "CostMoney": 80000,
+    "CostGoods": {
+      "400252": 8
+    }
+  },
+  {
+    "Id": 4010,
+    "Quality": 4,
+    "TargetLevel": 10,
+    "CostMoney": 90000,
+    "CostGoods": {
+      "400252": 9
+    }
+  },
+  {
+    "Id": 5002,
+    "Quality": 5,
+    "TargetLevel": 2,
+    "CostMoney": 100000,
+    "CostGoods": {
+      "400251": 1
+    }
+  },
+  {
+    "Id": 5003,
+    "Quality": 5,
+    "TargetLevel": 3,
+    "CostMoney": 200000,
+    "CostGoods": {
+      "400251": 2
+    }
+  },
+  {
+    "Id": 5004,
+    "Quality": 5,
+    "TargetLevel": 4,
+    "CostMoney": 300000,
+    "CostGoods": {
+      "400251": 3
+    }
+  },
+  {
+    "Id": 5005,
+    "Quality": 5,
+    "TargetLevel": 5,
+    "CostMoney": 400000,
+    "CostGoods": {
+      "400251": 4
+    }
+  },
+  {
+    "Id": 5006,
+    "Quality": 5,
+    "TargetLevel": 6,
+    "CostMoney": 500000,
+    "CostGoods": {
+      "400251": 5
+    }
+  },
+  {
+    "Id": 5007,
+    "Quality": 5,
+    "TargetLevel": 7,
+    "CostMoney": 600000,
+    "CostGoods": {
+      "400251": 6
+    }
+  },
+  {
+    "Id": 5008,
+    "Quality": 5,
+    "TargetLevel": 8,
+    "CostMoney": 700000,
+    "CostGoods": {
+      "400251": 7
+    }
+  },
+  {
+    "Id": 5009,
+    "Quality": 5,
+    "TargetLevel": 9,
+    "CostMoney": 800000,
+    "CostGoods": {
+      "400251": 8
+    }
+  },
+  {
+    "Id": 5010,
+    "Quality": 5,
+    "TargetLevel": 10,
+    "CostMoney": 900000,
+    "CostGoods": {
+      "400251": 9
+    }
+  }
+]

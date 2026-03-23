@@ -1,0 +1,14 @@
+{
+  "class_name": "NftCardIconConfig",
+  "table_name": "cfg_nft_card_icon",
+  "field_count": 1,
+  "row_count": 94,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

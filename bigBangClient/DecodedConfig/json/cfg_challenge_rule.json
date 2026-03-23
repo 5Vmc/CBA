@@ -1,0 +1,938 @@
+[
+  {
+    "Id": 1,
+    "Action": "include",
+    "Key": "count",
+    "KeyValue": 0,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "1人出场"
+  },
+  {
+    "Id": 2,
+    "Action": "include",
+    "Key": "count",
+    "KeyValue": 0,
+    "Judge": "=",
+    "Value": 2,
+    "Desc": "2人出场"
+  },
+  {
+    "Id": 3,
+    "Action": "include",
+    "Key": "count",
+    "KeyValue": 0,
+    "Judge": "=",
+    "Value": 3,
+    "Desc": "3人出场"
+  },
+  {
+    "Id": 4,
+    "Action": "include",
+    "Key": "count",
+    "KeyValue": 0,
+    "Judge": "=",
+    "Value": 4,
+    "Desc": "4人出场"
+  },
+  {
+    "Id": 5,
+    "Action": "include",
+    "Key": "count",
+    "KeyValue": 0,
+    "Judge": "=",
+    "Value": 5,
+    "Desc": "首发5人上场"
+  },
+  {
+    "Id": 11,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 1,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "控球后卫至少1人"
+  },
+  {
+    "Id": 12,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 1,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "控球后卫至少2人"
+  },
+  {
+    "Id": 13,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 1,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "控球后卫至少3人"
+  },
+  {
+    "Id": 14,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 1,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "控球后卫至少4人"
+  },
+  {
+    "Id": 15,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 1,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "控球后卫至少5人"
+  },
+  {
+    "Id": 21,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "得分后卫至少1人"
+  },
+  {
+    "Id": 22,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "得分后卫至少2人"
+  },
+  {
+    "Id": 23,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "得分后卫至少3人"
+  },
+  {
+    "Id": 24,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "得分后卫至少4人"
+  },
+  {
+    "Id": 25,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "得分后卫至少5人"
+  },
+  {
+    "Id": 31,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "小前锋至少1人"
+  },
+  {
+    "Id": 32,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "小前锋至少2人"
+  },
+  {
+    "Id": 33,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "小前锋至少3人"
+  },
+  {
+    "Id": 34,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "小前锋至少4人"
+  },
+  {
+    "Id": 35,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "小前锋至少5人"
+  },
+  {
+    "Id": 41,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "大前锋至少1人"
+  },
+  {
+    "Id": 42,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "大前锋至少2人"
+  },
+  {
+    "Id": 43,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "大前锋至少3人"
+  },
+  {
+    "Id": 44,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "大前锋至少4人"
+  },
+  {
+    "Id": 45,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "大前锋至少5人"
+  },
+  {
+    "Id": 51,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 5,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "中锋至少1人"
+  },
+  {
+    "Id": 52,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 5,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "中锋至少2人"
+  },
+  {
+    "Id": 53,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 5,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "中锋至少3人"
+  },
+  {
+    "Id": 54,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 5,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "中锋至少4人"
+  },
+  {
+    "Id": 55,
+    "Action": "include",
+    "Key": "pos",
+    "KeyValue": 5,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "中锋至少5人"
+  },
+  {
+    "Id": 131,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "蓝色球员至少1人"
+  },
+  {
+    "Id": 132,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "蓝色球员至少2人"
+  },
+  {
+    "Id": 133,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "蓝色球员至少3人"
+  },
+  {
+    "Id": 134,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "蓝色球员至少4人"
+  },
+  {
+    "Id": 135,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 2,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "蓝色球员至少5人"
+  },
+  {
+    "Id": 141,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "紫色球员至少1人"
+  },
+  {
+    "Id": 142,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "紫色球员至少2人"
+  },
+  {
+    "Id": 143,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "紫色球员至少3人"
+  },
+  {
+    "Id": 144,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "紫色球员至少4人"
+  },
+  {
+    "Id": 145,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 3,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "紫色球员至少5人"
+  },
+  {
+    "Id": 151,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "橙色球员至少1人"
+  },
+  {
+    "Id": 152,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "橙色球员至少2人"
+  },
+  {
+    "Id": 153,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 3,
+    "Desc": "橙色球员至少3人"
+  },
+  {
+    "Id": 154,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 4,
+    "Desc": "橙色球员至少4人"
+  },
+  {
+    "Id": 155,
+    "Action": "include",
+    "Key": "quality",
+    "KeyValue": 4,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "橙色球员至少5人"
+  },
+  {
+    "Id": 501,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104001,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "易建联必须首发或替补"
+  },
+  {
+    "Id": 502,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104002,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "郭艾伦必须首发或替补"
+  },
+  {
+    "Id": 503,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104003,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "阿不都沙拉木必须首发或替补"
+  },
+  {
+    "Id": 504,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104004,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "赵继伟必须首发或替补"
+  },
+  {
+    "Id": 505,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104005,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "韩德君必须首发或替补"
+  },
+  {
+    "Id": 506,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104006,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "赵睿必须首发或替补"
+  },
+  {
+    "Id": 507,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104007,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "胡金秋必须首发或替补"
+  },
+  {
+    "Id": 508,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104008,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "王哲林必须首发或替补"
+  },
+  {
+    "Id": 509,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104009,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "沈梓捷必须首发或替补"
+  },
+  {
+    "Id": 510,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104010,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "张镇麟必须首发或替补"
+  },
+  {
+    "Id": 511,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104011,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "陶汉林必须首发或替补"
+  },
+  {
+    "Id": 512,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104012,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "孙铭徽必须首发或替补"
+  },
+  {
+    "Id": 513,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104013,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "周鹏必须首发或替补"
+  },
+  {
+    "Id": 514,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104014,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "胡明轩必须首发或替补"
+  },
+  {
+    "Id": 515,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104015,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "吴冠希必须首发或替补"
+  },
+  {
+    "Id": 516,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104016,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "吴前必须首发或替补"
+  },
+  {
+    "Id": 517,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104017,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "林庭谦必须首发或替补"
+  },
+  {
+    "Id": 518,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104018,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "陈盈骏必须首发或替补"
+  },
+  {
+    "Id": 519,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104019,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "葛昭宝必须首发或替补"
+  },
+  {
+    "Id": 520,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104020,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "赵岩昊必须首发或替补"
+  },
+  {
+    "Id": 521,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104021,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "林书豪必须首发或替补"
+  },
+  {
+    "Id": 522,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104022,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "范子铭必须首发或替补"
+  },
+  {
+    "Id": 523,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104023,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "姜伟泽必须首发或替补"
+  },
+  {
+    "Id": 524,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104024,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "西热力江必须首发或替补"
+  },
+  {
+    "Id": 525,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104025,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "高诗岩必须首发或替补"
+  },
+  {
+    "Id": 526,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104026,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "邹雨宸必须首发或替补"
+  },
+  {
+    "Id": 527,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104027,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "贺希宁必须首发或替补"
+  },
+  {
+    "Id": 528,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104028,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "顾全必须首发或替补"
+  },
+  {
+    "Id": 529,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104029,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "陈林坚必须首发或替补"
+  },
+  {
+    "Id": 530,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104030,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "姜宇星必须首发或替补"
+  },
+  {
+    "Id": 531,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 101001,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "张祖铭必须首发或替补"
+  },
+  {
+    "Id": 532,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 101002,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "马振翔必须首发或替补"
+  },
+  {
+    "Id": 533,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 101003,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "朱彦西必须首发或替补"
+  },
+  {
+    "Id": 534,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104031,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "崔永熙必须首发或替补"
+  },
+  {
+    "Id": 535,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104032,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "曾凡博必须首发或替补"
+  },
+  {
+    "Id": 536,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104033,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "林葳必须首发或替补"
+  },
+  {
+    "Id": 537,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104034,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "程帅澎必须首发或替补"
+  },
+  {
+    "Id": 538,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104035,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "周琦必须首发或替补"
+  },
+  {
+    "Id": 539,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104036,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "陈国豪必须首发或替补"
+  },
+  {
+    "Id": 540,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104037,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "邹阳必须首发或替补"
+  },
+  {
+    "Id": 541,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104038,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "杨瀚森必须首发或替补"
+  },
+  {
+    "Id": 542,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104039,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "巅峰·李晓旭必须首发或替补"
+  },
+  {
+    "Id": 543,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104040,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·赵睿必须首发或替补"
+  },
+  {
+    "Id": 544,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104041,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·胡明轩必须首发或替补"
+  },
+  {
+    "Id": 545,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104042,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·张镇麟必须首发或替补"
+  },
+  {
+    "Id": 546,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104043,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·崔永熙必须首发或替补"
+  },
+  {
+    "Id": 547,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104044,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·阿布都沙拉木必须首发或替补"
+  },
+  {
+    "Id": 548,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104045,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·胡金秋必须首发或替补"
+  },
+  {
+    "Id": 549,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104046,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·赵继伟必须首发或替补"
+  },
+  {
+    "Id": 550,
+    "Action": "include",
+    "Key": "player",
+    "KeyValue": 104047,
+    "Judge": "=",
+    "Value": 1,
+    "Desc": "全明星·孙铭徽必须首发或替补"
+  },
+  {
+    "Id": 1001,
+    "Action": "point",
+    "Key": "team",
+    "KeyValue": 0,
+    "Judge": ">=",
+    "Value": 90,
+    "Desc": "球队得分超过90"
+  },
+  {
+    "Id": 1002,
+    "Action": "point",
+    "Key": "team",
+    "KeyValue": 1,
+    "Judge": "<=",
+    "Value": 80,
+    "Desc": "球队丢分低于80"
+  },
+  {
+    "Id": 1003,
+    "Action": "point",
+    "Key": "anyone",
+    "KeyValue": 20,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "任意球员得分超过20"
+  },
+  {
+    "Id": 1004,
+    "Action": "point",
+    "Key": "someone",
+    "KeyValue": 104001,
+    "Judge": ">=",
+    "Value": 30,
+    "Desc": "易建联得分超过30"
+  },
+  {
+    "Id": 1005,
+    "Action": "point",
+    "Key": "anyone",
+    "KeyValue": 20,
+    "Judge": ">=",
+    "Value": 2,
+    "Desc": "两名球员得分超过20"
+  },
+  {
+    "Id": 1006,
+    "Action": "winpoint",
+    "Key": "team",
+    "KeyValue": 0,
+    "Judge": ">=",
+    "Value": 5,
+    "Desc": "赢对手5分"
+  },
+  {
+    "Id": 1007,
+    "Action": "dd",
+    "Key": "anyone",
+    "KeyValue": 0,
+    "Judge": ">=",
+    "Value": 1,
+    "Desc": "两双，这样好扩展多人两双。"
+  },
+  {
+    "Id": 1008,
+    "Action": "point",
+    "Key": "team",
+    "KeyValue": 1,
+    "Judge": "<=",
+    "Value": 120,
+    "Desc": "球队丢分低于120"
+  },
+  {
+    "Id": 1009,
+    "Action": "point",
+    "Key": "team",
+    "KeyValue": 0,
+    "Judge": ">=",
+    "Value": 70,
+    "Desc": "球队得分超过70"
+  }
+]

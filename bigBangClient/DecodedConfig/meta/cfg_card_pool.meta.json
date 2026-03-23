@@ -1,0 +1,29 @@
+{
+  "class_name": "CardPoolConfig",
+  "table_name": "cfg_card_pool",
+  "field_count": 4,
+  "row_count": 2521,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PoolId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CardId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Weight",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

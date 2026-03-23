@@ -1,0 +1,3242 @@
+[
+  {
+    "Id": 10,
+    "PoolInfo": 1,
+    "Desc": "首次抽卡",
+    "Operator": "eq",
+    "Operand": 1,
+    "PoolId": 13,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 11,
+    "PoolInfo": 1,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 12,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 12,
+    "PoolInfo": 1,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 11,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 13,
+    "PoolInfo": 1,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 10,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 20,
+    "PoolInfo": 2,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 21,
+    "PoolInfo": 2,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 22,
+    "PoolInfo": 2,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 23,
+    "PoolInfo": 2,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 30,
+    "PoolInfo": 3,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 31,
+    "PoolInfo": 3,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 32,
+    "PoolInfo": 3,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 33,
+    "PoolInfo": 3,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 40,
+    "PoolInfo": 4,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 41,
+    "PoolInfo": 4,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 42,
+    "PoolInfo": 4,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 43,
+    "PoolInfo": 4,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 50,
+    "PoolInfo": 5,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 51,
+    "PoolInfo": 5,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 52,
+    "PoolInfo": 5,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 53,
+    "PoolInfo": 5,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 60,
+    "PoolInfo": 6,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 61,
+    "PoolInfo": 6,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 62,
+    "PoolInfo": 6,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 63,
+    "PoolInfo": 6,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 70,
+    "PoolInfo": 7,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 71,
+    "PoolInfo": 7,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 72,
+    "PoolInfo": 7,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 73,
+    "PoolInfo": 7,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 80,
+    "PoolInfo": 8,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 81,
+    "PoolInfo": 8,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 82,
+    "PoolInfo": 8,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 83,
+    "PoolInfo": 8,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 90,
+    "PoolInfo": 9,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 91,
+    "PoolInfo": 9,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 92,
+    "PoolInfo": 9,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 93,
+    "PoolInfo": 9,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 100,
+    "PoolInfo": 10,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 101,
+    "PoolInfo": 10,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 102,
+    "PoolInfo": 10,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 103,
+    "PoolInfo": 10,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 110,
+    "PoolInfo": 11,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 111,
+    "PoolInfo": 11,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 112,
+    "PoolInfo": 11,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 113,
+    "PoolInfo": 11,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 120,
+    "PoolInfo": 12,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 121,
+    "PoolInfo": 12,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 122,
+    "PoolInfo": 12,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 123,
+    "PoolInfo": 12,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 130,
+    "PoolInfo": 13,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 131,
+    "PoolInfo": 13,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 132,
+    "PoolInfo": 13,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 133,
+    "PoolInfo": 13,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 140,
+    "PoolInfo": 14,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 141,
+    "PoolInfo": 14,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 142,
+    "PoolInfo": 14,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 143,
+    "PoolInfo": 14,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 150,
+    "PoolInfo": 15,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 151,
+    "PoolInfo": 15,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 152,
+    "PoolInfo": 15,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 153,
+    "PoolInfo": 15,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 160,
+    "PoolInfo": 16,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 161,
+    "PoolInfo": 16,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 162,
+    "PoolInfo": 16,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 163,
+    "PoolInfo": 16,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 170,
+    "PoolInfo": 17,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 171,
+    "PoolInfo": 17,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 172,
+    "PoolInfo": 17,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 173,
+    "PoolInfo": 17,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 180,
+    "PoolInfo": 18,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 181,
+    "PoolInfo": 18,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 182,
+    "PoolInfo": 18,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 183,
+    "PoolInfo": 18,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 190,
+    "PoolInfo": 19,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 191,
+    "PoolInfo": 19,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 192,
+    "PoolInfo": 19,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 193,
+    "PoolInfo": 19,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 200,
+    "PoolInfo": 20,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 201,
+    "PoolInfo": 20,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 202,
+    "PoolInfo": 20,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 203,
+    "PoolInfo": 20,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 210,
+    "PoolInfo": 21,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 211,
+    "PoolInfo": 21,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 212,
+    "PoolInfo": 21,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 213,
+    "PoolInfo": 21,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 220,
+    "PoolInfo": 22,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 221,
+    "PoolInfo": 22,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 222,
+    "PoolInfo": 22,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 223,
+    "PoolInfo": 22,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 230,
+    "PoolInfo": 23,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 231,
+    "PoolInfo": 23,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 232,
+    "PoolInfo": 23,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 233,
+    "PoolInfo": 23,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 240,
+    "PoolInfo": 24,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 241,
+    "PoolInfo": 24,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 242,
+    "PoolInfo": 24,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 243,
+    "PoolInfo": 24,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 250,
+    "PoolInfo": 25,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 251,
+    "PoolInfo": 25,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 252,
+    "PoolInfo": 25,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 253,
+    "PoolInfo": 25,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 260,
+    "PoolInfo": 26,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 261,
+    "PoolInfo": 26,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 262,
+    "PoolInfo": 26,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 263,
+    "PoolInfo": 26,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 270,
+    "PoolInfo": 27,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 271,
+    "PoolInfo": 27,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 272,
+    "PoolInfo": 27,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 273,
+    "PoolInfo": 27,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 280,
+    "PoolInfo": 28,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 281,
+    "PoolInfo": 28,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 282,
+    "PoolInfo": 28,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 283,
+    "PoolInfo": 28,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 290,
+    "PoolInfo": 29,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 293,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 291,
+    "PoolInfo": 29,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 292,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 292,
+    "PoolInfo": 29,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 291,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 293,
+    "PoolInfo": 29,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 290,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 300,
+    "PoolInfo": 30,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 303,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 301,
+    "PoolInfo": 30,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 302,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 302,
+    "PoolInfo": 30,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 301,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 303,
+    "PoolInfo": 30,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 300,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 310,
+    "PoolInfo": 31,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 311,
+    "PoolInfo": 31,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 312,
+    "PoolInfo": 31,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 313,
+    "PoolInfo": 31,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 320,
+    "PoolInfo": 32,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 321,
+    "PoolInfo": 32,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 322,
+    "PoolInfo": 32,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 323,
+    "PoolInfo": 32,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 330,
+    "PoolInfo": 33,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 331,
+    "PoolInfo": 33,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 332,
+    "PoolInfo": 33,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 333,
+    "PoolInfo": 33,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 340,
+    "PoolInfo": 34,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 341,
+    "PoolInfo": 34,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 342,
+    "PoolInfo": 34,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 343,
+    "PoolInfo": 34,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 350,
+    "PoolInfo": 35,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 351,
+    "PoolInfo": 35,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 352,
+    "PoolInfo": 35,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 353,
+    "PoolInfo": 35,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 360,
+    "PoolInfo": 36,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 361,
+    "PoolInfo": 36,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 362,
+    "PoolInfo": 36,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 363,
+    "PoolInfo": 36,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 370,
+    "PoolInfo": 37,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 371,
+    "PoolInfo": 37,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 372,
+    "PoolInfo": 37,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 373,
+    "PoolInfo": 37,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 380,
+    "PoolInfo": 38,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 381,
+    "PoolInfo": 38,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 382,
+    "PoolInfo": 38,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 383,
+    "PoolInfo": 38,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 390,
+    "PoolInfo": 39,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 391,
+    "PoolInfo": 39,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 392,
+    "PoolInfo": 39,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 393,
+    "PoolInfo": 39,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 400,
+    "PoolInfo": 40,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 403,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 401,
+    "PoolInfo": 40,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 402,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 402,
+    "PoolInfo": 40,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 401,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 403,
+    "PoolInfo": 40,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 400,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 410,
+    "PoolInfo": 41,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 413,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 411,
+    "PoolInfo": 41,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 412,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 412,
+    "PoolInfo": 41,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 411,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 413,
+    "PoolInfo": 41,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 410,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 420,
+    "PoolInfo": 42,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 421,
+    "PoolInfo": 42,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 422,
+    "PoolInfo": 42,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 423,
+    "PoolInfo": 42,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 430,
+    "PoolInfo": 43,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 431,
+    "PoolInfo": 43,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 432,
+    "PoolInfo": 43,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 433,
+    "PoolInfo": 43,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 440,
+    "PoolInfo": 44,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 441,
+    "PoolInfo": 44,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 442,
+    "PoolInfo": 44,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 443,
+    "PoolInfo": 44,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 450,
+    "PoolInfo": 45,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 451,
+    "PoolInfo": 45,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 452,
+    "PoolInfo": 45,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 453,
+    "PoolInfo": 45,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 460,
+    "PoolInfo": 46,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 461,
+    "PoolInfo": 46,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 462,
+    "PoolInfo": 46,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 463,
+    "PoolInfo": 46,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 470,
+    "PoolInfo": 47,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 471,
+    "PoolInfo": 47,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 472,
+    "PoolInfo": 47,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 473,
+    "PoolInfo": 47,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 480,
+    "PoolInfo": 48,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 481,
+    "PoolInfo": 48,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 482,
+    "PoolInfo": 48,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 483,
+    "PoolInfo": 48,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 490,
+    "PoolInfo": 49,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 491,
+    "PoolInfo": 49,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 492,
+    "PoolInfo": 49,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 493,
+    "PoolInfo": 49,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 500,
+    "PoolInfo": 50,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 501,
+    "PoolInfo": 50,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 502,
+    "PoolInfo": 50,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 503,
+    "PoolInfo": 50,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 510,
+    "PoolInfo": 51,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 513,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 511,
+    "PoolInfo": 51,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 512,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 512,
+    "PoolInfo": 51,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 511,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 513,
+    "PoolInfo": 51,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 510,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 520,
+    "PoolInfo": 52,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 523,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 521,
+    "PoolInfo": 52,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 522,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 522,
+    "PoolInfo": 52,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 521,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 523,
+    "PoolInfo": 52,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 520,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 530,
+    "PoolInfo": 53,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 531,
+    "PoolInfo": 53,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 532,
+    "PoolInfo": 53,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 533,
+    "PoolInfo": 53,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 540,
+    "PoolInfo": 54,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 541,
+    "PoolInfo": 54,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 542,
+    "PoolInfo": 54,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 543,
+    "PoolInfo": 54,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 550,
+    "PoolInfo": 55,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 551,
+    "PoolInfo": 55,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 552,
+    "PoolInfo": 55,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 553,
+    "PoolInfo": 55,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 560,
+    "PoolInfo": 56,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 561,
+    "PoolInfo": 56,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 562,
+    "PoolInfo": 56,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 563,
+    "PoolInfo": 56,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 570,
+    "PoolInfo": 57,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 571,
+    "PoolInfo": 57,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 572,
+    "PoolInfo": 57,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 573,
+    "PoolInfo": 57,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 580,
+    "PoolInfo": 58,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 581,
+    "PoolInfo": 58,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 582,
+    "PoolInfo": 58,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 583,
+    "PoolInfo": 58,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 590,
+    "PoolInfo": 59,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 591,
+    "PoolInfo": 59,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 592,
+    "PoolInfo": 59,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 593,
+    "PoolInfo": 59,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 600,
+    "PoolInfo": 60,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 601,
+    "PoolInfo": 60,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 602,
+    "PoolInfo": 60,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 603,
+    "PoolInfo": 60,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 610,
+    "PoolInfo": 61,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 611,
+    "PoolInfo": 61,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 612,
+    "PoolInfo": 61,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 613,
+    "PoolInfo": 61,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 620,
+    "PoolInfo": 62,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 621,
+    "PoolInfo": 62,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 622,
+    "PoolInfo": 62,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 623,
+    "PoolInfo": 62,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 630,
+    "PoolInfo": 63,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 631,
+    "PoolInfo": 63,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 632,
+    "PoolInfo": 63,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 633,
+    "PoolInfo": 63,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 640,
+    "PoolInfo": 64,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 641,
+    "PoolInfo": 64,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 642,
+    "PoolInfo": 64,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 643,
+    "PoolInfo": 64,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 650,
+    "PoolInfo": 65,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 651,
+    "PoolInfo": 65,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 652,
+    "PoolInfo": 65,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 653,
+    "PoolInfo": 65,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 660,
+    "PoolInfo": 66,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 661,
+    "PoolInfo": 66,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 662,
+    "PoolInfo": 66,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 663,
+    "PoolInfo": 66,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 670,
+    "PoolInfo": 67,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 671,
+    "PoolInfo": 67,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 672,
+    "PoolInfo": 67,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 673,
+    "PoolInfo": 67,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 680,
+    "PoolInfo": 68,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 681,
+    "PoolInfo": 68,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 682,
+    "PoolInfo": 68,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 683,
+    "PoolInfo": 68,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 690,
+    "PoolInfo": 69,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 691,
+    "PoolInfo": 69,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 692,
+    "PoolInfo": 69,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 693,
+    "PoolInfo": 69,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 700,
+    "PoolInfo": 70,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 701,
+    "PoolInfo": 70,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 702,
+    "PoolInfo": 70,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 703,
+    "PoolInfo": 70,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 710,
+    "PoolInfo": 71,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 711,
+    "PoolInfo": 71,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 712,
+    "PoolInfo": 71,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 713,
+    "PoolInfo": 71,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 720,
+    "PoolInfo": 72,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 721,
+    "PoolInfo": 72,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 722,
+    "PoolInfo": 72,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 723,
+    "PoolInfo": 72,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 730,
+    "PoolInfo": 73,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 731,
+    "PoolInfo": 73,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 732,
+    "PoolInfo": 73,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 733,
+    "PoolInfo": 73,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 740,
+    "PoolInfo": 74,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 741,
+    "PoolInfo": 74,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 742,
+    "PoolInfo": 74,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 743,
+    "PoolInfo": 74,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 750,
+    "PoolInfo": 75,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 751,
+    "PoolInfo": 75,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 752,
+    "PoolInfo": 75,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 753,
+    "PoolInfo": 75,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 760,
+    "PoolInfo": 76,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 761,
+    "PoolInfo": 76,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 762,
+    "PoolInfo": 76,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 763,
+    "PoolInfo": 76,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 770,
+    "PoolInfo": 77,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 771,
+    "PoolInfo": 77,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 772,
+    "PoolInfo": 77,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 773,
+    "PoolInfo": 77,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 780,
+    "PoolInfo": 78,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 781,
+    "PoolInfo": 78,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 782,
+    "PoolInfo": 78,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 783,
+    "PoolInfo": 78,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 790,
+    "PoolInfo": 79,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 791,
+    "PoolInfo": 79,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 792,
+    "PoolInfo": 79,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 793,
+    "PoolInfo": 79,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 800,
+    "PoolInfo": 80,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 23,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 801,
+    "PoolInfo": 80,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 22,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 802,
+    "PoolInfo": 80,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 21,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 803,
+    "PoolInfo": 80,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 20,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 810,
+    "PoolInfo": 81,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 33,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 811,
+    "PoolInfo": 81,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 32,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 812,
+    "PoolInfo": 81,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 31,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 813,
+    "PoolInfo": 81,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 30,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 820,
+    "PoolInfo": 82,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 43,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 821,
+    "PoolInfo": 82,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 42,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 822,
+    "PoolInfo": 82,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 41,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 823,
+    "PoolInfo": 82,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 40,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 830,
+    "PoolInfo": 83,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 53,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 831,
+    "PoolInfo": 83,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 52,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 832,
+    "PoolInfo": 83,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 51,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 833,
+    "PoolInfo": 83,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 50,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 840,
+    "PoolInfo": 84,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 63,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 841,
+    "PoolInfo": 84,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 62,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 842,
+    "PoolInfo": 84,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 61,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 843,
+    "PoolInfo": 84,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 60,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 850,
+    "PoolInfo": 85,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 73,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 851,
+    "PoolInfo": 85,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 72,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 852,
+    "PoolInfo": 85,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 71,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 853,
+    "PoolInfo": 85,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 70,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 860,
+    "PoolInfo": 86,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 83,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 861,
+    "PoolInfo": 86,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 82,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 862,
+    "PoolInfo": 86,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 81,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 863,
+    "PoolInfo": 86,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 80,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 870,
+    "PoolInfo": 87,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 93,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 871,
+    "PoolInfo": 87,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 92,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 872,
+    "PoolInfo": 87,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 91,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 873,
+    "PoolInfo": 87,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 90,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 880,
+    "PoolInfo": 88,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 103,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 881,
+    "PoolInfo": 88,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 102,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 882,
+    "PoolInfo": 88,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 101,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 883,
+    "PoolInfo": 88,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 100,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 890,
+    "PoolInfo": 89,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 893,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 891,
+    "PoolInfo": 89,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 892,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 892,
+    "PoolInfo": 89,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 891,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 893,
+    "PoolInfo": 89,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 890,
+    "Nxtinfo": ""
+  },
+  {
+    "Id": 900,
+    "PoolInfo": 90,
+    "Desc": "橙卡池",
+    "Operator": "eq",
+    "Operand": 50,
+    "PoolId": 903,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 901,
+    "PoolInfo": 90,
+    "Desc": "橙卡池",
+    "Operator": "every",
+    "Operand": 50,
+    "PoolId": 902,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#EA8519>橙色球员</color>"
+  },
+  {
+    "Id": 902,
+    "PoolInfo": 90,
+    "Desc": "紫卡池",
+    "Operator": "every",
+    "Operand": 25,
+    "PoolId": 901,
+    "Nxtinfo": "再招募<color=#0EDE35>{0}</color>次必得<color=#D258FF>紫色球员</color>"
+  },
+  {
+    "Id": 903,
+    "PoolInfo": 90,
+    "Desc": "普通抽卡",
+    "Operator": "ignore",
+    "Operand": 0,
+    "PoolId": 900,
+    "Nxtinfo": ""
+  }
+]

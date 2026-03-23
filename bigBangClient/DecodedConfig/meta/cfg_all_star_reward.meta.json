@@ -1,0 +1,39 @@
+{
+  "class_name": "AllStarRewardConfig",
+  "table_name": "cfg_all_star_reward",
+  "field_count": 6,
+  "row_count": 57,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Group",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Option",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

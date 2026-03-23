@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 2001,
+    "Name": "1小时训练加速",
+    "Obtain": 60,
+    "Limit": 1,
+    "Diamond": 30
+  },
+  {
+    "Id": 2002,
+    "Name": "3小时训练加速",
+    "Obtain": 180,
+    "Limit": 1,
+    "Diamond": 90
+  },
+  {
+    "Id": 2003,
+    "Name": "6小时训练加速",
+    "Obtain": 360,
+    "Limit": 1,
+    "Diamond": 180
+  },
+  {
+    "Id": 2004,
+    "Name": "12小时训练加速",
+    "Obtain": 720,
+    "Limit": 1,
+    "Diamond": 360
+  },
+  {
+    "Id": 2005,
+    "Name": "18小时训练加速",
+    "Obtain": 1080,
+    "Limit": 1,
+    "Diamond": 540
+  },
+  {
+    "Id": 2006,
+    "Name": "24小时训练加速",
+    "Obtain": 1440,
+    "Limit": 1,
+    "Diamond": 720
+  }
+]

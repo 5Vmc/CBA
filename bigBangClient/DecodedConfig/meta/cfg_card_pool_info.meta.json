@@ -1,0 +1,34 @@
+{
+  "class_name": "CardPoolInfoConfig",
+  "table_name": "cfg_card_pool_info",
+  "field_count": 5,
+  "row_count": 90,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "SeniorQuality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "FloorsCount",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostGoods",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

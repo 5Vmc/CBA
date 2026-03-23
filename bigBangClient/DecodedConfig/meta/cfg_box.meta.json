@@ -1,0 +1,44 @@
+{
+  "class_name": "BoxConfig",
+  "table_name": "cfg_box",
+  "field_count": 7,
+  "row_count": 508,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BoxId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Group",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RewardType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RewardId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RewardNum",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Weight",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

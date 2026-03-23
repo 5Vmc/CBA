@@ -1,0 +1,19 @@
+{
+  "class_name": "SevenDayLoginRewardConfig",
+  "table_name": "cfg_seven_day_login_reward",
+  "field_count": 2,
+  "row_count": 7,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Content",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

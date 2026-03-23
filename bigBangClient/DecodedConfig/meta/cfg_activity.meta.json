@@ -1,0 +1,119 @@
+{
+  "class_name": "ActivityConfig",
+  "table_name": "cfg_activity",
+  "field_count": 22,
+  "row_count": 158,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ClientType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Point",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ServerDays",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "StartTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "LastTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ServerFilter",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RewardTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "LoopTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "DailyGift",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DailyGiftDesc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Param1",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Param2",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Param3",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Pic",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "JumpGroup",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "HomeTitle",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "HomeSubTitle",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ToggleIcon",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ShowInActivity",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

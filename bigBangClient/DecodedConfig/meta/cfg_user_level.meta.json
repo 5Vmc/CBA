@@ -1,0 +1,34 @@
+{
+  "class_name": "UserLevelConfig",
+  "table_name": "cfg_user_level",
+  "field_count": 5,
+  "row_count": 120,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Exp",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ExpTotal",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "BountyTaskCount",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+[
+  {
+    "Id": 1000,
+    "Name": "主场",
+    "Icon": "module_1000",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1100,
+    "Name": "经典赛",
+    "Icon": "module_1100",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1101,
+    "Name": "经典赛三星宝箱",
+    "Icon": "module_1101",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1102,
+    "Name": "经典赛关卡",
+    "Icon": "module_1102",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1200,
+    "Name": "剧情赛",
+    "Icon": "module_1200",
+    "Forcego": 1,
+    "Desc": "通关剧情赛可以获得大量<color=#EA8519>球员碎片</color>。",
+    "Conversation": 9001,
+    "RewardsPreview": "2:501001:1|2:400201:1|1:4:1",
+    "Pic": "module_1200"
+  },
+  {
+    "Id": 1300,
+    "Name": "排位赛",
+    "Icon": "module_1300",
+    "Forcego": 1,
+    "Desc": "排位赛可以获得大量<color=#EA8519>竞技币</color>，并且兑换包括<color=#EA8519>橙色球员</color>在内的各种珍贵道具。",
+    "Conversation": 10001,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1301,
+    "Name": "排位赛",
+    "Icon": "module_1301",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1302,
+    "Name": "排位赛",
+    "Icon": "module_1302",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1303,
+    "Name": "排位赛",
+    "Icon": "module_1303",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1304,
+    "Name": "排位赛",
+    "Icon": "module_1304",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1305,
+    "Name": "排位赛",
+    "Icon": "module_1305",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1400,
+    "Name": "赛事（PVP）",
+    "Icon": "module_1400",
+    "Forcego": 1,
+    "Desc": "与<color=#EA8519>跨服玩家</color>一起参与赛事竞技，赢得<color=#EA8519>橙色球员</color>效力。",
+    "Conversation": 11001,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1401,
+    "Name": "联赛",
+    "Icon": "module_1401",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1402,
+    "Name": "杯赛",
+    "Icon": "module_1402",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1500,
+    "Name": "球员训练",
+    "Icon": "module_1500",
+    "Forcego": 1,
+    "Desc": "",
+    "Conversation": 8001,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1501,
+    "Name": "强化训练",
+    "Icon": "module_1501",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1502,
+    "Name": "超能训练",
+    "Icon": "module_1502",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1503,
+    "Name": "邀请赛",
+    "Icon": "module_1503",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1600,
+    "Name": "特技",
+    "Icon": "module_1600",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1700,
+    "Name": "任务",
+    "Icon": "module_1700",
+    "Forcego": 1,
+    "Desc": "完成日常任务可以获得<color=#EA8519>钻石、球探契约</color>等等珍贵道具。",
+    "Conversation": 6001,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1701,
+    "Name": "日常任务",
+    "Icon": "module_1701",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1702,
+    "Name": "周常任务",
+    "Icon": "module_1702",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1703,
+    "Name": "悬赏任务",
+    "Icon": "module_1703",
+    "Forcego": 1,
+    "Desc": "完成悬赏任务可以获得<color=#EA8519>战术升级卡</color>，在布阵界面中升级各种战术。",
+    "Conversation": 7001,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1800,
+    "Name": "小游戏",
+    "Icon": "module_1800",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1801,
+    "Name": "投篮大赛",
+    "Icon": "module_1801",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": "module_1801"
+  },
+  {
+    "Id": 1802,
+    "Name": "教练训话",
+    "Icon": "module_1802",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "1:6:1|1:6:1|1:6:1",
+    "Pic": "module_1802"
+  },
+  {
+    "Id": 1803,
+    "Name": "翻牌玩法",
+    "Icon": "module_1803",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 1900,
+    "Name": "藏品",
+    "Icon": "module_1900",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2000,
+    "Name": "生涯",
+    "Icon": "module_2000",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2100,
+    "Name": "球员养成",
+    "Icon": "module_2100",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2101,
+    "Name": "升级",
+    "Icon": "module_2101",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2102,
+    "Name": "装备",
+    "Icon": "module_2102",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2103,
+    "Name": "升星",
+    "Icon": "module_2103",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2200,
+    "Name": "招募",
+    "Icon": "module_2200",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2300,
+    "Name": "活动",
+    "Icon": "module_2300",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2301,
+    "Name": "每日登录/30日签到",
+    "Icon": "module_2301",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2302,
+    "Name": "月卡",
+    "Icon": "module_2302",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2303,
+    "Name": "新手目标",
+    "Icon": "module_2303",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2304,
+    "Name": "七日签到",
+    "Icon": "module_2304",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2305,
+    "Name": "首充",
+    "Icon": "module_2305",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2400,
+    "Name": "成就",
+    "Icon": "module_2400",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2401,
+    "Name": "荣誉",
+    "Icon": "module_2401",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2500,
+    "Name": "背包",
+    "Icon": "module_2500",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2501,
+    "Name": "碎片回收",
+    "Icon": "module_2501",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2600,
+    "Name": "布阵",
+    "Icon": "module_2600",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2601,
+    "Name": "战术",
+    "Icon": "module_2601",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2700,
+    "Name": "商城",
+    "Icon": "module_2700",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2701,
+    "Name": "钻石商城",
+    "Icon": "module_2701",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2702,
+    "Name": "训练商城",
+    "Icon": "module_2702",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2703,
+    "Name": "礼包商城",
+    "Icon": "module_2703",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2704,
+    "Name": "球探商城",
+    "Icon": "module_2704",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2800,
+    "Name": "活动",
+    "Icon": "module_2800",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2801,
+    "Name": "活动主面板",
+    "Icon": "module_2801",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2802,
+    "Name": "条件礼包",
+    "Icon": "module_2802",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2803,
+    "Name": "7日签到",
+    "Icon": "module_2803",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2804,
+    "Name": "30日签到",
+    "Icon": "module_2804",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2805,
+    "Name": "新手目标",
+    "Icon": "module_2805",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2806,
+    "Name": "节日活动",
+    "Icon": "module_2806",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 2900,
+    "Name": "篮球殿堂",
+    "Icon": "module_2900",
+    "Forcego": 1,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "2:400151:1|2:400152:1|2:400153:1|2:400154:1",
+    "Pic": "module_2900"
+  },
+  {
+    "Id": 3001,
+    "Name": "百分大战",
+    "Icon": "module_3001",
+    "Forcego": 1,
+    "Desc": "全新1v1模式<color=#EA8519>跨服玩家</color>一起参与赛事竞技，赢得<color=#EA8519>橙色球员</color>效力。",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3002,
+    "Name": "福利",
+    "Icon": "module_3002",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3003,
+    "Name": "首充",
+    "Icon": "module_3003",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3004,
+    "Name": "每日充值",
+    "Icon": "module_3004",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3005,
+    "Name": "战令",
+    "Icon": "module_3005",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3006,
+    "Name": "排行榜",
+    "Icon": "module_3006",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3007,
+    "Name": "邮箱",
+    "Icon": "module_3007",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3008,
+    "Name": "公告",
+    "Icon": "module_3008",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3009,
+    "Name": "圣诞活动",
+    "Icon": "module_3009",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3010,
+    "Name": "元旦活动",
+    "Icon": "module_3010",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3011,
+    "Name": "跨年签到",
+    "Icon": "module_3011",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3012,
+    "Name": "春节活动",
+    "Icon": "module_3012",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3013,
+    "Name": "春节签到",
+    "Icon": "module_3013",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3014,
+    "Name": "全明星",
+    "Icon": "module_3014",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3015,
+    "Name": "旅行棋盘",
+    "Icon": "module_3015",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3016,
+    "Name": "总决赛竞猜",
+    "Icon": "module_3016",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3017,
+    "Name": "总决赛竞猜",
+    "Icon": "module_3017",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  },
+  {
+    "Id": 3018,
+    "Name": "奥运祈愿",
+    "Icon": "module_3018",
+    "Forcego": 0,
+    "Desc": "",
+    "Conversation": 0,
+    "RewardsPreview": "",
+    "Pic": ""
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "class_name": "CupRewardOtherConfig",
+  "table_name": "cfg_cup_reward_other",
+  "field_count": 5,
+  "row_count": 35,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "DescText",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "MailTitle",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "MailContent",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

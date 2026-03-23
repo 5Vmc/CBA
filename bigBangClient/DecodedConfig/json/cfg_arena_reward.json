@@ -1,0 +1,322 @@
+[
+  {
+    "Id": 1,
+    "Type": 1,
+    "Stage": 9,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:200"
+  },
+  {
+    "Id": 2,
+    "Type": 1,
+    "Stage": 8,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:200"
+  },
+  {
+    "Id": 3,
+    "Type": 1,
+    "Stage": 7,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:200"
+  },
+  {
+    "Id": 4,
+    "Type": 1,
+    "Stage": 6,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:200"
+  },
+  {
+    "Id": 5,
+    "Type": 1,
+    "Stage": 5,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:200"
+  },
+  {
+    "Id": 6,
+    "Type": 1,
+    "Stage": 4,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:100"
+  },
+  {
+    "Id": 7,
+    "Type": 1,
+    "Stage": 3,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:100"
+  },
+  {
+    "Id": 8,
+    "Type": 1,
+    "Stage": 2,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:100"
+  },
+  {
+    "Id": 9,
+    "Type": 1,
+    "Stage": 1,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "1:1:100"
+  },
+  {
+    "Id": 10,
+    "Type": 2,
+    "Stage": 9,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:500"
+  },
+  {
+    "Id": 11,
+    "Type": 2,
+    "Stage": 8,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:400"
+  },
+  {
+    "Id": 12,
+    "Type": 2,
+    "Stage": 7,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:300"
+  },
+  {
+    "Id": 13,
+    "Type": 2,
+    "Stage": 6,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:260"
+  },
+  {
+    "Id": 14,
+    "Type": 2,
+    "Stage": 5,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:220"
+  },
+  {
+    "Id": 15,
+    "Type": 2,
+    "Stage": 4,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:180"
+  },
+  {
+    "Id": 16,
+    "Type": 2,
+    "Stage": 3,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:160"
+  },
+  {
+    "Id": 17,
+    "Type": 2,
+    "Stage": 2,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:120"
+  },
+  {
+    "Id": 18,
+    "Type": 2,
+    "Stage": 1,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:100"
+  },
+  {
+    "Id": 19,
+    "Type": 3,
+    "Stage": 9,
+    "RankMin": 1,
+    "RankMax": 1,
+    "Reward": "2:400501:18000|1:1:1000"
+  },
+  {
+    "Id": 20,
+    "Type": 3,
+    "Stage": 9,
+    "RankMin": 2,
+    "RankMax": 2,
+    "Reward": "2:400501:15000|1:1:750"
+  },
+  {
+    "Id": 21,
+    "Type": 3,
+    "Stage": 9,
+    "RankMin": 3,
+    "RankMax": 3,
+    "Reward": "2:400501:10000|1:1:500"
+  },
+  {
+    "Id": 22,
+    "Type": 3,
+    "Stage": 9,
+    "RankMin": 4,
+    "RankMax": 10,
+    "Reward": "2:400501:7500|1:1:450"
+  },
+  {
+    "Id": 23,
+    "Type": 3,
+    "Stage": 9,
+    "RankMin": 11,
+    "RankMax": 0,
+    "Reward": "2:400501:6500|1:1:400"
+  },
+  {
+    "Id": 24,
+    "Type": 3,
+    "Stage": 8,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:5000|1:1:350"
+  },
+  {
+    "Id": 25,
+    "Type": 3,
+    "Stage": 7,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:4500|1:1:300"
+  },
+  {
+    "Id": 26,
+    "Type": 3,
+    "Stage": 6,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:4000|1:1:250"
+  },
+  {
+    "Id": 27,
+    "Type": 3,
+    "Stage": 5,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:3500|1:1:200"
+  },
+  {
+    "Id": 28,
+    "Type": 3,
+    "Stage": 4,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:3300|1:1:150"
+  },
+  {
+    "Id": 29,
+    "Type": 3,
+    "Stage": 3,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:3100|1:1:120"
+  },
+  {
+    "Id": 30,
+    "Type": 3,
+    "Stage": 2,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:3000|1:1:80"
+  },
+  {
+    "Id": 31,
+    "Type": 3,
+    "Stage": 1,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:2800|1:1:50"
+  },
+  {
+    "Id": 32,
+    "Type": 4,
+    "Stage": 9,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:100"
+  },
+  {
+    "Id": 33,
+    "Type": 4,
+    "Stage": 8,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:90"
+  },
+  {
+    "Id": 34,
+    "Type": 4,
+    "Stage": 7,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:80"
+  },
+  {
+    "Id": 35,
+    "Type": 4,
+    "Stage": 6,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:70"
+  },
+  {
+    "Id": 36,
+    "Type": 4,
+    "Stage": 5,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:60"
+  },
+  {
+    "Id": 37,
+    "Type": 4,
+    "Stage": 4,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:50"
+  },
+  {
+    "Id": 38,
+    "Type": 4,
+    "Stage": 3,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:40"
+  },
+  {
+    "Id": 39,
+    "Type": 4,
+    "Stage": 2,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:30"
+  },
+  {
+    "Id": 40,
+    "Type": 4,
+    "Stage": 1,
+    "RankMin": 0,
+    "RankMax": 0,
+    "Reward": "2:400501:20"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "class_name": "FestivalTravelConfig",
+  "table_name": "cfg_festival_travel",
+  "field_count": 4,
+  "row_count": 150,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Order",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

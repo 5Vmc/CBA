@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 5001,
+    "Name": "经典球王补贴",
+    "ProductId": "com.cbaqlyf.ximi.bigbang320.30",
+    "Obtain": "1:1:300",
+    "EveryDay": "2:200232:3|1:1:100",
+    "Rmb": 30.0,
+    "Dollar": 4.989999771118164
+  },
+  {
+    "Id": 5002,
+    "Name": "尊享球王补贴",
+    "ProductId": "com.cbaqlyf.ximi.bigbang321.68",
+    "Obtain": "1:1:680",
+    "EveryDay": "2:200231:3|1:1:300",
+    "Rmb": 68.0,
+    "Dollar": 9.989999771118164
+  }
+]

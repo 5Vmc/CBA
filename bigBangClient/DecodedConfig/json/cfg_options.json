@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Type": 1,
+    "Content": "全部品质",
+    "Value": 0
+  },
+  {
+    "Id": 2,
+    "Type": 1,
+    "Content": "<color=#BE2D2D>红色品质</color>",
+    "Value": 5
+  },
+  {
+    "Id": 3,
+    "Type": 1,
+    "Content": "<color=#E2AE32>橙色品质</color>",
+    "Value": 4
+  },
+  {
+    "Id": 4,
+    "Type": 1,
+    "Content": "<color=#A64EFF>紫色品质</color>",
+    "Value": 3
+  },
+  {
+    "Id": 5,
+    "Type": 1,
+    "Content": "<color=#2D9FF5>蓝色品质</color>",
+    "Value": 2
+  },
+  {
+    "Id": 6,
+    "Type": 1,
+    "Content": "<color=#2CC03D>绿色品质</color>",
+    "Value": 1
+  },
+  {
+    "Id": 7,
+    "Type": 2,
+    "Content": "所有",
+    "Value": 0
+  },
+  {
+    "Id": 8,
+    "Type": 2,
+    "Content": "中锋",
+    "Value": 3
+  },
+  {
+    "Id": 9,
+    "Type": 2,
+    "Content": "前锋",
+    "Value": 2
+  },
+  {
+    "Id": 10,
+    "Type": 2,
+    "Content": "后卫",
+    "Value": 1
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "Id": 400101,
+    "ActivityId": 4001,
+    "Option": 40,
+    "Exp": 0,
+    "Rewards1": "1:2:1000",
+    "Rewards2": "1:2:3000",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400102,
+    "ActivityId": 4001,
+    "Option": 80,
+    "Exp": 500,
+    "Rewards1": "1:6:20",
+    "Rewards2": "1:6:60",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400103,
+    "ActivityId": 4001,
+    "Option": 120,
+    "Exp": 1000,
+    "Rewards1": "1:1:100",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": "1:1:300"
+  },
+  {
+    "Id": 400104,
+    "ActivityId": 4001,
+    "Option": 160,
+    "Exp": 1500,
+    "Rewards1": "2:400154:10",
+    "Rewards2": "2:400154:30",
+    "RewardsStep": "2:400205:1"
+  },
+  {
+    "Id": 400105,
+    "ActivityId": 4001,
+    "Option": 200,
+    "Exp": 2000,
+    "Rewards1": "2:100105:20",
+    "Rewards2": "2:100105:60",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400106,
+    "ActivityId": 4001,
+    "Option": 240,
+    "Exp": 2500,
+    "Rewards1": "2:400202:3",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400107,
+    "ActivityId": 4001,
+    "Option": 280,
+    "Exp": 3000,
+    "Rewards1": "2:400206:1",
+    "Rewards2": "2:400207:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400108,
+    "ActivityId": 4001,
+    "Option": 400,
+    "Exp": 3500,
+    "Rewards1": "2:400204:1",
+    "Rewards2": "2:400209:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400109,
+    "ActivityId": 4001,
+    "Option": 550,
+    "Exp": 4000,
+    "Rewards1": "",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400110,
+    "ActivityId": 4001,
+    "Option": 750,
+    "Exp": 4500,
+    "Rewards1": "",
+    "Rewards2": "2:400206:3",
+    "RewardsStep": "2:400205:1"
+  },
+  {
+    "Id": 400111,
+    "ActivityId": 4001,
+    "Option": 1000,
+    "Exp": 5000,
+    "Rewards1": "1:2:1000",
+    "Rewards2": "1:2:3000",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400112,
+    "ActivityId": 4001,
+    "Option": 1250,
+    "Exp": 5500,
+    "Rewards1": "1:6:20",
+    "Rewards2": "1:6:60",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400113,
+    "ActivityId": 4001,
+    "Option": 1500,
+    "Exp": 6000,
+    "Rewards1": "1:1:100",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": "1:1:300"
+  },
+  {
+    "Id": 400114,
+    "ActivityId": 4001,
+    "Option": 1750,
+    "Exp": 6500,
+    "Rewards1": "2:400154:10",
+    "Rewards2": "2:400154:30",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400115,
+    "ActivityId": 4001,
+    "Option": 2000,
+    "Exp": 7000,
+    "Rewards1": "2:100105:20",
+    "Rewards2": "2:100105:60",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400116,
+    "ActivityId": 4001,
+    "Option": 2250,
+    "Exp": 7500,
+    "Rewards1": "2:400202:3",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400117,
+    "ActivityId": 4001,
+    "Option": 2500,
+    "Exp": 8000,
+    "Rewards1": "2:400206:1",
+    "Rewards2": "2:400207:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400118,
+    "ActivityId": 4001,
+    "Option": 2750,
+    "Exp": 8500,
+    "Rewards1": "2:400204:1",
+    "Rewards2": "2:400209:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400119,
+    "ActivityId": 4001,
+    "Option": 3000,
+    "Exp": 9000,
+    "Rewards1": "",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400120,
+    "ActivityId": 4001,
+    "Option": 3250,
+    "Exp": 9500,
+    "Rewards1": "",
+    "Rewards2": "2:400206:3",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400121,
+    "ActivityId": 4001,
+    "Option": 3500,
+    "Exp": 10000,
+    "Rewards1": "1:2:1000",
+    "Rewards2": "1:2:3000",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400122,
+    "ActivityId": 4001,
+    "Option": 3750,
+    "Exp": 10500,
+    "Rewards1": "1:6:20",
+    "Rewards2": "1:6:60",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400123,
+    "ActivityId": 4001,
+    "Option": 4000,
+    "Exp": 11000,
+    "Rewards1": "1:1:100",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": "1:1:300"
+  },
+  {
+    "Id": 400124,
+    "ActivityId": 4001,
+    "Option": 4250,
+    "Exp": 11500,
+    "Rewards1": "2:400154:10",
+    "Rewards2": "2:400154:30",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400125,
+    "ActivityId": 4001,
+    "Option": 4500,
+    "Exp": 12000,
+    "Rewards1": "2:100105:20",
+    "Rewards2": "2:100105:60",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400126,
+    "ActivityId": 4001,
+    "Option": 4750,
+    "Exp": 12500,
+    "Rewards1": "2:400202:3",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400127,
+    "ActivityId": 4001,
+    "Option": 5000,
+    "Exp": 13000,
+    "Rewards1": "2:400206:1",
+    "Rewards2": "2:400207:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400128,
+    "ActivityId": 4001,
+    "Option": 5250,
+    "Exp": 13500,
+    "Rewards1": "2:400204:1",
+    "Rewards2": "2:400209:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400129,
+    "ActivityId": 4001,
+    "Option": 5500,
+    "Exp": 14000,
+    "Rewards1": "",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400130,
+    "ActivityId": 4001,
+    "Option": 5750,
+    "Exp": 14500,
+    "Rewards1": "",
+    "Rewards2": "2:400206:3",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400131,
+    "ActivityId": 4001,
+    "Option": 6000,
+    "Exp": 15000,
+    "Rewards1": "1:2:1000",
+    "Rewards2": "1:2:3000",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400132,
+    "ActivityId": 4001,
+    "Option": 6250,
+    "Exp": 15500,
+    "Rewards1": "1:6:20",
+    "Rewards2": "1:6:60",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400133,
+    "ActivityId": 4001,
+    "Option": 6500,
+    "Exp": 16000,
+    "Rewards1": "1:1:100",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": "1:1:300"
+  },
+  {
+    "Id": 400134,
+    "ActivityId": 4001,
+    "Option": 6750,
+    "Exp": 16500,
+    "Rewards1": "2:400154:10",
+    "Rewards2": "2:400154:30",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400135,
+    "ActivityId": 4001,
+    "Option": 7000,
+    "Exp": 17000,
+    "Rewards1": "2:100105:20",
+    "Rewards2": "2:100105:60",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400136,
+    "ActivityId": 4001,
+    "Option": 7250,
+    "Exp": 17500,
+    "Rewards1": "2:400202:3",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400137,
+    "ActivityId": 4001,
+    "Option": 7500,
+    "Exp": 18000,
+    "Rewards1": "2:400206:1",
+    "Rewards2": "2:400207:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400138,
+    "ActivityId": 4001,
+    "Option": 7750,
+    "Exp": 18500,
+    "Rewards1": "2:400204:1",
+    "Rewards2": "2:400209:3",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400139,
+    "ActivityId": 4001,
+    "Option": 8000,
+    "Exp": 19000,
+    "Rewards1": "",
+    "Rewards2": "2:400208:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400140,
+    "ActivityId": 4001,
+    "Option": 8250,
+    "Exp": 19500,
+    "Rewards1": "",
+    "Rewards2": "2:400206:3",
+    "RewardsStep": "2:400201:10"
+  },
+  {
+    "Id": 400141,
+    "ActivityId": 4001,
+    "Option": 8500,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400142,
+    "ActivityId": 4001,
+    "Option": 8750,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400143,
+    "ActivityId": 4001,
+    "Option": 9000,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400144,
+    "ActivityId": 4001,
+    "Option": 9250,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400145,
+    "ActivityId": 4001,
+    "Option": 9500,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400146,
+    "ActivityId": 4001,
+    "Option": 9750,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400147,
+    "ActivityId": 4001,
+    "Option": 10000,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400148,
+    "ActivityId": 4001,
+    "Option": 10300,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400149,
+    "ActivityId": 4001,
+    "Option": 10600,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  },
+  {
+    "Id": 400150,
+    "ActivityId": 4001,
+    "Option": 10900,
+    "Exp": 18500,
+    "Rewards1": "",
+    "Rewards2": "1:1:10",
+    "RewardsStep": ""
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "Id": 101,
+    "Item": "3:104005:1",
+    "Cost": 14000,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 102,
+    "Item": "2:400152:30",
+    "Cost": 2400,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 103,
+    "Item": "1:1:200",
+    "Cost": 160,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 104,
+    "Item": "2:200219:200",
+    "Cost": 1600,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 105,
+    "Item": "2:100105:30",
+    "Cost": 60,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 106,
+    "Item": "2:400201:1",
+    "Cost": 240,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 107,
+    "Item": "1:2:30000",
+    "Cost": 240,
+    "Stage": 9,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 108,
+    "Item": "2:200211:1",
+    "Cost": 875,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 109,
+    "Item": "2:400153:20",
+    "Cost": 1000,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 110,
+    "Item": "1:1:150",
+    "Cost": 100,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 111,
+    "Item": "2:200218:100",
+    "Cost": 666,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 112,
+    "Item": "2:100105:30",
+    "Cost": 50,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 113,
+    "Item": "2:400201:1",
+    "Cost": 200,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 114,
+    "Item": "1:2:30000",
+    "Cost": 200,
+    "Stage": 6,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 115,
+    "Item": "2:200229:1",
+    "Cost": 175,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 116,
+    "Item": "2:400154:30",
+    "Cost": 750,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 117,
+    "Item": "1:1:100",
+    "Cost": 50,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 118,
+    "Item": "2:200217:80",
+    "Cost": 400,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 119,
+    "Item": "2:100105:20",
+    "Cost": 25,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 120,
+    "Item": "2:400201:1",
+    "Cost": 150,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 121,
+    "Item": "1:2:30000",
+    "Cost": 150,
+    "Stage": 3,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 122,
+    "Item": "2:200229:1",
+    "Cost": 175,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 123,
+    "Item": "2:400154:10",
+    "Cost": 200,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 124,
+    "Item": "1:1:50",
+    "Cost": 20,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 125,
+    "Item": "2:200216:80",
+    "Cost": 320,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 126,
+    "Item": "2:100105:10",
+    "Cost": 10,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 127,
+    "Item": "2:400201:1",
+    "Cost": 120,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 128,
+    "Item": "1:2:5000",
+    "Cost": 20,
+    "Stage": 1,
+    "Limit": 1,
+    "WeekLimit": -1
+  },
+  {
+    "Id": 1,
+    "Item": "2:100108:1",
+    "Cost": 500,
+    "Stage": 1,
+    "Limit": -1,
+    "WeekLimit": 99
+  },
+  {
+    "Id": 2,
+    "Item": "2:400151:3",
+    "Cost": 6000,
+    "Stage": 1,
+    "Limit": -1,
+    "WeekLimit": 33
+  },
+  {
+    "Id": 3,
+    "Item": "2:400152:3",
+    "Cost": 1200,
+    "Stage": 1,
+    "Limit": -1,
+    "WeekLimit": 33
+  },
+  {
+    "Id": 4,
+    "Item": "2:400153:3",
+    "Cost": 900,
+    "Stage": 1,
+    "Limit": -1,
+    "WeekLimit": 33
+  },
+  {
+    "Id": 5,
+    "Item": "2:400154:3",
+    "Cost": 600,
+    "Stage": 1,
+    "Limit": -1,
+    "WeekLimit": 33
+  }
+]

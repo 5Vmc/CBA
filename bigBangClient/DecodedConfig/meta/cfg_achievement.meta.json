@@ -1,0 +1,99 @@
+{
+  "class_name": "AchievementConfig",
+  "table_name": "cfg_achievement",
+  "field_count": 18,
+  "row_count": 908,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Fungroup",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Icon",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Target",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Point",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ClientCheck",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Moduleid",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Info",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "IsHide",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Module",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CanAdd",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ClientGroup",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GroupTitle",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "MaxShowTimes",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

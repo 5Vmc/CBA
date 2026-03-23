@@ -1,0 +1,24 @@
+{
+  "class_name": "TowerStarRewardConfig",
+  "table_name": "cfg_tower_star_reward",
+  "field_count": 3,
+  "row_count": 63,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

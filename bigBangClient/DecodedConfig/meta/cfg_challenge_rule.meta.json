@@ -1,0 +1,44 @@
+{
+  "class_name": "ChallengeRuleConfig",
+  "table_name": "cfg_challenge_rule",
+  "field_count": 7,
+  "row_count": 104,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Action",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Key",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "KeyValue",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Judge",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Value",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

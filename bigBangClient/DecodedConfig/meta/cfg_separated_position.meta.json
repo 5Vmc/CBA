@@ -1,0 +1,34 @@
+{
+  "class_name": "SeparatedPositionConfig",
+  "table_name": "cfg_separated_position",
+  "field_count": 5,
+  "row_count": 5,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Position",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Abbreviation",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "AbilityRatio",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    }
+  ]
+}

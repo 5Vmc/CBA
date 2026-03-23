@@ -1,0 +1,34 @@
+{
+  "class_name": "ActivityPayDailyRewardConfig",
+  "table_name": "cfg_activity_pay_daily_reward",
+  "field_count": 5,
+  "row_count": 72,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Option",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rewards",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

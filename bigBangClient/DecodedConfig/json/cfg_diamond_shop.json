@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1001,
+    "ProductId": "com.cbaqlyf.ximi.bigbang314.6",
+    "Obtain": 60,
+    "Name": "60钻石",
+    "Give": 60,
+    "Rmb": 6.0,
+    "Dollar": 0.9900000095367432
+  },
+  {
+    "Id": 1002,
+    "ProductId": "com.cbaqlyf.ximi.bigbang315.30",
+    "Obtain": 300,
+    "Name": "300钻石",
+    "Give": 300,
+    "Rmb": 30.0,
+    "Dollar": 4.989999771118164
+  },
+  {
+    "Id": 1003,
+    "ProductId": "com.cbaqlyf.ximi.bigbang316.68",
+    "Obtain": 680,
+    "Name": "680钻石",
+    "Give": 680,
+    "Rmb": 68.0,
+    "Dollar": 9.989999771118164
+  },
+  {
+    "Id": 1004,
+    "ProductId": "com.cbaqlyf.ximi.bigbang317.128",
+    "Obtain": 1280,
+    "Name": "1280钻石",
+    "Give": 1280,
+    "Rmb": 128.0,
+    "Dollar": 19.989999771118164
+  },
+  {
+    "Id": 1005,
+    "ProductId": "com.cbaqlyf.ximi.bigbang318.328",
+    "Obtain": 3280,
+    "Name": "3280钻石",
+    "Give": 3280,
+    "Rmb": 328.0,
+    "Dollar": 49.9900016784668
+  },
+  {
+    "Id": 1006,
+    "ProductId": "com.cbaqlyf.ximi.bigbang319.648",
+    "Obtain": 6480,
+    "Name": "6480钻石",
+    "Give": 6480,
+    "Rmb": 648.0,
+    "Dollar": 99.98999786376953
+  }
+]

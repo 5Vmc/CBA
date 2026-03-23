@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Quality": 1,
+    "ReturnGoods": {
+      "400105": 5
+    },
+    "ReturnPercent": 60,
+    "Money": 500
+  },
+  {
+    "Id": 2,
+    "Quality": 2,
+    "ReturnGoods": {
+      "400104": 10
+    },
+    "ReturnPercent": 60,
+    "Money": 500
+  },
+  {
+    "Id": 3,
+    "Quality": 3,
+    "ReturnGoods": {
+      "400103": 30
+    },
+    "ReturnPercent": 60,
+    "Money": 500
+  },
+  {
+    "Id": 4,
+    "Quality": 4,
+    "ReturnGoods": {
+      "400102": 50
+    },
+    "ReturnPercent": 60,
+    "Money": 500
+  },
+  {
+    "Id": 5,
+    "Quality": 5,
+    "ReturnGoods": {
+      "400101": 100
+    },
+    "ReturnPercent": 60,
+    "Money": 500
+  }
+]

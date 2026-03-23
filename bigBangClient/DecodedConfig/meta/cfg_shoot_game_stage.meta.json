@@ -1,0 +1,49 @@
+{
+  "class_name": "ShootGameStageConfig",
+  "table_name": "cfg_shoot_game_stage",
+  "field_count": 8,
+  "row_count": 11,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Point",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "FinishPoint",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Second",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ServeBall",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "SlideParam",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "ShakeParam",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

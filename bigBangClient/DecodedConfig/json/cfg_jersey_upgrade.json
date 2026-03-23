@@ -1,0 +1,9002 @@
+[
+  {
+    "Id": 101001,
+    "Part": 1,
+    "Position": 1,
+    "Level": 1,
+    "Cost": "2:600101:4",
+    "Ability": {
+      "1": 19,
+      "6": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 101002,
+    "Part": 1,
+    "Position": 1,
+    "Level": 2,
+    "Cost": "2:600101:8",
+    "Ability": {
+      "1": 38,
+      "6": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 101003,
+    "Part": 1,
+    "Position": 1,
+    "Level": 3,
+    "Cost": "2:600101:12",
+    "Ability": {
+      "1": 57,
+      "6": 54
+    },
+    "CardLevel": 5
+  },
+  {
+    "Id": 101004,
+    "Part": 1,
+    "Position": 1,
+    "Level": 4,
+    "Cost": "2:600201:16",
+    "Ability": {
+      "1": 76,
+      "6": 72
+    },
+    "CardLevel": 9
+  },
+  {
+    "Id": 101005,
+    "Part": 1,
+    "Position": 1,
+    "Level": 5,
+    "Cost": "2:600201:20",
+    "Ability": {
+      "1": 95,
+      "6": 90
+    },
+    "CardLevel": 13
+  },
+  {
+    "Id": 101006,
+    "Part": 1,
+    "Position": 1,
+    "Level": 6,
+    "Cost": "2:600201:24",
+    "Ability": {
+      "1": 113,
+      "6": 108
+    },
+    "CardLevel": 17
+  },
+  {
+    "Id": 101007,
+    "Part": 1,
+    "Position": 1,
+    "Level": 7,
+    "Cost": "2:600201:28",
+    "Ability": {
+      "1": 132,
+      "6": 126
+    },
+    "CardLevel": 21
+  },
+  {
+    "Id": 101008,
+    "Part": 1,
+    "Position": 1,
+    "Level": 8,
+    "Cost": "2:600301:32",
+    "Ability": {
+      "1": 151,
+      "6": 144
+    },
+    "CardLevel": 25
+  },
+  {
+    "Id": 101009,
+    "Part": 1,
+    "Position": 1,
+    "Level": 9,
+    "Cost": "2:600301:36",
+    "Ability": {
+      "1": 170,
+      "6": 162
+    },
+    "CardLevel": 29
+  },
+  {
+    "Id": 101010,
+    "Part": 1,
+    "Position": 1,
+    "Level": 10,
+    "Cost": "2:600301:40",
+    "Ability": {
+      "1": 189,
+      "6": 180
+    },
+    "CardLevel": 33
+  },
+  {
+    "Id": 101011,
+    "Part": 1,
+    "Position": 1,
+    "Level": 11,
+    "Cost": "2:600301:44",
+    "Ability": {
+      "1": 208,
+      "6": 198
+    },
+    "CardLevel": 37
+  },
+  {
+    "Id": 101012,
+    "Part": 1,
+    "Position": 1,
+    "Level": 12,
+    "Cost": "2:600301:48",
+    "Ability": {
+      "1": 227,
+      "6": 216
+    },
+    "CardLevel": 41
+  },
+  {
+    "Id": 101013,
+    "Part": 1,
+    "Position": 1,
+    "Level": 13,
+    "Cost": "2:600401:52",
+    "Ability": {
+      "1": 246,
+      "6": 234
+    },
+    "CardLevel": 45
+  },
+  {
+    "Id": 101014,
+    "Part": 1,
+    "Position": 1,
+    "Level": 14,
+    "Cost": "2:600401:56",
+    "Ability": {
+      "1": 265,
+      "6": 252
+    },
+    "CardLevel": 49
+  },
+  {
+    "Id": 101015,
+    "Part": 1,
+    "Position": 1,
+    "Level": 15,
+    "Cost": "2:600401:60",
+    "Ability": {
+      "1": 284,
+      "6": 270
+    },
+    "CardLevel": 53
+  },
+  {
+    "Id": 101016,
+    "Part": 1,
+    "Position": 1,
+    "Level": 16,
+    "Cost": "2:600401:64",
+    "Ability": {
+      "1": 302,
+      "6": 288
+    },
+    "CardLevel": 57
+  },
+  {
+    "Id": 101017,
+    "Part": 1,
+    "Position": 1,
+    "Level": 17,
+    "Cost": "2:600401:68",
+    "Ability": {
+      "1": 321,
+      "6": 306
+    },
+    "CardLevel": 61
+  },
+  {
+    "Id": 101018,
+    "Part": 1,
+    "Position": 1,
+    "Level": 18,
+    "Cost": "2:600401:72",
+    "Ability": {
+      "1": 340,
+      "6": 324
+    },
+    "CardLevel": 65
+  },
+  {
+    "Id": 101019,
+    "Part": 1,
+    "Position": 1,
+    "Level": 19,
+    "Cost": "2:600401:76",
+    "Ability": {
+      "1": 359,
+      "6": 342
+    },
+    "CardLevel": 69
+  },
+  {
+    "Id": 101020,
+    "Part": 1,
+    "Position": 1,
+    "Level": 20,
+    "Cost": "2:600501:80",
+    "Ability": {
+      "1": 378,
+      "6": 360
+    },
+    "CardLevel": 73
+  },
+  {
+    "Id": 101021,
+    "Part": 1,
+    "Position": 1,
+    "Level": 21,
+    "Cost": "2:600501:84",
+    "Ability": {
+      "1": 397,
+      "6": 378
+    },
+    "CardLevel": 77
+  },
+  {
+    "Id": 101022,
+    "Part": 1,
+    "Position": 1,
+    "Level": 22,
+    "Cost": "2:600501:88",
+    "Ability": {
+      "1": 416,
+      "6": 396
+    },
+    "CardLevel": 81
+  },
+  {
+    "Id": 101023,
+    "Part": 1,
+    "Position": 1,
+    "Level": 23,
+    "Cost": "2:600501:92",
+    "Ability": {
+      "1": 435,
+      "6": 414
+    },
+    "CardLevel": 85
+  },
+  {
+    "Id": 101024,
+    "Part": 1,
+    "Position": 1,
+    "Level": 24,
+    "Cost": "2:600501:96",
+    "Ability": {
+      "1": 454,
+      "6": 432
+    },
+    "CardLevel": 89
+  },
+  {
+    "Id": 101025,
+    "Part": 1,
+    "Position": 1,
+    "Level": 25,
+    "Cost": "2:600501:100",
+    "Ability": {
+      "1": 473,
+      "6": 450
+    },
+    "CardLevel": 93
+  },
+  {
+    "Id": 101026,
+    "Part": 1,
+    "Position": 1,
+    "Level": 26,
+    "Cost": "2:600501:104",
+    "Ability": {
+      "1": 491,
+      "6": 468
+    },
+    "CardLevel": 97
+  },
+  {
+    "Id": 101027,
+    "Part": 1,
+    "Position": 1,
+    "Level": 27,
+    "Cost": "2:600501:108",
+    "Ability": {
+      "1": 510,
+      "6": 486
+    },
+    "CardLevel": 101
+  },
+  {
+    "Id": 101028,
+    "Part": 1,
+    "Position": 1,
+    "Level": 28,
+    "Cost": "2:600601:112",
+    "Ability": {
+      "1": 529,
+      "6": 504
+    },
+    "CardLevel": 105
+  },
+  {
+    "Id": 101029,
+    "Part": 1,
+    "Position": 1,
+    "Level": 29,
+    "Cost": "2:600601:116",
+    "Ability": {
+      "1": 548,
+      "6": 522
+    },
+    "CardLevel": 109
+  },
+  {
+    "Id": 101030,
+    "Part": 1,
+    "Position": 1,
+    "Level": 30,
+    "Cost": "2:600601:120",
+    "Ability": {
+      "1": 567,
+      "6": 540
+    },
+    "CardLevel": 113
+  },
+  {
+    "Id": 101031,
+    "Part": 1,
+    "Position": 1,
+    "Level": 31,
+    "Cost": "2:600601:124",
+    "Ability": {
+      "1": 586,
+      "6": 558
+    },
+    "CardLevel": 117
+  },
+  {
+    "Id": 101032,
+    "Part": 1,
+    "Position": 1,
+    "Level": 32,
+    "Cost": "2:600601:128",
+    "Ability": {
+      "1": 605,
+      "6": 576
+    },
+    "CardLevel": 121
+  },
+  {
+    "Id": 101033,
+    "Part": 1,
+    "Position": 1,
+    "Level": 33,
+    "Cost": "2:600601:132",
+    "Ability": {
+      "1": 624,
+      "6": 594
+    },
+    "CardLevel": 125
+  },
+  {
+    "Id": 101034,
+    "Part": 1,
+    "Position": 1,
+    "Level": 34,
+    "Cost": "2:600601:136",
+    "Ability": {
+      "1": 643,
+      "6": 612
+    },
+    "CardLevel": 129
+  },
+  {
+    "Id": 101035,
+    "Part": 1,
+    "Position": 1,
+    "Level": 35,
+    "Cost": "2:600601:140",
+    "Ability": {
+      "1": 662,
+      "6": 630
+    },
+    "CardLevel": 133
+  },
+  {
+    "Id": 101036,
+    "Part": 1,
+    "Position": 1,
+    "Level": 36,
+    "Cost": "2:600601:144",
+    "Ability": {
+      "1": 680,
+      "6": 648
+    },
+    "CardLevel": 137
+  },
+  {
+    "Id": 102001,
+    "Part": 1,
+    "Position": 2,
+    "Level": 1,
+    "Cost": "2:600102:3",
+    "Ability": {
+      "1": 21,
+      "6": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 102002,
+    "Part": 1,
+    "Position": 2,
+    "Level": 2,
+    "Cost": "2:600102:6",
+    "Ability": {
+      "1": 41,
+      "6": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 102003,
+    "Part": 1,
+    "Position": 2,
+    "Level": 3,
+    "Cost": "2:600102:9",
+    "Ability": {
+      "1": 62,
+      "6": 54
+    },
+    "CardLevel": 4
+  },
+  {
+    "Id": 102004,
+    "Part": 1,
+    "Position": 2,
+    "Level": 4,
+    "Cost": "2:600203:12",
+    "Ability": {
+      "1": 83,
+      "6": 72
+    },
+    "CardLevel": 8
+  },
+  {
+    "Id": 102005,
+    "Part": 1,
+    "Position": 2,
+    "Level": 5,
+    "Cost": "2:600203:15",
+    "Ability": {
+      "1": 104,
+      "6": 90
+    },
+    "CardLevel": 12
+  },
+  {
+    "Id": 102006,
+    "Part": 1,
+    "Position": 2,
+    "Level": 6,
+    "Cost": "2:600203:18",
+    "Ability": {
+      "1": 124,
+      "6": 108
+    },
+    "CardLevel": 16
+  },
+  {
+    "Id": 102007,
+    "Part": 1,
+    "Position": 2,
+    "Level": 7,
+    "Cost": "2:600203:21",
+    "Ability": {
+      "1": 145,
+      "6": 126
+    },
+    "CardLevel": 20
+  },
+  {
+    "Id": 102008,
+    "Part": 1,
+    "Position": 2,
+    "Level": 8,
+    "Cost": "2:600303:24",
+    "Ability": {
+      "1": 166,
+      "6": 144
+    },
+    "CardLevel": 24
+  },
+  {
+    "Id": 102009,
+    "Part": 1,
+    "Position": 2,
+    "Level": 9,
+    "Cost": "2:600303:27",
+    "Ability": {
+      "1": 186,
+      "6": 162
+    },
+    "CardLevel": 28
+  },
+  {
+    "Id": 102010,
+    "Part": 1,
+    "Position": 2,
+    "Level": 10,
+    "Cost": "2:600303:30",
+    "Ability": {
+      "1": 207,
+      "6": 180
+    },
+    "CardLevel": 32
+  },
+  {
+    "Id": 102011,
+    "Part": 1,
+    "Position": 2,
+    "Level": 11,
+    "Cost": "2:600303:33",
+    "Ability": {
+      "1": 228,
+      "6": 198
+    },
+    "CardLevel": 36
+  },
+  {
+    "Id": 102012,
+    "Part": 1,
+    "Position": 2,
+    "Level": 12,
+    "Cost": "2:600303:36",
+    "Ability": {
+      "1": 248,
+      "6": 216
+    },
+    "CardLevel": 40
+  },
+  {
+    "Id": 102013,
+    "Part": 1,
+    "Position": 2,
+    "Level": 13,
+    "Cost": "2:600403:39",
+    "Ability": {
+      "1": 269,
+      "6": 234
+    },
+    "CardLevel": 44
+  },
+  {
+    "Id": 102014,
+    "Part": 1,
+    "Position": 2,
+    "Level": 14,
+    "Cost": "2:600403:42",
+    "Ability": {
+      "1": 290,
+      "6": 252
+    },
+    "CardLevel": 48
+  },
+  {
+    "Id": 102015,
+    "Part": 1,
+    "Position": 2,
+    "Level": 15,
+    "Cost": "2:600403:45",
+    "Ability": {
+      "1": 311,
+      "6": 270
+    },
+    "CardLevel": 52
+  },
+  {
+    "Id": 102016,
+    "Part": 1,
+    "Position": 2,
+    "Level": 16,
+    "Cost": "2:600403:48",
+    "Ability": {
+      "1": 331,
+      "6": 288
+    },
+    "CardLevel": 56
+  },
+  {
+    "Id": 102017,
+    "Part": 1,
+    "Position": 2,
+    "Level": 17,
+    "Cost": "2:600403:51",
+    "Ability": {
+      "1": 352,
+      "6": 306
+    },
+    "CardLevel": 60
+  },
+  {
+    "Id": 102018,
+    "Part": 1,
+    "Position": 2,
+    "Level": 18,
+    "Cost": "2:600403:54",
+    "Ability": {
+      "1": 373,
+      "6": 324
+    },
+    "CardLevel": 64
+  },
+  {
+    "Id": 102019,
+    "Part": 1,
+    "Position": 2,
+    "Level": 19,
+    "Cost": "2:600403:57",
+    "Ability": {
+      "1": 393,
+      "6": 342
+    },
+    "CardLevel": 68
+  },
+  {
+    "Id": 102020,
+    "Part": 1,
+    "Position": 2,
+    "Level": 20,
+    "Cost": "2:600503:60",
+    "Ability": {
+      "1": 414,
+      "6": 360
+    },
+    "CardLevel": 72
+  },
+  {
+    "Id": 102021,
+    "Part": 1,
+    "Position": 2,
+    "Level": 21,
+    "Cost": "2:600503:63",
+    "Ability": {
+      "1": 435,
+      "6": 378
+    },
+    "CardLevel": 76
+  },
+  {
+    "Id": 102022,
+    "Part": 1,
+    "Position": 2,
+    "Level": 22,
+    "Cost": "2:600503:66",
+    "Ability": {
+      "1": 455,
+      "6": 396
+    },
+    "CardLevel": 80
+  },
+  {
+    "Id": 102023,
+    "Part": 1,
+    "Position": 2,
+    "Level": 23,
+    "Cost": "2:600503:69",
+    "Ability": {
+      "1": 476,
+      "6": 414
+    },
+    "CardLevel": 84
+  },
+  {
+    "Id": 102024,
+    "Part": 1,
+    "Position": 2,
+    "Level": 24,
+    "Cost": "2:600503:72",
+    "Ability": {
+      "1": 497,
+      "6": 432
+    },
+    "CardLevel": 88
+  },
+  {
+    "Id": 102025,
+    "Part": 1,
+    "Position": 2,
+    "Level": 25,
+    "Cost": "2:600503:75",
+    "Ability": {
+      "1": 518,
+      "6": 450
+    },
+    "CardLevel": 92
+  },
+  {
+    "Id": 102026,
+    "Part": 1,
+    "Position": 2,
+    "Level": 26,
+    "Cost": "2:600503:78",
+    "Ability": {
+      "1": 538,
+      "6": 468
+    },
+    "CardLevel": 96
+  },
+  {
+    "Id": 102027,
+    "Part": 1,
+    "Position": 2,
+    "Level": 27,
+    "Cost": "2:600503:81",
+    "Ability": {
+      "1": 559,
+      "6": 486
+    },
+    "CardLevel": 100
+  },
+  {
+    "Id": 102028,
+    "Part": 1,
+    "Position": 2,
+    "Level": 28,
+    "Cost": "2:600603:84",
+    "Ability": {
+      "1": 580,
+      "6": 504
+    },
+    "CardLevel": 104
+  },
+  {
+    "Id": 102029,
+    "Part": 1,
+    "Position": 2,
+    "Level": 29,
+    "Cost": "2:600603:87",
+    "Ability": {
+      "1": 600,
+      "6": 522
+    },
+    "CardLevel": 108
+  },
+  {
+    "Id": 102030,
+    "Part": 1,
+    "Position": 2,
+    "Level": 30,
+    "Cost": "2:600603:90",
+    "Ability": {
+      "1": 621,
+      "6": 540
+    },
+    "CardLevel": 112
+  },
+  {
+    "Id": 102031,
+    "Part": 1,
+    "Position": 2,
+    "Level": 31,
+    "Cost": "2:600603:93",
+    "Ability": {
+      "1": 642,
+      "6": 558
+    },
+    "CardLevel": 116
+  },
+  {
+    "Id": 102032,
+    "Part": 1,
+    "Position": 2,
+    "Level": 32,
+    "Cost": "2:600603:96",
+    "Ability": {
+      "1": 662,
+      "6": 576
+    },
+    "CardLevel": 120
+  },
+  {
+    "Id": 102033,
+    "Part": 1,
+    "Position": 2,
+    "Level": 33,
+    "Cost": "2:600603:99",
+    "Ability": {
+      "1": 683,
+      "6": 594
+    },
+    "CardLevel": 124
+  },
+  {
+    "Id": 102034,
+    "Part": 1,
+    "Position": 2,
+    "Level": 34,
+    "Cost": "2:600603:102",
+    "Ability": {
+      "1": 704,
+      "6": 612
+    },
+    "CardLevel": 128
+  },
+  {
+    "Id": 102035,
+    "Part": 1,
+    "Position": 2,
+    "Level": 35,
+    "Cost": "2:600603:105",
+    "Ability": {
+      "1": 725,
+      "6": 630
+    },
+    "CardLevel": 132
+  },
+  {
+    "Id": 102036,
+    "Part": 1,
+    "Position": 2,
+    "Level": 36,
+    "Cost": "2:600603:108",
+    "Ability": {
+      "1": 745,
+      "6": 648
+    },
+    "CardLevel": 136
+  },
+  {
+    "Id": 103001,
+    "Part": 1,
+    "Position": 3,
+    "Level": 1,
+    "Cost": "2:600103:5",
+    "Ability": {
+      "1": 18,
+      "6": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 103002,
+    "Part": 1,
+    "Position": 3,
+    "Level": 2,
+    "Cost": "2:600103:10",
+    "Ability": {
+      "1": 36,
+      "6": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 103003,
+    "Part": 1,
+    "Position": 3,
+    "Level": 3,
+    "Cost": "2:600103:15",
+    "Ability": {
+      "1": 54,
+      "6": 54
+    },
+    "CardLevel": 3
+  },
+  {
+    "Id": 103004,
+    "Part": 1,
+    "Position": 3,
+    "Level": 4,
+    "Cost": "2:600205:20",
+    "Ability": {
+      "1": 72,
+      "6": 72
+    },
+    "CardLevel": 7
+  },
+  {
+    "Id": 103005,
+    "Part": 1,
+    "Position": 3,
+    "Level": 5,
+    "Cost": "2:600205:25",
+    "Ability": {
+      "1": 90,
+      "6": 90
+    },
+    "CardLevel": 11
+  },
+  {
+    "Id": 103006,
+    "Part": 1,
+    "Position": 3,
+    "Level": 6,
+    "Cost": "2:600205:30",
+    "Ability": {
+      "1": 108,
+      "6": 108
+    },
+    "CardLevel": 15
+  },
+  {
+    "Id": 103007,
+    "Part": 1,
+    "Position": 3,
+    "Level": 7,
+    "Cost": "2:600205:35",
+    "Ability": {
+      "1": 126,
+      "6": 126
+    },
+    "CardLevel": 19
+  },
+  {
+    "Id": 103008,
+    "Part": 1,
+    "Position": 3,
+    "Level": 8,
+    "Cost": "2:600305:40",
+    "Ability": {
+      "1": 144,
+      "6": 144
+    },
+    "CardLevel": 23
+  },
+  {
+    "Id": 103009,
+    "Part": 1,
+    "Position": 3,
+    "Level": 9,
+    "Cost": "2:600305:45",
+    "Ability": {
+      "1": 162,
+      "6": 162
+    },
+    "CardLevel": 27
+  },
+  {
+    "Id": 103010,
+    "Part": 1,
+    "Position": 3,
+    "Level": 10,
+    "Cost": "2:600305:50",
+    "Ability": {
+      "1": 180,
+      "6": 180
+    },
+    "CardLevel": 31
+  },
+  {
+    "Id": 103011,
+    "Part": 1,
+    "Position": 3,
+    "Level": 11,
+    "Cost": "2:600305:55",
+    "Ability": {
+      "1": 198,
+      "6": 198
+    },
+    "CardLevel": 35
+  },
+  {
+    "Id": 103012,
+    "Part": 1,
+    "Position": 3,
+    "Level": 12,
+    "Cost": "2:600305:60",
+    "Ability": {
+      "1": 216,
+      "6": 216
+    },
+    "CardLevel": 39
+  },
+  {
+    "Id": 103013,
+    "Part": 1,
+    "Position": 3,
+    "Level": 13,
+    "Cost": "2:600405:65",
+    "Ability": {
+      "1": 234,
+      "6": 234
+    },
+    "CardLevel": 43
+  },
+  {
+    "Id": 103014,
+    "Part": 1,
+    "Position": 3,
+    "Level": 14,
+    "Cost": "2:600405:70",
+    "Ability": {
+      "1": 252,
+      "6": 252
+    },
+    "CardLevel": 47
+  },
+  {
+    "Id": 103015,
+    "Part": 1,
+    "Position": 3,
+    "Level": 15,
+    "Cost": "2:600405:75",
+    "Ability": {
+      "1": 270,
+      "6": 270
+    },
+    "CardLevel": 51
+  },
+  {
+    "Id": 103016,
+    "Part": 1,
+    "Position": 3,
+    "Level": 16,
+    "Cost": "2:600405:80",
+    "Ability": {
+      "1": 288,
+      "6": 288
+    },
+    "CardLevel": 55
+  },
+  {
+    "Id": 103017,
+    "Part": 1,
+    "Position": 3,
+    "Level": 17,
+    "Cost": "2:600405:85",
+    "Ability": {
+      "1": 306,
+      "6": 306
+    },
+    "CardLevel": 59
+  },
+  {
+    "Id": 103018,
+    "Part": 1,
+    "Position": 3,
+    "Level": 18,
+    "Cost": "2:600405:90",
+    "Ability": {
+      "1": 324,
+      "6": 324
+    },
+    "CardLevel": 63
+  },
+  {
+    "Id": 103019,
+    "Part": 1,
+    "Position": 3,
+    "Level": 19,
+    "Cost": "2:600405:95",
+    "Ability": {
+      "1": 342,
+      "6": 342
+    },
+    "CardLevel": 67
+  },
+  {
+    "Id": 103020,
+    "Part": 1,
+    "Position": 3,
+    "Level": 20,
+    "Cost": "2:600505:100",
+    "Ability": {
+      "1": 360,
+      "6": 360
+    },
+    "CardLevel": 71
+  },
+  {
+    "Id": 103021,
+    "Part": 1,
+    "Position": 3,
+    "Level": 21,
+    "Cost": "2:600505:105",
+    "Ability": {
+      "1": 378,
+      "6": 378
+    },
+    "CardLevel": 75
+  },
+  {
+    "Id": 103022,
+    "Part": 1,
+    "Position": 3,
+    "Level": 22,
+    "Cost": "2:600505:110",
+    "Ability": {
+      "1": 396,
+      "6": 396
+    },
+    "CardLevel": 79
+  },
+  {
+    "Id": 103023,
+    "Part": 1,
+    "Position": 3,
+    "Level": 23,
+    "Cost": "2:600505:115",
+    "Ability": {
+      "1": 414,
+      "6": 414
+    },
+    "CardLevel": 83
+  },
+  {
+    "Id": 103024,
+    "Part": 1,
+    "Position": 3,
+    "Level": 24,
+    "Cost": "2:600505:120",
+    "Ability": {
+      "1": 432,
+      "6": 432
+    },
+    "CardLevel": 87
+  },
+  {
+    "Id": 103025,
+    "Part": 1,
+    "Position": 3,
+    "Level": 25,
+    "Cost": "2:600505:125",
+    "Ability": {
+      "1": 450,
+      "6": 450
+    },
+    "CardLevel": 91
+  },
+  {
+    "Id": 103026,
+    "Part": 1,
+    "Position": 3,
+    "Level": 26,
+    "Cost": "2:600505:130",
+    "Ability": {
+      "1": 468,
+      "6": 468
+    },
+    "CardLevel": 95
+  },
+  {
+    "Id": 103027,
+    "Part": 1,
+    "Position": 3,
+    "Level": 27,
+    "Cost": "2:600505:135",
+    "Ability": {
+      "1": 486,
+      "6": 486
+    },
+    "CardLevel": 99
+  },
+  {
+    "Id": 103028,
+    "Part": 1,
+    "Position": 3,
+    "Level": 28,
+    "Cost": "2:600605:140",
+    "Ability": {
+      "1": 504,
+      "6": 504
+    },
+    "CardLevel": 103
+  },
+  {
+    "Id": 103029,
+    "Part": 1,
+    "Position": 3,
+    "Level": 29,
+    "Cost": "2:600605:145",
+    "Ability": {
+      "1": 522,
+      "6": 522
+    },
+    "CardLevel": 107
+  },
+  {
+    "Id": 103030,
+    "Part": 1,
+    "Position": 3,
+    "Level": 30,
+    "Cost": "2:600605:150",
+    "Ability": {
+      "1": 540,
+      "6": 540
+    },
+    "CardLevel": 111
+  },
+  {
+    "Id": 103031,
+    "Part": 1,
+    "Position": 3,
+    "Level": 31,
+    "Cost": "2:600605:155",
+    "Ability": {
+      "1": 558,
+      "6": 558
+    },
+    "CardLevel": 115
+  },
+  {
+    "Id": 103032,
+    "Part": 1,
+    "Position": 3,
+    "Level": 32,
+    "Cost": "2:600605:160",
+    "Ability": {
+      "1": 576,
+      "6": 576
+    },
+    "CardLevel": 119
+  },
+  {
+    "Id": 103033,
+    "Part": 1,
+    "Position": 3,
+    "Level": 33,
+    "Cost": "2:600605:165",
+    "Ability": {
+      "1": 594,
+      "6": 594
+    },
+    "CardLevel": 123
+  },
+  {
+    "Id": 103034,
+    "Part": 1,
+    "Position": 3,
+    "Level": 34,
+    "Cost": "2:600605:170",
+    "Ability": {
+      "1": 612,
+      "6": 612
+    },
+    "CardLevel": 127
+  },
+  {
+    "Id": 103035,
+    "Part": 1,
+    "Position": 3,
+    "Level": 35,
+    "Cost": "2:600605:175",
+    "Ability": {
+      "1": 630,
+      "6": 630
+    },
+    "CardLevel": 131
+  },
+  {
+    "Id": 103036,
+    "Part": 1,
+    "Position": 3,
+    "Level": 36,
+    "Cost": "2:600605:180",
+    "Ability": {
+      "1": 648,
+      "6": 648
+    },
+    "CardLevel": 135
+  },
+  {
+    "Id": 104001,
+    "Part": 1,
+    "Position": 4,
+    "Level": 1,
+    "Cost": "2:600104:6",
+    "Ability": {
+      "1": 16,
+      "6": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 104002,
+    "Part": 1,
+    "Position": 4,
+    "Level": 2,
+    "Cost": "2:600104:12",
+    "Ability": {
+      "1": 32,
+      "6": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 104003,
+    "Part": 1,
+    "Position": 4,
+    "Level": 3,
+    "Cost": "2:600104:18",
+    "Ability": {
+      "1": 49,
+      "6": 54
+    },
+    "CardLevel": 6
+  },
+  {
+    "Id": 104004,
+    "Part": 1,
+    "Position": 4,
+    "Level": 4,
+    "Cost": "2:600207:24",
+    "Ability": {
+      "1": 65,
+      "6": 72
+    },
+    "CardLevel": 10
+  },
+  {
+    "Id": 104005,
+    "Part": 1,
+    "Position": 4,
+    "Level": 5,
+    "Cost": "2:600207:30",
+    "Ability": {
+      "1": 81,
+      "6": 90
+    },
+    "CardLevel": 14
+  },
+  {
+    "Id": 104006,
+    "Part": 1,
+    "Position": 4,
+    "Level": 6,
+    "Cost": "2:600207:36",
+    "Ability": {
+      "1": 97,
+      "6": 108
+    },
+    "CardLevel": 18
+  },
+  {
+    "Id": 104007,
+    "Part": 1,
+    "Position": 4,
+    "Level": 7,
+    "Cost": "2:600207:42",
+    "Ability": {
+      "1": 113,
+      "6": 126
+    },
+    "CardLevel": 22
+  },
+  {
+    "Id": 104008,
+    "Part": 1,
+    "Position": 4,
+    "Level": 8,
+    "Cost": "2:600307:48",
+    "Ability": {
+      "1": 130,
+      "6": 144
+    },
+    "CardLevel": 26
+  },
+  {
+    "Id": 104009,
+    "Part": 1,
+    "Position": 4,
+    "Level": 9,
+    "Cost": "2:600307:54",
+    "Ability": {
+      "1": 146,
+      "6": 162
+    },
+    "CardLevel": 30
+  },
+  {
+    "Id": 104010,
+    "Part": 1,
+    "Position": 4,
+    "Level": 10,
+    "Cost": "2:600307:60",
+    "Ability": {
+      "1": 162,
+      "6": 180
+    },
+    "CardLevel": 34
+  },
+  {
+    "Id": 104011,
+    "Part": 1,
+    "Position": 4,
+    "Level": 11,
+    "Cost": "2:600307:66",
+    "Ability": {
+      "1": 178,
+      "6": 198
+    },
+    "CardLevel": 38
+  },
+  {
+    "Id": 104012,
+    "Part": 1,
+    "Position": 4,
+    "Level": 12,
+    "Cost": "2:600307:72",
+    "Ability": {
+      "1": 194,
+      "6": 216
+    },
+    "CardLevel": 42
+  },
+  {
+    "Id": 104013,
+    "Part": 1,
+    "Position": 4,
+    "Level": 13,
+    "Cost": "2:600407:78",
+    "Ability": {
+      "1": 211,
+      "6": 234
+    },
+    "CardLevel": 46
+  },
+  {
+    "Id": 104014,
+    "Part": 1,
+    "Position": 4,
+    "Level": 14,
+    "Cost": "2:600407:84",
+    "Ability": {
+      "1": 227,
+      "6": 252
+    },
+    "CardLevel": 50
+  },
+  {
+    "Id": 104015,
+    "Part": 1,
+    "Position": 4,
+    "Level": 15,
+    "Cost": "2:600407:90",
+    "Ability": {
+      "1": 243,
+      "6": 270
+    },
+    "CardLevel": 54
+  },
+  {
+    "Id": 104016,
+    "Part": 1,
+    "Position": 4,
+    "Level": 16,
+    "Cost": "2:600407:96",
+    "Ability": {
+      "1": 259,
+      "6": 288
+    },
+    "CardLevel": 58
+  },
+  {
+    "Id": 104017,
+    "Part": 1,
+    "Position": 4,
+    "Level": 17,
+    "Cost": "2:600407:102",
+    "Ability": {
+      "1": 275,
+      "6": 306
+    },
+    "CardLevel": 62
+  },
+  {
+    "Id": 104018,
+    "Part": 1,
+    "Position": 4,
+    "Level": 18,
+    "Cost": "2:600407:108",
+    "Ability": {
+      "1": 292,
+      "6": 324
+    },
+    "CardLevel": 66
+  },
+  {
+    "Id": 104019,
+    "Part": 1,
+    "Position": 4,
+    "Level": 19,
+    "Cost": "2:600407:114",
+    "Ability": {
+      "1": 308,
+      "6": 342
+    },
+    "CardLevel": 70
+  },
+  {
+    "Id": 104020,
+    "Part": 1,
+    "Position": 4,
+    "Level": 20,
+    "Cost": "2:600507:120",
+    "Ability": {
+      "1": 324,
+      "6": 360
+    },
+    "CardLevel": 74
+  },
+  {
+    "Id": 104021,
+    "Part": 1,
+    "Position": 4,
+    "Level": 21,
+    "Cost": "2:600507:126",
+    "Ability": {
+      "1": 340,
+      "6": 378
+    },
+    "CardLevel": 78
+  },
+  {
+    "Id": 104022,
+    "Part": 1,
+    "Position": 4,
+    "Level": 22,
+    "Cost": "2:600507:132",
+    "Ability": {
+      "1": 356,
+      "6": 396
+    },
+    "CardLevel": 82
+  },
+  {
+    "Id": 104023,
+    "Part": 1,
+    "Position": 4,
+    "Level": 23,
+    "Cost": "2:600507:138",
+    "Ability": {
+      "1": 373,
+      "6": 414
+    },
+    "CardLevel": 86
+  },
+  {
+    "Id": 104024,
+    "Part": 1,
+    "Position": 4,
+    "Level": 24,
+    "Cost": "2:600507:144",
+    "Ability": {
+      "1": 389,
+      "6": 432
+    },
+    "CardLevel": 90
+  },
+  {
+    "Id": 104025,
+    "Part": 1,
+    "Position": 4,
+    "Level": 25,
+    "Cost": "2:600507:150",
+    "Ability": {
+      "1": 405,
+      "6": 450
+    },
+    "CardLevel": 94
+  },
+  {
+    "Id": 104026,
+    "Part": 1,
+    "Position": 4,
+    "Level": 26,
+    "Cost": "2:600507:156",
+    "Ability": {
+      "1": 421,
+      "6": 468
+    },
+    "CardLevel": 98
+  },
+  {
+    "Id": 104027,
+    "Part": 1,
+    "Position": 4,
+    "Level": 27,
+    "Cost": "2:600507:162",
+    "Ability": {
+      "1": 437,
+      "6": 486
+    },
+    "CardLevel": 102
+  },
+  {
+    "Id": 104028,
+    "Part": 1,
+    "Position": 4,
+    "Level": 28,
+    "Cost": "2:600607:168",
+    "Ability": {
+      "1": 454,
+      "6": 504
+    },
+    "CardLevel": 106
+  },
+  {
+    "Id": 104029,
+    "Part": 1,
+    "Position": 4,
+    "Level": 29,
+    "Cost": "2:600607:174",
+    "Ability": {
+      "1": 470,
+      "6": 522
+    },
+    "CardLevel": 110
+  },
+  {
+    "Id": 104030,
+    "Part": 1,
+    "Position": 4,
+    "Level": 30,
+    "Cost": "2:600607:180",
+    "Ability": {
+      "1": 486,
+      "6": 540
+    },
+    "CardLevel": 114
+  },
+  {
+    "Id": 104031,
+    "Part": 1,
+    "Position": 4,
+    "Level": 31,
+    "Cost": "2:600607:186",
+    "Ability": {
+      "1": 502,
+      "6": 558
+    },
+    "CardLevel": 118
+  },
+  {
+    "Id": 104032,
+    "Part": 1,
+    "Position": 4,
+    "Level": 32,
+    "Cost": "2:600607:192",
+    "Ability": {
+      "1": 518,
+      "6": 576
+    },
+    "CardLevel": 122
+  },
+  {
+    "Id": 104033,
+    "Part": 1,
+    "Position": 4,
+    "Level": 33,
+    "Cost": "2:600607:198",
+    "Ability": {
+      "1": 535,
+      "6": 594
+    },
+    "CardLevel": 126
+  },
+  {
+    "Id": 104034,
+    "Part": 1,
+    "Position": 4,
+    "Level": 34,
+    "Cost": "2:600607:204",
+    "Ability": {
+      "1": 551,
+      "6": 612
+    },
+    "CardLevel": 130
+  },
+  {
+    "Id": 104035,
+    "Part": 1,
+    "Position": 4,
+    "Level": 35,
+    "Cost": "2:600607:210",
+    "Ability": {
+      "1": 567,
+      "6": 630
+    },
+    "CardLevel": 134
+  },
+  {
+    "Id": 104036,
+    "Part": 1,
+    "Position": 4,
+    "Level": 36,
+    "Cost": "2:600607:216",
+    "Ability": {
+      "1": 583,
+      "6": 648
+    },
+    "CardLevel": 138
+  },
+  {
+    "Id": 105001,
+    "Part": 1,
+    "Position": 5,
+    "Level": 1,
+    "Cost": "2:600105:7",
+    "Ability": {
+      "1": 16,
+      "6": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 105002,
+    "Part": 1,
+    "Position": 5,
+    "Level": 2,
+    "Cost": "2:600105:14",
+    "Ability": {
+      "1": 32,
+      "6": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 105003,
+    "Part": 1,
+    "Position": 5,
+    "Level": 3,
+    "Cost": "2:600105:21",
+    "Ability": {
+      "1": 49,
+      "6": 54
+    },
+    "CardLevel": 7
+  },
+  {
+    "Id": 105004,
+    "Part": 1,
+    "Position": 5,
+    "Level": 4,
+    "Cost": "2:600209:28",
+    "Ability": {
+      "1": 65,
+      "6": 72
+    },
+    "CardLevel": 11
+  },
+  {
+    "Id": 105005,
+    "Part": 1,
+    "Position": 5,
+    "Level": 5,
+    "Cost": "2:600209:35",
+    "Ability": {
+      "1": 81,
+      "6": 90
+    },
+    "CardLevel": 15
+  },
+  {
+    "Id": 105006,
+    "Part": 1,
+    "Position": 5,
+    "Level": 6,
+    "Cost": "2:600209:42",
+    "Ability": {
+      "1": 97,
+      "6": 108
+    },
+    "CardLevel": 19
+  },
+  {
+    "Id": 105007,
+    "Part": 1,
+    "Position": 5,
+    "Level": 7,
+    "Cost": "2:600209:49",
+    "Ability": {
+      "1": 113,
+      "6": 126
+    },
+    "CardLevel": 23
+  },
+  {
+    "Id": 105008,
+    "Part": 1,
+    "Position": 5,
+    "Level": 8,
+    "Cost": "2:600309:56",
+    "Ability": {
+      "1": 130,
+      "6": 144
+    },
+    "CardLevel": 27
+  },
+  {
+    "Id": 105009,
+    "Part": 1,
+    "Position": 5,
+    "Level": 9,
+    "Cost": "2:600309:63",
+    "Ability": {
+      "1": 146,
+      "6": 162
+    },
+    "CardLevel": 31
+  },
+  {
+    "Id": 105010,
+    "Part": 1,
+    "Position": 5,
+    "Level": 10,
+    "Cost": "2:600309:70",
+    "Ability": {
+      "1": 162,
+      "6": 180
+    },
+    "CardLevel": 35
+  },
+  {
+    "Id": 105011,
+    "Part": 1,
+    "Position": 5,
+    "Level": 11,
+    "Cost": "2:600309:77",
+    "Ability": {
+      "1": 178,
+      "6": 198
+    },
+    "CardLevel": 39
+  },
+  {
+    "Id": 105012,
+    "Part": 1,
+    "Position": 5,
+    "Level": 12,
+    "Cost": "2:600309:84",
+    "Ability": {
+      "1": 194,
+      "6": 216
+    },
+    "CardLevel": 43
+  },
+  {
+    "Id": 105013,
+    "Part": 1,
+    "Position": 5,
+    "Level": 13,
+    "Cost": "2:600409:91",
+    "Ability": {
+      "1": 211,
+      "6": 234
+    },
+    "CardLevel": 47
+  },
+  {
+    "Id": 105014,
+    "Part": 1,
+    "Position": 5,
+    "Level": 14,
+    "Cost": "2:600409:98",
+    "Ability": {
+      "1": 227,
+      "6": 252
+    },
+    "CardLevel": 51
+  },
+  {
+    "Id": 105015,
+    "Part": 1,
+    "Position": 5,
+    "Level": 15,
+    "Cost": "2:600409:105",
+    "Ability": {
+      "1": 243,
+      "6": 270
+    },
+    "CardLevel": 55
+  },
+  {
+    "Id": 105016,
+    "Part": 1,
+    "Position": 5,
+    "Level": 16,
+    "Cost": "2:600409:112",
+    "Ability": {
+      "1": 259,
+      "6": 288
+    },
+    "CardLevel": 59
+  },
+  {
+    "Id": 105017,
+    "Part": 1,
+    "Position": 5,
+    "Level": 17,
+    "Cost": "2:600409:119",
+    "Ability": {
+      "1": 275,
+      "6": 306
+    },
+    "CardLevel": 63
+  },
+  {
+    "Id": 105018,
+    "Part": 1,
+    "Position": 5,
+    "Level": 18,
+    "Cost": "2:600409:126",
+    "Ability": {
+      "1": 292,
+      "6": 324
+    },
+    "CardLevel": 67
+  },
+  {
+    "Id": 105019,
+    "Part": 1,
+    "Position": 5,
+    "Level": 19,
+    "Cost": "2:600409:133",
+    "Ability": {
+      "1": 308,
+      "6": 342
+    },
+    "CardLevel": 71
+  },
+  {
+    "Id": 105020,
+    "Part": 1,
+    "Position": 5,
+    "Level": 20,
+    "Cost": "2:600509:140",
+    "Ability": {
+      "1": 324,
+      "6": 360
+    },
+    "CardLevel": 75
+  },
+  {
+    "Id": 105021,
+    "Part": 1,
+    "Position": 5,
+    "Level": 21,
+    "Cost": "2:600509:147",
+    "Ability": {
+      "1": 340,
+      "6": 378
+    },
+    "CardLevel": 79
+  },
+  {
+    "Id": 105022,
+    "Part": 1,
+    "Position": 5,
+    "Level": 22,
+    "Cost": "2:600509:154",
+    "Ability": {
+      "1": 356,
+      "6": 396
+    },
+    "CardLevel": 83
+  },
+  {
+    "Id": 105023,
+    "Part": 1,
+    "Position": 5,
+    "Level": 23,
+    "Cost": "2:600509:161",
+    "Ability": {
+      "1": 373,
+      "6": 414
+    },
+    "CardLevel": 87
+  },
+  {
+    "Id": 105024,
+    "Part": 1,
+    "Position": 5,
+    "Level": 24,
+    "Cost": "2:600509:168",
+    "Ability": {
+      "1": 389,
+      "6": 432
+    },
+    "CardLevel": 91
+  },
+  {
+    "Id": 105025,
+    "Part": 1,
+    "Position": 5,
+    "Level": 25,
+    "Cost": "2:600509:175",
+    "Ability": {
+      "1": 405,
+      "6": 450
+    },
+    "CardLevel": 95
+  },
+  {
+    "Id": 105026,
+    "Part": 1,
+    "Position": 5,
+    "Level": 26,
+    "Cost": "2:600509:182",
+    "Ability": {
+      "1": 421,
+      "6": 468
+    },
+    "CardLevel": 99
+  },
+  {
+    "Id": 105027,
+    "Part": 1,
+    "Position": 5,
+    "Level": 27,
+    "Cost": "2:600509:189",
+    "Ability": {
+      "1": 437,
+      "6": 486
+    },
+    "CardLevel": 103
+  },
+  {
+    "Id": 105028,
+    "Part": 1,
+    "Position": 5,
+    "Level": 28,
+    "Cost": "2:600609:196",
+    "Ability": {
+      "1": 454,
+      "6": 504
+    },
+    "CardLevel": 107
+  },
+  {
+    "Id": 105029,
+    "Part": 1,
+    "Position": 5,
+    "Level": 29,
+    "Cost": "2:600609:203",
+    "Ability": {
+      "1": 470,
+      "6": 522
+    },
+    "CardLevel": 111
+  },
+  {
+    "Id": 105030,
+    "Part": 1,
+    "Position": 5,
+    "Level": 30,
+    "Cost": "2:600609:210",
+    "Ability": {
+      "1": 486,
+      "6": 540
+    },
+    "CardLevel": 115
+  },
+  {
+    "Id": 105031,
+    "Part": 1,
+    "Position": 5,
+    "Level": 31,
+    "Cost": "2:600609:217",
+    "Ability": {
+      "1": 502,
+      "6": 558
+    },
+    "CardLevel": 119
+  },
+  {
+    "Id": 105032,
+    "Part": 1,
+    "Position": 5,
+    "Level": 32,
+    "Cost": "2:600609:224",
+    "Ability": {
+      "1": 518,
+      "6": 576
+    },
+    "CardLevel": 123
+  },
+  {
+    "Id": 105033,
+    "Part": 1,
+    "Position": 5,
+    "Level": 33,
+    "Cost": "2:600609:231",
+    "Ability": {
+      "1": 535,
+      "6": 594
+    },
+    "CardLevel": 127
+  },
+  {
+    "Id": 105034,
+    "Part": 1,
+    "Position": 5,
+    "Level": 34,
+    "Cost": "2:600609:238",
+    "Ability": {
+      "1": 551,
+      "6": 612
+    },
+    "CardLevel": 131
+  },
+  {
+    "Id": 105035,
+    "Part": 1,
+    "Position": 5,
+    "Level": 35,
+    "Cost": "2:600609:245",
+    "Ability": {
+      "1": 567,
+      "6": 630
+    },
+    "CardLevel": 135
+  },
+  {
+    "Id": 105036,
+    "Part": 1,
+    "Position": 5,
+    "Level": 36,
+    "Cost": "2:600609:252",
+    "Ability": {
+      "1": 583,
+      "6": 648
+    },
+    "CardLevel": 139
+  },
+  {
+    "Id": 201001,
+    "Part": 2,
+    "Position": 1,
+    "Level": 1,
+    "Cost": "2:600102:3",
+    "Ability": {
+      "3": 21,
+      "5": 24,
+      "8": 13
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 201002,
+    "Part": 2,
+    "Position": 1,
+    "Level": 2,
+    "Cost": "2:600102:6",
+    "Ability": {
+      "3": 41,
+      "5": 49,
+      "8": 25
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 201003,
+    "Part": 2,
+    "Position": 1,
+    "Level": 3,
+    "Cost": "2:600102:9",
+    "Ability": {
+      "3": 62,
+      "5": 73,
+      "8": 38
+    },
+    "CardLevel": 6
+  },
+  {
+    "Id": 201004,
+    "Part": 2,
+    "Position": 1,
+    "Level": 4,
+    "Cost": "2:600202:12",
+    "Ability": {
+      "3": 83,
+      "5": 97,
+      "8": 50
+    },
+    "CardLevel": 10
+  },
+  {
+    "Id": 201005,
+    "Part": 2,
+    "Position": 1,
+    "Level": 5,
+    "Cost": "2:600202:15",
+    "Ability": {
+      "3": 104,
+      "5": 122,
+      "8": 63
+    },
+    "CardLevel": 14
+  },
+  {
+    "Id": 201006,
+    "Part": 2,
+    "Position": 1,
+    "Level": 6,
+    "Cost": "2:600202:18",
+    "Ability": {
+      "3": 124,
+      "5": 146,
+      "8": 76
+    },
+    "CardLevel": 18
+  },
+  {
+    "Id": 201007,
+    "Part": 2,
+    "Position": 1,
+    "Level": 7,
+    "Cost": "2:600202:21",
+    "Ability": {
+      "3": 145,
+      "5": 170,
+      "8": 88
+    },
+    "CardLevel": 22
+  },
+  {
+    "Id": 201008,
+    "Part": 2,
+    "Position": 1,
+    "Level": 8,
+    "Cost": "2:600302:24",
+    "Ability": {
+      "3": 166,
+      "5": 194,
+      "8": 101
+    },
+    "CardLevel": 26
+  },
+  {
+    "Id": 201009,
+    "Part": 2,
+    "Position": 1,
+    "Level": 9,
+    "Cost": "2:600302:27",
+    "Ability": {
+      "3": 186,
+      "5": 219,
+      "8": 113
+    },
+    "CardLevel": 30
+  },
+  {
+    "Id": 201010,
+    "Part": 2,
+    "Position": 1,
+    "Level": 10,
+    "Cost": "2:600302:30",
+    "Ability": {
+      "3": 207,
+      "5": 243,
+      "8": 126
+    },
+    "CardLevel": 34
+  },
+  {
+    "Id": 201011,
+    "Part": 2,
+    "Position": 1,
+    "Level": 11,
+    "Cost": "2:600302:33",
+    "Ability": {
+      "3": 228,
+      "5": 267,
+      "8": 139
+    },
+    "CardLevel": 38
+  },
+  {
+    "Id": 201012,
+    "Part": 2,
+    "Position": 1,
+    "Level": 12,
+    "Cost": "2:600302:36",
+    "Ability": {
+      "3": 248,
+      "5": 292,
+      "8": 151
+    },
+    "CardLevel": 42
+  },
+  {
+    "Id": 201013,
+    "Part": 2,
+    "Position": 1,
+    "Level": 13,
+    "Cost": "2:600402:39",
+    "Ability": {
+      "3": 269,
+      "5": 316,
+      "8": 164
+    },
+    "CardLevel": 46
+  },
+  {
+    "Id": 201014,
+    "Part": 2,
+    "Position": 1,
+    "Level": 14,
+    "Cost": "2:600402:42",
+    "Ability": {
+      "3": 290,
+      "5": 340,
+      "8": 176
+    },
+    "CardLevel": 50
+  },
+  {
+    "Id": 201015,
+    "Part": 2,
+    "Position": 1,
+    "Level": 15,
+    "Cost": "2:600402:45",
+    "Ability": {
+      "3": 311,
+      "5": 365,
+      "8": 189
+    },
+    "CardLevel": 54
+  },
+  {
+    "Id": 201016,
+    "Part": 2,
+    "Position": 1,
+    "Level": 16,
+    "Cost": "2:600402:48",
+    "Ability": {
+      "3": 331,
+      "5": 389,
+      "8": 202
+    },
+    "CardLevel": 58
+  },
+  {
+    "Id": 201017,
+    "Part": 2,
+    "Position": 1,
+    "Level": 17,
+    "Cost": "2:600402:51",
+    "Ability": {
+      "3": 352,
+      "5": 413,
+      "8": 214
+    },
+    "CardLevel": 62
+  },
+  {
+    "Id": 201018,
+    "Part": 2,
+    "Position": 1,
+    "Level": 18,
+    "Cost": "2:600402:54",
+    "Ability": {
+      "3": 373,
+      "5": 437,
+      "8": 227
+    },
+    "CardLevel": 66
+  },
+  {
+    "Id": 201019,
+    "Part": 2,
+    "Position": 1,
+    "Level": 19,
+    "Cost": "2:600402:57",
+    "Ability": {
+      "3": 393,
+      "5": 462,
+      "8": 239
+    },
+    "CardLevel": 70
+  },
+  {
+    "Id": 201020,
+    "Part": 2,
+    "Position": 1,
+    "Level": 20,
+    "Cost": "2:600502:60",
+    "Ability": {
+      "3": 414,
+      "5": 486,
+      "8": 252
+    },
+    "CardLevel": 74
+  },
+  {
+    "Id": 201021,
+    "Part": 2,
+    "Position": 1,
+    "Level": 21,
+    "Cost": "2:600502:63",
+    "Ability": {
+      "3": 435,
+      "5": 510,
+      "8": 265
+    },
+    "CardLevel": 78
+  },
+  {
+    "Id": 201022,
+    "Part": 2,
+    "Position": 1,
+    "Level": 22,
+    "Cost": "2:600502:66",
+    "Ability": {
+      "3": 455,
+      "5": 535,
+      "8": 277
+    },
+    "CardLevel": 82
+  },
+  {
+    "Id": 201023,
+    "Part": 2,
+    "Position": 1,
+    "Level": 23,
+    "Cost": "2:600502:69",
+    "Ability": {
+      "3": 476,
+      "5": 559,
+      "8": 290
+    },
+    "CardLevel": 86
+  },
+  {
+    "Id": 201024,
+    "Part": 2,
+    "Position": 1,
+    "Level": 24,
+    "Cost": "2:600502:72",
+    "Ability": {
+      "3": 497,
+      "5": 583,
+      "8": 302
+    },
+    "CardLevel": 90
+  },
+  {
+    "Id": 201025,
+    "Part": 2,
+    "Position": 1,
+    "Level": 25,
+    "Cost": "2:600502:75",
+    "Ability": {
+      "3": 518,
+      "5": 608,
+      "8": 315
+    },
+    "CardLevel": 94
+  },
+  {
+    "Id": 201026,
+    "Part": 2,
+    "Position": 1,
+    "Level": 26,
+    "Cost": "2:600502:78",
+    "Ability": {
+      "3": 538,
+      "5": 632,
+      "8": 328
+    },
+    "CardLevel": 98
+  },
+  {
+    "Id": 201027,
+    "Part": 2,
+    "Position": 1,
+    "Level": 27,
+    "Cost": "2:600502:81",
+    "Ability": {
+      "3": 559,
+      "5": 656,
+      "8": 340
+    },
+    "CardLevel": 102
+  },
+  {
+    "Id": 201028,
+    "Part": 2,
+    "Position": 1,
+    "Level": 28,
+    "Cost": "2:600602:84",
+    "Ability": {
+      "3": 580,
+      "5": 680,
+      "8": 353
+    },
+    "CardLevel": 106
+  },
+  {
+    "Id": 201029,
+    "Part": 2,
+    "Position": 1,
+    "Level": 29,
+    "Cost": "2:600602:87",
+    "Ability": {
+      "3": 600,
+      "5": 705,
+      "8": 365
+    },
+    "CardLevel": 110
+  },
+  {
+    "Id": 201030,
+    "Part": 2,
+    "Position": 1,
+    "Level": 30,
+    "Cost": "2:600602:90",
+    "Ability": {
+      "3": 621,
+      "5": 729,
+      "8": 378
+    },
+    "CardLevel": 114
+  },
+  {
+    "Id": 201031,
+    "Part": 2,
+    "Position": 1,
+    "Level": 31,
+    "Cost": "2:600602:93",
+    "Ability": {
+      "3": 642,
+      "5": 753,
+      "8": 391
+    },
+    "CardLevel": 118
+  },
+  {
+    "Id": 201032,
+    "Part": 2,
+    "Position": 1,
+    "Level": 32,
+    "Cost": "2:600602:96",
+    "Ability": {
+      "3": 662,
+      "5": 778,
+      "8": 403
+    },
+    "CardLevel": 122
+  },
+  {
+    "Id": 201033,
+    "Part": 2,
+    "Position": 1,
+    "Level": 33,
+    "Cost": "2:600602:99",
+    "Ability": {
+      "3": 683,
+      "5": 802,
+      "8": 416
+    },
+    "CardLevel": 126
+  },
+  {
+    "Id": 201034,
+    "Part": 2,
+    "Position": 1,
+    "Level": 34,
+    "Cost": "2:600602:102",
+    "Ability": {
+      "3": 704,
+      "5": 826,
+      "8": 428
+    },
+    "CardLevel": 130
+  },
+  {
+    "Id": 201035,
+    "Part": 2,
+    "Position": 1,
+    "Level": 35,
+    "Cost": "2:600602:105",
+    "Ability": {
+      "3": 725,
+      "5": 851,
+      "8": 441
+    },
+    "CardLevel": 134
+  },
+  {
+    "Id": 201036,
+    "Part": 2,
+    "Position": 1,
+    "Level": 36,
+    "Cost": "2:600602:108",
+    "Ability": {
+      "3": 745,
+      "5": 875,
+      "8": 454
+    },
+    "CardLevel": 138
+  },
+  {
+    "Id": 202001,
+    "Part": 2,
+    "Position": 2,
+    "Level": 1,
+    "Cost": "2:600103:6",
+    "Ability": {
+      "3": 20,
+      "5": 23,
+      "8": 9
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 202002,
+    "Part": 2,
+    "Position": 2,
+    "Level": 2,
+    "Cost": "2:600103:12",
+    "Ability": {
+      "3": 40,
+      "5": 47,
+      "8": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 202003,
+    "Part": 2,
+    "Position": 2,
+    "Level": 3,
+    "Cost": "2:600103:18",
+    "Ability": {
+      "3": 59,
+      "5": 70,
+      "8": 27
+    },
+    "CardLevel": 5
+  },
+  {
+    "Id": 202004,
+    "Part": 2,
+    "Position": 2,
+    "Level": 4,
+    "Cost": "2:600204:24",
+    "Ability": {
+      "3": 79,
+      "5": 94,
+      "8": 36
+    },
+    "CardLevel": 9
+  },
+  {
+    "Id": 202005,
+    "Part": 2,
+    "Position": 2,
+    "Level": 5,
+    "Cost": "2:600204:30",
+    "Ability": {
+      "3": 99,
+      "5": 117,
+      "8": 45
+    },
+    "CardLevel": 13
+  },
+  {
+    "Id": 202006,
+    "Part": 2,
+    "Position": 2,
+    "Level": 6,
+    "Cost": "2:600204:36",
+    "Ability": {
+      "3": 119,
+      "5": 140,
+      "8": 54
+    },
+    "CardLevel": 17
+  },
+  {
+    "Id": 202007,
+    "Part": 2,
+    "Position": 2,
+    "Level": 7,
+    "Cost": "2:600204:42",
+    "Ability": {
+      "3": 139,
+      "5": 164,
+      "8": 63
+    },
+    "CardLevel": 21
+  },
+  {
+    "Id": 202008,
+    "Part": 2,
+    "Position": 2,
+    "Level": 8,
+    "Cost": "2:600304:48",
+    "Ability": {
+      "3": 158,
+      "5": 187,
+      "8": 72
+    },
+    "CardLevel": 25
+  },
+  {
+    "Id": 202009,
+    "Part": 2,
+    "Position": 2,
+    "Level": 9,
+    "Cost": "2:600304:54",
+    "Ability": {
+      "3": 178,
+      "5": 211,
+      "8": 81
+    },
+    "CardLevel": 29
+  },
+  {
+    "Id": 202010,
+    "Part": 2,
+    "Position": 2,
+    "Level": 10,
+    "Cost": "2:600304:60",
+    "Ability": {
+      "3": 198,
+      "5": 234,
+      "8": 90
+    },
+    "CardLevel": 33
+  },
+  {
+    "Id": 202011,
+    "Part": 2,
+    "Position": 2,
+    "Level": 11,
+    "Cost": "2:600304:66",
+    "Ability": {
+      "3": 218,
+      "5": 257,
+      "8": 99
+    },
+    "CardLevel": 37
+  },
+  {
+    "Id": 202012,
+    "Part": 2,
+    "Position": 2,
+    "Level": 12,
+    "Cost": "2:600304:72",
+    "Ability": {
+      "3": 238,
+      "5": 281,
+      "8": 108
+    },
+    "CardLevel": 41
+  },
+  {
+    "Id": 202013,
+    "Part": 2,
+    "Position": 2,
+    "Level": 13,
+    "Cost": "2:600404:78",
+    "Ability": {
+      "3": 257,
+      "5": 304,
+      "8": 117
+    },
+    "CardLevel": 45
+  },
+  {
+    "Id": 202014,
+    "Part": 2,
+    "Position": 2,
+    "Level": 14,
+    "Cost": "2:600404:84",
+    "Ability": {
+      "3": 277,
+      "5": 328,
+      "8": 126
+    },
+    "CardLevel": 49
+  },
+  {
+    "Id": 202015,
+    "Part": 2,
+    "Position": 2,
+    "Level": 15,
+    "Cost": "2:600404:90",
+    "Ability": {
+      "3": 297,
+      "5": 351,
+      "8": 135
+    },
+    "CardLevel": 53
+  },
+  {
+    "Id": 202016,
+    "Part": 2,
+    "Position": 2,
+    "Level": 16,
+    "Cost": "2:600404:96",
+    "Ability": {
+      "3": 317,
+      "5": 374,
+      "8": 144
+    },
+    "CardLevel": 57
+  },
+  {
+    "Id": 202017,
+    "Part": 2,
+    "Position": 2,
+    "Level": 17,
+    "Cost": "2:600404:102",
+    "Ability": {
+      "3": 337,
+      "5": 398,
+      "8": 153
+    },
+    "CardLevel": 61
+  },
+  {
+    "Id": 202018,
+    "Part": 2,
+    "Position": 2,
+    "Level": 18,
+    "Cost": "2:600404:108",
+    "Ability": {
+      "3": 356,
+      "5": 421,
+      "8": 162
+    },
+    "CardLevel": 65
+  },
+  {
+    "Id": 202019,
+    "Part": 2,
+    "Position": 2,
+    "Level": 19,
+    "Cost": "2:600404:114",
+    "Ability": {
+      "3": 376,
+      "5": 445,
+      "8": 171
+    },
+    "CardLevel": 69
+  },
+  {
+    "Id": 202020,
+    "Part": 2,
+    "Position": 2,
+    "Level": 20,
+    "Cost": "2:600504:120",
+    "Ability": {
+      "3": 396,
+      "5": 468,
+      "8": 180
+    },
+    "CardLevel": 73
+  },
+  {
+    "Id": 202021,
+    "Part": 2,
+    "Position": 2,
+    "Level": 21,
+    "Cost": "2:600504:126",
+    "Ability": {
+      "3": 416,
+      "5": 491,
+      "8": 189
+    },
+    "CardLevel": 77
+  },
+  {
+    "Id": 202022,
+    "Part": 2,
+    "Position": 2,
+    "Level": 22,
+    "Cost": "2:600504:132",
+    "Ability": {
+      "3": 436,
+      "5": 515,
+      "8": 198
+    },
+    "CardLevel": 81
+  },
+  {
+    "Id": 202023,
+    "Part": 2,
+    "Position": 2,
+    "Level": 23,
+    "Cost": "2:600504:138",
+    "Ability": {
+      "3": 455,
+      "5": 538,
+      "8": 207
+    },
+    "CardLevel": 85
+  },
+  {
+    "Id": 202024,
+    "Part": 2,
+    "Position": 2,
+    "Level": 24,
+    "Cost": "2:600504:144",
+    "Ability": {
+      "3": 475,
+      "5": 562,
+      "8": 216
+    },
+    "CardLevel": 89
+  },
+  {
+    "Id": 202025,
+    "Part": 2,
+    "Position": 2,
+    "Level": 25,
+    "Cost": "2:600504:150",
+    "Ability": {
+      "3": 495,
+      "5": 585,
+      "8": 225
+    },
+    "CardLevel": 93
+  },
+  {
+    "Id": 202026,
+    "Part": 2,
+    "Position": 2,
+    "Level": 26,
+    "Cost": "2:600504:156",
+    "Ability": {
+      "3": 515,
+      "5": 608,
+      "8": 234
+    },
+    "CardLevel": 97
+  },
+  {
+    "Id": 202027,
+    "Part": 2,
+    "Position": 2,
+    "Level": 27,
+    "Cost": "2:600504:162",
+    "Ability": {
+      "3": 535,
+      "5": 632,
+      "8": 243
+    },
+    "CardLevel": 101
+  },
+  {
+    "Id": 202028,
+    "Part": 2,
+    "Position": 2,
+    "Level": 28,
+    "Cost": "2:600604:168",
+    "Ability": {
+      "3": 554,
+      "5": 655,
+      "8": 252
+    },
+    "CardLevel": 105
+  },
+  {
+    "Id": 202029,
+    "Part": 2,
+    "Position": 2,
+    "Level": 29,
+    "Cost": "2:600604:174",
+    "Ability": {
+      "3": 574,
+      "5": 679,
+      "8": 261
+    },
+    "CardLevel": 109
+  },
+  {
+    "Id": 202030,
+    "Part": 2,
+    "Position": 2,
+    "Level": 30,
+    "Cost": "2:600604:180",
+    "Ability": {
+      "3": 594,
+      "5": 702,
+      "8": 270
+    },
+    "CardLevel": 113
+  },
+  {
+    "Id": 202031,
+    "Part": 2,
+    "Position": 2,
+    "Level": 31,
+    "Cost": "2:600604:186",
+    "Ability": {
+      "3": 614,
+      "5": 725,
+      "8": 279
+    },
+    "CardLevel": 117
+  },
+  {
+    "Id": 202032,
+    "Part": 2,
+    "Position": 2,
+    "Level": 32,
+    "Cost": "2:600604:192",
+    "Ability": {
+      "3": 634,
+      "5": 749,
+      "8": 288
+    },
+    "CardLevel": 121
+  },
+  {
+    "Id": 202033,
+    "Part": 2,
+    "Position": 2,
+    "Level": 33,
+    "Cost": "2:600604:198",
+    "Ability": {
+      "3": 653,
+      "5": 772,
+      "8": 297
+    },
+    "CardLevel": 125
+  },
+  {
+    "Id": 202034,
+    "Part": 2,
+    "Position": 2,
+    "Level": 34,
+    "Cost": "2:600604:204",
+    "Ability": {
+      "3": 673,
+      "5": 796,
+      "8": 306
+    },
+    "CardLevel": 129
+  },
+  {
+    "Id": 202035,
+    "Part": 2,
+    "Position": 2,
+    "Level": 35,
+    "Cost": "2:600604:210",
+    "Ability": {
+      "3": 693,
+      "5": 819,
+      "8": 315
+    },
+    "CardLevel": 133
+  },
+  {
+    "Id": 202036,
+    "Part": 2,
+    "Position": 2,
+    "Level": 36,
+    "Cost": "2:600604:216",
+    "Ability": {
+      "3": 713,
+      "5": 842,
+      "8": 324
+    },
+    "CardLevel": 137
+  },
+  {
+    "Id": 203001,
+    "Part": 2,
+    "Position": 3,
+    "Level": 1,
+    "Cost": "2:600104:5",
+    "Ability": {
+      "3": 18,
+      "5": 18,
+      "8": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 203002,
+    "Part": 2,
+    "Position": 3,
+    "Level": 2,
+    "Cost": "2:600104:10",
+    "Ability": {
+      "3": 36,
+      "5": 36,
+      "8": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 203003,
+    "Part": 2,
+    "Position": 3,
+    "Level": 3,
+    "Cost": "2:600104:15",
+    "Ability": {
+      "3": 54,
+      "5": 54,
+      "8": 54
+    },
+    "CardLevel": 4
+  },
+  {
+    "Id": 203004,
+    "Part": 2,
+    "Position": 3,
+    "Level": 4,
+    "Cost": "2:600206:20",
+    "Ability": {
+      "3": 72,
+      "5": 72,
+      "8": 72
+    },
+    "CardLevel": 8
+  },
+  {
+    "Id": 203005,
+    "Part": 2,
+    "Position": 3,
+    "Level": 5,
+    "Cost": "2:600206:25",
+    "Ability": {
+      "3": 90,
+      "5": 90,
+      "8": 90
+    },
+    "CardLevel": 12
+  },
+  {
+    "Id": 203006,
+    "Part": 2,
+    "Position": 3,
+    "Level": 6,
+    "Cost": "2:600206:30",
+    "Ability": {
+      "3": 108,
+      "5": 108,
+      "8": 108
+    },
+    "CardLevel": 16
+  },
+  {
+    "Id": 203007,
+    "Part": 2,
+    "Position": 3,
+    "Level": 7,
+    "Cost": "2:600206:35",
+    "Ability": {
+      "3": 126,
+      "5": 126,
+      "8": 126
+    },
+    "CardLevel": 20
+  },
+  {
+    "Id": 203008,
+    "Part": 2,
+    "Position": 3,
+    "Level": 8,
+    "Cost": "2:600306:40",
+    "Ability": {
+      "3": 144,
+      "5": 144,
+      "8": 144
+    },
+    "CardLevel": 24
+  },
+  {
+    "Id": 203009,
+    "Part": 2,
+    "Position": 3,
+    "Level": 9,
+    "Cost": "2:600306:45",
+    "Ability": {
+      "3": 162,
+      "5": 162,
+      "8": 162
+    },
+    "CardLevel": 28
+  },
+  {
+    "Id": 203010,
+    "Part": 2,
+    "Position": 3,
+    "Level": 10,
+    "Cost": "2:600306:50",
+    "Ability": {
+      "3": 180,
+      "5": 180,
+      "8": 180
+    },
+    "CardLevel": 32
+  },
+  {
+    "Id": 203011,
+    "Part": 2,
+    "Position": 3,
+    "Level": 11,
+    "Cost": "2:600306:55",
+    "Ability": {
+      "3": 198,
+      "5": 198,
+      "8": 198
+    },
+    "CardLevel": 36
+  },
+  {
+    "Id": 203012,
+    "Part": 2,
+    "Position": 3,
+    "Level": 12,
+    "Cost": "2:600306:60",
+    "Ability": {
+      "3": 216,
+      "5": 216,
+      "8": 216
+    },
+    "CardLevel": 40
+  },
+  {
+    "Id": 203013,
+    "Part": 2,
+    "Position": 3,
+    "Level": 13,
+    "Cost": "2:600406:65",
+    "Ability": {
+      "3": 234,
+      "5": 234,
+      "8": 234
+    },
+    "CardLevel": 44
+  },
+  {
+    "Id": 203014,
+    "Part": 2,
+    "Position": 3,
+    "Level": 14,
+    "Cost": "2:600406:70",
+    "Ability": {
+      "3": 252,
+      "5": 252,
+      "8": 252
+    },
+    "CardLevel": 48
+  },
+  {
+    "Id": 203015,
+    "Part": 2,
+    "Position": 3,
+    "Level": 15,
+    "Cost": "2:600406:75",
+    "Ability": {
+      "3": 270,
+      "5": 270,
+      "8": 270
+    },
+    "CardLevel": 52
+  },
+  {
+    "Id": 203016,
+    "Part": 2,
+    "Position": 3,
+    "Level": 16,
+    "Cost": "2:600406:80",
+    "Ability": {
+      "3": 288,
+      "5": 288,
+      "8": 288
+    },
+    "CardLevel": 56
+  },
+  {
+    "Id": 203017,
+    "Part": 2,
+    "Position": 3,
+    "Level": 17,
+    "Cost": "2:600406:85",
+    "Ability": {
+      "3": 306,
+      "5": 306,
+      "8": 306
+    },
+    "CardLevel": 60
+  },
+  {
+    "Id": 203018,
+    "Part": 2,
+    "Position": 3,
+    "Level": 18,
+    "Cost": "2:600406:90",
+    "Ability": {
+      "3": 324,
+      "5": 324,
+      "8": 324
+    },
+    "CardLevel": 64
+  },
+  {
+    "Id": 203019,
+    "Part": 2,
+    "Position": 3,
+    "Level": 19,
+    "Cost": "2:600406:95",
+    "Ability": {
+      "3": 342,
+      "5": 342,
+      "8": 342
+    },
+    "CardLevel": 68
+  },
+  {
+    "Id": 203020,
+    "Part": 2,
+    "Position": 3,
+    "Level": 20,
+    "Cost": "2:600506:100",
+    "Ability": {
+      "3": 360,
+      "5": 360,
+      "8": 360
+    },
+    "CardLevel": 72
+  },
+  {
+    "Id": 203021,
+    "Part": 2,
+    "Position": 3,
+    "Level": 21,
+    "Cost": "2:600506:105",
+    "Ability": {
+      "3": 378,
+      "5": 378,
+      "8": 378
+    },
+    "CardLevel": 76
+  },
+  {
+    "Id": 203022,
+    "Part": 2,
+    "Position": 3,
+    "Level": 22,
+    "Cost": "2:600506:110",
+    "Ability": {
+      "3": 396,
+      "5": 396,
+      "8": 396
+    },
+    "CardLevel": 80
+  },
+  {
+    "Id": 203023,
+    "Part": 2,
+    "Position": 3,
+    "Level": 23,
+    "Cost": "2:600506:115",
+    "Ability": {
+      "3": 414,
+      "5": 414,
+      "8": 414
+    },
+    "CardLevel": 84
+  },
+  {
+    "Id": 203024,
+    "Part": 2,
+    "Position": 3,
+    "Level": 24,
+    "Cost": "2:600506:120",
+    "Ability": {
+      "3": 432,
+      "5": 432,
+      "8": 432
+    },
+    "CardLevel": 88
+  },
+  {
+    "Id": 203025,
+    "Part": 2,
+    "Position": 3,
+    "Level": 25,
+    "Cost": "2:600506:125",
+    "Ability": {
+      "3": 450,
+      "5": 450,
+      "8": 450
+    },
+    "CardLevel": 92
+  },
+  {
+    "Id": 203026,
+    "Part": 2,
+    "Position": 3,
+    "Level": 26,
+    "Cost": "2:600506:130",
+    "Ability": {
+      "3": 468,
+      "5": 468,
+      "8": 468
+    },
+    "CardLevel": 96
+  },
+  {
+    "Id": 203027,
+    "Part": 2,
+    "Position": 3,
+    "Level": 27,
+    "Cost": "2:600506:135",
+    "Ability": {
+      "3": 486,
+      "5": 486,
+      "8": 486
+    },
+    "CardLevel": 100
+  },
+  {
+    "Id": 203028,
+    "Part": 2,
+    "Position": 3,
+    "Level": 28,
+    "Cost": "2:600606:140",
+    "Ability": {
+      "3": 504,
+      "5": 504,
+      "8": 504
+    },
+    "CardLevel": 104
+  },
+  {
+    "Id": 203029,
+    "Part": 2,
+    "Position": 3,
+    "Level": 29,
+    "Cost": "2:600606:145",
+    "Ability": {
+      "3": 522,
+      "5": 522,
+      "8": 522
+    },
+    "CardLevel": 108
+  },
+  {
+    "Id": 203030,
+    "Part": 2,
+    "Position": 3,
+    "Level": 30,
+    "Cost": "2:600606:150",
+    "Ability": {
+      "3": 540,
+      "5": 540,
+      "8": 540
+    },
+    "CardLevel": 112
+  },
+  {
+    "Id": 203031,
+    "Part": 2,
+    "Position": 3,
+    "Level": 31,
+    "Cost": "2:600606:155",
+    "Ability": {
+      "3": 558,
+      "5": 558,
+      "8": 558
+    },
+    "CardLevel": 116
+  },
+  {
+    "Id": 203032,
+    "Part": 2,
+    "Position": 3,
+    "Level": 32,
+    "Cost": "2:600606:160",
+    "Ability": {
+      "3": 576,
+      "5": 576,
+      "8": 576
+    },
+    "CardLevel": 120
+  },
+  {
+    "Id": 203033,
+    "Part": 2,
+    "Position": 3,
+    "Level": 33,
+    "Cost": "2:600606:165",
+    "Ability": {
+      "3": 594,
+      "5": 594,
+      "8": 594
+    },
+    "CardLevel": 124
+  },
+  {
+    "Id": 203034,
+    "Part": 2,
+    "Position": 3,
+    "Level": 34,
+    "Cost": "2:600606:170",
+    "Ability": {
+      "3": 612,
+      "5": 612,
+      "8": 612
+    },
+    "CardLevel": 128
+  },
+  {
+    "Id": 203035,
+    "Part": 2,
+    "Position": 3,
+    "Level": 35,
+    "Cost": "2:600606:175",
+    "Ability": {
+      "3": 630,
+      "5": 630,
+      "8": 630
+    },
+    "CardLevel": 132
+  },
+  {
+    "Id": 203036,
+    "Part": 2,
+    "Position": 3,
+    "Level": 36,
+    "Cost": "2:600606:180",
+    "Ability": {
+      "3": 648,
+      "5": 648,
+      "8": 648
+    },
+    "CardLevel": 136
+  },
+  {
+    "Id": 204001,
+    "Part": 2,
+    "Position": 4,
+    "Level": 1,
+    "Cost": "2:600105:7",
+    "Ability": {
+      "3": 16,
+      "5": 12,
+      "8": 25
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 204002,
+    "Part": 2,
+    "Position": 4,
+    "Level": 2,
+    "Cost": "2:600105:14",
+    "Ability": {
+      "3": 32,
+      "5": 23,
+      "8": 50
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 204003,
+    "Part": 2,
+    "Position": 4,
+    "Level": 3,
+    "Cost": "2:600105:21",
+    "Ability": {
+      "3": 49,
+      "5": 35,
+      "8": 76
+    },
+    "CardLevel": 7
+  },
+  {
+    "Id": 204004,
+    "Part": 2,
+    "Position": 4,
+    "Level": 4,
+    "Cost": "2:600208:28",
+    "Ability": {
+      "3": 65,
+      "5": 47,
+      "8": 101
+    },
+    "CardLevel": 11
+  },
+  {
+    "Id": 204005,
+    "Part": 2,
+    "Position": 4,
+    "Level": 5,
+    "Cost": "2:600208:35",
+    "Ability": {
+      "3": 81,
+      "5": 59,
+      "8": 126
+    },
+    "CardLevel": 15
+  },
+  {
+    "Id": 204006,
+    "Part": 2,
+    "Position": 4,
+    "Level": 6,
+    "Cost": "2:600208:42",
+    "Ability": {
+      "3": 97,
+      "5": 70,
+      "8": 151
+    },
+    "CardLevel": 19
+  },
+  {
+    "Id": 204007,
+    "Part": 2,
+    "Position": 4,
+    "Level": 7,
+    "Cost": "2:600208:49",
+    "Ability": {
+      "3": 113,
+      "5": 82,
+      "8": 176
+    },
+    "CardLevel": 23
+  },
+  {
+    "Id": 204008,
+    "Part": 2,
+    "Position": 4,
+    "Level": 8,
+    "Cost": "2:600308:56",
+    "Ability": {
+      "3": 130,
+      "5": 94,
+      "8": 202
+    },
+    "CardLevel": 27
+  },
+  {
+    "Id": 204009,
+    "Part": 2,
+    "Position": 4,
+    "Level": 9,
+    "Cost": "2:600308:63",
+    "Ability": {
+      "3": 146,
+      "5": 105,
+      "8": 227
+    },
+    "CardLevel": 31
+  },
+  {
+    "Id": 204010,
+    "Part": 2,
+    "Position": 4,
+    "Level": 10,
+    "Cost": "2:600308:70",
+    "Ability": {
+      "3": 162,
+      "5": 117,
+      "8": 252
+    },
+    "CardLevel": 35
+  },
+  {
+    "Id": 204011,
+    "Part": 2,
+    "Position": 4,
+    "Level": 11,
+    "Cost": "2:600308:77",
+    "Ability": {
+      "3": 178,
+      "5": 129,
+      "8": 277
+    },
+    "CardLevel": 39
+  },
+  {
+    "Id": 204012,
+    "Part": 2,
+    "Position": 4,
+    "Level": 12,
+    "Cost": "2:600308:84",
+    "Ability": {
+      "3": 194,
+      "5": 140,
+      "8": 302
+    },
+    "CardLevel": 43
+  },
+  {
+    "Id": 204013,
+    "Part": 2,
+    "Position": 4,
+    "Level": 13,
+    "Cost": "2:600408:91",
+    "Ability": {
+      "3": 211,
+      "5": 152,
+      "8": 328
+    },
+    "CardLevel": 47
+  },
+  {
+    "Id": 204014,
+    "Part": 2,
+    "Position": 4,
+    "Level": 14,
+    "Cost": "2:600408:98",
+    "Ability": {
+      "3": 227,
+      "5": 164,
+      "8": 353
+    },
+    "CardLevel": 51
+  },
+  {
+    "Id": 204015,
+    "Part": 2,
+    "Position": 4,
+    "Level": 15,
+    "Cost": "2:600408:105",
+    "Ability": {
+      "3": 243,
+      "5": 176,
+      "8": 378
+    },
+    "CardLevel": 55
+  },
+  {
+    "Id": 204016,
+    "Part": 2,
+    "Position": 4,
+    "Level": 16,
+    "Cost": "2:600408:112",
+    "Ability": {
+      "3": 259,
+      "5": 187,
+      "8": 403
+    },
+    "CardLevel": 59
+  },
+  {
+    "Id": 204017,
+    "Part": 2,
+    "Position": 4,
+    "Level": 17,
+    "Cost": "2:600408:119",
+    "Ability": {
+      "3": 275,
+      "5": 199,
+      "8": 428
+    },
+    "CardLevel": 63
+  },
+  {
+    "Id": 204018,
+    "Part": 2,
+    "Position": 4,
+    "Level": 18,
+    "Cost": "2:600408:126",
+    "Ability": {
+      "3": 292,
+      "5": 211,
+      "8": 454
+    },
+    "CardLevel": 67
+  },
+  {
+    "Id": 204019,
+    "Part": 2,
+    "Position": 4,
+    "Level": 19,
+    "Cost": "2:600408:133",
+    "Ability": {
+      "3": 308,
+      "5": 222,
+      "8": 479
+    },
+    "CardLevel": 71
+  },
+  {
+    "Id": 204020,
+    "Part": 2,
+    "Position": 4,
+    "Level": 20,
+    "Cost": "2:600508:140",
+    "Ability": {
+      "3": 324,
+      "5": 234,
+      "8": 504
+    },
+    "CardLevel": 75
+  },
+  {
+    "Id": 204021,
+    "Part": 2,
+    "Position": 4,
+    "Level": 21,
+    "Cost": "2:600508:147",
+    "Ability": {
+      "3": 340,
+      "5": 246,
+      "8": 529
+    },
+    "CardLevel": 79
+  },
+  {
+    "Id": 204022,
+    "Part": 2,
+    "Position": 4,
+    "Level": 22,
+    "Cost": "2:600508:154",
+    "Ability": {
+      "3": 356,
+      "5": 257,
+      "8": 554
+    },
+    "CardLevel": 83
+  },
+  {
+    "Id": 204023,
+    "Part": 2,
+    "Position": 4,
+    "Level": 23,
+    "Cost": "2:600508:161",
+    "Ability": {
+      "3": 373,
+      "5": 269,
+      "8": 580
+    },
+    "CardLevel": 87
+  },
+  {
+    "Id": 204024,
+    "Part": 2,
+    "Position": 4,
+    "Level": 24,
+    "Cost": "2:600508:168",
+    "Ability": {
+      "3": 389,
+      "5": 281,
+      "8": 605
+    },
+    "CardLevel": 91
+  },
+  {
+    "Id": 204025,
+    "Part": 2,
+    "Position": 4,
+    "Level": 25,
+    "Cost": "2:600508:175",
+    "Ability": {
+      "3": 405,
+      "5": 293,
+      "8": 630
+    },
+    "CardLevel": 95
+  },
+  {
+    "Id": 204026,
+    "Part": 2,
+    "Position": 4,
+    "Level": 26,
+    "Cost": "2:600508:182",
+    "Ability": {
+      "3": 421,
+      "5": 304,
+      "8": 655
+    },
+    "CardLevel": 99
+  },
+  {
+    "Id": 204027,
+    "Part": 2,
+    "Position": 4,
+    "Level": 27,
+    "Cost": "2:600508:189",
+    "Ability": {
+      "3": 437,
+      "5": 316,
+      "8": 680
+    },
+    "CardLevel": 103
+  },
+  {
+    "Id": 204028,
+    "Part": 2,
+    "Position": 4,
+    "Level": 28,
+    "Cost": "2:600608:196",
+    "Ability": {
+      "3": 454,
+      "5": 328,
+      "8": 706
+    },
+    "CardLevel": 107
+  },
+  {
+    "Id": 204029,
+    "Part": 2,
+    "Position": 4,
+    "Level": 29,
+    "Cost": "2:600608:203",
+    "Ability": {
+      "3": 470,
+      "5": 339,
+      "8": 731
+    },
+    "CardLevel": 111
+  },
+  {
+    "Id": 204030,
+    "Part": 2,
+    "Position": 4,
+    "Level": 30,
+    "Cost": "2:600608:210",
+    "Ability": {
+      "3": 486,
+      "5": 351,
+      "8": 756
+    },
+    "CardLevel": 115
+  },
+  {
+    "Id": 204031,
+    "Part": 2,
+    "Position": 4,
+    "Level": 31,
+    "Cost": "2:600608:217",
+    "Ability": {
+      "3": 502,
+      "5": 363,
+      "8": 781
+    },
+    "CardLevel": 119
+  },
+  {
+    "Id": 204032,
+    "Part": 2,
+    "Position": 4,
+    "Level": 32,
+    "Cost": "2:600608:224",
+    "Ability": {
+      "3": 518,
+      "5": 374,
+      "8": 806
+    },
+    "CardLevel": 123
+  },
+  {
+    "Id": 204033,
+    "Part": 2,
+    "Position": 4,
+    "Level": 33,
+    "Cost": "2:600608:231",
+    "Ability": {
+      "3": 535,
+      "5": 386,
+      "8": 832
+    },
+    "CardLevel": 127
+  },
+  {
+    "Id": 204034,
+    "Part": 2,
+    "Position": 4,
+    "Level": 34,
+    "Cost": "2:600608:238",
+    "Ability": {
+      "3": 551,
+      "5": 398,
+      "8": 857
+    },
+    "CardLevel": 131
+  },
+  {
+    "Id": 204035,
+    "Part": 2,
+    "Position": 4,
+    "Level": 35,
+    "Cost": "2:600608:245",
+    "Ability": {
+      "3": 567,
+      "5": 410,
+      "8": 882
+    },
+    "CardLevel": 135
+  },
+  {
+    "Id": 204036,
+    "Part": 2,
+    "Position": 4,
+    "Level": 36,
+    "Cost": "2:600608:252",
+    "Ability": {
+      "3": 583,
+      "5": 421,
+      "8": 907
+    },
+    "CardLevel": 139
+  },
+  {
+    "Id": 205001,
+    "Part": 2,
+    "Position": 5,
+    "Level": 1,
+    "Cost": "2:600106:4",
+    "Ability": {
+      "3": 15,
+      "5": 13,
+      "8": 25
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 205002,
+    "Part": 2,
+    "Position": 5,
+    "Level": 2,
+    "Cost": "2:600106:8",
+    "Ability": {
+      "3": 31,
+      "5": 25,
+      "8": 50
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 205003,
+    "Part": 2,
+    "Position": 5,
+    "Level": 3,
+    "Cost": "2:600106:12",
+    "Ability": {
+      "3": 46,
+      "5": 38,
+      "8": 76
+    },
+    "CardLevel": 8
+  },
+  {
+    "Id": 205004,
+    "Part": 2,
+    "Position": 5,
+    "Level": 4,
+    "Cost": "2:600210:16",
+    "Ability": {
+      "3": 61,
+      "5": 50,
+      "8": 101
+    },
+    "CardLevel": 12
+  },
+  {
+    "Id": 205005,
+    "Part": 2,
+    "Position": 5,
+    "Level": 5,
+    "Cost": "2:600210:20",
+    "Ability": {
+      "3": 77,
+      "5": 63,
+      "8": 126
+    },
+    "CardLevel": 16
+  },
+  {
+    "Id": 205006,
+    "Part": 2,
+    "Position": 5,
+    "Level": 6,
+    "Cost": "2:600210:24",
+    "Ability": {
+      "3": 92,
+      "5": 76,
+      "8": 151
+    },
+    "CardLevel": 20
+  },
+  {
+    "Id": 205007,
+    "Part": 2,
+    "Position": 5,
+    "Level": 7,
+    "Cost": "2:600210:28",
+    "Ability": {
+      "3": 107,
+      "5": 88,
+      "8": 176
+    },
+    "CardLevel": 24
+  },
+  {
+    "Id": 205008,
+    "Part": 2,
+    "Position": 5,
+    "Level": 8,
+    "Cost": "2:600310:32",
+    "Ability": {
+      "3": 122,
+      "5": 101,
+      "8": 202
+    },
+    "CardLevel": 28
+  },
+  {
+    "Id": 205009,
+    "Part": 2,
+    "Position": 5,
+    "Level": 9,
+    "Cost": "2:600310:36",
+    "Ability": {
+      "3": 138,
+      "5": 113,
+      "8": 227
+    },
+    "CardLevel": 32
+  },
+  {
+    "Id": 205010,
+    "Part": 2,
+    "Position": 5,
+    "Level": 10,
+    "Cost": "2:600310:40",
+    "Ability": {
+      "3": 153,
+      "5": 126,
+      "8": 252
+    },
+    "CardLevel": 36
+  },
+  {
+    "Id": 205011,
+    "Part": 2,
+    "Position": 5,
+    "Level": 11,
+    "Cost": "2:600310:44",
+    "Ability": {
+      "3": 168,
+      "5": 139,
+      "8": 277
+    },
+    "CardLevel": 40
+  },
+  {
+    "Id": 205012,
+    "Part": 2,
+    "Position": 5,
+    "Level": 12,
+    "Cost": "2:600310:48",
+    "Ability": {
+      "3": 184,
+      "5": 151,
+      "8": 302
+    },
+    "CardLevel": 44
+  },
+  {
+    "Id": 205013,
+    "Part": 2,
+    "Position": 5,
+    "Level": 13,
+    "Cost": "2:600410:52",
+    "Ability": {
+      "3": 199,
+      "5": 164,
+      "8": 328
+    },
+    "CardLevel": 48
+  },
+  {
+    "Id": 205014,
+    "Part": 2,
+    "Position": 5,
+    "Level": 14,
+    "Cost": "2:600410:56",
+    "Ability": {
+      "3": 214,
+      "5": 176,
+      "8": 353
+    },
+    "CardLevel": 52
+  },
+  {
+    "Id": 205015,
+    "Part": 2,
+    "Position": 5,
+    "Level": 15,
+    "Cost": "2:600410:60",
+    "Ability": {
+      "3": 230,
+      "5": 189,
+      "8": 378
+    },
+    "CardLevel": 56
+  },
+  {
+    "Id": 205016,
+    "Part": 2,
+    "Position": 5,
+    "Level": 16,
+    "Cost": "2:600410:64",
+    "Ability": {
+      "3": 245,
+      "5": 202,
+      "8": 403
+    },
+    "CardLevel": 60
+  },
+  {
+    "Id": 205017,
+    "Part": 2,
+    "Position": 5,
+    "Level": 17,
+    "Cost": "2:600410:68",
+    "Ability": {
+      "3": 260,
+      "5": 214,
+      "8": 428
+    },
+    "CardLevel": 64
+  },
+  {
+    "Id": 205018,
+    "Part": 2,
+    "Position": 5,
+    "Level": 18,
+    "Cost": "2:600410:72",
+    "Ability": {
+      "3": 275,
+      "5": 227,
+      "8": 454
+    },
+    "CardLevel": 68
+  },
+  {
+    "Id": 205019,
+    "Part": 2,
+    "Position": 5,
+    "Level": 19,
+    "Cost": "2:600410:76",
+    "Ability": {
+      "3": 291,
+      "5": 239,
+      "8": 479
+    },
+    "CardLevel": 72
+  },
+  {
+    "Id": 205020,
+    "Part": 2,
+    "Position": 5,
+    "Level": 20,
+    "Cost": "2:600510:80",
+    "Ability": {
+      "3": 306,
+      "5": 252,
+      "8": 504
+    },
+    "CardLevel": 76
+  },
+  {
+    "Id": 205021,
+    "Part": 2,
+    "Position": 5,
+    "Level": 21,
+    "Cost": "2:600510:84",
+    "Ability": {
+      "3": 321,
+      "5": 265,
+      "8": 529
+    },
+    "CardLevel": 80
+  },
+  {
+    "Id": 205022,
+    "Part": 2,
+    "Position": 5,
+    "Level": 22,
+    "Cost": "2:600510:88",
+    "Ability": {
+      "3": 337,
+      "5": 277,
+      "8": 554
+    },
+    "CardLevel": 84
+  },
+  {
+    "Id": 205023,
+    "Part": 2,
+    "Position": 5,
+    "Level": 23,
+    "Cost": "2:600510:92",
+    "Ability": {
+      "3": 352,
+      "5": 290,
+      "8": 580
+    },
+    "CardLevel": 88
+  },
+  {
+    "Id": 205024,
+    "Part": 2,
+    "Position": 5,
+    "Level": 24,
+    "Cost": "2:600510:96",
+    "Ability": {
+      "3": 367,
+      "5": 302,
+      "8": 605
+    },
+    "CardLevel": 92
+  },
+  {
+    "Id": 205025,
+    "Part": 2,
+    "Position": 5,
+    "Level": 25,
+    "Cost": "2:600510:100",
+    "Ability": {
+      "3": 383,
+      "5": 315,
+      "8": 630
+    },
+    "CardLevel": 96
+  },
+  {
+    "Id": 205026,
+    "Part": 2,
+    "Position": 5,
+    "Level": 26,
+    "Cost": "2:600510:104",
+    "Ability": {
+      "3": 398,
+      "5": 328,
+      "8": 655
+    },
+    "CardLevel": 100
+  },
+  {
+    "Id": 205027,
+    "Part": 2,
+    "Position": 5,
+    "Level": 27,
+    "Cost": "2:600510:108",
+    "Ability": {
+      "3": 413,
+      "5": 340,
+      "8": 680
+    },
+    "CardLevel": 104
+  },
+  {
+    "Id": 205028,
+    "Part": 2,
+    "Position": 5,
+    "Level": 28,
+    "Cost": "2:600610:112",
+    "Ability": {
+      "3": 428,
+      "5": 353,
+      "8": 706
+    },
+    "CardLevel": 108
+  },
+  {
+    "Id": 205029,
+    "Part": 2,
+    "Position": 5,
+    "Level": 29,
+    "Cost": "2:600610:116",
+    "Ability": {
+      "3": 444,
+      "5": 365,
+      "8": 731
+    },
+    "CardLevel": 112
+  },
+  {
+    "Id": 205030,
+    "Part": 2,
+    "Position": 5,
+    "Level": 30,
+    "Cost": "2:600610:120",
+    "Ability": {
+      "3": 459,
+      "5": 378,
+      "8": 756
+    },
+    "CardLevel": 116
+  },
+  {
+    "Id": 205031,
+    "Part": 2,
+    "Position": 5,
+    "Level": 31,
+    "Cost": "2:600610:124",
+    "Ability": {
+      "3": 474,
+      "5": 391,
+      "8": 781
+    },
+    "CardLevel": 120
+  },
+  {
+    "Id": 205032,
+    "Part": 2,
+    "Position": 5,
+    "Level": 32,
+    "Cost": "2:600610:128",
+    "Ability": {
+      "3": 490,
+      "5": 403,
+      "8": 806
+    },
+    "CardLevel": 124
+  },
+  {
+    "Id": 205033,
+    "Part": 2,
+    "Position": 5,
+    "Level": 33,
+    "Cost": "2:600610:132",
+    "Ability": {
+      "3": 505,
+      "5": 416,
+      "8": 832
+    },
+    "CardLevel": 128
+  },
+  {
+    "Id": 205034,
+    "Part": 2,
+    "Position": 5,
+    "Level": 34,
+    "Cost": "2:600610:136",
+    "Ability": {
+      "3": 520,
+      "5": 428,
+      "8": 857
+    },
+    "CardLevel": 132
+  },
+  {
+    "Id": 205035,
+    "Part": 2,
+    "Position": 5,
+    "Level": 35,
+    "Cost": "2:600610:140",
+    "Ability": {
+      "3": 536,
+      "5": 441,
+      "8": 882
+    },
+    "CardLevel": 136
+  },
+  {
+    "Id": 205036,
+    "Part": 2,
+    "Position": 5,
+    "Level": 36,
+    "Cost": "2:600610:144",
+    "Ability": {
+      "3": 551,
+      "5": 454,
+      "8": 907
+    },
+    "CardLevel": 140
+  },
+  {
+    "Id": 301001,
+    "Part": 3,
+    "Position": 1,
+    "Level": 1,
+    "Cost": "2:600104:7",
+    "Ability": {
+      "2": 14,
+      "7": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 301002,
+    "Part": 3,
+    "Position": 1,
+    "Level": 2,
+    "Cost": "2:600104:14",
+    "Ability": {
+      "2": 29,
+      "7": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 301003,
+    "Part": 3,
+    "Position": 1,
+    "Level": 3,
+    "Cost": "2:600104:21",
+    "Ability": {
+      "2": 43,
+      "7": 54
+    },
+    "CardLevel": 7
+  },
+  {
+    "Id": 301004,
+    "Part": 3,
+    "Position": 1,
+    "Level": 4,
+    "Cost": "2:600204:28",
+    "Ability": {
+      "2": 58,
+      "7": 72
+    },
+    "CardLevel": 11
+  },
+  {
+    "Id": 301005,
+    "Part": 3,
+    "Position": 1,
+    "Level": 5,
+    "Cost": "2:600204:35",
+    "Ability": {
+      "2": 72,
+      "7": 90
+    },
+    "CardLevel": 15
+  },
+  {
+    "Id": 301006,
+    "Part": 3,
+    "Position": 1,
+    "Level": 6,
+    "Cost": "2:600204:42",
+    "Ability": {
+      "2": 86,
+      "7": 108
+    },
+    "CardLevel": 19
+  },
+  {
+    "Id": 301007,
+    "Part": 3,
+    "Position": 1,
+    "Level": 7,
+    "Cost": "2:600204:49",
+    "Ability": {
+      "2": 101,
+      "7": 126
+    },
+    "CardLevel": 23
+  },
+  {
+    "Id": 301008,
+    "Part": 3,
+    "Position": 1,
+    "Level": 8,
+    "Cost": "2:600304:56",
+    "Ability": {
+      "2": 115,
+      "7": 144
+    },
+    "CardLevel": 27
+  },
+  {
+    "Id": 301009,
+    "Part": 3,
+    "Position": 1,
+    "Level": 9,
+    "Cost": "2:600304:63",
+    "Ability": {
+      "2": 130,
+      "7": 162
+    },
+    "CardLevel": 31
+  },
+  {
+    "Id": 301010,
+    "Part": 3,
+    "Position": 1,
+    "Level": 10,
+    "Cost": "2:600304:70",
+    "Ability": {
+      "2": 144,
+      "7": 180
+    },
+    "CardLevel": 35
+  },
+  {
+    "Id": 301011,
+    "Part": 3,
+    "Position": 1,
+    "Level": 11,
+    "Cost": "2:600304:77",
+    "Ability": {
+      "2": 158,
+      "7": 198
+    },
+    "CardLevel": 39
+  },
+  {
+    "Id": 301012,
+    "Part": 3,
+    "Position": 1,
+    "Level": 12,
+    "Cost": "2:600304:84",
+    "Ability": {
+      "2": 173,
+      "7": 216
+    },
+    "CardLevel": 43
+  },
+  {
+    "Id": 301013,
+    "Part": 3,
+    "Position": 1,
+    "Level": 13,
+    "Cost": "2:600404:91",
+    "Ability": {
+      "2": 187,
+      "7": 234
+    },
+    "CardLevel": 47
+  },
+  {
+    "Id": 301014,
+    "Part": 3,
+    "Position": 1,
+    "Level": 14,
+    "Cost": "2:600404:98",
+    "Ability": {
+      "2": 202,
+      "7": 252
+    },
+    "CardLevel": 51
+  },
+  {
+    "Id": 301015,
+    "Part": 3,
+    "Position": 1,
+    "Level": 15,
+    "Cost": "2:600404:105",
+    "Ability": {
+      "2": 216,
+      "7": 270
+    },
+    "CardLevel": 55
+  },
+  {
+    "Id": 301016,
+    "Part": 3,
+    "Position": 1,
+    "Level": 16,
+    "Cost": "2:600404:112",
+    "Ability": {
+      "2": 230,
+      "7": 288
+    },
+    "CardLevel": 59
+  },
+  {
+    "Id": 301017,
+    "Part": 3,
+    "Position": 1,
+    "Level": 17,
+    "Cost": "2:600404:119",
+    "Ability": {
+      "2": 245,
+      "7": 306
+    },
+    "CardLevel": 63
+  },
+  {
+    "Id": 301018,
+    "Part": 3,
+    "Position": 1,
+    "Level": 18,
+    "Cost": "2:600404:126",
+    "Ability": {
+      "2": 259,
+      "7": 324
+    },
+    "CardLevel": 67
+  },
+  {
+    "Id": 301019,
+    "Part": 3,
+    "Position": 1,
+    "Level": 19,
+    "Cost": "2:600404:133",
+    "Ability": {
+      "2": 274,
+      "7": 342
+    },
+    "CardLevel": 71
+  },
+  {
+    "Id": 301020,
+    "Part": 3,
+    "Position": 1,
+    "Level": 20,
+    "Cost": "2:600504:140",
+    "Ability": {
+      "2": 288,
+      "7": 360
+    },
+    "CardLevel": 75
+  },
+  {
+    "Id": 301021,
+    "Part": 3,
+    "Position": 1,
+    "Level": 21,
+    "Cost": "2:600504:147",
+    "Ability": {
+      "2": 302,
+      "7": 378
+    },
+    "CardLevel": 79
+  },
+  {
+    "Id": 301022,
+    "Part": 3,
+    "Position": 1,
+    "Level": 22,
+    "Cost": "2:600504:154",
+    "Ability": {
+      "2": 317,
+      "7": 396
+    },
+    "CardLevel": 83
+  },
+  {
+    "Id": 301023,
+    "Part": 3,
+    "Position": 1,
+    "Level": 23,
+    "Cost": "2:600504:161",
+    "Ability": {
+      "2": 331,
+      "7": 414
+    },
+    "CardLevel": 87
+  },
+  {
+    "Id": 301024,
+    "Part": 3,
+    "Position": 1,
+    "Level": 24,
+    "Cost": "2:600504:168",
+    "Ability": {
+      "2": 346,
+      "7": 432
+    },
+    "CardLevel": 91
+  },
+  {
+    "Id": 301025,
+    "Part": 3,
+    "Position": 1,
+    "Level": 25,
+    "Cost": "2:600504:175",
+    "Ability": {
+      "2": 360,
+      "7": 450
+    },
+    "CardLevel": 95
+  },
+  {
+    "Id": 301026,
+    "Part": 3,
+    "Position": 1,
+    "Level": 26,
+    "Cost": "2:600504:182",
+    "Ability": {
+      "2": 374,
+      "7": 468
+    },
+    "CardLevel": 99
+  },
+  {
+    "Id": 301027,
+    "Part": 3,
+    "Position": 1,
+    "Level": 27,
+    "Cost": "2:600504:189",
+    "Ability": {
+      "2": 389,
+      "7": 486
+    },
+    "CardLevel": 103
+  },
+  {
+    "Id": 301028,
+    "Part": 3,
+    "Position": 1,
+    "Level": 28,
+    "Cost": "2:600604:196",
+    "Ability": {
+      "2": 403,
+      "7": 504
+    },
+    "CardLevel": 107
+  },
+  {
+    "Id": 301029,
+    "Part": 3,
+    "Position": 1,
+    "Level": 29,
+    "Cost": "2:600604:203",
+    "Ability": {
+      "2": 418,
+      "7": 522
+    },
+    "CardLevel": 111
+  },
+  {
+    "Id": 301030,
+    "Part": 3,
+    "Position": 1,
+    "Level": 30,
+    "Cost": "2:600604:210",
+    "Ability": {
+      "2": 432,
+      "7": 540
+    },
+    "CardLevel": 115
+  },
+  {
+    "Id": 301031,
+    "Part": 3,
+    "Position": 1,
+    "Level": 31,
+    "Cost": "2:600604:217",
+    "Ability": {
+      "2": 446,
+      "7": 558
+    },
+    "CardLevel": 119
+  },
+  {
+    "Id": 301032,
+    "Part": 3,
+    "Position": 1,
+    "Level": 32,
+    "Cost": "2:600604:224",
+    "Ability": {
+      "2": 461,
+      "7": 576
+    },
+    "CardLevel": 123
+  },
+  {
+    "Id": 301033,
+    "Part": 3,
+    "Position": 1,
+    "Level": 33,
+    "Cost": "2:600604:231",
+    "Ability": {
+      "2": 475,
+      "7": 594
+    },
+    "CardLevel": 127
+  },
+  {
+    "Id": 301034,
+    "Part": 3,
+    "Position": 1,
+    "Level": 34,
+    "Cost": "2:600604:238",
+    "Ability": {
+      "2": 490,
+      "7": 612
+    },
+    "CardLevel": 131
+  },
+  {
+    "Id": 301035,
+    "Part": 3,
+    "Position": 1,
+    "Level": 35,
+    "Cost": "2:600604:245",
+    "Ability": {
+      "2": 504,
+      "7": 630
+    },
+    "CardLevel": 135
+  },
+  {
+    "Id": 301036,
+    "Part": 3,
+    "Position": 1,
+    "Level": 36,
+    "Cost": "2:600604:252",
+    "Ability": {
+      "2": 518,
+      "7": 648
+    },
+    "CardLevel": 139
+  },
+  {
+    "Id": 302001,
+    "Part": 3,
+    "Position": 2,
+    "Level": 1,
+    "Cost": "2:600105:4",
+    "Ability": {
+      "2": 14,
+      "7": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 302002,
+    "Part": 3,
+    "Position": 2,
+    "Level": 2,
+    "Cost": "2:600105:8",
+    "Ability": {
+      "2": 29,
+      "7": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 302003,
+    "Part": 3,
+    "Position": 2,
+    "Level": 3,
+    "Cost": "2:600105:12",
+    "Ability": {
+      "2": 43,
+      "7": 54
+    },
+    "CardLevel": 6
+  },
+  {
+    "Id": 302004,
+    "Part": 3,
+    "Position": 2,
+    "Level": 4,
+    "Cost": "2:600206:16",
+    "Ability": {
+      "2": 58,
+      "7": 72
+    },
+    "CardLevel": 10
+  },
+  {
+    "Id": 302005,
+    "Part": 3,
+    "Position": 2,
+    "Level": 5,
+    "Cost": "2:600206:20",
+    "Ability": {
+      "2": 72,
+      "7": 90
+    },
+    "CardLevel": 14
+  },
+  {
+    "Id": 302006,
+    "Part": 3,
+    "Position": 2,
+    "Level": 6,
+    "Cost": "2:600206:24",
+    "Ability": {
+      "2": 86,
+      "7": 108
+    },
+    "CardLevel": 18
+  },
+  {
+    "Id": 302007,
+    "Part": 3,
+    "Position": 2,
+    "Level": 7,
+    "Cost": "2:600206:28",
+    "Ability": {
+      "2": 101,
+      "7": 126
+    },
+    "CardLevel": 22
+  },
+  {
+    "Id": 302008,
+    "Part": 3,
+    "Position": 2,
+    "Level": 8,
+    "Cost": "2:600306:32",
+    "Ability": {
+      "2": 115,
+      "7": 144
+    },
+    "CardLevel": 26
+  },
+  {
+    "Id": 302009,
+    "Part": 3,
+    "Position": 2,
+    "Level": 9,
+    "Cost": "2:600306:36",
+    "Ability": {
+      "2": 130,
+      "7": 162
+    },
+    "CardLevel": 30
+  },
+  {
+    "Id": 302010,
+    "Part": 3,
+    "Position": 2,
+    "Level": 10,
+    "Cost": "2:600306:40",
+    "Ability": {
+      "2": 144,
+      "7": 180
+    },
+    "CardLevel": 34
+  },
+  {
+    "Id": 302011,
+    "Part": 3,
+    "Position": 2,
+    "Level": 11,
+    "Cost": "2:600306:44",
+    "Ability": {
+      "2": 158,
+      "7": 198
+    },
+    "CardLevel": 38
+  },
+  {
+    "Id": 302012,
+    "Part": 3,
+    "Position": 2,
+    "Level": 12,
+    "Cost": "2:600306:48",
+    "Ability": {
+      "2": 173,
+      "7": 216
+    },
+    "CardLevel": 42
+  },
+  {
+    "Id": 302013,
+    "Part": 3,
+    "Position": 2,
+    "Level": 13,
+    "Cost": "2:600406:52",
+    "Ability": {
+      "2": 187,
+      "7": 234
+    },
+    "CardLevel": 46
+  },
+  {
+    "Id": 302014,
+    "Part": 3,
+    "Position": 2,
+    "Level": 14,
+    "Cost": "2:600406:56",
+    "Ability": {
+      "2": 202,
+      "7": 252
+    },
+    "CardLevel": 50
+  },
+  {
+    "Id": 302015,
+    "Part": 3,
+    "Position": 2,
+    "Level": 15,
+    "Cost": "2:600406:60",
+    "Ability": {
+      "2": 216,
+      "7": 270
+    },
+    "CardLevel": 54
+  },
+  {
+    "Id": 302016,
+    "Part": 3,
+    "Position": 2,
+    "Level": 16,
+    "Cost": "2:600406:64",
+    "Ability": {
+      "2": 230,
+      "7": 288
+    },
+    "CardLevel": 58
+  },
+  {
+    "Id": 302017,
+    "Part": 3,
+    "Position": 2,
+    "Level": 17,
+    "Cost": "2:600406:68",
+    "Ability": {
+      "2": 245,
+      "7": 306
+    },
+    "CardLevel": 62
+  },
+  {
+    "Id": 302018,
+    "Part": 3,
+    "Position": 2,
+    "Level": 18,
+    "Cost": "2:600406:72",
+    "Ability": {
+      "2": 259,
+      "7": 324
+    },
+    "CardLevel": 66
+  },
+  {
+    "Id": 302019,
+    "Part": 3,
+    "Position": 2,
+    "Level": 19,
+    "Cost": "2:600406:76",
+    "Ability": {
+      "2": 274,
+      "7": 342
+    },
+    "CardLevel": 70
+  },
+  {
+    "Id": 302020,
+    "Part": 3,
+    "Position": 2,
+    "Level": 20,
+    "Cost": "2:600506:80",
+    "Ability": {
+      "2": 288,
+      "7": 360
+    },
+    "CardLevel": 74
+  },
+  {
+    "Id": 302021,
+    "Part": 3,
+    "Position": 2,
+    "Level": 21,
+    "Cost": "2:600506:84",
+    "Ability": {
+      "2": 302,
+      "7": 378
+    },
+    "CardLevel": 78
+  },
+  {
+    "Id": 302022,
+    "Part": 3,
+    "Position": 2,
+    "Level": 22,
+    "Cost": "2:600506:88",
+    "Ability": {
+      "2": 317,
+      "7": 396
+    },
+    "CardLevel": 82
+  },
+  {
+    "Id": 302023,
+    "Part": 3,
+    "Position": 2,
+    "Level": 23,
+    "Cost": "2:600506:92",
+    "Ability": {
+      "2": 331,
+      "7": 414
+    },
+    "CardLevel": 86
+  },
+  {
+    "Id": 302024,
+    "Part": 3,
+    "Position": 2,
+    "Level": 24,
+    "Cost": "2:600506:96",
+    "Ability": {
+      "2": 346,
+      "7": 432
+    },
+    "CardLevel": 90
+  },
+  {
+    "Id": 302025,
+    "Part": 3,
+    "Position": 2,
+    "Level": 25,
+    "Cost": "2:600506:100",
+    "Ability": {
+      "2": 360,
+      "7": 450
+    },
+    "CardLevel": 94
+  },
+  {
+    "Id": 302026,
+    "Part": 3,
+    "Position": 2,
+    "Level": 26,
+    "Cost": "2:600506:104",
+    "Ability": {
+      "2": 374,
+      "7": 468
+    },
+    "CardLevel": 98
+  },
+  {
+    "Id": 302027,
+    "Part": 3,
+    "Position": 2,
+    "Level": 27,
+    "Cost": "2:600506:108",
+    "Ability": {
+      "2": 389,
+      "7": 486
+    },
+    "CardLevel": 102
+  },
+  {
+    "Id": 302028,
+    "Part": 3,
+    "Position": 2,
+    "Level": 28,
+    "Cost": "2:600606:112",
+    "Ability": {
+      "2": 403,
+      "7": 504
+    },
+    "CardLevel": 106
+  },
+  {
+    "Id": 302029,
+    "Part": 3,
+    "Position": 2,
+    "Level": 29,
+    "Cost": "2:600606:116",
+    "Ability": {
+      "2": 418,
+      "7": 522
+    },
+    "CardLevel": 110
+  },
+  {
+    "Id": 302030,
+    "Part": 3,
+    "Position": 2,
+    "Level": 30,
+    "Cost": "2:600606:120",
+    "Ability": {
+      "2": 432,
+      "7": 540
+    },
+    "CardLevel": 114
+  },
+  {
+    "Id": 302031,
+    "Part": 3,
+    "Position": 2,
+    "Level": 31,
+    "Cost": "2:600606:124",
+    "Ability": {
+      "2": 446,
+      "7": 558
+    },
+    "CardLevel": 118
+  },
+  {
+    "Id": 302032,
+    "Part": 3,
+    "Position": 2,
+    "Level": 32,
+    "Cost": "2:600606:128",
+    "Ability": {
+      "2": 461,
+      "7": 576
+    },
+    "CardLevel": 122
+  },
+  {
+    "Id": 302033,
+    "Part": 3,
+    "Position": 2,
+    "Level": 33,
+    "Cost": "2:600606:132",
+    "Ability": {
+      "2": 475,
+      "7": 594
+    },
+    "CardLevel": 126
+  },
+  {
+    "Id": 302034,
+    "Part": 3,
+    "Position": 2,
+    "Level": 34,
+    "Cost": "2:600606:136",
+    "Ability": {
+      "2": 490,
+      "7": 612
+    },
+    "CardLevel": 130
+  },
+  {
+    "Id": 302035,
+    "Part": 3,
+    "Position": 2,
+    "Level": 35,
+    "Cost": "2:600606:140",
+    "Ability": {
+      "2": 504,
+      "7": 630
+    },
+    "CardLevel": 134
+  },
+  {
+    "Id": 302036,
+    "Part": 3,
+    "Position": 2,
+    "Level": 36,
+    "Cost": "2:600606:144",
+    "Ability": {
+      "2": 518,
+      "7": 648
+    },
+    "CardLevel": 138
+  },
+  {
+    "Id": 303001,
+    "Part": 3,
+    "Position": 3,
+    "Level": 1,
+    "Cost": "2:600106:5",
+    "Ability": {
+      "2": 18,
+      "7": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 303002,
+    "Part": 3,
+    "Position": 3,
+    "Level": 2,
+    "Cost": "2:600106:10",
+    "Ability": {
+      "2": 36,
+      "7": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 303003,
+    "Part": 3,
+    "Position": 3,
+    "Level": 3,
+    "Cost": "2:600106:15",
+    "Ability": {
+      "2": 54,
+      "7": 54
+    },
+    "CardLevel": 5
+  },
+  {
+    "Id": 303004,
+    "Part": 3,
+    "Position": 3,
+    "Level": 4,
+    "Cost": "2:600208:20",
+    "Ability": {
+      "2": 72,
+      "7": 72
+    },
+    "CardLevel": 9
+  },
+  {
+    "Id": 303005,
+    "Part": 3,
+    "Position": 3,
+    "Level": 5,
+    "Cost": "2:600208:25",
+    "Ability": {
+      "2": 90,
+      "7": 90
+    },
+    "CardLevel": 13
+  },
+  {
+    "Id": 303006,
+    "Part": 3,
+    "Position": 3,
+    "Level": 6,
+    "Cost": "2:600208:30",
+    "Ability": {
+      "2": 108,
+      "7": 108
+    },
+    "CardLevel": 17
+  },
+  {
+    "Id": 303007,
+    "Part": 3,
+    "Position": 3,
+    "Level": 7,
+    "Cost": "2:600208:35",
+    "Ability": {
+      "2": 126,
+      "7": 126
+    },
+    "CardLevel": 21
+  },
+  {
+    "Id": 303008,
+    "Part": 3,
+    "Position": 3,
+    "Level": 8,
+    "Cost": "2:600308:40",
+    "Ability": {
+      "2": 144,
+      "7": 144
+    },
+    "CardLevel": 25
+  },
+  {
+    "Id": 303009,
+    "Part": 3,
+    "Position": 3,
+    "Level": 9,
+    "Cost": "2:600308:45",
+    "Ability": {
+      "2": 162,
+      "7": 162
+    },
+    "CardLevel": 29
+  },
+  {
+    "Id": 303010,
+    "Part": 3,
+    "Position": 3,
+    "Level": 10,
+    "Cost": "2:600308:50",
+    "Ability": {
+      "2": 180,
+      "7": 180
+    },
+    "CardLevel": 33
+  },
+  {
+    "Id": 303011,
+    "Part": 3,
+    "Position": 3,
+    "Level": 11,
+    "Cost": "2:600308:55",
+    "Ability": {
+      "2": 198,
+      "7": 198
+    },
+    "CardLevel": 37
+  },
+  {
+    "Id": 303012,
+    "Part": 3,
+    "Position": 3,
+    "Level": 12,
+    "Cost": "2:600308:60",
+    "Ability": {
+      "2": 216,
+      "7": 216
+    },
+    "CardLevel": 41
+  },
+  {
+    "Id": 303013,
+    "Part": 3,
+    "Position": 3,
+    "Level": 13,
+    "Cost": "2:600408:65",
+    "Ability": {
+      "2": 234,
+      "7": 234
+    },
+    "CardLevel": 45
+  },
+  {
+    "Id": 303014,
+    "Part": 3,
+    "Position": 3,
+    "Level": 14,
+    "Cost": "2:600408:70",
+    "Ability": {
+      "2": 252,
+      "7": 252
+    },
+    "CardLevel": 49
+  },
+  {
+    "Id": 303015,
+    "Part": 3,
+    "Position": 3,
+    "Level": 15,
+    "Cost": "2:600408:75",
+    "Ability": {
+      "2": 270,
+      "7": 270
+    },
+    "CardLevel": 53
+  },
+  {
+    "Id": 303016,
+    "Part": 3,
+    "Position": 3,
+    "Level": 16,
+    "Cost": "2:600408:80",
+    "Ability": {
+      "2": 288,
+      "7": 288
+    },
+    "CardLevel": 57
+  },
+  {
+    "Id": 303017,
+    "Part": 3,
+    "Position": 3,
+    "Level": 17,
+    "Cost": "2:600408:85",
+    "Ability": {
+      "2": 306,
+      "7": 306
+    },
+    "CardLevel": 61
+  },
+  {
+    "Id": 303018,
+    "Part": 3,
+    "Position": 3,
+    "Level": 18,
+    "Cost": "2:600408:90",
+    "Ability": {
+      "2": 324,
+      "7": 324
+    },
+    "CardLevel": 65
+  },
+  {
+    "Id": 303019,
+    "Part": 3,
+    "Position": 3,
+    "Level": 19,
+    "Cost": "2:600408:95",
+    "Ability": {
+      "2": 342,
+      "7": 342
+    },
+    "CardLevel": 69
+  },
+  {
+    "Id": 303020,
+    "Part": 3,
+    "Position": 3,
+    "Level": 20,
+    "Cost": "2:600508:100",
+    "Ability": {
+      "2": 360,
+      "7": 360
+    },
+    "CardLevel": 73
+  },
+  {
+    "Id": 303021,
+    "Part": 3,
+    "Position": 3,
+    "Level": 21,
+    "Cost": "2:600508:105",
+    "Ability": {
+      "2": 378,
+      "7": 378
+    },
+    "CardLevel": 77
+  },
+  {
+    "Id": 303022,
+    "Part": 3,
+    "Position": 3,
+    "Level": 22,
+    "Cost": "2:600508:110",
+    "Ability": {
+      "2": 396,
+      "7": 396
+    },
+    "CardLevel": 81
+  },
+  {
+    "Id": 303023,
+    "Part": 3,
+    "Position": 3,
+    "Level": 23,
+    "Cost": "2:600508:115",
+    "Ability": {
+      "2": 414,
+      "7": 414
+    },
+    "CardLevel": 85
+  },
+  {
+    "Id": 303024,
+    "Part": 3,
+    "Position": 3,
+    "Level": 24,
+    "Cost": "2:600508:120",
+    "Ability": {
+      "2": 432,
+      "7": 432
+    },
+    "CardLevel": 89
+  },
+  {
+    "Id": 303025,
+    "Part": 3,
+    "Position": 3,
+    "Level": 25,
+    "Cost": "2:600508:125",
+    "Ability": {
+      "2": 450,
+      "7": 450
+    },
+    "CardLevel": 93
+  },
+  {
+    "Id": 303026,
+    "Part": 3,
+    "Position": 3,
+    "Level": 26,
+    "Cost": "2:600508:130",
+    "Ability": {
+      "2": 468,
+      "7": 468
+    },
+    "CardLevel": 97
+  },
+  {
+    "Id": 303027,
+    "Part": 3,
+    "Position": 3,
+    "Level": 27,
+    "Cost": "2:600508:135",
+    "Ability": {
+      "2": 486,
+      "7": 486
+    },
+    "CardLevel": 101
+  },
+  {
+    "Id": 303028,
+    "Part": 3,
+    "Position": 3,
+    "Level": 28,
+    "Cost": "2:600608:140",
+    "Ability": {
+      "2": 504,
+      "7": 504
+    },
+    "CardLevel": 105
+  },
+  {
+    "Id": 303029,
+    "Part": 3,
+    "Position": 3,
+    "Level": 29,
+    "Cost": "2:600608:145",
+    "Ability": {
+      "2": 522,
+      "7": 522
+    },
+    "CardLevel": 109
+  },
+  {
+    "Id": 303030,
+    "Part": 3,
+    "Position": 3,
+    "Level": 30,
+    "Cost": "2:600608:150",
+    "Ability": {
+      "2": 540,
+      "7": 540
+    },
+    "CardLevel": 113
+  },
+  {
+    "Id": 303031,
+    "Part": 3,
+    "Position": 3,
+    "Level": 31,
+    "Cost": "2:600608:155",
+    "Ability": {
+      "2": 558,
+      "7": 558
+    },
+    "CardLevel": 117
+  },
+  {
+    "Id": 303032,
+    "Part": 3,
+    "Position": 3,
+    "Level": 32,
+    "Cost": "2:600608:160",
+    "Ability": {
+      "2": 576,
+      "7": 576
+    },
+    "CardLevel": 121
+  },
+  {
+    "Id": 303033,
+    "Part": 3,
+    "Position": 3,
+    "Level": 33,
+    "Cost": "2:600608:165",
+    "Ability": {
+      "2": 594,
+      "7": 594
+    },
+    "CardLevel": 125
+  },
+  {
+    "Id": 303034,
+    "Part": 3,
+    "Position": 3,
+    "Level": 34,
+    "Cost": "2:600608:170",
+    "Ability": {
+      "2": 612,
+      "7": 612
+    },
+    "CardLevel": 129
+  },
+  {
+    "Id": 303035,
+    "Part": 3,
+    "Position": 3,
+    "Level": 35,
+    "Cost": "2:600608:175",
+    "Ability": {
+      "2": 630,
+      "7": 630
+    },
+    "CardLevel": 133
+  },
+  {
+    "Id": 303036,
+    "Part": 3,
+    "Position": 3,
+    "Level": 36,
+    "Cost": "2:600608:180",
+    "Ability": {
+      "2": 648,
+      "7": 648
+    },
+    "CardLevel": 137
+  },
+  {
+    "Id": 304001,
+    "Part": 3,
+    "Position": 4,
+    "Level": 1,
+    "Cost": "2:600101:3",
+    "Ability": {
+      "2": 22,
+      "7": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 304002,
+    "Part": 3,
+    "Position": 4,
+    "Level": 2,
+    "Cost": "2:600101:6",
+    "Ability": {
+      "2": 43,
+      "7": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 304003,
+    "Part": 3,
+    "Position": 4,
+    "Level": 3,
+    "Cost": "2:600101:9",
+    "Ability": {
+      "2": 65,
+      "7": 54
+    },
+    "CardLevel": 8
+  },
+  {
+    "Id": 304004,
+    "Part": 3,
+    "Position": 4,
+    "Level": 4,
+    "Cost": "2:600210:12",
+    "Ability": {
+      "2": 86,
+      "7": 72
+    },
+    "CardLevel": 12
+  },
+  {
+    "Id": 304005,
+    "Part": 3,
+    "Position": 4,
+    "Level": 5,
+    "Cost": "2:600210:15",
+    "Ability": {
+      "2": 108,
+      "7": 90
+    },
+    "CardLevel": 16
+  },
+  {
+    "Id": 304006,
+    "Part": 3,
+    "Position": 4,
+    "Level": 6,
+    "Cost": "2:600210:18",
+    "Ability": {
+      "2": 130,
+      "7": 108
+    },
+    "CardLevel": 20
+  },
+  {
+    "Id": 304007,
+    "Part": 3,
+    "Position": 4,
+    "Level": 7,
+    "Cost": "2:600210:21",
+    "Ability": {
+      "2": 151,
+      "7": 126
+    },
+    "CardLevel": 24
+  },
+  {
+    "Id": 304008,
+    "Part": 3,
+    "Position": 4,
+    "Level": 8,
+    "Cost": "2:600310:24",
+    "Ability": {
+      "2": 173,
+      "7": 144
+    },
+    "CardLevel": 28
+  },
+  {
+    "Id": 304009,
+    "Part": 3,
+    "Position": 4,
+    "Level": 9,
+    "Cost": "2:600310:27",
+    "Ability": {
+      "2": 194,
+      "7": 162
+    },
+    "CardLevel": 32
+  },
+  {
+    "Id": 304010,
+    "Part": 3,
+    "Position": 4,
+    "Level": 10,
+    "Cost": "2:600310:30",
+    "Ability": {
+      "2": 216,
+      "7": 180
+    },
+    "CardLevel": 36
+  },
+  {
+    "Id": 304011,
+    "Part": 3,
+    "Position": 4,
+    "Level": 11,
+    "Cost": "2:600310:33",
+    "Ability": {
+      "2": 238,
+      "7": 198
+    },
+    "CardLevel": 40
+  },
+  {
+    "Id": 304012,
+    "Part": 3,
+    "Position": 4,
+    "Level": 12,
+    "Cost": "2:600310:36",
+    "Ability": {
+      "2": 259,
+      "7": 216
+    },
+    "CardLevel": 44
+  },
+  {
+    "Id": 304013,
+    "Part": 3,
+    "Position": 4,
+    "Level": 13,
+    "Cost": "2:600410:39",
+    "Ability": {
+      "2": 281,
+      "7": 234
+    },
+    "CardLevel": 48
+  },
+  {
+    "Id": 304014,
+    "Part": 3,
+    "Position": 4,
+    "Level": 14,
+    "Cost": "2:600410:42",
+    "Ability": {
+      "2": 302,
+      "7": 252
+    },
+    "CardLevel": 52
+  },
+  {
+    "Id": 304015,
+    "Part": 3,
+    "Position": 4,
+    "Level": 15,
+    "Cost": "2:600410:45",
+    "Ability": {
+      "2": 324,
+      "7": 270
+    },
+    "CardLevel": 56
+  },
+  {
+    "Id": 304016,
+    "Part": 3,
+    "Position": 4,
+    "Level": 16,
+    "Cost": "2:600410:48",
+    "Ability": {
+      "2": 346,
+      "7": 288
+    },
+    "CardLevel": 60
+  },
+  {
+    "Id": 304017,
+    "Part": 3,
+    "Position": 4,
+    "Level": 17,
+    "Cost": "2:600410:51",
+    "Ability": {
+      "2": 367,
+      "7": 306
+    },
+    "CardLevel": 64
+  },
+  {
+    "Id": 304018,
+    "Part": 3,
+    "Position": 4,
+    "Level": 18,
+    "Cost": "2:600410:54",
+    "Ability": {
+      "2": 389,
+      "7": 324
+    },
+    "CardLevel": 68
+  },
+  {
+    "Id": 304019,
+    "Part": 3,
+    "Position": 4,
+    "Level": 19,
+    "Cost": "2:600410:57",
+    "Ability": {
+      "2": 410,
+      "7": 342
+    },
+    "CardLevel": 72
+  },
+  {
+    "Id": 304020,
+    "Part": 3,
+    "Position": 4,
+    "Level": 20,
+    "Cost": "2:600510:60",
+    "Ability": {
+      "2": 432,
+      "7": 360
+    },
+    "CardLevel": 76
+  },
+  {
+    "Id": 304021,
+    "Part": 3,
+    "Position": 4,
+    "Level": 21,
+    "Cost": "2:600510:63",
+    "Ability": {
+      "2": 454,
+      "7": 378
+    },
+    "CardLevel": 80
+  },
+  {
+    "Id": 304022,
+    "Part": 3,
+    "Position": 4,
+    "Level": 22,
+    "Cost": "2:600510:66",
+    "Ability": {
+      "2": 475,
+      "7": 396
+    },
+    "CardLevel": 84
+  },
+  {
+    "Id": 304023,
+    "Part": 3,
+    "Position": 4,
+    "Level": 23,
+    "Cost": "2:600510:69",
+    "Ability": {
+      "2": 497,
+      "7": 414
+    },
+    "CardLevel": 88
+  },
+  {
+    "Id": 304024,
+    "Part": 3,
+    "Position": 4,
+    "Level": 24,
+    "Cost": "2:600510:72",
+    "Ability": {
+      "2": 518,
+      "7": 432
+    },
+    "CardLevel": 92
+  },
+  {
+    "Id": 304025,
+    "Part": 3,
+    "Position": 4,
+    "Level": 25,
+    "Cost": "2:600510:75",
+    "Ability": {
+      "2": 540,
+      "7": 450
+    },
+    "CardLevel": 96
+  },
+  {
+    "Id": 304026,
+    "Part": 3,
+    "Position": 4,
+    "Level": 26,
+    "Cost": "2:600510:78",
+    "Ability": {
+      "2": 562,
+      "7": 468
+    },
+    "CardLevel": 100
+  },
+  {
+    "Id": 304027,
+    "Part": 3,
+    "Position": 4,
+    "Level": 27,
+    "Cost": "2:600510:81",
+    "Ability": {
+      "2": 583,
+      "7": 486
+    },
+    "CardLevel": 104
+  },
+  {
+    "Id": 304028,
+    "Part": 3,
+    "Position": 4,
+    "Level": 28,
+    "Cost": "2:600610:84",
+    "Ability": {
+      "2": 605,
+      "7": 504
+    },
+    "CardLevel": 108
+  },
+  {
+    "Id": 304029,
+    "Part": 3,
+    "Position": 4,
+    "Level": 29,
+    "Cost": "2:600610:87",
+    "Ability": {
+      "2": 626,
+      "7": 522
+    },
+    "CardLevel": 112
+  },
+  {
+    "Id": 304030,
+    "Part": 3,
+    "Position": 4,
+    "Level": 30,
+    "Cost": "2:600610:90",
+    "Ability": {
+      "2": 648,
+      "7": 540
+    },
+    "CardLevel": 116
+  },
+  {
+    "Id": 304031,
+    "Part": 3,
+    "Position": 4,
+    "Level": 31,
+    "Cost": "2:600610:93",
+    "Ability": {
+      "2": 670,
+      "7": 558
+    },
+    "CardLevel": 120
+  },
+  {
+    "Id": 304032,
+    "Part": 3,
+    "Position": 4,
+    "Level": 32,
+    "Cost": "2:600610:96",
+    "Ability": {
+      "2": 691,
+      "7": 576
+    },
+    "CardLevel": 124
+  },
+  {
+    "Id": 304033,
+    "Part": 3,
+    "Position": 4,
+    "Level": 33,
+    "Cost": "2:600610:99",
+    "Ability": {
+      "2": 713,
+      "7": 594
+    },
+    "CardLevel": 128
+  },
+  {
+    "Id": 304034,
+    "Part": 3,
+    "Position": 4,
+    "Level": 34,
+    "Cost": "2:600610:102",
+    "Ability": {
+      "2": 734,
+      "7": 612
+    },
+    "CardLevel": 132
+  },
+  {
+    "Id": 304035,
+    "Part": 3,
+    "Position": 4,
+    "Level": 35,
+    "Cost": "2:600610:105",
+    "Ability": {
+      "2": 756,
+      "7": 630
+    },
+    "CardLevel": 136
+  },
+  {
+    "Id": 304036,
+    "Part": 3,
+    "Position": 4,
+    "Level": 36,
+    "Cost": "2:600610:108",
+    "Ability": {
+      "2": 778,
+      "7": 648
+    },
+    "CardLevel": 140
+  },
+  {
+    "Id": 305001,
+    "Part": 3,
+    "Position": 5,
+    "Level": 1,
+    "Cost": "2:600102:6",
+    "Ability": {
+      "2": 22,
+      "7": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 305002,
+    "Part": 3,
+    "Position": 5,
+    "Level": 2,
+    "Cost": "2:600102:12",
+    "Ability": {
+      "2": 43,
+      "7": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 305003,
+    "Part": 3,
+    "Position": 5,
+    "Level": 3,
+    "Cost": "2:600102:18",
+    "Ability": {
+      "2": 65,
+      "7": 54
+    },
+    "CardLevel": 9
+  },
+  {
+    "Id": 305004,
+    "Part": 3,
+    "Position": 5,
+    "Level": 4,
+    "Cost": "2:600202:24",
+    "Ability": {
+      "2": 86,
+      "7": 72
+    },
+    "CardLevel": 13
+  },
+  {
+    "Id": 305005,
+    "Part": 3,
+    "Position": 5,
+    "Level": 5,
+    "Cost": "2:600202:30",
+    "Ability": {
+      "2": 108,
+      "7": 90
+    },
+    "CardLevel": 17
+  },
+  {
+    "Id": 305006,
+    "Part": 3,
+    "Position": 5,
+    "Level": 6,
+    "Cost": "2:600202:36",
+    "Ability": {
+      "2": 130,
+      "7": 108
+    },
+    "CardLevel": 21
+  },
+  {
+    "Id": 305007,
+    "Part": 3,
+    "Position": 5,
+    "Level": 7,
+    "Cost": "2:600202:42",
+    "Ability": {
+      "2": 151,
+      "7": 126
+    },
+    "CardLevel": 25
+  },
+  {
+    "Id": 305008,
+    "Part": 3,
+    "Position": 5,
+    "Level": 8,
+    "Cost": "2:600302:48",
+    "Ability": {
+      "2": 173,
+      "7": 144
+    },
+    "CardLevel": 29
+  },
+  {
+    "Id": 305009,
+    "Part": 3,
+    "Position": 5,
+    "Level": 9,
+    "Cost": "2:600302:54",
+    "Ability": {
+      "2": 194,
+      "7": 162
+    },
+    "CardLevel": 33
+  },
+  {
+    "Id": 305010,
+    "Part": 3,
+    "Position": 5,
+    "Level": 10,
+    "Cost": "2:600302:60",
+    "Ability": {
+      "2": 216,
+      "7": 180
+    },
+    "CardLevel": 37
+  },
+  {
+    "Id": 305011,
+    "Part": 3,
+    "Position": 5,
+    "Level": 11,
+    "Cost": "2:600302:66",
+    "Ability": {
+      "2": 238,
+      "7": 198
+    },
+    "CardLevel": 41
+  },
+  {
+    "Id": 305012,
+    "Part": 3,
+    "Position": 5,
+    "Level": 12,
+    "Cost": "2:600302:72",
+    "Ability": {
+      "2": 259,
+      "7": 216
+    },
+    "CardLevel": 45
+  },
+  {
+    "Id": 305013,
+    "Part": 3,
+    "Position": 5,
+    "Level": 13,
+    "Cost": "2:600402:78",
+    "Ability": {
+      "2": 281,
+      "7": 234
+    },
+    "CardLevel": 49
+  },
+  {
+    "Id": 305014,
+    "Part": 3,
+    "Position": 5,
+    "Level": 14,
+    "Cost": "2:600402:84",
+    "Ability": {
+      "2": 302,
+      "7": 252
+    },
+    "CardLevel": 53
+  },
+  {
+    "Id": 305015,
+    "Part": 3,
+    "Position": 5,
+    "Level": 15,
+    "Cost": "2:600402:90",
+    "Ability": {
+      "2": 324,
+      "7": 270
+    },
+    "CardLevel": 57
+  },
+  {
+    "Id": 305016,
+    "Part": 3,
+    "Position": 5,
+    "Level": 16,
+    "Cost": "2:600402:96",
+    "Ability": {
+      "2": 346,
+      "7": 288
+    },
+    "CardLevel": 61
+  },
+  {
+    "Id": 305017,
+    "Part": 3,
+    "Position": 5,
+    "Level": 17,
+    "Cost": "2:600402:102",
+    "Ability": {
+      "2": 367,
+      "7": 306
+    },
+    "CardLevel": 65
+  },
+  {
+    "Id": 305018,
+    "Part": 3,
+    "Position": 5,
+    "Level": 18,
+    "Cost": "2:600402:108",
+    "Ability": {
+      "2": 389,
+      "7": 324
+    },
+    "CardLevel": 69
+  },
+  {
+    "Id": 305019,
+    "Part": 3,
+    "Position": 5,
+    "Level": 19,
+    "Cost": "2:600402:114",
+    "Ability": {
+      "2": 410,
+      "7": 342
+    },
+    "CardLevel": 73
+  },
+  {
+    "Id": 305020,
+    "Part": 3,
+    "Position": 5,
+    "Level": 20,
+    "Cost": "2:600502:120",
+    "Ability": {
+      "2": 432,
+      "7": 360
+    },
+    "CardLevel": 77
+  },
+  {
+    "Id": 305021,
+    "Part": 3,
+    "Position": 5,
+    "Level": 21,
+    "Cost": "2:600502:126",
+    "Ability": {
+      "2": 454,
+      "7": 378
+    },
+    "CardLevel": 81
+  },
+  {
+    "Id": 305022,
+    "Part": 3,
+    "Position": 5,
+    "Level": 22,
+    "Cost": "2:600502:132",
+    "Ability": {
+      "2": 475,
+      "7": 396
+    },
+    "CardLevel": 85
+  },
+  {
+    "Id": 305023,
+    "Part": 3,
+    "Position": 5,
+    "Level": 23,
+    "Cost": "2:600502:138",
+    "Ability": {
+      "2": 497,
+      "7": 414
+    },
+    "CardLevel": 89
+  },
+  {
+    "Id": 305024,
+    "Part": 3,
+    "Position": 5,
+    "Level": 24,
+    "Cost": "2:600502:144",
+    "Ability": {
+      "2": 518,
+      "7": 432
+    },
+    "CardLevel": 93
+  },
+  {
+    "Id": 305025,
+    "Part": 3,
+    "Position": 5,
+    "Level": 25,
+    "Cost": "2:600502:150",
+    "Ability": {
+      "2": 540,
+      "7": 450
+    },
+    "CardLevel": 97
+  },
+  {
+    "Id": 305026,
+    "Part": 3,
+    "Position": 5,
+    "Level": 26,
+    "Cost": "2:600502:156",
+    "Ability": {
+      "2": 562,
+      "7": 468
+    },
+    "CardLevel": 101
+  },
+  {
+    "Id": 305027,
+    "Part": 3,
+    "Position": 5,
+    "Level": 27,
+    "Cost": "2:600502:162",
+    "Ability": {
+      "2": 583,
+      "7": 486
+    },
+    "CardLevel": 105
+  },
+  {
+    "Id": 305028,
+    "Part": 3,
+    "Position": 5,
+    "Level": 28,
+    "Cost": "2:600602:168",
+    "Ability": {
+      "2": 605,
+      "7": 504
+    },
+    "CardLevel": 109
+  },
+  {
+    "Id": 305029,
+    "Part": 3,
+    "Position": 5,
+    "Level": 29,
+    "Cost": "2:600602:174",
+    "Ability": {
+      "2": 626,
+      "7": 522
+    },
+    "CardLevel": 113
+  },
+  {
+    "Id": 305030,
+    "Part": 3,
+    "Position": 5,
+    "Level": 30,
+    "Cost": "2:600602:180",
+    "Ability": {
+      "2": 648,
+      "7": 540
+    },
+    "CardLevel": 117
+  },
+  {
+    "Id": 305031,
+    "Part": 3,
+    "Position": 5,
+    "Level": 31,
+    "Cost": "2:600602:186",
+    "Ability": {
+      "2": 670,
+      "7": 558
+    },
+    "CardLevel": 121
+  },
+  {
+    "Id": 305032,
+    "Part": 3,
+    "Position": 5,
+    "Level": 32,
+    "Cost": "2:600602:192",
+    "Ability": {
+      "2": 691,
+      "7": 576
+    },
+    "CardLevel": 125
+  },
+  {
+    "Id": 305033,
+    "Part": 3,
+    "Position": 5,
+    "Level": 33,
+    "Cost": "2:600602:198",
+    "Ability": {
+      "2": 713,
+      "7": 594
+    },
+    "CardLevel": 129
+  },
+  {
+    "Id": 305034,
+    "Part": 3,
+    "Position": 5,
+    "Level": 34,
+    "Cost": "2:600602:204",
+    "Ability": {
+      "2": 734,
+      "7": 612
+    },
+    "CardLevel": 133
+  },
+  {
+    "Id": 305035,
+    "Part": 3,
+    "Position": 5,
+    "Level": 35,
+    "Cost": "2:600602:210",
+    "Ability": {
+      "2": 756,
+      "7": 630
+    },
+    "CardLevel": 137
+  },
+  {
+    "Id": 305036,
+    "Part": 3,
+    "Position": 5,
+    "Level": 36,
+    "Cost": "2:600602:216",
+    "Ability": {
+      "2": 778,
+      "7": 648
+    },
+    "CardLevel": 141
+  },
+  {
+    "Id": 401001,
+    "Part": 4,
+    "Position": 1,
+    "Level": 1,
+    "Cost": "2:600103:6",
+    "Ability": {
+      "4": 21,
+      "9": 22,
+      "10": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 401002,
+    "Part": 4,
+    "Position": 1,
+    "Level": 2,
+    "Cost": "2:600103:12",
+    "Ability": {
+      "4": 36,
+      "9": 43,
+      "10": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 401003,
+    "Part": 4,
+    "Position": 1,
+    "Level": 3,
+    "Cost": "2:600103:18",
+    "Ability": {
+      "4": 54,
+      "9": 65,
+      "10": 54
+    },
+    "CardLevel": 8
+  },
+  {
+    "Id": 401004,
+    "Part": 4,
+    "Position": 1,
+    "Level": 4,
+    "Cost": "2:600203:24",
+    "Ability": {
+      "4": 72,
+      "9": 86,
+      "10": 72
+    },
+    "CardLevel": 12
+  },
+  {
+    "Id": 401005,
+    "Part": 4,
+    "Position": 1,
+    "Level": 5,
+    "Cost": "2:600203:30",
+    "Ability": {
+      "4": 90,
+      "9": 108,
+      "10": 90
+    },
+    "CardLevel": 16
+  },
+  {
+    "Id": 401006,
+    "Part": 4,
+    "Position": 1,
+    "Level": 6,
+    "Cost": "2:600203:36",
+    "Ability": {
+      "4": 108,
+      "9": 130,
+      "10": 108
+    },
+    "CardLevel": 20
+  },
+  {
+    "Id": 401007,
+    "Part": 4,
+    "Position": 1,
+    "Level": 7,
+    "Cost": "2:600203:42",
+    "Ability": {
+      "4": 126,
+      "9": 151,
+      "10": 126
+    },
+    "CardLevel": 24
+  },
+  {
+    "Id": 401008,
+    "Part": 4,
+    "Position": 1,
+    "Level": 8,
+    "Cost": "2:600303:48",
+    "Ability": {
+      "4": 144,
+      "9": 173,
+      "10": 144
+    },
+    "CardLevel": 28
+  },
+  {
+    "Id": 401009,
+    "Part": 4,
+    "Position": 1,
+    "Level": 9,
+    "Cost": "2:600303:54",
+    "Ability": {
+      "4": 162,
+      "9": 194,
+      "10": 162
+    },
+    "CardLevel": 32
+  },
+  {
+    "Id": 401010,
+    "Part": 4,
+    "Position": 1,
+    "Level": 10,
+    "Cost": "2:600303:60",
+    "Ability": {
+      "4": 180,
+      "9": 216,
+      "10": 180
+    },
+    "CardLevel": 36
+  },
+  {
+    "Id": 401011,
+    "Part": 4,
+    "Position": 1,
+    "Level": 11,
+    "Cost": "2:600303:66",
+    "Ability": {
+      "4": 198,
+      "9": 238,
+      "10": 198
+    },
+    "CardLevel": 40
+  },
+  {
+    "Id": 401012,
+    "Part": 4,
+    "Position": 1,
+    "Level": 12,
+    "Cost": "2:600303:72",
+    "Ability": {
+      "4": 216,
+      "9": 259,
+      "10": 216
+    },
+    "CardLevel": 44
+  },
+  {
+    "Id": 401013,
+    "Part": 4,
+    "Position": 1,
+    "Level": 13,
+    "Cost": "2:600403:78",
+    "Ability": {
+      "4": 234,
+      "9": 281,
+      "10": 234
+    },
+    "CardLevel": 48
+  },
+  {
+    "Id": 401014,
+    "Part": 4,
+    "Position": 1,
+    "Level": 14,
+    "Cost": "2:600403:84",
+    "Ability": {
+      "4": 252,
+      "9": 302,
+      "10": 252
+    },
+    "CardLevel": 52
+  },
+  {
+    "Id": 401015,
+    "Part": 4,
+    "Position": 1,
+    "Level": 15,
+    "Cost": "2:600403:90",
+    "Ability": {
+      "4": 270,
+      "9": 324,
+      "10": 270
+    },
+    "CardLevel": 56
+  },
+  {
+    "Id": 401016,
+    "Part": 4,
+    "Position": 1,
+    "Level": 16,
+    "Cost": "2:600403:96",
+    "Ability": {
+      "4": 288,
+      "9": 346,
+      "10": 288
+    },
+    "CardLevel": 60
+  },
+  {
+    "Id": 401017,
+    "Part": 4,
+    "Position": 1,
+    "Level": 17,
+    "Cost": "2:600403:102",
+    "Ability": {
+      "4": 306,
+      "9": 367,
+      "10": 306
+    },
+    "CardLevel": 64
+  },
+  {
+    "Id": 401018,
+    "Part": 4,
+    "Position": 1,
+    "Level": 18,
+    "Cost": "2:600403:108",
+    "Ability": {
+      "4": 324,
+      "9": 389,
+      "10": 324
+    },
+    "CardLevel": 68
+  },
+  {
+    "Id": 401019,
+    "Part": 4,
+    "Position": 1,
+    "Level": 19,
+    "Cost": "2:600403:114",
+    "Ability": {
+      "4": 342,
+      "9": 410,
+      "10": 342
+    },
+    "CardLevel": 72
+  },
+  {
+    "Id": 401020,
+    "Part": 4,
+    "Position": 1,
+    "Level": 20,
+    "Cost": "2:600503:120",
+    "Ability": {
+      "4": 360,
+      "9": 432,
+      "10": 360
+    },
+    "CardLevel": 76
+  },
+  {
+    "Id": 401021,
+    "Part": 4,
+    "Position": 1,
+    "Level": 21,
+    "Cost": "2:600503:126",
+    "Ability": {
+      "4": 378,
+      "9": 454,
+      "10": 378
+    },
+    "CardLevel": 80
+  },
+  {
+    "Id": 401022,
+    "Part": 4,
+    "Position": 1,
+    "Level": 22,
+    "Cost": "2:600503:132",
+    "Ability": {
+      "4": 396,
+      "9": 475,
+      "10": 396
+    },
+    "CardLevel": 84
+  },
+  {
+    "Id": 401023,
+    "Part": 4,
+    "Position": 1,
+    "Level": 23,
+    "Cost": "2:600503:138",
+    "Ability": {
+      "4": 414,
+      "9": 497,
+      "10": 414
+    },
+    "CardLevel": 88
+  },
+  {
+    "Id": 401024,
+    "Part": 4,
+    "Position": 1,
+    "Level": 24,
+    "Cost": "2:600503:144",
+    "Ability": {
+      "4": 432,
+      "9": 518,
+      "10": 432
+    },
+    "CardLevel": 92
+  },
+  {
+    "Id": 401025,
+    "Part": 4,
+    "Position": 1,
+    "Level": 25,
+    "Cost": "2:600503:150",
+    "Ability": {
+      "4": 450,
+      "9": 540,
+      "10": 450
+    },
+    "CardLevel": 96
+  },
+  {
+    "Id": 401026,
+    "Part": 4,
+    "Position": 1,
+    "Level": 26,
+    "Cost": "2:600503:156",
+    "Ability": {
+      "4": 468,
+      "9": 562,
+      "10": 468
+    },
+    "CardLevel": 100
+  },
+  {
+    "Id": 401027,
+    "Part": 4,
+    "Position": 1,
+    "Level": 27,
+    "Cost": "2:600503:162",
+    "Ability": {
+      "4": 486,
+      "9": 583,
+      "10": 486
+    },
+    "CardLevel": 104
+  },
+  {
+    "Id": 401028,
+    "Part": 4,
+    "Position": 1,
+    "Level": 28,
+    "Cost": "2:600603:168",
+    "Ability": {
+      "4": 504,
+      "9": 605,
+      "10": 504
+    },
+    "CardLevel": 108
+  },
+  {
+    "Id": 401029,
+    "Part": 4,
+    "Position": 1,
+    "Level": 29,
+    "Cost": "2:600603:174",
+    "Ability": {
+      "4": 522,
+      "9": 626,
+      "10": 522
+    },
+    "CardLevel": 112
+  },
+  {
+    "Id": 401030,
+    "Part": 4,
+    "Position": 1,
+    "Level": 30,
+    "Cost": "2:600603:180",
+    "Ability": {
+      "4": 540,
+      "9": 648,
+      "10": 540
+    },
+    "CardLevel": 116
+  },
+  {
+    "Id": 401031,
+    "Part": 4,
+    "Position": 1,
+    "Level": 31,
+    "Cost": "2:600603:186",
+    "Ability": {
+      "4": 558,
+      "9": 670,
+      "10": 558
+    },
+    "CardLevel": 120
+  },
+  {
+    "Id": 401032,
+    "Part": 4,
+    "Position": 1,
+    "Level": 32,
+    "Cost": "2:600603:192",
+    "Ability": {
+      "4": 576,
+      "9": 691,
+      "10": 576
+    },
+    "CardLevel": 124
+  },
+  {
+    "Id": 401033,
+    "Part": 4,
+    "Position": 1,
+    "Level": 33,
+    "Cost": "2:600603:198",
+    "Ability": {
+      "4": 594,
+      "9": 713,
+      "10": 594
+    },
+    "CardLevel": 128
+  },
+  {
+    "Id": 401034,
+    "Part": 4,
+    "Position": 1,
+    "Level": 34,
+    "Cost": "2:600603:204",
+    "Ability": {
+      "4": 612,
+      "9": 734,
+      "10": 612
+    },
+    "CardLevel": 132
+  },
+  {
+    "Id": 401035,
+    "Part": 4,
+    "Position": 1,
+    "Level": 35,
+    "Cost": "2:600603:210",
+    "Ability": {
+      "4": 630,
+      "9": 756,
+      "10": 630
+    },
+    "CardLevel": 136
+  },
+  {
+    "Id": 401036,
+    "Part": 4,
+    "Position": 1,
+    "Level": 36,
+    "Cost": "2:600603:216",
+    "Ability": {
+      "4": 648,
+      "9": 778,
+      "10": 648
+    },
+    "CardLevel": 140
+  },
+  {
+    "Id": 402001,
+    "Part": 4,
+    "Position": 2,
+    "Level": 1,
+    "Cost": "2:600104:7",
+    "Ability": {
+      "4": 18,
+      "9": 22,
+      "10": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 402002,
+    "Part": 4,
+    "Position": 2,
+    "Level": 2,
+    "Cost": "2:600104:14",
+    "Ability": {
+      "4": 36,
+      "9": 43,
+      "10": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 402003,
+    "Part": 4,
+    "Position": 2,
+    "Level": 3,
+    "Cost": "2:600104:21",
+    "Ability": {
+      "4": 54,
+      "9": 65,
+      "10": 54
+    },
+    "CardLevel": 7
+  },
+  {
+    "Id": 402004,
+    "Part": 4,
+    "Position": 2,
+    "Level": 4,
+    "Cost": "2:600205:28",
+    "Ability": {
+      "4": 72,
+      "9": 86,
+      "10": 72
+    },
+    "CardLevel": 11
+  },
+  {
+    "Id": 402005,
+    "Part": 4,
+    "Position": 2,
+    "Level": 5,
+    "Cost": "2:600205:35",
+    "Ability": {
+      "4": 90,
+      "9": 108,
+      "10": 90
+    },
+    "CardLevel": 15
+  },
+  {
+    "Id": 402006,
+    "Part": 4,
+    "Position": 2,
+    "Level": 6,
+    "Cost": "2:600205:42",
+    "Ability": {
+      "4": 108,
+      "9": 130,
+      "10": 108
+    },
+    "CardLevel": 19
+  },
+  {
+    "Id": 402007,
+    "Part": 4,
+    "Position": 2,
+    "Level": 7,
+    "Cost": "2:600205:49",
+    "Ability": {
+      "4": 126,
+      "9": 151,
+      "10": 126
+    },
+    "CardLevel": 23
+  },
+  {
+    "Id": 402008,
+    "Part": 4,
+    "Position": 2,
+    "Level": 8,
+    "Cost": "2:600305:56",
+    "Ability": {
+      "4": 144,
+      "9": 173,
+      "10": 144
+    },
+    "CardLevel": 27
+  },
+  {
+    "Id": 402009,
+    "Part": 4,
+    "Position": 2,
+    "Level": 9,
+    "Cost": "2:600305:63",
+    "Ability": {
+      "4": 162,
+      "9": 194,
+      "10": 162
+    },
+    "CardLevel": 31
+  },
+  {
+    "Id": 402010,
+    "Part": 4,
+    "Position": 2,
+    "Level": 10,
+    "Cost": "2:600305:70",
+    "Ability": {
+      "4": 180,
+      "9": 216,
+      "10": 180
+    },
+    "CardLevel": 35
+  },
+  {
+    "Id": 402011,
+    "Part": 4,
+    "Position": 2,
+    "Level": 11,
+    "Cost": "2:600305:77",
+    "Ability": {
+      "4": 198,
+      "9": 238,
+      "10": 198
+    },
+    "CardLevel": 39
+  },
+  {
+    "Id": 402012,
+    "Part": 4,
+    "Position": 2,
+    "Level": 12,
+    "Cost": "2:600305:84",
+    "Ability": {
+      "4": 216,
+      "9": 259,
+      "10": 216
+    },
+    "CardLevel": 43
+  },
+  {
+    "Id": 402013,
+    "Part": 4,
+    "Position": 2,
+    "Level": 13,
+    "Cost": "2:600405:91",
+    "Ability": {
+      "4": 234,
+      "9": 281,
+      "10": 234
+    },
+    "CardLevel": 47
+  },
+  {
+    "Id": 402014,
+    "Part": 4,
+    "Position": 2,
+    "Level": 14,
+    "Cost": "2:600405:98",
+    "Ability": {
+      "4": 252,
+      "9": 302,
+      "10": 252
+    },
+    "CardLevel": 51
+  },
+  {
+    "Id": 402015,
+    "Part": 4,
+    "Position": 2,
+    "Level": 15,
+    "Cost": "2:600405:105",
+    "Ability": {
+      "4": 270,
+      "9": 324,
+      "10": 270
+    },
+    "CardLevel": 55
+  },
+  {
+    "Id": 402016,
+    "Part": 4,
+    "Position": 2,
+    "Level": 16,
+    "Cost": "2:600405:112",
+    "Ability": {
+      "4": 288,
+      "9": 346,
+      "10": 288
+    },
+    "CardLevel": 59
+  },
+  {
+    "Id": 402017,
+    "Part": 4,
+    "Position": 2,
+    "Level": 17,
+    "Cost": "2:600405:119",
+    "Ability": {
+      "4": 306,
+      "9": 367,
+      "10": 306
+    },
+    "CardLevel": 63
+  },
+  {
+    "Id": 402018,
+    "Part": 4,
+    "Position": 2,
+    "Level": 18,
+    "Cost": "2:600405:126",
+    "Ability": {
+      "4": 324,
+      "9": 389,
+      "10": 324
+    },
+    "CardLevel": 67
+  },
+  {
+    "Id": 402019,
+    "Part": 4,
+    "Position": 2,
+    "Level": 19,
+    "Cost": "2:600405:133",
+    "Ability": {
+      "4": 342,
+      "9": 410,
+      "10": 342
+    },
+    "CardLevel": 71
+  },
+  {
+    "Id": 402020,
+    "Part": 4,
+    "Position": 2,
+    "Level": 20,
+    "Cost": "2:600505:140",
+    "Ability": {
+      "4": 360,
+      "9": 432,
+      "10": 360
+    },
+    "CardLevel": 75
+  },
+  {
+    "Id": 402021,
+    "Part": 4,
+    "Position": 2,
+    "Level": 21,
+    "Cost": "2:600505:147",
+    "Ability": {
+      "4": 378,
+      "9": 454,
+      "10": 378
+    },
+    "CardLevel": 79
+  },
+  {
+    "Id": 402022,
+    "Part": 4,
+    "Position": 2,
+    "Level": 22,
+    "Cost": "2:600505:154",
+    "Ability": {
+      "4": 396,
+      "9": 475,
+      "10": 396
+    },
+    "CardLevel": 83
+  },
+  {
+    "Id": 402023,
+    "Part": 4,
+    "Position": 2,
+    "Level": 23,
+    "Cost": "2:600505:161",
+    "Ability": {
+      "4": 414,
+      "9": 497,
+      "10": 414
+    },
+    "CardLevel": 87
+  },
+  {
+    "Id": 402024,
+    "Part": 4,
+    "Position": 2,
+    "Level": 24,
+    "Cost": "2:600505:168",
+    "Ability": {
+      "4": 432,
+      "9": 518,
+      "10": 432
+    },
+    "CardLevel": 91
+  },
+  {
+    "Id": 402025,
+    "Part": 4,
+    "Position": 2,
+    "Level": 25,
+    "Cost": "2:600505:175",
+    "Ability": {
+      "4": 450,
+      "9": 540,
+      "10": 450
+    },
+    "CardLevel": 95
+  },
+  {
+    "Id": 402026,
+    "Part": 4,
+    "Position": 2,
+    "Level": 26,
+    "Cost": "2:600505:182",
+    "Ability": {
+      "4": 468,
+      "9": 562,
+      "10": 468
+    },
+    "CardLevel": 99
+  },
+  {
+    "Id": 402027,
+    "Part": 4,
+    "Position": 2,
+    "Level": 27,
+    "Cost": "2:600505:189",
+    "Ability": {
+      "4": 486,
+      "9": 583,
+      "10": 486
+    },
+    "CardLevel": 103
+  },
+  {
+    "Id": 402028,
+    "Part": 4,
+    "Position": 2,
+    "Level": 28,
+    "Cost": "2:600605:196",
+    "Ability": {
+      "4": 504,
+      "9": 605,
+      "10": 504
+    },
+    "CardLevel": 107
+  },
+  {
+    "Id": 402029,
+    "Part": 4,
+    "Position": 2,
+    "Level": 29,
+    "Cost": "2:600605:203",
+    "Ability": {
+      "4": 522,
+      "9": 626,
+      "10": 522
+    },
+    "CardLevel": 111
+  },
+  {
+    "Id": 402030,
+    "Part": 4,
+    "Position": 2,
+    "Level": 30,
+    "Cost": "2:600605:210",
+    "Ability": {
+      "4": 540,
+      "9": 648,
+      "10": 540
+    },
+    "CardLevel": 115
+  },
+  {
+    "Id": 402031,
+    "Part": 4,
+    "Position": 2,
+    "Level": 31,
+    "Cost": "2:600605:217",
+    "Ability": {
+      "4": 558,
+      "9": 670,
+      "10": 558
+    },
+    "CardLevel": 119
+  },
+  {
+    "Id": 402032,
+    "Part": 4,
+    "Position": 2,
+    "Level": 32,
+    "Cost": "2:600605:224",
+    "Ability": {
+      "4": 576,
+      "9": 691,
+      "10": 576
+    },
+    "CardLevel": 123
+  },
+  {
+    "Id": 402033,
+    "Part": 4,
+    "Position": 2,
+    "Level": 33,
+    "Cost": "2:600605:231",
+    "Ability": {
+      "4": 594,
+      "9": 713,
+      "10": 594
+    },
+    "CardLevel": 127
+  },
+  {
+    "Id": 402034,
+    "Part": 4,
+    "Position": 2,
+    "Level": 34,
+    "Cost": "2:600605:238",
+    "Ability": {
+      "4": 612,
+      "9": 734,
+      "10": 612
+    },
+    "CardLevel": 131
+  },
+  {
+    "Id": 402035,
+    "Part": 4,
+    "Position": 2,
+    "Level": 35,
+    "Cost": "2:600605:245",
+    "Ability": {
+      "4": 630,
+      "9": 756,
+      "10": 630
+    },
+    "CardLevel": 135
+  },
+  {
+    "Id": 402036,
+    "Part": 4,
+    "Position": 2,
+    "Level": 36,
+    "Cost": "2:600605:252",
+    "Ability": {
+      "4": 648,
+      "9": 778,
+      "10": 648
+    },
+    "CardLevel": 139
+  },
+  {
+    "Id": 403001,
+    "Part": 4,
+    "Position": 3,
+    "Level": 1,
+    "Cost": "2:600105:5",
+    "Ability": {
+      "4": 18,
+      "9": 18,
+      "10": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 403002,
+    "Part": 4,
+    "Position": 3,
+    "Level": 2,
+    "Cost": "2:600105:10",
+    "Ability": {
+      "4": 36,
+      "9": 36,
+      "10": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 403003,
+    "Part": 4,
+    "Position": 3,
+    "Level": 3,
+    "Cost": "2:600105:15",
+    "Ability": {
+      "4": 54,
+      "9": 54,
+      "10": 54
+    },
+    "CardLevel": 6
+  },
+  {
+    "Id": 403004,
+    "Part": 4,
+    "Position": 3,
+    "Level": 4,
+    "Cost": "2:600207:20",
+    "Ability": {
+      "4": 72,
+      "9": 72,
+      "10": 72
+    },
+    "CardLevel": 10
+  },
+  {
+    "Id": 403005,
+    "Part": 4,
+    "Position": 3,
+    "Level": 5,
+    "Cost": "2:600207:25",
+    "Ability": {
+      "4": 90,
+      "9": 90,
+      "10": 90
+    },
+    "CardLevel": 14
+  },
+  {
+    "Id": 403006,
+    "Part": 4,
+    "Position": 3,
+    "Level": 6,
+    "Cost": "2:600207:30",
+    "Ability": {
+      "4": 108,
+      "9": 108,
+      "10": 108
+    },
+    "CardLevel": 18
+  },
+  {
+    "Id": 403007,
+    "Part": 4,
+    "Position": 3,
+    "Level": 7,
+    "Cost": "2:600207:35",
+    "Ability": {
+      "4": 126,
+      "9": 126,
+      "10": 126
+    },
+    "CardLevel": 22
+  },
+  {
+    "Id": 403008,
+    "Part": 4,
+    "Position": 3,
+    "Level": 8,
+    "Cost": "2:600307:40",
+    "Ability": {
+      "4": 144,
+      "9": 144,
+      "10": 144
+    },
+    "CardLevel": 26
+  },
+  {
+    "Id": 403009,
+    "Part": 4,
+    "Position": 3,
+    "Level": 9,
+    "Cost": "2:600307:45",
+    "Ability": {
+      "4": 162,
+      "9": 162,
+      "10": 162
+    },
+    "CardLevel": 30
+  },
+  {
+    "Id": 403010,
+    "Part": 4,
+    "Position": 3,
+    "Level": 10,
+    "Cost": "2:600307:50",
+    "Ability": {
+      "4": 180,
+      "9": 180,
+      "10": 180
+    },
+    "CardLevel": 34
+  },
+  {
+    "Id": 403011,
+    "Part": 4,
+    "Position": 3,
+    "Level": 11,
+    "Cost": "2:600307:55",
+    "Ability": {
+      "4": 198,
+      "9": 198,
+      "10": 198
+    },
+    "CardLevel": 38
+  },
+  {
+    "Id": 403012,
+    "Part": 4,
+    "Position": 3,
+    "Level": 12,
+    "Cost": "2:600307:60",
+    "Ability": {
+      "4": 216,
+      "9": 216,
+      "10": 216
+    },
+    "CardLevel": 42
+  },
+  {
+    "Id": 403013,
+    "Part": 4,
+    "Position": 3,
+    "Level": 13,
+    "Cost": "2:600407:65",
+    "Ability": {
+      "4": 234,
+      "9": 234,
+      "10": 234
+    },
+    "CardLevel": 46
+  },
+  {
+    "Id": 403014,
+    "Part": 4,
+    "Position": 3,
+    "Level": 14,
+    "Cost": "2:600407:70",
+    "Ability": {
+      "4": 252,
+      "9": 252,
+      "10": 252
+    },
+    "CardLevel": 50
+  },
+  {
+    "Id": 403015,
+    "Part": 4,
+    "Position": 3,
+    "Level": 15,
+    "Cost": "2:600407:75",
+    "Ability": {
+      "4": 270,
+      "9": 270,
+      "10": 270
+    },
+    "CardLevel": 54
+  },
+  {
+    "Id": 403016,
+    "Part": 4,
+    "Position": 3,
+    "Level": 16,
+    "Cost": "2:600407:80",
+    "Ability": {
+      "4": 288,
+      "9": 288,
+      "10": 288
+    },
+    "CardLevel": 58
+  },
+  {
+    "Id": 403017,
+    "Part": 4,
+    "Position": 3,
+    "Level": 17,
+    "Cost": "2:600407:85",
+    "Ability": {
+      "4": 306,
+      "9": 306,
+      "10": 306
+    },
+    "CardLevel": 62
+  },
+  {
+    "Id": 403018,
+    "Part": 4,
+    "Position": 3,
+    "Level": 18,
+    "Cost": "2:600407:90",
+    "Ability": {
+      "4": 324,
+      "9": 324,
+      "10": 324
+    },
+    "CardLevel": 66
+  },
+  {
+    "Id": 403019,
+    "Part": 4,
+    "Position": 3,
+    "Level": 19,
+    "Cost": "2:600407:95",
+    "Ability": {
+      "4": 342,
+      "9": 342,
+      "10": 342
+    },
+    "CardLevel": 70
+  },
+  {
+    "Id": 403020,
+    "Part": 4,
+    "Position": 3,
+    "Level": 20,
+    "Cost": "2:600507:100",
+    "Ability": {
+      "4": 360,
+      "9": 360,
+      "10": 360
+    },
+    "CardLevel": 74
+  },
+  {
+    "Id": 403021,
+    "Part": 4,
+    "Position": 3,
+    "Level": 21,
+    "Cost": "2:600507:105",
+    "Ability": {
+      "4": 378,
+      "9": 378,
+      "10": 378
+    },
+    "CardLevel": 78
+  },
+  {
+    "Id": 403022,
+    "Part": 4,
+    "Position": 3,
+    "Level": 22,
+    "Cost": "2:600507:110",
+    "Ability": {
+      "4": 396,
+      "9": 396,
+      "10": 396
+    },
+    "CardLevel": 82
+  },
+  {
+    "Id": 403023,
+    "Part": 4,
+    "Position": 3,
+    "Level": 23,
+    "Cost": "2:600507:115",
+    "Ability": {
+      "4": 414,
+      "9": 414,
+      "10": 414
+    },
+    "CardLevel": 86
+  },
+  {
+    "Id": 403024,
+    "Part": 4,
+    "Position": 3,
+    "Level": 24,
+    "Cost": "2:600507:120",
+    "Ability": {
+      "4": 432,
+      "9": 432,
+      "10": 432
+    },
+    "CardLevel": 90
+  },
+  {
+    "Id": 403025,
+    "Part": 4,
+    "Position": 3,
+    "Level": 25,
+    "Cost": "2:600507:125",
+    "Ability": {
+      "4": 450,
+      "9": 450,
+      "10": 450
+    },
+    "CardLevel": 94
+  },
+  {
+    "Id": 403026,
+    "Part": 4,
+    "Position": 3,
+    "Level": 26,
+    "Cost": "2:600507:130",
+    "Ability": {
+      "4": 468,
+      "9": 468,
+      "10": 468
+    },
+    "CardLevel": 98
+  },
+  {
+    "Id": 403027,
+    "Part": 4,
+    "Position": 3,
+    "Level": 27,
+    "Cost": "2:600507:135",
+    "Ability": {
+      "4": 486,
+      "9": 486,
+      "10": 486
+    },
+    "CardLevel": 102
+  },
+  {
+    "Id": 403028,
+    "Part": 4,
+    "Position": 3,
+    "Level": 28,
+    "Cost": "2:600607:140",
+    "Ability": {
+      "4": 504,
+      "9": 504,
+      "10": 504
+    },
+    "CardLevel": 106
+  },
+  {
+    "Id": 403029,
+    "Part": 4,
+    "Position": 3,
+    "Level": 29,
+    "Cost": "2:600607:145",
+    "Ability": {
+      "4": 522,
+      "9": 522,
+      "10": 522
+    },
+    "CardLevel": 110
+  },
+  {
+    "Id": 403030,
+    "Part": 4,
+    "Position": 3,
+    "Level": 30,
+    "Cost": "2:600607:150",
+    "Ability": {
+      "4": 540,
+      "9": 540,
+      "10": 540
+    },
+    "CardLevel": 114
+  },
+  {
+    "Id": 403031,
+    "Part": 4,
+    "Position": 3,
+    "Level": 31,
+    "Cost": "2:600607:155",
+    "Ability": {
+      "4": 558,
+      "9": 558,
+      "10": 558
+    },
+    "CardLevel": 118
+  },
+  {
+    "Id": 403032,
+    "Part": 4,
+    "Position": 3,
+    "Level": 32,
+    "Cost": "2:600607:160",
+    "Ability": {
+      "4": 576,
+      "9": 576,
+      "10": 576
+    },
+    "CardLevel": 122
+  },
+  {
+    "Id": 403033,
+    "Part": 4,
+    "Position": 3,
+    "Level": 33,
+    "Cost": "2:600607:165",
+    "Ability": {
+      "4": 594,
+      "9": 594,
+      "10": 594
+    },
+    "CardLevel": 126
+  },
+  {
+    "Id": 403034,
+    "Part": 4,
+    "Position": 3,
+    "Level": 34,
+    "Cost": "2:600607:170",
+    "Ability": {
+      "4": 612,
+      "9": 612,
+      "10": 612
+    },
+    "CardLevel": 130
+  },
+  {
+    "Id": 403035,
+    "Part": 4,
+    "Position": 3,
+    "Level": 35,
+    "Cost": "2:600607:175",
+    "Ability": {
+      "4": 630,
+      "9": 630,
+      "10": 630
+    },
+    "CardLevel": 134
+  },
+  {
+    "Id": 403036,
+    "Part": 4,
+    "Position": 3,
+    "Level": 36,
+    "Cost": "2:600607:180",
+    "Ability": {
+      "4": 648,
+      "9": 648,
+      "10": 648
+    },
+    "CardLevel": 138
+  },
+  {
+    "Id": 404001,
+    "Part": 4,
+    "Position": 4,
+    "Level": 1,
+    "Cost": "2:600106:4",
+    "Ability": {
+      "4": 18,
+      "9": 14,
+      "10": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 404002,
+    "Part": 4,
+    "Position": 4,
+    "Level": 2,
+    "Cost": "2:600106:8",
+    "Ability": {
+      "4": 36,
+      "9": 29,
+      "10": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 404003,
+    "Part": 4,
+    "Position": 4,
+    "Level": 3,
+    "Cost": "2:600106:12",
+    "Ability": {
+      "4": 54,
+      "9": 43,
+      "10": 54
+    },
+    "CardLevel": 9
+  },
+  {
+    "Id": 404004,
+    "Part": 4,
+    "Position": 4,
+    "Level": 4,
+    "Cost": "2:600209:16",
+    "Ability": {
+      "4": 72,
+      "9": 58,
+      "10": 72
+    },
+    "CardLevel": 13
+  },
+  {
+    "Id": 404005,
+    "Part": 4,
+    "Position": 4,
+    "Level": 5,
+    "Cost": "2:600209:20",
+    "Ability": {
+      "4": 90,
+      "9": 72,
+      "10": 90
+    },
+    "CardLevel": 17
+  },
+  {
+    "Id": 404006,
+    "Part": 4,
+    "Position": 4,
+    "Level": 6,
+    "Cost": "2:600209:24",
+    "Ability": {
+      "4": 108,
+      "9": 86,
+      "10": 108
+    },
+    "CardLevel": 21
+  },
+  {
+    "Id": 404007,
+    "Part": 4,
+    "Position": 4,
+    "Level": 7,
+    "Cost": "2:600209:28",
+    "Ability": {
+      "4": 126,
+      "9": 101,
+      "10": 126
+    },
+    "CardLevel": 25
+  },
+  {
+    "Id": 404008,
+    "Part": 4,
+    "Position": 4,
+    "Level": 8,
+    "Cost": "2:600309:32",
+    "Ability": {
+      "4": 144,
+      "9": 115,
+      "10": 144
+    },
+    "CardLevel": 29
+  },
+  {
+    "Id": 404009,
+    "Part": 4,
+    "Position": 4,
+    "Level": 9,
+    "Cost": "2:600309:36",
+    "Ability": {
+      "4": 162,
+      "9": 130,
+      "10": 162
+    },
+    "CardLevel": 33
+  },
+  {
+    "Id": 404010,
+    "Part": 4,
+    "Position": 4,
+    "Level": 10,
+    "Cost": "2:600309:40",
+    "Ability": {
+      "4": 180,
+      "9": 144,
+      "10": 180
+    },
+    "CardLevel": 37
+  },
+  {
+    "Id": 404011,
+    "Part": 4,
+    "Position": 4,
+    "Level": 11,
+    "Cost": "2:600309:44",
+    "Ability": {
+      "4": 198,
+      "9": 158,
+      "10": 198
+    },
+    "CardLevel": 41
+  },
+  {
+    "Id": 404012,
+    "Part": 4,
+    "Position": 4,
+    "Level": 12,
+    "Cost": "2:600309:48",
+    "Ability": {
+      "4": 216,
+      "9": 173,
+      "10": 216
+    },
+    "CardLevel": 45
+  },
+  {
+    "Id": 404013,
+    "Part": 4,
+    "Position": 4,
+    "Level": 13,
+    "Cost": "2:600409:52",
+    "Ability": {
+      "4": 234,
+      "9": 187,
+      "10": 234
+    },
+    "CardLevel": 49
+  },
+  {
+    "Id": 404014,
+    "Part": 4,
+    "Position": 4,
+    "Level": 14,
+    "Cost": "2:600409:56",
+    "Ability": {
+      "4": 252,
+      "9": 202,
+      "10": 252
+    },
+    "CardLevel": 53
+  },
+  {
+    "Id": 404015,
+    "Part": 4,
+    "Position": 4,
+    "Level": 15,
+    "Cost": "2:600409:60",
+    "Ability": {
+      "4": 270,
+      "9": 216,
+      "10": 270
+    },
+    "CardLevel": 57
+  },
+  {
+    "Id": 404016,
+    "Part": 4,
+    "Position": 4,
+    "Level": 16,
+    "Cost": "2:600409:64",
+    "Ability": {
+      "4": 288,
+      "9": 230,
+      "10": 288
+    },
+    "CardLevel": 61
+  },
+  {
+    "Id": 404017,
+    "Part": 4,
+    "Position": 4,
+    "Level": 17,
+    "Cost": "2:600409:68",
+    "Ability": {
+      "4": 306,
+      "9": 245,
+      "10": 306
+    },
+    "CardLevel": 65
+  },
+  {
+    "Id": 404018,
+    "Part": 4,
+    "Position": 4,
+    "Level": 18,
+    "Cost": "2:600409:72",
+    "Ability": {
+      "4": 324,
+      "9": 259,
+      "10": 324
+    },
+    "CardLevel": 69
+  },
+  {
+    "Id": 404019,
+    "Part": 4,
+    "Position": 4,
+    "Level": 19,
+    "Cost": "2:600409:76",
+    "Ability": {
+      "4": 342,
+      "9": 274,
+      "10": 342
+    },
+    "CardLevel": 73
+  },
+  {
+    "Id": 404020,
+    "Part": 4,
+    "Position": 4,
+    "Level": 20,
+    "Cost": "2:600509:80",
+    "Ability": {
+      "4": 360,
+      "9": 288,
+      "10": 360
+    },
+    "CardLevel": 77
+  },
+  {
+    "Id": 404021,
+    "Part": 4,
+    "Position": 4,
+    "Level": 21,
+    "Cost": "2:600509:84",
+    "Ability": {
+      "4": 378,
+      "9": 302,
+      "10": 378
+    },
+    "CardLevel": 81
+  },
+  {
+    "Id": 404022,
+    "Part": 4,
+    "Position": 4,
+    "Level": 22,
+    "Cost": "2:600509:88",
+    "Ability": {
+      "4": 396,
+      "9": 317,
+      "10": 396
+    },
+    "CardLevel": 85
+  },
+  {
+    "Id": 404023,
+    "Part": 4,
+    "Position": 4,
+    "Level": 23,
+    "Cost": "2:600509:92",
+    "Ability": {
+      "4": 414,
+      "9": 331,
+      "10": 414
+    },
+    "CardLevel": 89
+  },
+  {
+    "Id": 404024,
+    "Part": 4,
+    "Position": 4,
+    "Level": 24,
+    "Cost": "2:600509:96",
+    "Ability": {
+      "4": 432,
+      "9": 346,
+      "10": 432
+    },
+    "CardLevel": 93
+  },
+  {
+    "Id": 404025,
+    "Part": 4,
+    "Position": 4,
+    "Level": 25,
+    "Cost": "2:600509:100",
+    "Ability": {
+      "4": 450,
+      "9": 360,
+      "10": 450
+    },
+    "CardLevel": 97
+  },
+  {
+    "Id": 404026,
+    "Part": 4,
+    "Position": 4,
+    "Level": 26,
+    "Cost": "2:600509:104",
+    "Ability": {
+      "4": 468,
+      "9": 374,
+      "10": 468
+    },
+    "CardLevel": 101
+  },
+  {
+    "Id": 404027,
+    "Part": 4,
+    "Position": 4,
+    "Level": 27,
+    "Cost": "2:600509:108",
+    "Ability": {
+      "4": 486,
+      "9": 389,
+      "10": 486
+    },
+    "CardLevel": 105
+  },
+  {
+    "Id": 404028,
+    "Part": 4,
+    "Position": 4,
+    "Level": 28,
+    "Cost": "2:600609:112",
+    "Ability": {
+      "4": 504,
+      "9": 403,
+      "10": 504
+    },
+    "CardLevel": 109
+  },
+  {
+    "Id": 404029,
+    "Part": 4,
+    "Position": 4,
+    "Level": 29,
+    "Cost": "2:600609:116",
+    "Ability": {
+      "4": 522,
+      "9": 418,
+      "10": 522
+    },
+    "CardLevel": 113
+  },
+  {
+    "Id": 404030,
+    "Part": 4,
+    "Position": 4,
+    "Level": 30,
+    "Cost": "2:600609:120",
+    "Ability": {
+      "4": 540,
+      "9": 432,
+      "10": 540
+    },
+    "CardLevel": 117
+  },
+  {
+    "Id": 404031,
+    "Part": 4,
+    "Position": 4,
+    "Level": 31,
+    "Cost": "2:600609:124",
+    "Ability": {
+      "4": 558,
+      "9": 446,
+      "10": 558
+    },
+    "CardLevel": 121
+  },
+  {
+    "Id": 404032,
+    "Part": 4,
+    "Position": 4,
+    "Level": 32,
+    "Cost": "2:600609:128",
+    "Ability": {
+      "4": 576,
+      "9": 461,
+      "10": 576
+    },
+    "CardLevel": 125
+  },
+  {
+    "Id": 404033,
+    "Part": 4,
+    "Position": 4,
+    "Level": 33,
+    "Cost": "2:600609:132",
+    "Ability": {
+      "4": 594,
+      "9": 475,
+      "10": 594
+    },
+    "CardLevel": 129
+  },
+  {
+    "Id": 404034,
+    "Part": 4,
+    "Position": 4,
+    "Level": 34,
+    "Cost": "2:600609:136",
+    "Ability": {
+      "4": 612,
+      "9": 490,
+      "10": 612
+    },
+    "CardLevel": 133
+  },
+  {
+    "Id": 404035,
+    "Part": 4,
+    "Position": 4,
+    "Level": 35,
+    "Cost": "2:600609:140",
+    "Ability": {
+      "4": 630,
+      "9": 504,
+      "10": 630
+    },
+    "CardLevel": 137
+  },
+  {
+    "Id": 404036,
+    "Part": 4,
+    "Position": 4,
+    "Level": 36,
+    "Cost": "2:600609:144",
+    "Ability": {
+      "4": 648,
+      "9": 518,
+      "10": 648
+    },
+    "CardLevel": 141
+  },
+  {
+    "Id": 405001,
+    "Part": 4,
+    "Position": 5,
+    "Level": 1,
+    "Cost": "2:600101:3",
+    "Ability": {
+      "4": 18,
+      "9": 14,
+      "10": 18
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 405002,
+    "Part": 4,
+    "Position": 5,
+    "Level": 2,
+    "Cost": "2:600101:6",
+    "Ability": {
+      "4": 36,
+      "9": 29,
+      "10": 36
+    },
+    "CardLevel": 0
+  },
+  {
+    "Id": 405003,
+    "Part": 4,
+    "Position": 5,
+    "Level": 3,
+    "Cost": "2:600101:9",
+    "Ability": {
+      "4": 54,
+      "9": 43,
+      "10": 54
+    },
+    "CardLevel": 10
+  },
+  {
+    "Id": 405004,
+    "Part": 4,
+    "Position": 5,
+    "Level": 4,
+    "Cost": "2:600201:12",
+    "Ability": {
+      "4": 72,
+      "9": 58,
+      "10": 72
+    },
+    "CardLevel": 14
+  },
+  {
+    "Id": 405005,
+    "Part": 4,
+    "Position": 5,
+    "Level": 5,
+    "Cost": "2:600201:15",
+    "Ability": {
+      "4": 90,
+      "9": 72,
+      "10": 90
+    },
+    "CardLevel": 18
+  },
+  {
+    "Id": 405006,
+    "Part": 4,
+    "Position": 5,
+    "Level": 6,
+    "Cost": "2:600201:18",
+    "Ability": {
+      "4": 108,
+      "9": 86,
+      "10": 108
+    },
+    "CardLevel": 22
+  },
+  {
+    "Id": 405007,
+    "Part": 4,
+    "Position": 5,
+    "Level": 7,
+    "Cost": "2:600201:21",
+    "Ability": {
+      "4": 126,
+      "9": 101,
+      "10": 126
+    },
+    "CardLevel": 26
+  },
+  {
+    "Id": 405008,
+    "Part": 4,
+    "Position": 5,
+    "Level": 8,
+    "Cost": "2:600301:24",
+    "Ability": {
+      "4": 144,
+      "9": 115,
+      "10": 144
+    },
+    "CardLevel": 30
+  },
+  {
+    "Id": 405009,
+    "Part": 4,
+    "Position": 5,
+    "Level": 9,
+    "Cost": "2:600301:27",
+    "Ability": {
+      "4": 162,
+      "9": 130,
+      "10": 162
+    },
+    "CardLevel": 34
+  },
+  {
+    "Id": 405010,
+    "Part": 4,
+    "Position": 5,
+    "Level": 10,
+    "Cost": "2:600301:30",
+    "Ability": {
+      "4": 180,
+      "9": 144,
+      "10": 180
+    },
+    "CardLevel": 38
+  },
+  {
+    "Id": 405011,
+    "Part": 4,
+    "Position": 5,
+    "Level": 11,
+    "Cost": "2:600301:33",
+    "Ability": {
+      "4": 198,
+      "9": 158,
+      "10": 198
+    },
+    "CardLevel": 42
+  },
+  {
+    "Id": 405012,
+    "Part": 4,
+    "Position": 5,
+    "Level": 12,
+    "Cost": "2:600301:36",
+    "Ability": {
+      "4": 216,
+      "9": 173,
+      "10": 216
+    },
+    "CardLevel": 46
+  },
+  {
+    "Id": 405013,
+    "Part": 4,
+    "Position": 5,
+    "Level": 13,
+    "Cost": "2:600401:39",
+    "Ability": {
+      "4": 234,
+      "9": 187,
+      "10": 234
+    },
+    "CardLevel": 50
+  },
+  {
+    "Id": 405014,
+    "Part": 4,
+    "Position": 5,
+    "Level": 14,
+    "Cost": "2:600401:42",
+    "Ability": {
+      "4": 252,
+      "9": 202,
+      "10": 252
+    },
+    "CardLevel": 54
+  },
+  {
+    "Id": 405015,
+    "Part": 4,
+    "Position": 5,
+    "Level": 15,
+    "Cost": "2:600401:45",
+    "Ability": {
+      "4": 270,
+      "9": 216,
+      "10": 270
+    },
+    "CardLevel": 58
+  },
+  {
+    "Id": 405016,
+    "Part": 4,
+    "Position": 5,
+    "Level": 16,
+    "Cost": "2:600401:48",
+    "Ability": {
+      "4": 288,
+      "9": 230,
+      "10": 288
+    },
+    "CardLevel": 62
+  },
+  {
+    "Id": 405017,
+    "Part": 4,
+    "Position": 5,
+    "Level": 17,
+    "Cost": "2:600401:51",
+    "Ability": {
+      "4": 306,
+      "9": 245,
+      "10": 306
+    },
+    "CardLevel": 66
+  },
+  {
+    "Id": 405018,
+    "Part": 4,
+    "Position": 5,
+    "Level": 18,
+    "Cost": "2:600401:54",
+    "Ability": {
+      "4": 324,
+      "9": 259,
+      "10": 324
+    },
+    "CardLevel": 70
+  },
+  {
+    "Id": 405019,
+    "Part": 4,
+    "Position": 5,
+    "Level": 19,
+    "Cost": "2:600401:57",
+    "Ability": {
+      "4": 342,
+      "9": 274,
+      "10": 342
+    },
+    "CardLevel": 74
+  },
+  {
+    "Id": 405020,
+    "Part": 4,
+    "Position": 5,
+    "Level": 20,
+    "Cost": "2:600501:60",
+    "Ability": {
+      "4": 360,
+      "9": 288,
+      "10": 360
+    },
+    "CardLevel": 78
+  },
+  {
+    "Id": 405021,
+    "Part": 4,
+    "Position": 5,
+    "Level": 21,
+    "Cost": "2:600501:63",
+    "Ability": {
+      "4": 378,
+      "9": 302,
+      "10": 378
+    },
+    "CardLevel": 82
+  },
+  {
+    "Id": 405022,
+    "Part": 4,
+    "Position": 5,
+    "Level": 22,
+    "Cost": "2:600501:66",
+    "Ability": {
+      "4": 396,
+      "9": 317,
+      "10": 396
+    },
+    "CardLevel": 86
+  },
+  {
+    "Id": 405023,
+    "Part": 4,
+    "Position": 5,
+    "Level": 23,
+    "Cost": "2:600501:69",
+    "Ability": {
+      "4": 414,
+      "9": 331,
+      "10": 414
+    },
+    "CardLevel": 90
+  },
+  {
+    "Id": 405024,
+    "Part": 4,
+    "Position": 5,
+    "Level": 24,
+    "Cost": "2:600501:72",
+    "Ability": {
+      "4": 432,
+      "9": 346,
+      "10": 432
+    },
+    "CardLevel": 94
+  },
+  {
+    "Id": 405025,
+    "Part": 4,
+    "Position": 5,
+    "Level": 25,
+    "Cost": "2:600501:75",
+    "Ability": {
+      "4": 450,
+      "9": 360,
+      "10": 450
+    },
+    "CardLevel": 98
+  },
+  {
+    "Id": 405026,
+    "Part": 4,
+    "Position": 5,
+    "Level": 26,
+    "Cost": "2:600501:78",
+    "Ability": {
+      "4": 468,
+      "9": 374,
+      "10": 468
+    },
+    "CardLevel": 102
+  },
+  {
+    "Id": 405027,
+    "Part": 4,
+    "Position": 5,
+    "Level": 27,
+    "Cost": "2:600501:81",
+    "Ability": {
+      "4": 486,
+      "9": 389,
+      "10": 486
+    },
+    "CardLevel": 106
+  },
+  {
+    "Id": 405028,
+    "Part": 4,
+    "Position": 5,
+    "Level": 28,
+    "Cost": "2:600601:84",
+    "Ability": {
+      "4": 504,
+      "9": 403,
+      "10": 504
+    },
+    "CardLevel": 110
+  },
+  {
+    "Id": 405029,
+    "Part": 4,
+    "Position": 5,
+    "Level": 29,
+    "Cost": "2:600601:87",
+    "Ability": {
+      "4": 522,
+      "9": 418,
+      "10": 522
+    },
+    "CardLevel": 114
+  },
+  {
+    "Id": 405030,
+    "Part": 4,
+    "Position": 5,
+    "Level": 30,
+    "Cost": "2:600601:90",
+    "Ability": {
+      "4": 540,
+      "9": 432,
+      "10": 540
+    },
+    "CardLevel": 118
+  },
+  {
+    "Id": 405031,
+    "Part": 4,
+    "Position": 5,
+    "Level": 31,
+    "Cost": "2:600601:93",
+    "Ability": {
+      "4": 558,
+      "9": 446,
+      "10": 558
+    },
+    "CardLevel": 122
+  },
+  {
+    "Id": 405032,
+    "Part": 4,
+    "Position": 5,
+    "Level": 32,
+    "Cost": "2:600601:96",
+    "Ability": {
+      "4": 576,
+      "9": 461,
+      "10": 576
+    },
+    "CardLevel": 126
+  },
+  {
+    "Id": 405033,
+    "Part": 4,
+    "Position": 5,
+    "Level": 33,
+    "Cost": "2:600601:99",
+    "Ability": {
+      "4": 594,
+      "9": 475,
+      "10": 594
+    },
+    "CardLevel": 130
+  },
+  {
+    "Id": 405034,
+    "Part": 4,
+    "Position": 5,
+    "Level": 34,
+    "Cost": "2:600601:102",
+    "Ability": {
+      "4": 612,
+      "9": 490,
+      "10": 612
+    },
+    "CardLevel": 134
+  },
+  {
+    "Id": 405035,
+    "Part": 4,
+    "Position": 5,
+    "Level": 35,
+    "Cost": "2:600601:105",
+    "Ability": {
+      "4": 630,
+      "9": 504,
+      "10": 630
+    },
+    "CardLevel": 138
+  },
+  {
+    "Id": 405036,
+    "Part": 4,
+    "Position": 5,
+    "Level": 36,
+    "Cost": "2:600601:108",
+    "Ability": {
+      "4": 648,
+      "9": 518,
+      "10": 648
+    },
+    "CardLevel": 142
+  }
+]

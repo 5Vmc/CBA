@@ -1,0 +1,29 @@
+{
+  "class_name": "FinalsGuessRewardConfig",
+  "table_name": "cfg_finals_guess_reward",
+  "field_count": 4,
+  "row_count": 4,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "SuccessReward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "FailReward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

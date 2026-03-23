@@ -1,0 +1,1532 @@
+[
+  {
+    "Id": 101,
+    "Name": "逆天战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 5369,
+    "RankStage": 1,
+    "Score": 0
+  },
+  {
+    "Id": 102,
+    "Name": "蓝狼战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 5385,
+    "RankStage": 1,
+    "Score": 115
+  },
+  {
+    "Id": 103,
+    "Name": "森野战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 5260,
+    "RankStage": 1,
+    "Score": 230
+  },
+  {
+    "Id": 104,
+    "Name": "全力友队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 5363,
+    "RankStage": 1,
+    "Score": 305
+  },
+  {
+    "Id": 105,
+    "Name": "秋明战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 4934,
+    "RankStage": 1,
+    "Score": 435
+  },
+  {
+    "Id": 106,
+    "Name": "初澈战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 5668,
+    "RankStage": 1,
+    "Score": 540
+  },
+  {
+    "Id": 107,
+    "Name": "古城战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10614,
+    "RankStage": 1,
+    "Score": 700
+  },
+  {
+    "Id": 108,
+    "Name": "先锋战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10879,
+    "RankStage": 1,
+    "Score": 810
+  },
+  {
+    "Id": 109,
+    "Name": "神界一队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 15924,
+    "RankStage": 1,
+    "Score": 890
+  },
+  {
+    "Id": 110,
+    "Name": "魔夜战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 17672,
+    "RankStage": 1,
+    "Score": 985
+  },
+  {
+    "Id": 201,
+    "Name": "龙吟战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 11250,
+    "RankStage": 2,
+    "Score": 1020
+  },
+  {
+    "Id": 202,
+    "Name": "轩辕团队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10413,
+    "RankStage": 2,
+    "Score": 1155
+  },
+  {
+    "Id": 203,
+    "Name": "灭神战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 11046,
+    "RankStage": 2,
+    "Score": 1340
+  },
+  {
+    "Id": 204,
+    "Name": "雪儿盟队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10656,
+    "RankStage": 2,
+    "Score": 1465
+  },
+  {
+    "Id": 205,
+    "Name": "霸氣碟队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10281,
+    "RankStage": 2,
+    "Score": 1625
+  },
+  {
+    "Id": 206,
+    "Name": "黑骑战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 10380,
+    "RankStage": 2,
+    "Score": 1660
+  },
+  {
+    "Id": 207,
+    "Name": "境炫",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 17202,
+    "RankStage": 2,
+    "Score": 1785
+  },
+  {
+    "Id": 208,
+    "Name": "神族战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 14834,
+    "RankStage": 2,
+    "Score": 1885
+  },
+  {
+    "Id": 209,
+    "Name": "黑夜战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 20496,
+    "RankStage": 2,
+    "Score": 1960
+  },
+  {
+    "Id": 210,
+    "Name": "龙城炫队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 23474,
+    "RankStage": 2,
+    "Score": 1980
+  },
+  {
+    "Id": 301,
+    "Name": "花旗战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 15705,
+    "RankStage": 3,
+    "Score": 2095
+  },
+  {
+    "Id": 302,
+    "Name": "冷潮战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 15206,
+    "RankStage": 3,
+    "Score": 2340
+  },
+  {
+    "Id": 303,
+    "Name": "血蒂战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 15595,
+    "RankStage": 3,
+    "Score": 2375
+  },
+  {
+    "Id": 304,
+    "Name": "冷魅战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 17112,
+    "RankStage": 3,
+    "Score": 2470
+  },
+  {
+    "Id": 305,
+    "Name": "梦幻之队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 16714,
+    "RankStage": 3,
+    "Score": 2485
+  },
+  {
+    "Id": 306,
+    "Name": "巅峰支队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 15455,
+    "RankStage": 3,
+    "Score": 2545
+  },
+  {
+    "Id": 307,
+    "Name": "皇家卫队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 21240,
+    "RankStage": 3,
+    "Score": 2715
+  },
+  {
+    "Id": 308,
+    "Name": "维和部队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 21305,
+    "RankStage": 3,
+    "Score": 2895
+  },
+  {
+    "Id": 309,
+    "Name": "帅气主队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 28351,
+    "RankStage": 3,
+    "Score": 2960
+  },
+  {
+    "Id": 310,
+    "Name": "极炫战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 28102,
+    "RankStage": 3,
+    "Score": 2995
+  },
+  {
+    "Id": 401,
+    "Name": "花旗战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 20697,
+    "RankStage": 4,
+    "Score": 3075
+  },
+  {
+    "Id": 402,
+    "Name": "蓝狼战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 23057,
+    "RankStage": 4,
+    "Score": 3245
+  },
+  {
+    "Id": 403,
+    "Name": "血樱战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 22570,
+    "RankStage": 4,
+    "Score": 3350
+  },
+  {
+    "Id": 404,
+    "Name": "流年冰队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 22441,
+    "RankStage": 4,
+    "Score": 3390
+  },
+  {
+    "Id": 405,
+    "Name": "血蒂战队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 19797,
+    "RankStage": 4,
+    "Score": 3400
+  },
+  {
+    "Id": 406,
+    "Name": "逆天战队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 21246,
+    "RankStage": 4,
+    "Score": 3525
+  },
+  {
+    "Id": 407,
+    "Name": "巅峰支队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27587,
+    "RankStage": 4,
+    "Score": 3765
+  },
+  {
+    "Id": 408,
+    "Name": "花时醉队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27384,
+    "RankStage": 4,
+    "Score": 3800
+  },
+  {
+    "Id": 409,
+    "Name": "从未爱队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 29096,
+    "RankStage": 4,
+    "Score": 3865
+  },
+  {
+    "Id": 410,
+    "Name": "等多久队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 31669,
+    "RankStage": 4,
+    "Score": 3915
+  },
+  {
+    "Id": 501,
+    "Name": "百事队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 28503,
+    "RankStage": 5,
+    "Score": 4105
+  },
+  {
+    "Id": 502,
+    "Name": "会傲队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27775,
+    "RankStage": 5,
+    "Score": 4235
+  },
+  {
+    "Id": 503,
+    "Name": "主旋律",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27535,
+    "RankStage": 5,
+    "Score": 4250
+  },
+  {
+    "Id": 504,
+    "Name": "野狼盟",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27246,
+    "RankStage": 5,
+    "Score": 4335
+  },
+  {
+    "Id": 505,
+    "Name": "狂热队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27102,
+    "RankStage": 5,
+    "Score": 4575
+  },
+  {
+    "Id": 506,
+    "Name": "没那命队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 27231,
+    "RankStage": 5,
+    "Score": 4590
+  },
+  {
+    "Id": 507,
+    "Name": "戏如生队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 32166,
+    "RankStage": 5,
+    "Score": 4745
+  },
+  {
+    "Id": 508,
+    "Name": "染兮队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 31369,
+    "RankStage": 5,
+    "Score": 4850
+  },
+  {
+    "Id": 509,
+    "Name": "血狼王队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 32626,
+    "RankStage": 5,
+    "Score": 4910
+  },
+  {
+    "Id": 510,
+    "Name": "冷语队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 39391,
+    "RankStage": 5,
+    "Score": 4935
+  },
+  {
+    "Id": 601,
+    "Name": "同路人",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 41401,
+    "RankStage": 6,
+    "Score": 5150
+  },
+  {
+    "Id": 602,
+    "Name": "娃娃脸队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 42023,
+    "RankStage": 6,
+    "Score": 5225
+  },
+  {
+    "Id": 603,
+    "Name": "我们",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 44647,
+    "RankStage": 6,
+    "Score": 5255
+  },
+  {
+    "Id": 604,
+    "Name": "木桥队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 36261,
+    "RankStage": 6,
+    "Score": 5295
+  },
+  {
+    "Id": 605,
+    "Name": "美特斯邦威",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 41055,
+    "RankStage": 6,
+    "Score": 5350
+  },
+  {
+    "Id": 606,
+    "Name": "兄弟盟",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 38094,
+    "RankStage": 6,
+    "Score": 5455
+  },
+  {
+    "Id": 607,
+    "Name": "野狼团",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 44706,
+    "RankStage": 6,
+    "Score": 5595
+  },
+  {
+    "Id": 608,
+    "Name": "泪瞳队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 45391,
+    "RankStage": 6,
+    "Score": 5715
+  },
+  {
+    "Id": 609,
+    "Name": "农夫山泉队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 50713,
+    "RankStage": 6,
+    "Score": 5745
+  },
+  {
+    "Id": 610,
+    "Name": "谈笑间队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 49271,
+    "RankStage": 6,
+    "Score": 5920
+  },
+  {
+    "Id": 701,
+    "Name": "折戟队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 55603,
+    "RankStage": 7,
+    "Score": 6055
+  },
+  {
+    "Id": 702,
+    "Name": "琼梦队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 54651,
+    "RankStage": 7,
+    "Score": 6130
+  },
+  {
+    "Id": 703,
+    "Name": "科比队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 51754,
+    "RankStage": 7,
+    "Score": 6290
+  },
+  {
+    "Id": 704,
+    "Name": "出单队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 56121,
+    "RankStage": 7,
+    "Score": 6355
+  },
+  {
+    "Id": 705,
+    "Name": "篮球人",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 48978,
+    "RankStage": 7,
+    "Score": 6460
+  },
+  {
+    "Id": 706,
+    "Name": "赴你队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 56300,
+    "RankStage": 7,
+    "Score": 6555
+  },
+  {
+    "Id": 707,
+    "Name": "飞跃",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 57008,
+    "RankStage": 7,
+    "Score": 6760
+  },
+  {
+    "Id": 708,
+    "Name": "单纯男队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 59858,
+    "RankStage": 7,
+    "Score": 6840
+  },
+  {
+    "Id": 709,
+    "Name": "枭雄贾队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 63350,
+    "RankStage": 7,
+    "Score": 6880
+  },
+  {
+    "Id": 710,
+    "Name": "竹青磬队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 69147,
+    "RankStage": 7,
+    "Score": 6975
+  },
+  {
+    "Id": 801,
+    "Name": "消消乐队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 65866,
+    "RankStage": 8,
+    "Score": 7015
+  },
+  {
+    "Id": 802,
+    "Name": "海屿荒队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 62076,
+    "RankStage": 8,
+    "Score": 7040
+  },
+  {
+    "Id": 803,
+    "Name": "暴君队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 66778,
+    "RankStage": 8,
+    "Score": 7335
+  },
+  {
+    "Id": 804,
+    "Name": "心迷路队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 67358,
+    "RankStage": 8,
+    "Score": 7390
+  },
+  {
+    "Id": 805,
+    "Name": "叶茗秋队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 63836,
+    "RankStage": 8,
+    "Score": 7595
+  },
+  {
+    "Id": 806,
+    "Name": "酥甜队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 64753,
+    "RankStage": 8,
+    "Score": 7630
+  },
+  {
+    "Id": 807,
+    "Name": "迈克队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 74785,
+    "RankStage": 8,
+    "Score": 7740
+  },
+  {
+    "Id": 808,
+    "Name": "风之彩",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 65181,
+    "RankStage": 8,
+    "Score": 7840
+  },
+  {
+    "Id": 809,
+    "Name": "巨人队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 77178,
+    "RankStage": 8,
+    "Score": 7960
+  },
+  {
+    "Id": 810,
+    "Name": "秃鸡队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 75502,
+    "RankStage": 8,
+    "Score": 7985
+  },
+  {
+    "Id": 901,
+    "Name": "给力",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 95893,
+    "RankStage": 9,
+    "Score": 8010
+  },
+  {
+    "Id": 902,
+    "Name": "秃鸡队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 109621,
+    "RankStage": 9,
+    "Score": 8035
+  },
+  {
+    "Id": 903,
+    "Name": "自渡队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 108538,
+    "RankStage": 9,
+    "Score": 8060
+  },
+  {
+    "Id": 904,
+    "Name": "世俗队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 102006,
+    "RankStage": 9,
+    "Score": 8085
+  },
+  {
+    "Id": 905,
+    "Name": "见一面队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 105121,
+    "RankStage": 9,
+    "Score": 8110
+  },
+  {
+    "Id": 906,
+    "Name": "狱王队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 111367,
+    "RankStage": 9,
+    "Score": 8135
+  },
+  {
+    "Id": 907,
+    "Name": "火热队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 104597,
+    "RankStage": 9,
+    "Score": 8160
+  },
+  {
+    "Id": 908,
+    "Name": "失眠队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 119062,
+    "RankStage": 9,
+    "Score": 8185
+  },
+  {
+    "Id": 909,
+    "Name": "唇中甜队",
+    "Icon": 275993122,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 123714,
+    "RankStage": 9,
+    "Score": 8210
+  },
+  {
+    "Id": 910,
+    "Name": "花葬队",
+    "Icon": 273809408,
+    "Tactics": [
+      101,
+      201
+    ],
+    "TacticsLevels": [
+      1,
+      1
+    ],
+    "Formation": 1,
+    "Strength": 102542,
+    "RankStage": 9,
+    "Score": 8235
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "class_name": "ModuleDefineConfig",
+  "table_name": "cfg_module_define",
+  "field_count": 8,
+  "row_count": 77,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Forcego",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Conversation",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RewardsPreview",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Pic",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

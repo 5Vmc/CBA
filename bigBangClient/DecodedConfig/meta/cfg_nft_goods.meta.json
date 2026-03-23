@@ -1,0 +1,49 @@
+{
+  "class_name": "NftGoodsConfig",
+  "table_name": "cfg_nft_goods",
+  "field_count": 8,
+  "row_count": 3,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "unknown",
+      "reader": "GetString"
+    },
+    {
+      "name": "Scale",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "ZOffset",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Buffname",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Price",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Buffparam",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Pic",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

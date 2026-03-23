@@ -1,0 +1,29 @@
+{
+  "class_name": "CupCourseConfig",
+  "table_name": "cfg_cup_course",
+  "field_count": 4,
+  "row_count": 6,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Round",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RoundName",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "CourseMap",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "class_name": "ChallengePlayerConfig",
+  "table_name": "cfg_challenge_player",
+  "field_count": 12,
+  "row_count": 40505,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Portrait",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Skills",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "ClubId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Ability",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "AdaptPosition",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GiftIds",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Power",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

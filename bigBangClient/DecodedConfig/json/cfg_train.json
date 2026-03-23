@@ -1,0 +1,212 @@
+[
+  {
+    "Id": 1,
+    "BaseAdd": {
+      "Value": 1.0,
+      "UnitId": 0
+    },
+    "BaseTime": 1,
+    "BaseCost": {
+      "Value": 5.0,
+      "UnitId": 0
+    },
+    "CostAdd": 1.149999976158142,
+    "UnlockReward": {
+      "Value": 0.0,
+      "UnitId": 0
+    },
+    "Attribute": 0,
+    "Name": "身体",
+    "Desc": "升级<身体训练>，可提高训练效率，并增强全体球员的身体属性。",
+    "Cameraid": "TrainShenti"
+  },
+  {
+    "Id": 2,
+    "BaseAdd": {
+      "Value": 40.0,
+      "UnitId": 0
+    },
+    "BaseTime": 3,
+    "BaseCost": {
+      "Value": 60.0,
+      "UnitId": 0
+    },
+    "CostAdd": 1.0700000524520874,
+    "UnlockReward": {
+      "Value": 350.0,
+      "UnitId": 0
+    },
+    "Attribute": 4,
+    "Name": "传球",
+    "Desc": "升级<传球训练>，可提高训练效率，并增强全体球员的传球属性。",
+    "Cameraid": "TrainChuanqiu"
+  },
+  {
+    "Id": 3,
+    "BaseAdd": {
+      "Value": 540.0,
+      "UnitId": 0
+    },
+    "BaseTime": 6,
+    "BaseCost": {
+      "Value": 700.0,
+      "UnitId": 0
+    },
+    "CostAdd": 1.1399999856948853,
+    "UnlockReward": {
+      "Value": 4000.0,
+      "UnitId": 0
+    },
+    "Attribute": 3,
+    "Name": "防守",
+    "Desc": "升级<防守训练>，可提高训练效率，并增强全体球员的防守属性。",
+    "Cameraid": "TrainFangshou"
+  },
+  {
+    "Id": 4,
+    "BaseAdd": {
+      "Value": 3600.0,
+      "UnitId": 0
+    },
+    "BaseTime": 10,
+    "BaseCost": {
+      "Value": 8600.0,
+      "UnitId": 0
+    },
+    "CostAdd": 1.1299999952316284,
+    "UnlockReward": {
+      "Value": 40000.0,
+      "UnitId": 0
+    },
+    "Attribute": 3,
+    "Name": "扣篮",
+    "Desc": "升级<扣篮训练>，可提高训练效率，并增强全体球员的扣篮性。",
+    "Cameraid": "TrainKoulan"
+  },
+  {
+    "Id": 5,
+    "BaseAdd": {
+      "Value": 43200.0,
+      "UnitId": 0
+    },
+    "BaseTime": 20,
+    "BaseCost": {
+      "Value": 100000.0,
+      "UnitId": 0
+    },
+    "CostAdd": 1.1200000047683716,
+    "UnlockReward": {
+      "Value": 300000.0,
+      "UnitId": 0
+    },
+    "Attribute": 0,
+    "Name": "篮板",
+    "Desc": "升级<篮板训练>，可提高训练效率，并增强全体球员的篮板属性。",
+    "Cameraid": "TrainLanban"
+  },
+  {
+    "Id": 6,
+    "BaseAdd": {
+      "Value": 324000.0,
+      "UnitId": 0
+    },
+    "BaseTime": 50,
+    "BaseCost": {
+      "Value": 1250.0,
+      "UnitId": 1
+    },
+    "CostAdd": 1.1100000143051147,
+    "UnlockReward": {
+      "Value": 3000.0,
+      "UnitId": 1
+    },
+    "Attribute": 1,
+    "Name": "投篮",
+    "Desc": "升级<投篮训练>，可提高训练效率，并增强全体球员的投篮属性。",
+    "Cameraid": "TrainToulan"
+  },
+  {
+    "Id": 7,
+    "BaseAdd": {
+      "Value": 3888.0,
+      "UnitId": 1
+    },
+    "BaseTime": 200,
+    "BaseCost": {
+      "Value": 15000.0,
+      "UnitId": 1
+    },
+    "CostAdd": 1.100000023841858,
+    "UnlockReward": {
+      "Value": 35000.0,
+      "UnitId": 1
+    },
+    "Attribute": 2,
+    "Name": "抢断",
+    "Desc": "升级<抢断训练>，可提高训练效率，并增强全体球员的抢断属性。",
+    "Cameraid": "TrainQiangduan"
+  },
+  {
+    "Id": 8,
+    "BaseAdd": {
+      "Value": 35.0,
+      "UnitId": 2
+    },
+    "BaseTime": 600,
+    "BaseCost": {
+      "Value": 180.0,
+      "UnitId": 2
+    },
+    "CostAdd": 1.090000033378601,
+    "UnlockReward": {
+      "Value": 200.0,
+      "UnitId": 2
+    },
+    "Attribute": 1,
+    "Name": "控球",
+    "Desc": "升级<控球训练>，可提高训练效率，并增强全体球员的控球属性。",
+    "Cameraid": "TrainKongqiu"
+  },
+  {
+    "Id": 9,
+    "BaseAdd": {
+      "Value": 315.0,
+      "UnitId": 2
+    },
+    "BaseTime": 1800,
+    "BaseCost": {
+      "Value": 2150.0,
+      "UnitId": 2
+    },
+    "CostAdd": 1.0800000429153442,
+    "UnlockReward": {
+      "Value": 3000.0,
+      "UnitId": 2
+    },
+    "Attribute": 4,
+    "Name": "盖帽",
+    "Desc": "升级<盖帽训练>，可提高训练效率，并增强全体球员的盖帽属性。",
+    "Cameraid": "TrainGaimao"
+  },
+  {
+    "Id": 10,
+    "BaseAdd": {
+      "Value": 2900.0,
+      "UnitId": 2
+    },
+    "BaseTime": 3600,
+    "BaseCost": {
+      "Value": 26000.0,
+      "UnitId": 2
+    },
+    "CostAdd": 1.0700000524520874,
+    "UnlockReward": {
+      "Value": 30000.0,
+      "UnitId": 2
+    },
+    "Attribute": 2,
+    "Name": "稳定",
+    "Desc": "升级<稳定训练>，可提高训练效率，并增强全体球员的稳定属性。",
+    "Cameraid": "TrainWending"
+  }
+]

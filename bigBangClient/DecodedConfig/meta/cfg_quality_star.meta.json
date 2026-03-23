@@ -1,0 +1,44 @@
+{
+  "class_name": "QualityStarConfig",
+  "table_name": "cfg_quality_star",
+  "field_count": 7,
+  "row_count": 35,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "TargetStar",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostMoney",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostGoods",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "CostGoods1",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "CostSelf",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

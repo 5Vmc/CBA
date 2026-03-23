@@ -1,0 +1,29 @@
+{
+  "class_name": "LeagueRewardRankConfig",
+  "table_name": "cfg_league_reward_rank",
+  "field_count": 4,
+  "row_count": 700,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Level",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rank",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

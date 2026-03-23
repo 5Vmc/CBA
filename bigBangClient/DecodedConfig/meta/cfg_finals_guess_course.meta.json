@@ -1,0 +1,29 @@
+{
+  "class_name": "FinalsGuessCourseConfig",
+  "table_name": "cfg_finals_guess_course",
+  "field_count": 4,
+  "row_count": 7,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "MatchTime",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "HomeTeam",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "AwayTeam",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

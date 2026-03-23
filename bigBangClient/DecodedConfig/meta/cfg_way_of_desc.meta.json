@@ -1,0 +1,39 @@
+{
+  "class_name": "WayOfDescConfig",
+  "table_name": "cfg_way_of_desc",
+  "field_count": 6,
+  "row_count": 43,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ModuleName",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "SubModuleName",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DropItem",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ItemRange",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

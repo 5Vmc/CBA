@@ -1,0 +1,44 @@
+{
+  "class_name": "MonthCardShopConfig",
+  "table_name": "cfg_month_card_shop",
+  "field_count": 7,
+  "row_count": 2,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "unknown",
+      "reader": "GetString"
+    },
+    {
+      "name": "ProductId",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Obtain",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "EveryDay",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rmb",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Dollar",
+      "type": "float",
+      "reader": "GetFloat32"
+    }
+  ]
+}

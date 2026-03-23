@@ -1,0 +1,79 @@
+{
+  "class_name": "GiftShopConfig",
+  "table_name": "cfg_gift_shop",
+  "field_count": 14,
+  "row_count": 383,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Type",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "unknown",
+      "reader": "GetString"
+    },
+    {
+      "name": "Subtitle",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ProductId",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Content",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "DailyLimit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Limit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Rmb",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Dollar",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "Pic",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Pos",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Param",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Rebate",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "class_name": "CardModelConfig",
+  "table_name": "cfg_card_model",
+  "field_count": 28,
+  "row_count": 123,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Portrait",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CardYellowBg",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Height",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Weight",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Nationality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Position",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "AdaptPosition",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Quality",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Ability",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "AbilityRatio",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "ExtraAbility",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PositionRatio",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "PiecesId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PiecesCount",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Skills",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "ExtractWeight",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "GiftIds",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Desc",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Param",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Power",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "RecruitWords",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "IsRetire",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "PeakYear",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "PeakLogo",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Sale",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

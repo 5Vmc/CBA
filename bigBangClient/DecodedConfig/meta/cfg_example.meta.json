@@ -1,0 +1,59 @@
+{
+  "class_name": "ExampleConfig",
+  "table_name": "cfg_example",
+  "field_count": 10,
+  "row_count": 3,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "FloatEx",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "ExIntList",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "ExStringList",
+      "type": "string[]",
+      "reader": "GetStringArray"
+    },
+    {
+      "name": "ExFloatList",
+      "type": "float[]",
+      "reader": "GetFloat32Array"
+    },
+    {
+      "name": "ExIntStringDic",
+      "type": "System.Collections.Generic.Dictionary<int, string>",
+      "reader": "GetIntStringDic"
+    },
+    {
+      "name": "ExIntIntDic",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "ExStringIntDic",
+      "type": "System.Collections.Generic.Dictionary<string, int>",
+      "reader": "GetStringIntDic"
+    },
+    {
+      "name": "ExIntFloatDic",
+      "type": "System.Collections.Generic.Dictionary<int, float>",
+      "reader": "GetIntFloatDic"
+    }
+  ]
+}

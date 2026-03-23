@@ -1,0 +1,39 @@
+{
+  "class_name": "ArenaPlayerConfig",
+  "table_name": "cfg_arena_player",
+  "field_count": 6,
+  "row_count": 900,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CardId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ClubId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Ability",
+      "type": "System.Collections.Generic.Dictionary<int, int>",
+      "reader": "GetIntIntDic"
+    },
+    {
+      "name": "Position",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

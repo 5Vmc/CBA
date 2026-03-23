@@ -1,0 +1,84 @@
+{
+  "class_name": "ChallengeMapConfig",
+  "table_name": "cfg_challenge_map",
+  "field_count": 15,
+  "row_count": 15,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "NodeName",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "IconUI",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "IconNew",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ScenePrefab",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Des",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Level",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "LevelTxt",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "IdleAnim",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "TransferAnim",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Next",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Number",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Order",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Icon3D",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

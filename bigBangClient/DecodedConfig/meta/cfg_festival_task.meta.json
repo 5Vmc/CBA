@@ -1,0 +1,54 @@
+{
+  "class_name": "FestivalTaskConfig",
+  "table_name": "cfg_festival_task",
+  "field_count": 9,
+  "row_count": 115,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "ActivityId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Group",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "unknown",
+      "reader": "GetString"
+    },
+    {
+      "name": "TriggerId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Target",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Way",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "ModuleId",
+      "type": "int",
+      "reader": "GetInt32"
+    }
+  ]
+}

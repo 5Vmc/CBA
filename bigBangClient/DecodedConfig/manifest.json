@@ -1,0 +1,852 @@
+{
+  "success": [
+    {
+      "class_name": "AchievementConfig",
+      "table_name": "cfg_achievement",
+      "row_count": 908,
+      "field_count": 18,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ActivityBattlePassRewardConfig",
+      "table_name": "cfg_activity_battle_pass_reward",
+      "row_count": 50,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ActivityConfig",
+      "table_name": "cfg_activity",
+      "row_count": 158,
+      "field_count": 22,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ActivityPayDailyRewardConfig",
+      "table_name": "cfg_activity_pay_daily_reward",
+      "row_count": 72,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ActivityPayRewardConfig",
+      "table_name": "cfg_activity_pay_reward",
+      "row_count": 36,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ActivityTopRewardConfig",
+      "table_name": "cfg_activity_top_reward",
+      "row_count": 168,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "AllfontConfig",
+      "table_name": "cfg_allfont",
+      "row_count": 2,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "AllRankRewardConfig",
+      "table_name": "cfg_all_rank_reward",
+      "row_count": 10,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "AllStarAdditionConfig",
+      "table_name": "cfg_all_star_addition",
+      "row_count": 116,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "AllStarGroupConfig",
+      "table_name": "cfg_all_star_group",
+      "row_count": 5,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "AllStarRewardConfig",
+      "table_name": "cfg_all_star_reward",
+      "row_count": 57,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaBattleResultConfig",
+      "table_name": "cfg_arena_battle_result",
+      "row_count": 6,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaClubConfig",
+      "table_name": "cfg_arena_club",
+      "row_count": 90,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaPlayerConfig",
+      "table_name": "cfg_arena_player",
+      "row_count": 900,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaRewardConfig",
+      "table_name": "cfg_arena_reward",
+      "row_count": 40,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaShopConfig",
+      "table_name": "cfg_arena_shop",
+      "row_count": 33,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ArenaStageConfig",
+      "table_name": "cfg_arena_stage",
+      "row_count": 9,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "BountyTaskBoxConfig",
+      "table_name": "cfg_bounty_task_box",
+      "row_count": 5,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "BountyTaskConfig",
+      "table_name": "cfg_bounty_task",
+      "row_count": 60,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "BoxConfig",
+      "table_name": "cfg_box",
+      "row_count": 508,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "BreakConfig",
+      "table_name": "cfg_break",
+      "row_count": 3520,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "BuffTypeConfig",
+      "table_name": "cfg_buff_type",
+      "row_count": 46,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardAbilityConfig",
+      "table_name": "cfg_card_ability",
+      "row_count": 10,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardBuffTypeConfig",
+      "table_name": "cfg_card_buff_type",
+      "row_count": 11,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardFireConfig",
+      "table_name": "cfg_card_fire",
+      "row_count": 5,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardLevelConfig",
+      "table_name": "cfg_card_level",
+      "row_count": 120,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardModelConfig",
+      "table_name": "cfg_card_model",
+      "row_count": 123,
+      "field_count": 28,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardPoolConfig",
+      "table_name": "cfg_card_pool",
+      "row_count": 2521,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardPoolGroupConfig",
+      "table_name": "cfg_card_pool_group",
+      "row_count": 360,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardPoolInfoConfig",
+      "table_name": "cfg_card_pool_info",
+      "row_count": 90,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CardUpgradeConfig",
+      "table_name": "cfg_card_upgrade",
+      "row_count": 1443,
+      "field_count": 8,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeClubConfig",
+      "table_name": "cfg_challenge_club",
+      "row_count": 1396,
+      "field_count": 10,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeCountryConfig",
+      "table_name": "cfg_challenge_country",
+      "row_count": 141,
+      "field_count": 17,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeHeroChapterConfig",
+      "table_name": "cfg_challenge_hero_chapter",
+      "row_count": 187,
+      "field_count": 14,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeHeroConfig",
+      "table_name": "cfg_challenge_hero",
+      "row_count": 1660,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeMapConfig",
+      "table_name": "cfg_challenge_map",
+      "row_count": 15,
+      "field_count": 15,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengePlayerConfig",
+      "table_name": "cfg_challenge_player",
+      "row_count": 40505,
+      "field_count": 12,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ChallengeRuleConfig",
+      "table_name": "cfg_challenge_rule",
+      "row_count": 104,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ClubConfig",
+      "table_name": "cfg_club",
+      "row_count": 2,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CommonTriggerConfig",
+      "table_name": "cfg_common_trigger",
+      "row_count": 392,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CupCourseConfig",
+      "table_name": "cfg_cup_course",
+      "row_count": 6,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CupRewardOtherConfig",
+      "table_name": "cfg_cup_reward_other",
+      "row_count": 35,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "CupRewardRankConfig",
+      "table_name": "cfg_cup_reward_rank",
+      "row_count": 1920,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "DiamondShopConfig",
+      "table_name": "cfg_diamond_shop",
+      "row_count": 6,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "DragonBoatRewardConfig",
+      "table_name": "cfg_dragon_boat_reward",
+      "row_count": 10,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "EnergyTimeLimitConfig",
+      "table_name": "cfg_energy_time_limit",
+      "row_count": 3,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ExampleConfig",
+      "table_name": "cfg_example",
+      "row_count": 3,
+      "field_count": 10,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FestivalBoxConfig",
+      "table_name": "cfg_festival_box",
+      "row_count": 1,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FestivalLoginConfig",
+      "table_name": "cfg_festival_login",
+      "row_count": 7,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FestivalTaskConfig",
+      "table_name": "cfg_festival_task",
+      "row_count": 115,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FestivalTravelConfig",
+      "table_name": "cfg_festival_travel",
+      "row_count": 150,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FightStatConfig",
+      "table_name": "cfg_fight_stat",
+      "row_count": 12,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FinalsGuessCourseConfig",
+      "table_name": "cfg_finals_guess_course",
+      "row_count": 7,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FinalsGuessPlayerConfig",
+      "table_name": "cfg_finals_guess_player",
+      "row_count": 37,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FinalsGuessRewardConfig",
+      "table_name": "cfg_finals_guess_reward",
+      "row_count": 4,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FinalsGuessTeamConfig",
+      "table_name": "cfg_finals_guess_team",
+      "row_count": 2,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FirstChargeRewardConfig",
+      "table_name": "cfg_first_charge_reward",
+      "row_count": 4,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "FormationBoardConfig",
+      "table_name": "cfg_formation_board",
+      "row_count": 5,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GameBroadcastConfig",
+      "table_name": "cfg_game_broadcast",
+      "row_count": 189,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GameItemShopConfig",
+      "table_name": "cfg_game_item_shop",
+      "row_count": 55,
+      "field_count": 8,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GiftShopConfig",
+      "table_name": "cfg_gift_shop",
+      "row_count": 383,
+      "field_count": 14,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GiftSkillConfig",
+      "table_name": "cfg_gift_skill",
+      "row_count": 1710,
+      "field_count": 16,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GoodsConfig",
+      "table_name": "cfg_goods",
+      "row_count": 325,
+      "field_count": 12,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GuideConfig",
+      "table_name": "cfg_guide",
+      "row_count": 35,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GuideDialogueConfig",
+      "table_name": "cfg_guide_dialogue",
+      "row_count": 97,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "GuideEmailConfig",
+      "table_name": "cfg_guide_email",
+      "row_count": 12,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "HundredChampionCourseConfig",
+      "table_name": "cfg_hundred_champion_course",
+      "row_count": 3,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "HundredPlayoffCourseConfig",
+      "table_name": "cfg_hundred_playoff_course",
+      "row_count": 6,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "HundredRewardConfig",
+      "table_name": "cfg_hundred_reward",
+      "row_count": 14,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "JerseyBreakConfig",
+      "table_name": "cfg_jersey_break",
+      "row_count": 180,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "JerseyUpgradeConfig",
+      "table_name": "cfg_jersey_upgrade",
+      "row_count": 720,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "KeyframeActionConfig",
+      "table_name": "cfg_keyframe_action",
+      "row_count": 16,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "LangConfig",
+      "table_name": "cfg_lang",
+      "row_count": 227,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "LeagueCourseConfig",
+      "table_name": "cfg_league_course",
+      "row_count": 38,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "LeagueRewardOtherConfig",
+      "table_name": "cfg_league_reward_other",
+      "row_count": 40,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "LeagueRewardRankConfig",
+      "table_name": "cfg_league_reward_rank",
+      "row_count": 700,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "MainTaskTitleConfig",
+      "table_name": "cfg_main_task_title",
+      "row_count": 6,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ModuleDefineConfig",
+      "table_name": "cfg_module_define",
+      "row_count": 77,
+      "field_count": 8,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "MonthCardShopConfig",
+      "table_name": "cfg_month_card_shop",
+      "row_count": 2,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "MoonSiginAddedRewardConfig",
+      "table_name": "cfg_moon_sigin_added_reward",
+      "row_count": 5,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "MoonSiginRewardConfig",
+      "table_name": "cfg_moon_sigin_reward",
+      "row_count": 31,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "NftCardIconConfig",
+      "table_name": "cfg_nft_card_icon",
+      "row_count": 94,
+      "field_count": 1,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "NftGoodsConfig",
+      "table_name": "cfg_nft_goods",
+      "row_count": 3,
+      "field_count": 8,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "NoviceTargetTaskConfig",
+      "table_name": "cfg_novice_target_task",
+      "row_count": 22,
+      "field_count": 9,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "NpcCardConfig",
+      "table_name": "cfg_npc_card",
+      "row_count": 2,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "OptionRewardsConfig",
+      "table_name": "cfg_option_rewards",
+      "row_count": 807,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "OptionsConfig",
+      "table_name": "cfg_options",
+      "row_count": 10,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "PositionConfig",
+      "table_name": "cfg_position",
+      "row_count": 3,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ProductPriceConfig",
+      "table_name": "cfg_product_price",
+      "row_count": 14,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "QualityStarConfig",
+      "table_name": "cfg_quality_star",
+      "row_count": 35,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "QualityUpgradeConfig",
+      "table_name": "cfg_quality_upgrade",
+      "row_count": 4,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "RandomClubIconConfig",
+      "table_name": "cfg_random_club_icon",
+      "row_count": 100,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "RandomClubNameConfig",
+      "table_name": "cfg_random_club_name",
+      "row_count": 1732,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "RandomRobotNameConfig",
+      "table_name": "cfg_random_robot_name",
+      "row_count": 329,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SeparatedPositionConfig",
+      "table_name": "cfg_separated_position",
+      "row_count": 5,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SevenDayLoginRewardConfig",
+      "table_name": "cfg_seven_day_login_reward",
+      "row_count": 7,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ShootGameAddedRewardConfig",
+      "table_name": "cfg_shoot_game_added_reward",
+      "row_count": 4,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "ShootGameStageConfig",
+      "table_name": "cfg_shoot_game_stage",
+      "row_count": 11,
+      "field_count": 8,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SkillAdditionConfig",
+      "table_name": "cfg_skill_addition",
+      "row_count": 10,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SkillConfig",
+      "table_name": "cfg_skill",
+      "row_count": 43,
+      "field_count": 12,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SkillUpgradeConfig",
+      "table_name": "cfg_skill_upgrade",
+      "row_count": 27,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "StrengthenConfig",
+      "table_name": "cfg_strengthen",
+      "row_count": 2555,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SysFormationConfig",
+      "table_name": "cfg_sys_formation",
+      "row_count": 1,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "SysTacticsConfig",
+      "table_name": "cfg_sys_tactics",
+      "row_count": 1,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TacticsConfig",
+      "table_name": "cfg_tactics",
+      "row_count": 10,
+      "field_count": 7,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TacticsTypeConfig",
+      "table_name": "cfg_tactics_type",
+      "row_count": 2,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TacticsUpgradeConfig",
+      "table_name": "cfg_tactics_upgrade",
+      "row_count": 100,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TaskConfig",
+      "table_name": "cfg_task",
+      "row_count": 238,
+      "field_count": 13,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TaskDemandConfig",
+      "table_name": "cfg_task_demand",
+      "row_count": 73,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TaskRewardBoxConfig",
+      "table_name": "cfg_task_reward_box",
+      "row_count": 10,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TowerChapterConfig",
+      "table_name": "cfg_tower_chapter",
+      "row_count": 100,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TowerConfig",
+      "table_name": "cfg_tower",
+      "row_count": 1000,
+      "field_count": 12,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TowerStarRewardConfig",
+      "table_name": "cfg_tower_star_reward",
+      "row_count": 63,
+      "field_count": 3,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TrainConfig",
+      "table_name": "cfg_train",
+      "row_count": 10,
+      "field_count": 10,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TrainShopConfig",
+      "table_name": "cfg_train_shop",
+      "row_count": 6,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "TriggerConfig",
+      "table_name": "cfg_trigger",
+      "row_count": 71,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "UnitConfig",
+      "table_name": "cfg_unit",
+      "row_count": 577,
+      "field_count": 2,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "UserLevelConfig",
+      "table_name": "cfg_user_level",
+      "row_count": 120,
+      "field_count": 5,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "WayOfDescConfig",
+      "table_name": "cfg_way_of_desc",
+      "row_count": 43,
+      "field_count": 6,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "WayOfGainConfig",
+      "table_name": "cfg_way_of_gain",
+      "row_count": 156,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    },
+    {
+      "class_name": "WishSignConfig",
+      "table_name": "cfg_wish_sign",
+      "row_count": 5,
+      "field_count": 4,
+      "trailing_bytes_after_parse": 0
+    }
+  ],
+  "failures": []
+}

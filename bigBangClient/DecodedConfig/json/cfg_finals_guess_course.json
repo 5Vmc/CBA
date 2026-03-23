@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "MatchTime": 1715772900,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 2,
+    "MatchTime": 1715945700,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 3,
+    "MatchTime": 1716206400,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 4,
+    "MatchTime": 1716379200,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 5,
+    "MatchTime": 1716636900,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 6,
+    "MatchTime": 1716897600,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  },
+  {
+    "Id": 7,
+    "MatchTime": 1717155300,
+    "HomeTeam": 1,
+    "AwayTeam": 2
+  }
+]

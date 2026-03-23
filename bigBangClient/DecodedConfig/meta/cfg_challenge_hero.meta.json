@@ -1,0 +1,54 @@
+{
+  "class_name": "ChallengeHeroConfig",
+  "table_name": "cfg_challenge_hero",
+  "field_count": 9,
+  "row_count": 1660,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Chapter",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Tactics",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "TacticsLevels",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Star3",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "OnBattle",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

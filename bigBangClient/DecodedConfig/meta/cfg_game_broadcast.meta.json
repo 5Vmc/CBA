@@ -1,0 +1,34 @@
+{
+  "class_name": "GameBroadcastConfig",
+  "table_name": "cfg_game_broadcast",
+  "field_count": 5,
+  "row_count": 189,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "EventId",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Weight",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Content",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "GroupContent",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}

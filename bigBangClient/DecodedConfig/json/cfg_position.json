@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Name": "后卫",
+    "Abbreviation": "后卫"
+  },
+  {
+    "Id": 2,
+    "Name": "前锋",
+    "Abbreviation": "前锋"
+  },
+  {
+    "Id": 3,
+    "Name": "中锋",
+    "Abbreviation": "中锋"
+  }
+]

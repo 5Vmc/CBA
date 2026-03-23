@@ -1,0 +1,59 @@
+{
+  "class_name": "ChallengeClubConfig",
+  "table_name": "cfg_challenge_club",
+  "field_count": 10,
+  "row_count": 1396,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Icon",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Country",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Tactics",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "TacticsLevels",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    },
+    {
+      "name": "FirstReward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Reward",
+      "type": "string",
+      "reader": "GetString"
+    },
+    {
+      "name": "Count",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "Star3",
+      "type": "int[]",
+      "reader": "GetInt32Array"
+    }
+  ]
+}

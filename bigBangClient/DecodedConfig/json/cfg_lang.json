@@ -1,0 +1,1364 @@
+[
+  {
+    "Id": 0,
+    "Name": "Null",
+    "Desc": "无",
+    "Content": "无"
+  },
+  {
+    "Id": 1001,
+    "Name": "UnlockTrainText",
+    "Desc": "解锁训练",
+    "Content": "{TrainName}训练"
+  },
+  {
+    "Id": 1002,
+    "Name": "UpgradeText",
+    "Desc": "升级",
+    "Content": "升级"
+  },
+  {
+    "Id": 1003,
+    "Name": "UnlockText",
+    "Desc": "解锁",
+    "Content": "解锁"
+  },
+  {
+    "Id": 1004,
+    "Name": "ClearBigBangCDContent",
+    "Desc": "立刻完成超能训练",
+    "Content": "花费{Cost}立刻完成超能训练的启动准备？"
+  },
+  {
+    "Id": 1005,
+    "Name": "InviteMatchResultSuccessText",
+    "Desc": "邀请赛胜利",
+    "Content": "干得漂亮! 战胜了{ClubName}"
+  },
+  {
+    "Id": 1006,
+    "Name": "InviteContentText",
+    "Desc": "邀请赛文本",
+    "Content": "打个比赛吧{ClubName}"
+  },
+  {
+    "Id": 1007,
+    "Name": "InviteTitleText",
+    "Desc": "邀请赛标题",
+    "Content": "来自{ClubName}的邀请"
+  },
+  {
+    "Id": 1008,
+    "Name": "OfflineVideoReward",
+    "Desc": "离线收益翻倍",
+    "Content": "获得的收益翻倍了。"
+  },
+  {
+    "Id": 1009,
+    "Name": "EnableText",
+    "Desc": "开启",
+    "Content": "开启"
+  },
+  {
+    "Id": 1010,
+    "Name": "BigBangReayText",
+    "Desc": "超能准备",
+    "Content": "超能准备"
+  },
+  {
+    "Id": 1011,
+    "Name": "NeedExpText",
+    "Desc": "还需累计经验",
+    "Content": "还需累计经验"
+  },
+  {
+    "Id": 1012,
+    "Name": "ResidueTimeText",
+    "Desc": "预估剩余时间",
+    "Content": "预估剩余时间"
+  },
+  {
+    "Id": 1013,
+    "Name": "ExpOutputText",
+    "Desc": "经验产出效率",
+    "Content": "经验产出效率"
+  },
+  {
+    "Id": 1014,
+    "Name": "NextBigBangText",
+    "Desc": "下一次超能训练",
+    "Content": "下一次超能训练"
+  },
+  {
+    "Id": 1015,
+    "Name": "ReadyText",
+    "Desc": "启动已准备就绪!",
+    "Content": "启动已准备就绪!"
+  },
+  {
+    "Id": 1016,
+    "Name": "HealthText",
+    "Desc": "健康",
+    "Content": "健康"
+  },
+  {
+    "Id": 1017,
+    "Name": "MinorInjuryText",
+    "Desc": "轻伤",
+    "Content": "轻伤"
+  },
+  {
+    "Id": 1018,
+    "Name": "SeriousInjury",
+    "Desc": "重伤",
+    "Content": "重伤"
+  },
+  {
+    "Id": 1019,
+    "Name": "RecruitFloorsLeftCount",
+    "Desc": "剩余多久可以抽到卡",
+    "Content": "招募<color=#0EDE35>{FloorsCount}</color>次后必定获得<color=orange>橙色球员</color>"
+  },
+  {
+    "Id": 1020,
+    "Name": "NotYetAchieve",
+    "Desc": "未获得",
+    "Content": "未获得"
+  },
+  {
+    "Id": 1021,
+    "Name": "Achieve",
+    "Desc": "已拥有",
+    "Content": "已拥有"
+  },
+  {
+    "Id": 1022,
+    "Name": "RecruitOnce",
+    "Desc": "抽一次",
+    "Content": "抽一次"
+  },
+  {
+    "Id": 1023,
+    "Name": "RecruitTen",
+    "Desc": "抽十次",
+    "Content": "抽十次"
+  },
+  {
+    "Id": 1024,
+    "Name": "UseText",
+    "Desc": "使用",
+    "Content": "使用"
+  },
+  {
+    "Id": 1025,
+    "Name": "OpenText",
+    "Desc": "打开",
+    "Content": "打开"
+  },
+  {
+    "Id": 1026,
+    "Name": "CompoundText",
+    "Desc": "合成",
+    "Content": "合成"
+  },
+  {
+    "Id": 1027,
+    "Name": "ExpirationTimeText",
+    "Desc": "{time}过期",
+    "Content": "{time}过期"
+  },
+  {
+    "Id": 1028,
+    "Name": "MasterskillText",
+    "Desc": "{playerName}掌握了{skillName}",
+    "Content": "{playerName}掌握了{skillName}"
+  },
+  {
+    "Id": 1029,
+    "Name": "HasBennSelected",
+    "Desc": "已选 <color=#E2E9EF>{value}</color>",
+    "Content": "已选 <color=#E2E9EF>{value}</color>"
+  },
+  {
+    "Id": 1030,
+    "Name": "SaveNewFormationTemp",
+    "Desc": "保存阵型",
+    "Content": "当前使用的新阵型尚未保存，是否命名保存？"
+  },
+  {
+    "Id": 1031,
+    "Name": "DateString",
+    "Desc": "MM月dd日 HH:mm",
+    "Content": "MM月dd日 HH:mm"
+  },
+  {
+    "Id": 1032,
+    "Name": "RoundText",
+    "Desc": "第{value}轮",
+    "Content": "第{value}轮"
+  },
+  {
+    "Id": 1033,
+    "Name": "GoalsScoredText",
+    "Desc": "进球数",
+    "Content": "进球数"
+  },
+  {
+    "Id": 1034,
+    "Name": "AssistsNumberText",
+    "Desc": "助攻数",
+    "Content": "助攻数"
+  },
+  {
+    "Id": 1035,
+    "Name": "StealCountText",
+    "Desc": "抢断数",
+    "Content": "抢断数"
+  },
+  {
+    "Id": 1036,
+    "Name": "ZeroKeeperText",
+    "Desc": "零封数",
+    "Content": "零封数"
+  },
+  {
+    "Id": 1037,
+    "Name": "LeagueNameText",
+    "Desc": "联赛",
+    "Content": "联赛"
+  },
+  {
+    "Id": 1038,
+    "Name": "CupNameText",
+    "Desc": "杯赛",
+    "Content": "杯赛"
+  },
+  {
+    "Id": 1039,
+    "Name": "ChampionshipNameText",
+    "Desc": "冠军赛",
+    "Content": "冠军赛"
+  },
+  {
+    "Id": 1040,
+    "Name": "WorldCompetitionNameText",
+    "Desc": "世俱杯",
+    "Content": "世俱杯"
+  },
+  {
+    "Id": 1041,
+    "Name": "LeagueIntroduceTitle1",
+    "Desc": "联赛赛制",
+    "Content": "联赛赛制"
+  },
+  {
+    "Id": 1042,
+    "Name": "LeagueIntroduceValue1",
+    "Desc": "联赛赛制介绍",
+    "Content": "20支球队双循环主客场赛制，共38轮比赛，每天10场比赛，一个赛季共约4天。"
+  },
+  {
+    "Id": 1043,
+    "Name": "LeagueIntroduceTitle2",
+    "Desc": "排名规则",
+    "Content": "排名规则"
+  },
+  {
+    "Id": 1044,
+    "Name": "LeagueIntroduceValue2",
+    "Desc": "排名规则介绍",
+    "Content": "胜场>>场次>>净胜分>>得分。\\n如全部相同时，则先创建的球队排名在前。"
+  },
+  {
+    "Id": 1045,
+    "Name": "LeagueIntroduceTitle3",
+    "Desc": "升降级规则",
+    "Content": "升降级规则"
+  },
+  {
+    "Id": 1046,
+    "Name": "LeagueIntroduceValue3",
+    "Desc": "升降级规则介绍",
+    "Content": "赛季结束时，排行榜前三名升级到高一级别联赛，排行榜末三名降级到低一级别联赛。1级联赛的末三名不会被降级。"
+  },
+  {
+    "Id": 1047,
+    "Name": "LeagueIntroduceTitle4",
+    "Desc": "冠军赛资格",
+    "Content": "冠军赛资格"
+  },
+  {
+    "Id": 1048,
+    "Name": "LeagueIntroduceValue4",
+    "Desc": "冠军赛资格介绍",
+    "Content": "赛季结束时，排行榜前四名球队获得冠军赛资格。"
+  },
+  {
+    "Id": 1049,
+    "Name": "LeagueIntroduceTitle5",
+    "Desc": "禁赛规则",
+    "Content": "体力规则"
+  },
+  {
+    "Id": 1050,
+    "Name": "LeagueIntroduceValue5",
+    "Desc": "禁赛规则介绍",
+    "Content": "球员每出场1分钟扣1点体能。在场下每小时恢复8点体能。（部分球员还有减少体能消耗和恢复体能的天赋技能）。"
+  },
+  {
+    "Id": 1051,
+    "Name": "IntroduceText",
+    "Desc": "介绍",
+    "Content": "介绍"
+  },
+  {
+    "Id": 1052,
+    "Name": "RewardText",
+    "Desc": "奖励",
+    "Content": "奖励"
+  },
+  {
+    "Id": 1053,
+    "Name": "CompitionNameText",
+    "Desc": "比赛名称",
+    "Content": "{level}级{name}"
+  },
+  {
+    "Id": 1054,
+    "Name": "MyGameText",
+    "Desc": "我的比赛{state}",
+    "Content": "我的比赛{state}"
+  },
+  {
+    "Id": 1055,
+    "Name": "NotImplementedText",
+    "Desc": "未进行",
+    "Content": "未进行"
+  },
+  {
+    "Id": 1056,
+    "Name": "UnderwayText",
+    "Desc": "已进行",
+    "Content": "已进行"
+  },
+  {
+    "Id": 1057,
+    "Name": "EliminatedText",
+    "Desc": "已淘汰",
+    "Content": "已淘汰"
+  },
+  {
+    "Id": 1058,
+    "Name": "DateString2",
+    "Desc": "MM月dd日",
+    "Content": "MM月dd日"
+  },
+  {
+    "Id": 1059,
+    "Name": "StatisticsText",
+    "Desc": "{win}胜 {faild}负",
+    "Content": "{win}胜 {faild}负"
+  },
+  {
+    "Id": 1060,
+    "Name": "RankText",
+    "Desc": "排名",
+    "Content": "排名"
+  },
+  {
+    "Id": 1061,
+    "Name": "TheNewTimeHasBeenSet",
+    "Desc": "新的时间已设定",
+    "Content": "新的时间已设定。"
+  },
+  {
+    "Id": 1062,
+    "Name": "RecycleConfirmText",
+    "Desc": "回收的物品包含橙色及以上品质，确认要回收吗",
+    "Content": "回收的物品包含橙色及以上品质，确认要回收吗？"
+  },
+  {
+    "Id": 1063,
+    "Name": "HomeFormationText",
+    "Desc": "我方使用",
+    "Content": "我方使用"
+  },
+  {
+    "Id": 1064,
+    "Name": "AwayFormationText",
+    "Desc": "对方使用",
+    "Content": "对方使用"
+  },
+  {
+    "Id": 1065,
+    "Name": "CupIntroduceTitle1",
+    "Desc": "杯赛赛制",
+    "Content": "杯赛赛制"
+  },
+  {
+    "Id": 1066,
+    "Name": "CupIntroduceValue1",
+    "Desc": "杯赛赛制介绍",
+    "Content": "采用64支球队抽签一战定胜负的淘汰赛制，一届杯赛有64强赛、32强赛、16强赛、8强赛、半决赛、决赛等6轮比赛。"
+  },
+  {
+    "Id": 1067,
+    "Name": "CupIntroduceTitle2",
+    "Desc": "排名规则",
+    "Content": "排名规则"
+  },
+  {
+    "Id": 1068,
+    "Name": "CupIntroduceValue2",
+    "Desc": "排名规则介绍",
+    "Content": "排名时先看胜场，次看场次，再看净胜分，再看得分。如全部相同时，则先创建的球队排名在前。"
+  },
+  {
+    "Id": 1069,
+    "Name": "CupIntroduceTitle3",
+    "Desc": "加时赛规则",
+    "Content": "加时赛规则"
+  },
+  {
+    "Id": 1070,
+    "Name": "CupIntroduceValue3",
+    "Desc": "加时赛规则介绍",
+    "Content": "若48分钟未分出胜负，则进入加时赛。加时赛是5分钟。"
+  },
+  {
+    "Id": 1071,
+    "Name": "CupIntroduceTitle4",
+    "Desc": "点球大战",
+    "Content": "点球大战"
+  },
+  {
+    "Id": 1072,
+    "Name": "CupIntroduceValue4",
+    "Desc": "点球大战规则介绍",
+    "Content": "若加时赛也还未分出胜负，则进入点球大战。"
+  },
+  {
+    "Id": 1073,
+    "Name": "CupIntroduceTitle5",
+    "Desc": "禁赛规则",
+    "Content": "禁赛规则"
+  },
+  {
+    "Id": 1074,
+    "Name": "CupIntroduceValue5",
+    "Desc": "禁赛规则介绍",
+    "Content": "无。"
+  },
+  {
+    "Id": 1075,
+    "Name": "WinText",
+    "Desc": "比赛胜利",
+    "Content": "比赛胜利"
+  },
+  {
+    "Id": 1076,
+    "Name": "FailText",
+    "Desc": "比赛失败",
+    "Content": "比赛失败"
+  },
+  {
+    "Id": 1077,
+    "Name": "DeuceText",
+    "Desc": "平局",
+    "Content": "平局"
+  },
+  {
+    "Id": 1078,
+    "Name": "CupRewardText",
+    "Desc": "杯赛奖励",
+    "Content": "杯赛奖励"
+  },
+  {
+    "Id": 1079,
+    "Name": "DeleteEmail",
+    "Desc": "删除",
+    "Content": "删除"
+  },
+  {
+    "Id": 1080,
+    "Name": "ReceiveEmail",
+    "Desc": "领取",
+    "Content": "领取"
+  },
+  {
+    "Id": 1081,
+    "Name": "Ago",
+    "Desc": "前",
+    "Content": "前"
+  },
+  {
+    "Id": 1082,
+    "Name": "OverDue",
+    "Desc": "后过期",
+    "Content": "后过期"
+  },
+  {
+    "Id": 1083,
+    "Name": "LeagueDayTxt",
+    "Desc": "联赛比赛日",
+    "Content": "联赛比赛日"
+  },
+  {
+    "Id": 1084,
+    "Name": "CupDayTxt",
+    "Desc": "杯赛比赛日",
+    "Content": "杯赛比赛日"
+  },
+  {
+    "Id": 1085,
+    "Name": "LeagueRecordTxt",
+    "Desc": "联赛战绩",
+    "Content": "联赛战绩"
+  },
+  {
+    "Id": 1086,
+    "Name": "CupRecordTxt",
+    "Desc": "杯赛战绩",
+    "Content": "杯赛战绩"
+  },
+  {
+    "Id": 1087,
+    "Name": "Exp",
+    "Desc": "经验",
+    "Content": "经验"
+  },
+  {
+    "Id": 1088,
+    "Name": "Diamond",
+    "Desc": "钻石",
+    "Content": "钻石"
+  },
+  {
+    "Id": 1089,
+    "Name": "Euro",
+    "Desc": "钞票",
+    "Content": "钞票"
+  },
+  {
+    "Id": 1090,
+    "Name": "DayTxt",
+    "Desc": "第{value}天",
+    "Content": "第{value}天"
+  },
+  {
+    "Id": 1091,
+    "Name": "InProgressTxt",
+    "Desc": "进行中",
+    "Content": "进行中"
+  },
+  {
+    "Id": 1092,
+    "Name": "RecruitAppointLimit",
+    "Desc": "心愿球员列表限制",
+    "Content": "请先进行100次普通球探搜索，当前次数{RecruitTimes}/100"
+  },
+  {
+    "Id": 1093,
+    "Name": "BoardTxt",
+    "Desc": "董事会",
+    "Content": "董事会"
+  },
+  {
+    "Id": 1094,
+    "Name": "MeTxt",
+    "Desc": "我",
+    "Content": "我"
+  },
+  {
+    "Id": 1095,
+    "Name": "ClerkTxt",
+    "Desc": "秘书",
+    "Content": "秘书"
+  },
+  {
+    "Id": 1096,
+    "Name": "Guide1Txt",
+    "Desc": "欢迎您加入{name}俱乐部。\\n董事会正在等待与您进行一次简短的交流。",
+    "Content": "欢迎您加入{name}俱乐部。\\n董事会正在等待与您进行一次简短的交流。"
+  },
+  {
+    "Id": 1097,
+    "Name": "Guide2Txt",
+    "Desc": "在开始训练之前，先见见球队里的球员吧。\\n他们非常想和你聊一聊。",
+    "Content": "在开始训练之前，先见见球队里的球员吧。\\n他们非常想和你聊一聊。"
+  },
+  {
+    "Id": 1098,
+    "Name": "Guide3Txt",
+    "Desc": "看来您与董事会已经充分交流过了。\\n今天正好有一场热身赛，也许您\\n可以先看看球员的表现。",
+    "Content": "看来您与董事会已经充分交流过了。\\n正好全明星队在这里，可以切磋一下，您\\n可以先看看球员的表现。"
+  },
+  {
+    "Id": 1099,
+    "Name": "Guide4Txt",
+    "Desc": "这真是一场 ……嗯……很棒的比赛。您已经很清楚球队的实力了，是吧？\\n我们还是立刻开始训练吧，他们已经在<color=#1A7CC1>训练场</color>等您了。",
+    "Content": "这真是一场 ……嗯……很棒的比赛。您已经很清楚球队的实力了，是吧？\\n我们还是立刻开始训练吧，他们已经在<color=#1A7CC1>训练场</color>等您了。"
+  },
+  {
+    "Id": 1100,
+    "Name": "WaitingForTxt",
+    "Desc": "球员们正在训练场等您",
+    "Content": "球员们正在训练场等您。"
+  },
+  {
+    "Id": 1101,
+    "Name": "Guide5Txt",
+    "Desc": "也许我们应该在<color=#1A7CC1>联赛新赛季</color>开始前尽快提升一下训练水平。\\n就这么简单，升级训练……经验提升……解锁新的训练！",
+    "Content": "也许我们应该在<color=#1A7CC1>联赛新赛季</color>开始前尽快提升一下训练水平。\\n就这么简单，升级训练……经验提升……解锁新的训练！"
+  },
+  {
+    "Id": 1102,
+    "Name": "UpgradeFirstTxt",
+    "Desc": "请先升级第一个训练项目",
+    "Content": "请先升级第一个训练项目。"
+  },
+  {
+    "Id": 1103,
+    "Name": "ConfirmTxt",
+    "Desc": "确认",
+    "Content": "确认"
+  },
+  {
+    "Id": 1104,
+    "Name": "GoTxt",
+    "Desc": "前往",
+    "Content": "前往"
+  },
+  {
+    "Id": 1105,
+    "Name": "NetworkConnectionTimeout",
+    "Desc": "网络连接超时",
+    "Content": "网络连接超时。"
+  },
+  {
+    "Id": 1106,
+    "Name": "ChangeNumberConfirm",
+    "Desc": "更换球员号码提示",
+    "Content": "<color=#0c8227>{numberValue}号</color>目前是<color=#0c8227>{Name}</color>，是否更换号码?"
+  },
+  {
+    "Id": 1107,
+    "Name": "MonthRewardTxt",
+    "Desc": "月签到奖励",
+    "Content": "月签到奖励"
+  },
+  {
+    "Id": 1108,
+    "Name": "MonthRewardCostTxt",
+    "Desc": "是否花费10钻石补签？",
+    "Content": "是否花费10钻石补签？"
+  },
+  {
+    "Id": 1109,
+    "Name": "RecycleToStarText",
+    "Desc": "可回收成星晶",
+    "Content": "可回收成星晶"
+  },
+  {
+    "Id": 1110,
+    "Name": "RecycleToEruoText",
+    "Desc": "可回收成金币",
+    "Content": "可回收成金币"
+  },
+  {
+    "Id": 1111,
+    "Name": "HasCount",
+    "Desc": "拥有",
+    "Content": "拥有："
+  },
+  {
+    "Id": 1112,
+    "Name": "NormalProp",
+    "Desc": "普通道具",
+    "Content": "普通道具"
+  },
+  {
+    "Id": 1113,
+    "Name": "BoxProp",
+    "Desc": "宝箱类",
+    "Content": "宝箱道具"
+  },
+  {
+    "Id": 1114,
+    "Name": "SplinterProp",
+    "Desc": "球员碎片",
+    "Content": "球员碎片"
+  },
+  {
+    "Id": 1115,
+    "Name": "MaterialProp",
+    "Desc": "材料道具",
+    "Content": "材料道具"
+  },
+  {
+    "Id": 1116,
+    "Name": "DiamondDesc",
+    "Desc": "钻石描述",
+    "Content": "篮球世界中最稀有的资源，可以购买稀有道具，或招募顶级球员。"
+  },
+  {
+    "Id": 1117,
+    "Name": "EruoDesc",
+    "Desc": "金币描述",
+    "Content": "篮球世界中流通的基础货币，可用于解锁特技，或升星球员。"
+  },
+  {
+    "Id": 1118,
+    "Name": "ExpDesc",
+    "Desc": "经验描述",
+    "Content": "训练经验是篮球世界中宝贵的资产，可用于训练项目的升级，或进行强化训练。"
+  },
+  {
+    "Id": 1119,
+    "Name": "GuysDesc",
+    "Desc": "球员描述",
+    "Content": "球员，是决定比赛胜负的关键因素。"
+  },
+  {
+    "Id": 1120,
+    "Name": "ResourcesDesc",
+    "Desc": "资源",
+    "Content": "资源"
+  },
+  {
+    "Id": 1121,
+    "Name": "Guys",
+    "Desc": "球员",
+    "Content": "球员"
+  },
+  {
+    "Id": 1122,
+    "Name": "PropRecycleTip",
+    "Desc": "已拥有则转为球员碎片",
+    "Content": "已拥有则转为球员碎片。"
+  },
+  {
+    "Id": 1123,
+    "Name": "UnknownClub",
+    "Desc": "未知队伍",
+    "Content": "未知队伍"
+  },
+  {
+    "Id": 1124,
+    "Name": "BestPositionTitle",
+    "Desc": "球员的开始最好位置",
+    "Content": "{propName}的推荐位置"
+  },
+  {
+    "Id": 1125,
+    "Name": "PropertiesTxt",
+    "Desc": "属性",
+    "Content": "属性"
+  },
+  {
+    "Id": 1126,
+    "Name": "Guide6Txt",
+    "Desc": "战中引导",
+    "Content": "双方你来我往，转眼间90分钟的比赛就结束了……"
+  },
+  {
+    "Id": 1127,
+    "Name": "Guide6BtnTxt",
+    "Desc": "战中引导按钮",
+    "Content": "回到俱乐部"
+  },
+  {
+    "Id": 1128,
+    "Name": "LvTxt",
+    "Desc": "级",
+    "Content": "级"
+  },
+  {
+    "Id": 1129,
+    "Name": "HourTxt",
+    "Desc": "小时",
+    "Content": "小时"
+  },
+  {
+    "Id": 1130,
+    "Name": "SecondTxt",
+    "Desc": "秒",
+    "Content": "秒"
+  },
+  {
+    "Id": 1131,
+    "Name": "MinuteTxt",
+    "Desc": "分钟",
+    "Content": "分钟"
+  },
+  {
+    "Id": 1132,
+    "Name": "MakeAdditionTxt",
+    "Desc": "翻{value}倍",
+    "Content": "翻{value}倍"
+  },
+  {
+    "Id": 1133,
+    "Name": "VSTxt",
+    "Desc": "对阵",
+    "Content": "对阵"
+  },
+  {
+    "Id": 1134,
+    "Name": "CmTxt",
+    "Desc": "厘米",
+    "Content": "厘米"
+  },
+  {
+    "Id": 1135,
+    "Name": "KgTxt",
+    "Desc": "千克",
+    "Content": "千克"
+  },
+  {
+    "Id": 1136,
+    "Name": "VersionTxt",
+    "Desc": "版本号",
+    "Content": "版本号"
+  },
+  {
+    "Id": 1137,
+    "Name": "Guide7Txt",
+    "Desc": "您的球队已经初具雏形，现在开始你的环球之旅吧",
+    "Content": "您的球队已经初具雏形，现在开始你的环球之旅吧。"
+  },
+  {
+    "Id": 1138,
+    "Name": "Guide8Txt",
+    "Desc": "您已获得了参加联赛的资格。",
+    "Content": "您已获得了参加联赛的资格。"
+  },
+  {
+    "Id": 1139,
+    "Name": "Guide9Txt",
+    "Desc": "你可以在此界面查看敌我双方的信息并根据敌方信息对阵容做出调整，准备好迎接你的第一场比赛吧",
+    "Content": "你可以在此界面查看敌我双方的信息并根据敌方信息对阵容做出调整，准备好迎接你的第一场比赛吧。"
+  },
+  {
+    "Id": 1140,
+    "Name": "Guide10Txt",
+    "Desc": "你需要在此模式里挑战来自五大洲的球队，挑战模式会提高可观的经验产出。点击挑战正式开启你的环球之旅",
+    "Content": "你需要在此模式里挑战来自五大洲的球队，挑战模式会提高可观的经验产出。点击挑战正式开启你的环球之旅。"
+  },
+  {
+    "Id": 1141,
+    "Name": "Guide11Txt",
+    "Desc": "我们的球探找到了一名优秀的球员，快来看看吧",
+    "Content": "我们的球探找到了一名优秀的球员，快来看看吧。"
+  },
+  {
+    "Id": 1142,
+    "Name": "ChargeErrorTitle",
+    "Desc": "充值失败",
+    "Content": "充值失败。"
+  },
+  {
+    "Id": 1143,
+    "Name": "ChargeError1",
+    "Desc": "未满8周岁的用户不能付费",
+    "Content": "未满8周岁的用户不能付费。"
+  },
+  {
+    "Id": 1144,
+    "Name": "ChargeError2",
+    "Desc": "8周岁以上未满16周岁的用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币",
+    "Content": "8周岁以上未满16周岁的用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币。"
+  },
+  {
+    "Id": 1145,
+    "Name": "ChargeError3",
+    "Desc": "16周岁以上的未成年用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。",
+    "Content": "16周岁以上的未成年用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。"
+  },
+  {
+    "Id": 1146,
+    "Name": "ChallengeCompletedTxt",
+    "Desc": "你已击败所有{name}俱乐部",
+    "Content": "你已击败所有{name}俱乐部。"
+  },
+  {
+    "Id": 1147,
+    "Name": "UnlockChallengeTxt",
+    "Desc": "解锁第4个训练项目后开放挑战玩法",
+    "Content": "解锁第4个训练项目后开放挑战玩法"
+  },
+  {
+    "Id": 1148,
+    "Name": "Guide12Txt",
+    "Desc": "联赛分组已完成，快去看看吧！",
+    "Content": "联赛分组已完成，快去看看吧！"
+  },
+  {
+    "Id": 1149,
+    "Name": "Shootout",
+    "Desc": "轮次",
+    "Content": "轮次"
+  },
+  {
+    "Id": 1150,
+    "Name": "NeedToUnlockRecruit",
+    "Desc": "挑战赛通关第三关开放招募",
+    "Content": "挑战赛通关第三关开放招募"
+  },
+  {
+    "Id": 1151,
+    "Name": "LeagueRewardRankTitleTxt",
+    "Desc": "联赛排名奖励标题",
+    "Content": "联赛排名第{rank}的奖励"
+  },
+  {
+    "Id": 1152,
+    "Name": "LeagueRewardRankContentTxt",
+    "Desc": "联赛排名奖励内容",
+    "Content": "你的球队{team}在{level}级联赛中，排名{rank}，获得了排名奖励"
+  },
+  {
+    "Id": 1153,
+    "Name": "CupRewardRankTitleTxt",
+    "Desc": "杯赛排名奖励标题",
+    "Content": "杯赛排名第{rank}的奖励"
+  },
+  {
+    "Id": 1154,
+    "Name": "CupRewardRankContentTxt",
+    "Desc": "杯赛排名奖励内容",
+    "Content": "你的球队{team}在{level}级杯赛中，排名{rank}，获得了排名奖励"
+  },
+  {
+    "Id": 9000,
+    "Name": "None",
+    "Desc": "无",
+    "Content": "无"
+  },
+  {
+    "Id": 9001,
+    "Name": "SystemError",
+    "Desc": "系统错误",
+    "Content": "系统错误。"
+  },
+  {
+    "Id": 9002,
+    "Name": "ExpNotEnough",
+    "Desc": "经验不足",
+    "Content": "经验不足。"
+  },
+  {
+    "Id": 9003,
+    "Name": "MoneyNotEnough",
+    "Desc": "钞票不足",
+    "Content": "钞票不足。"
+  },
+  {
+    "Id": 9004,
+    "Name": "DiamondNotEnough",
+    "Desc": "钻石不足",
+    "Content": "钻石不足。"
+  },
+  {
+    "Id": 9005,
+    "Name": "CardUpgradeFail",
+    "Desc": "球员升级失败",
+    "Content": "球员升级失败。"
+  },
+  {
+    "Id": 9006,
+    "Name": "MergeCardFail",
+    "Desc": "球员合成失败",
+    "Content": "球员合成失败。"
+  },
+  {
+    "Id": 9007,
+    "Name": "UpgradeGoodsNotEnough",
+    "Desc": "升星道具不足",
+    "Content": "升星道具不足。"
+  },
+  {
+    "Id": 9008,
+    "Name": "CanNotUpgradeStar",
+    "Desc": "不能升星",
+    "Content": "不能升星。"
+  },
+  {
+    "Id": 9009,
+    "Name": "RecruitDayMax",
+    "Desc": "每日招募次数达到上限",
+    "Content": "招募次数达到上限。"
+  },
+  {
+    "Id": 9010,
+    "Name": "RecruitPointNotEnough",
+    "Desc": "招募点不足",
+    "Content": "招募点不足。"
+  },
+  {
+    "Id": 9011,
+    "Name": "UnLock",
+    "Desc": "项目未解锁",
+    "Content": "解锁跑位训练后开放该功能。"
+  },
+  {
+    "Id": 9012,
+    "Name": "ErrorAlreadyFull",
+    "Desc": "该球员已满星",
+    "Content": "该球员已满星。"
+  },
+  {
+    "Id": 9013,
+    "Name": "RecruitAppointPositionRepeat",
+    "Desc": "心愿球员每个位置只能选择1名球员",
+    "Content": "每个位置只能选择1名球员。"
+  },
+  {
+    "Id": 9014,
+    "Name": "RecruitAppointFull",
+    "Desc": "心愿栏已满",
+    "Content": "你的心愿栏已满。"
+  },
+  {
+    "Id": 9015,
+    "Name": "RecruitAppointAlreadyHit",
+    "Desc": "你已实现今日心愿",
+    "Content": "你已实现今日心愿。"
+  },
+  {
+    "Id": 9016,
+    "Name": "UnLockSkillRepeat",
+    "Desc": "特技重复解锁",
+    "Content": "该特技已经解锁。"
+  },
+  {
+    "Id": 9017,
+    "Name": "UnLockSkillConditionsNotMet",
+    "Desc": "特技解锁条件不满足",
+    "Content": "特技解锁条件不满足。"
+  },
+  {
+    "Id": 9018,
+    "Name": "NoItemStrengthen",
+    "Desc": "没有项目可强化",
+    "Content": "没有项目可强化。"
+  },
+  {
+    "Id": 9019,
+    "Name": "SkillTrainRoomSelectCardNull",
+    "Desc": "特技学习没有选卡",
+    "Content": "特技学习没有选卡。"
+  },
+  {
+    "Id": 9020,
+    "Name": "SkillTrainRoomSelectSkillNull",
+    "Desc": "特技学习没有选特技",
+    "Content": "特技学习没有选特技。"
+  },
+  {
+    "Id": 9021,
+    "Name": "SkillTrainRoomNoIdle",
+    "Desc": "没有空闲的房间",
+    "Content": "没有空闲的房间。"
+  },
+  {
+    "Id": 9022,
+    "Name": "SkillTrainSelectSkillDoTraining",
+    "Desc": "该特技正在被其他球员学习",
+    "Content": "该特技正在被其他球员学习。"
+  },
+  {
+    "Id": 9023,
+    "Name": "SkillTrainSelectSkillCanNotTrain",
+    "Desc": "球员品质不足，无法学习该特技",
+    "Content": "球员品质不足，无法学习该特技。"
+  },
+  {
+    "Id": 9024,
+    "Name": "SkillTrainSelectSkillHaveBeenTrain",
+    "Desc": "已掌握此项特技",
+    "Content": "已掌握此项特技。"
+  },
+  {
+    "Id": 9025,
+    "Name": "SkillTrainSelectCardDoTraining",
+    "Desc": "该球员正在学习中",
+    "Content": "该球员正在学习中。"
+  },
+  {
+    "Id": 9026,
+    "Name": "SkillTrainSelectCardCanNotTrain",
+    "Desc": "该球员品质不足，无法学习该特技",
+    "Content": "该球员品质不足，无法学习该特技。"
+  },
+  {
+    "Id": 9027,
+    "Name": "SkillTrainSelectCardHaveBeenTrain",
+    "Desc": "已掌握此项特技",
+    "Content": "已掌握此项特技。"
+  },
+  {
+    "Id": 9028,
+    "Name": "InventoryUseMinNumber",
+    "Desc": "已达最小数量",
+    "Content": "已达最小数量。"
+  },
+  {
+    "Id": 9029,
+    "Name": "AlreadyHavePlayer",
+    "Desc": "你已拥有该球员",
+    "Content": "你已拥有该球员。"
+  },
+  {
+    "Id": 9030,
+    "Name": "DebirsNotEnough",
+    "Desc": "碎片不足",
+    "Content": "碎片不足。"
+  },
+  {
+    "Id": 9031,
+    "Name": "LineupCardCanNotFight",
+    "Desc": "阵容交换，不能上场",
+    "Content": "该球员已被禁赛，无法上阵。"
+  },
+  {
+    "Id": 9032,
+    "Name": "ChooseMaterial",
+    "Desc": "请先选择回收材料",
+    "Content": "请先选择回收材料。"
+  },
+  {
+    "Id": 9033,
+    "Name": "TimeHasExpired",
+    "Desc": "时间已过期",
+    "Content": "时间已过期。"
+  },
+  {
+    "Id": 9034,
+    "Name": "ChangeTimeError",
+    "Desc": "只有主场球队才可以修改比赛时间",
+    "Content": "只有主场球队才可以修改比赛时间。"
+  },
+  {
+    "Id": 9035,
+    "Name": "FightFormationError",
+    "Desc": "战斗时获取阵容失败",
+    "Content": "没有可以使用的阵容，无法战斗。"
+  },
+  {
+    "Id": 9036,
+    "Name": "FormationTemplateMax",
+    "Desc": "保存阵型模板超过99",
+    "Content": "自建阵型数已达上限。"
+  },
+  {
+    "Id": 9037,
+    "Name": "FormationTemplateRepeatName",
+    "Desc": "阵型模板名字重复",
+    "Content": "名字重复。"
+  },
+  {
+    "Id": 9038,
+    "Name": "CompitionIsNotReady",
+    "Desc": "赛季筹备中",
+    "Content": "赛季筹备中。"
+  },
+  {
+    "Id": 9039,
+    "Name": "SellOutToday",
+    "Desc": "该商品今日已售罄",
+    "Content": "该商品今日已售罄。"
+  },
+  {
+    "Id": 9040,
+    "Name": "BuyError",
+    "Desc": "未能成功购买，请检测网络或联系客服",
+    "Content": "未能成功购买，请检测网络或联系客服。"
+  },
+  {
+    "Id": 9041,
+    "Name": "ChallengeNoChance",
+    "Desc": "今日已无挑战次数",
+    "Content": "今日已无挑战次数。"
+  },
+  {
+    "Id": 9042,
+    "Name": "FormationTemplateNameTooLong",
+    "Desc": "阵型模板名字超过20字",
+    "Content": "阵型模板名字太长。"
+  },
+  {
+    "Id": 9043,
+    "Name": "SellOut",
+    "Desc": "该商品已售罄",
+    "Content": "该商品已售罄。"
+  },
+  {
+    "Id": 9044,
+    "Name": "IllegalName",
+    "Desc": "名称包含敏感词，请重新输入",
+    "Content": "名称包含敏感词，请重新输入。"
+  },
+  {
+    "Id": 9045,
+    "Name": "NameOverflow",
+    "Desc": "名称超出上限，请重新输入",
+    "Content": "名称超出上限，请重新输入。"
+  },
+  {
+    "Id": 9046,
+    "Name": "NameRepetition",
+    "Desc": "名称重复，请重新输入",
+    "Content": "名称重复，请重新输入。"
+  },
+  {
+    "Id": 9047,
+    "Name": "NameEmpty",
+    "Desc": "请输入俱乐部名称",
+    "Content": "请输入俱乐部名称。"
+  },
+  {
+    "Id": 9048,
+    "Name": "SameJersey",
+    "Desc": "主客场及客场备选队服主颜色不能完全相同",
+    "Content": "主客场及客场备选队服主颜色不能完全相同。"
+  },
+  {
+    "Id": 9049,
+    "Name": "UnlockOneTrainItem",
+    "Desc": "请先解锁一个训练项目",
+    "Content": "请先解锁一个训练项目。"
+  },
+  {
+    "Id": 9050,
+    "Name": "UnlockRequirements",
+    "Desc": "请先达成解锁要求",
+    "Content": "请先达成解锁要求。"
+  },
+  {
+    "Id": 9051,
+    "Name": "PleaseFinishTheTask",
+    "Desc": "请先完成任务",
+    "Content": "请先完成任务。"
+  },
+  {
+    "Id": 9052,
+    "Name": "RecruitCanDiamond",
+    "Desc": "招募点不足但钻石足够",
+    "Content": "招募点不足但钻石足够。"
+  },
+  {
+    "Id": 9053,
+    "Name": "GoalKeeperCannotBeNull",
+    "Desc": "守门员不能为空",
+    "Content": "守门员不能为空。"
+  },
+  {
+    "Id": 9054,
+    "Name": "CanOnlySwitchCardFiveTime",
+    "Desc": "比赛期间最多只能更换5次球员",
+    "Content": "比赛期间最多只能更换5次球员。"
+  },
+  {
+    "Id": 9055,
+    "Name": "RenameCardIsNotEnough",
+    "Desc": "改名卡不足",
+    "Content": "改名卡不足。"
+  },
+  {
+    "Id": 9056,
+    "Name": "ReviseNameIsNotQualified",
+    "Desc": "名字不合规",
+    "Content": "队名不符合要求。"
+  },
+  {
+    "Id": 9057,
+    "Name": "LeagueNotOpenTip",
+    "Desc": "联赛未开启上次赛事提示",
+    "Content": "联赛开打后，开放该功能。"
+  },
+  {
+    "Id": 9058,
+    "Name": "NoLastMatchMessageTip",
+    "Desc": "联赛开启后没有上次赛事",
+    "Content": "暂无比赛信息。"
+  },
+  {
+    "Id": 9059,
+    "Name": "NoGamePreviewTemporarily",
+    "Desc": "暂无比赛预览",
+    "Content": "暂无比赛预览。"
+  },
+  {
+    "Id": 9060,
+    "Name": "NoMyGameTemporarily",
+    "Desc": "暂时没有比赛信息",
+    "Content": "暂时没有比赛信息。"
+  },
+  {
+    "Id": 9061,
+    "Name": "NoTenTrainCanUnclock",
+    "Desc": "解锁10个训练项目后开启赛事",
+    "Content": "解锁10个训练项目后开启赛事。"
+  },
+  {
+    "Id": 9062,
+    "Name": "LeagueNotReadyTip",
+    "Desc": "联赛正在筹备中",
+    "Content": "联赛正在筹备中。"
+  },
+  {
+    "Id": 9063,
+    "Name": "CupFirstOpenNotReady",
+    "Desc": "完成一届联赛后开放杯赛",
+    "Content": "完成一届联赛后开放杯赛。"
+  },
+  {
+    "Id": 9064,
+    "Name": "CupNotReadyTip",
+    "Desc": "杯赛正在筹备中",
+    "Content": "杯赛正在筹备中。"
+  },
+  {
+    "Id": 9065,
+    "Name": "ChangeTimeErrorTip",
+    "Desc": "临近比赛时间小于180分钟时，不能再做调整",
+    "Content": "临近比赛时间小于180分钟时，不能再做调整。"
+  },
+  {
+    "Id": 9066,
+    "Name": "NoMoreBackupCard",
+    "Desc": "没有更多球员了",
+    "Content": "没有更多球员了"
+  },
+  {
+    "Id": 9067,
+    "Name": "NoNeedToExchangeBackup",
+    "Desc": "候选室球员无需换位",
+    "Content": "候选室球员无需换位"
+  },
+  {
+    "Id": 9068,
+    "Name": "NoReserveCard",
+    "Desc": "暂无候选人员",
+    "Content": "暂无候选人员"
+  },
+  {
+    "Id": 9069,
+    "Name": "FiveExchangeOneGameAtMost",
+    "Desc": "每场比赛最多更换五名替补",
+    "Content": "每场比赛最多更换五名替补"
+  },
+  {
+    "Id": 9070,
+    "Name": "NoTenTrainCanUnclockArena",
+    "Desc": "解锁10个训练项目后开启竞技场",
+    "Content": "解锁10个训练项目后开启竞技场"
+  },
+  {
+    "Id": 9071,
+    "Name": "CanNotUpgradeQuality",
+    "Desc": "不能升阶",
+    "Content": "不能升阶"
+  }
+]

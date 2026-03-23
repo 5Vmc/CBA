@@ -1,0 +1,39 @@
+{
+  "class_name": "StrengthenConfig",
+  "table_name": "cfg_strengthen",
+  "field_count": 6,
+  "row_count": 2555,
+  "trailing_bytes_after_parse": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "CostNum",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "CostUnit",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BuffType",
+      "type": "int",
+      "reader": "GetInt32"
+    },
+    {
+      "name": "BuffValue",
+      "type": "float",
+      "reader": "GetFloat32"
+    },
+    {
+      "name": "BuffValueShow",
+      "type": "string",
+      "reader": "GetString"
+    }
+  ]
+}
