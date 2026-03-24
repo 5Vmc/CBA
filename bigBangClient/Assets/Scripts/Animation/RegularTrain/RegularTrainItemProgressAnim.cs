@@ -52,9 +52,9 @@ namespace BigBang.Animation
             var pastTime = (Utils.DataConvUtil.ServerTimeEx - trainItem.LastIncomeTimeStamp) / 1000.0f;
             if (pastTime < 0)
             {
-                Debug.LogWarningFormat("pastTime < 0 , ServerTimeEx = {0} , LastIncomeTimeStamp = {1}", Utils.DataConvUtil.ServerTimeEx, trainItem.LastIncomeTimeStamp);
-                ReplayAsync();
-                return;
+                // A tiny negative drift can happen when server sync updates the
+                // train timestamp slightly ahead of the local corrected clock.
+                pastTime = 0;
             }
             var startValue = pastTime / timeUnit;
             //设置进度条开始位置

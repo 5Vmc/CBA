@@ -14,6 +14,14 @@ namespace Babu
             Assert.IsTrue(_instance == null);
             _instance = this as T;
         }
+
+        public virtual void OnDestroy()
+        {
+            if (_instance == this as T)
+            {
+                _instance = null;
+            }
+        }
     }
     
     public abstract class Singleton<T> where T : new()

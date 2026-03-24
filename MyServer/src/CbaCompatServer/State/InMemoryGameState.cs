@@ -53,6 +53,7 @@ public sealed class InMemoryGameState
         104001, 104002, 104003, 104004, 104005, 104006, 104007, 104008,
         104009, 104010, 104011, 104012, 104013, 104014, 104015, 104016
     ];
+    private static readonly int[] TrainElementIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     public InMemoryGameState(IOptions<ServerOptions> options)
     {
@@ -182,6 +183,10 @@ public sealed class InMemoryGameState
             {
                 ApplyDevPlayerTemplate(player);
             }
+            else
+            {
+                EnsureTrainState(player);
+            }
 
             account.Players.Add(player);
             SaveSnapshotLocked();
@@ -196,12 +201,16 @@ public sealed class InMemoryGameState
             var account = GetAccount(session);
             var player = account.Players.FirstOrDefault(x => x.Gbid == gbid)
                 ?? throw new InvalidOperationException($"Unknown player '{gbid}'.");
+            EnsureTrainState(player);
+            AccrueTrainIncome(player, DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+            SaveSnapshotLocked();
 
             return new EnterGameSnapshot(
                 ToSignActivityInfo(player),
                 ToShopInfo(player, includePendingOrders: true),
                 ToBasicPlayerInfo(player),
                 ToRecruitInfo(player),
+                ToTrainInfo(player),
                 ToCardInfo(player),
                 ToPackageInfo(player),
                 ToResourceInfo(player));
@@ -505,6 +514,187 @@ public sealed class InMemoryGameState
         }
     }
 
+    public SyncTrainEventsResult SyncTrainEvents(string session, IEnumerable<TrainEvent> events)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            EnsureTrainState(player);
+
+            var nowMs = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            AccrueTrainIncome(player, nowMs);
+
+            var accepted = false;
+            foreach (var trainEvent in events.OrderBy(x => x.Time <= 0 ? long.MaxValue : x.Time))
+            {
+                accepted |= TryApplyTrainEvent(player, trainEvent, nowMs);
+            }
+
+            if (accepted)
+            {
+                SaveSnapshotLocked();
+            }
+
+            return new SyncTrainEventsResult(
+                new SyncTrainEventsResponse
+                {
+                    Result = true
+                },
+                ToTrainInfo(player));
+        }
+    }
+
+    public DoOfflineRewardResult DoOfflineReward(string session, int videoBuff)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            EnsureTrainState(player);
+            var nowMs = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            AccrueTrainIncome(player, nowMs);
+
+            var train = player.Train!;
+            var rewardValue = Math.Max(0d, train.OfflineExpValue);
+            if (videoBuff != 0)
+            {
+                rewardValue *= 2d;
+            }
+
+            if (rewardValue > 0)
+            {
+                train.ExpValue += rewardValue;
+                train.TotalExpValue += rewardValue;
+            }
+
+            train.OfflineExpValue = 0;
+            train.OfflineExpBeginTime = 0;
+            SaveSnapshotLocked();
+
+            return new DoOfflineRewardResult(
+                new DoOfflineRewardResponse
+                {
+                    RewardExp = ToBigNumberInfo(rewardValue, 0)
+                },
+                ToTrainInfo(player));
+        }
+    }
+
+    public FetchInviteMatchInfoResult FetchInviteMatchInfo(string session)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var train = EnsureTrainState(player);
+            EnsureInviteMatchState(train);
+            SaveSnapshotLocked();
+
+            return new FetchInviteMatchInfoResult(
+                new FetchInviteMatchInfoResponse
+                {
+                    Info = ToInviteMatchControllerInfo(train)
+                });
+        }
+    }
+
+    public DoInviteMatchResult DoInviteMatch(string session, int id)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var train = EnsureTrainState(player);
+            EnsureInviteMatchState(train);
+
+            var match = train.InviteMatches.FirstOrDefault(x => x.Id == id)
+                ?? throw new InvalidOperationException($"Invite match '{id}' was not found.");
+
+            if (!train.InviteMatchUnlocked)
+            {
+                throw new InvalidOperationException("Invite match is not unlocked.");
+            }
+
+            if (match.State != 1)
+            {
+                return new DoInviteMatchResult(
+                    new DoInviteMatchResponse
+                    {
+                        MatchInfo = ToInviteMatchInfo(match)
+                    },
+                    ToTrainInfo(player));
+            }
+
+            var nowMs = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            match.MineScore = Random.Shared.Next(82, 121);
+            match.OpponentScore = Random.Shared.Next(70, Math.Max(match.MineScore, 71));
+            if (match.OpponentScore >= match.MineScore)
+            {
+                match.OpponentScore = match.MineScore - 1;
+            }
+
+            match.State = 2;
+            match.CdEndTime = nowMs;
+            SaveSnapshotLocked();
+
+            return new DoInviteMatchResult(
+                new DoInviteMatchResponse
+                {
+                    MatchInfo = ToInviteMatchInfo(match)
+                },
+                ToTrainInfo(player));
+        }
+    }
+
+    public DoInviteMatchRewardResult DoInviteMatchReward(string session, int id, int videoBuff)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var train = EnsureTrainState(player);
+            EnsureInviteMatchState(train);
+            AccrueTrainIncome(player, DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+
+            var match = train.InviteMatches.FirstOrDefault(x => x.Id == id)
+                ?? throw new InvalidOperationException($"Invite match '{id}' was not found.");
+
+            if (match.State == 2)
+            {
+                var rewardValue = match.BaseRewardValue;
+                if (videoBuff != 0)
+                {
+                    rewardValue *= 10d;
+                }
+
+                train.ExpValue += rewardValue;
+                train.TotalExpValue += rewardValue;
+                match.State = 3;
+                match.CdEndTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            }
+
+            SaveSnapshotLocked();
+
+            return new DoInviteMatchRewardResult(
+                new DoInviteMatchRewardResponse
+                {
+                    Result = true
+                },
+                ToTrainInfo(player));
+        }
+    }
+
     public RequestContext DescribeRequest(string? session = null, string? gbid = null)
     {
         lock (_gate)
@@ -682,7 +872,8 @@ public sealed class InMemoryGameState
             BuyCount = new Dictionary<int, int>(player.BuyCount),
             SumCount = new Dictionary<int, int>(player.SumCount),
             WeekCount = new Dictionary<int, int>(player.WeekCount),
-            PendingOrders = player.PendingOrders.Select(ClonePendingOrderState).ToList()
+            PendingOrders = player.PendingOrders.Select(ClonePendingOrderState).ToList(),
+            Train = CloneTrainState(player.Train)
         };
     }
 
@@ -723,6 +914,75 @@ public sealed class InMemoryGameState
         };
     }
 
+    private static TrainState? CloneTrainState(TrainState? train)
+    {
+        if (train is null)
+        {
+            return null;
+        }
+
+        return new TrainState
+        {
+            ExpValue = train.ExpValue,
+            ExpUnitId = train.ExpUnitId,
+            TotalExpValue = train.TotalExpValue,
+            TotalExpUnitId = train.TotalExpUnitId,
+            ForceValue = train.ForceValue,
+            ForceUnitId = train.ForceUnitId,
+            ForceAdd = train.ForceAdd,
+            UpLevelType = train.UpLevelType,
+            OfflineExpBeginTime = train.OfflineExpBeginTime,
+            OfflineExpValue = train.OfflineExpValue,
+            OfflineExpUnitId = train.OfflineExpUnitId,
+            LastAcceptedEventTime = train.LastAcceptedEventTime,
+            StrengthenTrainedList = train.StrengthenTrainedList.ToList(),
+            BigBangTimes = train.BigBangTimes,
+            ClearCdTimes = train.ClearCdTimes,
+            LastCdTime = train.LastCdTime,
+            InviteMatchUnlocked = train.InviteMatchUnlocked,
+            InviteMatches = train.InviteMatches.Select(CloneInviteMatchState).ToList(),
+            Elements = train.Elements.ToDictionary(x => x.Key, x => CloneTrainElementState(x.Value))
+        };
+    }
+
+    private static TrainElementState CloneTrainElementState(TrainElementState element)
+    {
+        return new TrainElementState
+        {
+            Id = element.Id,
+            Level = element.Level,
+            RewardLevel = element.RewardLevel,
+            IncomeAddValue = element.IncomeAddValue,
+            IncomeAddUnitId = element.IncomeAddUnitId,
+            TimeReduceValue = element.TimeReduceValue,
+            TimeReduceUnitId = element.TimeReduceUnitId,
+            ConsumeReduceValue = element.ConsumeReduceValue,
+            ConsumeReduceUnitId = element.ConsumeReduceUnitId,
+            BreakIndex = element.BreakIndex,
+            LastIncomeTime = element.LastIncomeTime
+        };
+    }
+
+    private static InviteMatchState CloneInviteMatchState(InviteMatchState match)
+    {
+        return new InviteMatchState
+        {
+            Id = match.Id,
+            MineScore = match.MineScore,
+            OpponentScore = match.OpponentScore,
+            State = match.State,
+            CdEndTime = match.CdEndTime,
+            BaseRewardValue = match.BaseRewardValue,
+            BaseRewardUnitId = match.BaseRewardUnitId,
+            OpponentName = match.OpponentName,
+            OpponentIcon = match.OpponentIcon,
+            Organizer = match.Organizer,
+            Place = match.Place,
+            Content = match.Content,
+            OrganizerIcon = match.OrganizerIcon
+        };
+    }
+
     private bool IsDevAccount(string accountId)
     {
         return _devAccountPrefixes.Any(prefix =>
@@ -759,11 +1019,14 @@ public sealed class InMemoryGameState
         {
             player.Cards[extraCard.CardId] = extraCard;
         }
+
+        EnsureTrainState(player);
     }
 
     private void NormalizeDevPlayer(PlayerState player)
     {
         player.LoginDay = Math.Max(1, Math.Min(player.LoginDay, player.ReceivedSevenDayRewards.Count + 1));
+        EnsureTrainState(player);
     }
 
     private static IEnumerable<CardState> SeedCards()
@@ -915,6 +1178,99 @@ public sealed class InMemoryGameState
         };
     }
 
+    private static TrainInfoNotify ToTrainInfo(PlayerState player)
+    {
+        var train = EnsureTrainState(player);
+        EnsureInviteMatchState(train);
+        var notify = new TrainInfoNotify
+        {
+            Exp = ToBigNumberInfo(train.ExpValue, train.ExpUnitId),
+            TotalExp = ToBigNumberInfo(train.TotalExpValue, train.TotalExpUnitId),
+            Force = ToBigNumberInfo(train.ForceValue, train.ForceUnitId),
+            ForceAdd = train.ForceAdd,
+            UpLevelType = train.UpLevelType,
+            OfflineExpBeginTime = train.OfflineExpBeginTime,
+            OfflineExp = ToBigNumberInfo(train.OfflineExpValue, train.OfflineExpUnitId),
+            Strengthen = new StrengthenControllerInfo(),
+            BigBang = new BigBangControllerInfo
+            {
+                BigBangTimes = train.BigBangTimes,
+                ClearCdTimes = train.ClearCdTimes,
+                LastCdTime = train.LastCdTime
+            },
+            InviteMatch = ToInviteMatchControllerInfo(train)
+        };
+
+        notify.Strengthen.TrainedList.Add(train.StrengthenTrainedList);
+
+        foreach (var elementId in TrainElementIds)
+        {
+            var element = train.Elements[elementId];
+            notify.TrainElements.Add(new TrainElementInfo
+            {
+                Id = element.Id,
+                Level = element.Level,
+                RewardLevel = element.RewardLevel,
+                IncomeAdd = ToBigNumberInfo(element.IncomeAddValue, element.IncomeAddUnitId),
+                TimeReduce = ToBigNumberInfo(element.TimeReduceValue, element.TimeReduceUnitId),
+                ConsumeReduce = ToBigNumberInfo(element.ConsumeReduceValue, element.ConsumeReduceUnitId),
+                BreakIndex = element.BreakIndex,
+                LastIncomeTime = element.LastIncomeTime
+            });
+        }
+
+        return notify;
+    }
+
+    private static InviteMatchControllerInfo ToInviteMatchControllerInfo(TrainState train)
+    {
+        EnsureInviteMatchState(train);
+        var info = new InviteMatchControllerInfo
+        {
+            IsUnlock = train.InviteMatchUnlocked
+        };
+
+        foreach (var match in train.InviteMatches.OrderBy(x => x.Id))
+        {
+            info.MatchList.Add(new InviteMatchInfo
+            {
+                Id = match.Id,
+                MineScore = match.MineScore,
+                OpponentScore = match.OpponentScore,
+                State = match.State,
+                CdEndTime = match.CdEndTime,
+                BaseReward = ToBigNumberInfo(match.BaseRewardValue, match.BaseRewardUnitId),
+                OpponentName = match.OpponentName,
+                OpponentIcon = match.OpponentIcon,
+                Organizer = match.Organizer,
+                Place = match.Place,
+                Content = match.Content,
+                OrganizerIcon = match.OrganizerIcon
+            });
+        }
+
+        return info;
+    }
+
+    private static InviteMatchInfo ToInviteMatchInfo(InviteMatchState match)
+    {
+        return new InviteMatchInfo
+        {
+            Id = match.Id,
+            MineScore = match.MineScore,
+            OpponentScore = match.OpponentScore,
+            State = match.State,
+            CdEndTime = match.CdEndTime,
+            BaseReward = ToBigNumberInfo(match.BaseRewardValue, match.BaseRewardUnitId),
+            OpponentName = match.OpponentName,
+            OpponentIcon = match.OpponentIcon,
+            Organizer = match.Organizer,
+            Place = match.Place,
+            Content = match.Content,
+            OrganizerIcon = match.OrganizerIcon
+        };
+    }
+
     private static RecruitControllerInfo ToRecruitController(PlayerState player)
     {
         var controller = new RecruitControllerInfo
@@ -984,6 +1340,241 @@ public sealed class InMemoryGameState
             Energy = player.Energy,
             EnergyLastUpdateTime = player.EnergyLastUpdateTime
         };
+    }
+
+    private static BigNumberInfo ToBigNumberInfo(double value, int unitId)
+    {
+        return new BigNumberInfo
+        {
+            Value = value,
+            UnitId = unitId
+        };
+    }
+
+    private static double FromBigNumberInfo(BigNumberInfo? info)
+    {
+        return info?.Value ?? 0d;
+    }
+
+    private static TrainState EnsureTrainState(PlayerState player)
+    {
+        player.Train ??= CreateDefaultTrainState();
+
+        foreach (var elementId in TrainElementIds)
+        {
+            if (!player.Train.Elements.ContainsKey(elementId))
+            {
+                player.Train.Elements[elementId] = CreateDefaultTrainElementState(elementId);
+            }
+        }
+
+        return player.Train;
+    }
+
+    private static void EnsureInviteMatchState(TrainState train)
+    {
+        if (!train.InviteMatchUnlocked)
+        {
+            train.InviteMatches.Clear();
+            return;
+        }
+
+        if (train.InviteMatches.Count > 0)
+        {
+            return;
+        }
+
+        train.InviteMatches.Add(new InviteMatchState
+        {
+            Id = 1,
+            State = 1,
+            BaseRewardValue = 120,
+            OpponentName = "北京疾风",
+            OpponentIcon = 1,
+            Organizer = "城市邀请赛",
+            Place = "首都球馆",
+            Content = "{Organizer} 邀请 {OpponentName} 在 {Place} 对决",
+            OrganizerIcon = "invite_1"
+        });
+        train.InviteMatches.Add(new InviteMatchState
+        {
+            Id = 2,
+            State = 1,
+            BaseRewardValue = 180,
+            OpponentName = "申城先锋",
+            OpponentIcon = 2,
+            Organizer = "精英挑战赛",
+            Place = "东方体育馆",
+            Content = "{Organizer} 邀请 {OpponentName} 在 {Place} 对决",
+            OrganizerIcon = "invite_2"
+        });
+    }
+
+    private static TrainState CreateDefaultTrainState()
+    {
+        var nowMs = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+        var train = new TrainState
+        {
+            ExpValue = 1000,
+            TotalExpValue = 1000,
+            OfflineExpBeginTime = nowMs
+        };
+
+        foreach (var elementId in TrainElementIds)
+        {
+            train.Elements[elementId] = CreateDefaultTrainElementState(elementId);
+        }
+
+        return train;
+    }
+
+    private static TrainElementState CreateDefaultTrainElementState(int elementId)
+    {
+        return new TrainElementState
+        {
+            Id = elementId,
+            IncomeAddValue = 1,
+            TimeReduceValue = 1,
+            ConsumeReduceValue = 1
+        };
+    }
+
+    private static void AccrueTrainIncome(PlayerState player, long nowMs)
+    {
+        var train = EnsureTrainState(player);
+        if (nowMs <= 0)
+        {
+            return;
+        }
+
+        double totalDelta = 0;
+        foreach (var element in train.Elements.Values)
+        {
+            if (element.Level <= 0)
+            {
+                element.LastIncomeTime = nowMs;
+                continue;
+            }
+
+            if (element.LastIncomeTime <= 0)
+            {
+                element.LastIncomeTime = nowMs;
+                continue;
+            }
+
+            var elapsedSeconds = Math.Max(0d, (nowMs - element.LastIncomeTime) / 1000d);
+            if (elapsedSeconds <= 0)
+            {
+                continue;
+            }
+
+            totalDelta += elapsedSeconds * element.Level * Math.Max(1d, element.IncomeAddValue);
+            element.LastIncomeTime = nowMs;
+        }
+
+        if (totalDelta > 0)
+        {
+            train.ExpValue += totalDelta;
+            train.TotalExpValue += totalDelta;
+            train.OfflineExpValue = totalDelta;
+            train.OfflineExpBeginTime = nowMs;
+        }
+        else if (train.OfflineExpBeginTime <= 0)
+        {
+            train.OfflineExpBeginTime = nowMs;
+        }
+    }
+
+    private static bool TryApplyTrainEvent(PlayerState player, TrainEvent trainEvent, long nowMs)
+    {
+        var train = EnsureTrainState(player);
+        var eventTime = trainEvent.Time > 0 ? trainEvent.Time : nowMs;
+        if (eventTime > nowMs + 10_000)
+        {
+            return false;
+        }
+
+        if (eventTime < train.LastAcceptedEventTime)
+        {
+            return false;
+        }
+
+        var accepted = trainEvent.Event switch
+        {
+            1 => ApplyTrainUpgradeEvent(train, trainEvent, nowMs),
+            2 => ApplyTrainStrengthenEvent(train, trainEvent),
+            3 => ApplyTrainBreakEvent(train, trainEvent, player, nowMs),
+            4 => ApplyTrainBigBangEvent(train, nowMs),
+            _ => false
+        };
+
+        if (accepted)
+        {
+            train.LastAcceptedEventTime = eventTime;
+        }
+
+        return accepted;
+    }
+
+    private static bool ApplyTrainUpgradeEvent(TrainState train, TrainEvent trainEvent, long nowMs)
+    {
+        if (!train.Elements.TryGetValue(trainEvent.Arg1, out var element))
+        {
+            return false;
+        }
+
+        var upgradeLevels = Math.Max(1, trainEvent.Arg2);
+        element.Level += upgradeLevels;
+        if (element.LastIncomeTime <= 0)
+        {
+            element.LastIncomeTime = nowMs;
+        }
+
+        var cost = Math.Max(0d, FromBigNumberInfo(trainEvent.Cost));
+        train.ExpValue = Math.Max(0d, train.ExpValue - cost);
+        return true;
+    }
+
+    private static bool ApplyTrainStrengthenEvent(TrainState train, TrainEvent trainEvent)
+    {
+        if (trainEvent.Arg1 <= 0 || train.StrengthenTrainedList.Contains(trainEvent.Arg1))
+        {
+            return false;
+        }
+
+        train.StrengthenTrainedList.Add(trainEvent.Arg1);
+        return true;
+    }
+
+    private static bool ApplyTrainBreakEvent(TrainState train, TrainEvent trainEvent, PlayerState player, long nowMs)
+    {
+        if (!train.Elements.TryGetValue(trainEvent.Arg1, out var element))
+        {
+            return false;
+        }
+
+        element.BreakIndex += 1;
+        element.RewardLevel += 1;
+        player.Strength += 50;
+        if (trainEvent.Arg1 == 5)
+        {
+            train.InviteMatchUnlocked = true;
+        }
+
+        if (element.LastIncomeTime <= 0)
+        {
+            element.LastIncomeTime = nowMs;
+        }
+
+        return true;
+    }
+
+    private static bool ApplyTrainBigBangEvent(TrainState train, long nowMs)
+    {
+        train.BigBangTimes += 1;
+        train.LastCdTime = nowMs;
+        train.ForceValue += 1;
+        return true;
     }
 
     private static void ApplyGiftRewards(PlayerState player, IEnumerable<GiftReward> rewards)
@@ -1120,6 +1711,7 @@ public sealed class InMemoryGameState
         ShopModuleNotify ShopInfo,
         BasicPlayerInfoNotify PlayerInfo,
         RefreshRecruitInfoNotify RecruitInfo,
+        TrainInfoNotify TrainInfo,
         ModuleCardInfoNotify CardInfo,
         RefreshPackageInfoNotify PackageInfo,
         RefreshResourceNotify ResourceInfo);
@@ -1167,6 +1759,25 @@ public sealed class InMemoryGameState
         RefreshPackageInfoNotify PackageInfo,
         RefreshResourceNotify ResourceInfo);
 
+    public sealed record SyncTrainEventsResult(
+        SyncTrainEventsResponse Response,
+        TrainInfoNotify TrainInfo);
+
+    public sealed record DoOfflineRewardResult(
+        DoOfflineRewardResponse Response,
+        TrainInfoNotify TrainInfo);
+
+    public sealed record FetchInviteMatchInfoResult(
+        FetchInviteMatchInfoResponse Response);
+
+    public sealed record DoInviteMatchResult(
+        DoInviteMatchResponse Response,
+        TrainInfoNotify TrainInfo);
+
+    public sealed record DoInviteMatchRewardResult(
+        DoInviteMatchRewardResponse Response,
+        TrainInfoNotify TrainInfo);
+
     private sealed class AccountState
     {
         public string AccountId { get; set; } = string.Empty;
@@ -1212,6 +1823,7 @@ public sealed class InMemoryGameState
         public Dictionary<int, int> SumCount { get; set; } = [];
         public Dictionary<int, int> WeekCount { get; set; } = [];
         public List<PendingOrderState> PendingOrders { get; set; } = [];
+        public TrainState? Train { get; set; }
     }
 
     private sealed class CardState
@@ -1240,6 +1852,61 @@ public sealed class InMemoryGameState
         public int TodayCount { get; set; }
         public int TotalRecruitCount { get; set; }
         public List<int> Rewards { get; set; } = [];
+    }
+
+    private sealed class TrainState
+    {
+        public double ExpValue { get; set; }
+        public int ExpUnitId { get; set; }
+        public double TotalExpValue { get; set; }
+        public int TotalExpUnitId { get; set; }
+        public double ForceValue { get; set; }
+        public int ForceUnitId { get; set; }
+        public double ForceAdd { get; set; }
+        public int UpLevelType { get; set; }
+        public long OfflineExpBeginTime { get; set; }
+        public double OfflineExpValue { get; set; }
+        public int OfflineExpUnitId { get; set; }
+        public long LastAcceptedEventTime { get; set; }
+        public List<int> StrengthenTrainedList { get; set; } = [];
+        public int BigBangTimes { get; set; }
+        public int ClearCdTimes { get; set; }
+        public long LastCdTime { get; set; }
+        public bool InviteMatchUnlocked { get; set; }
+        public List<InviteMatchState> InviteMatches { get; set; } = [];
+        public Dictionary<int, TrainElementState> Elements { get; set; } = [];
+    }
+
+    private sealed class TrainElementState
+    {
+        public int Id { get; set; }
+        public int Level { get; set; }
+        public int RewardLevel { get; set; }
+        public double IncomeAddValue { get; set; } = 1;
+        public int IncomeAddUnitId { get; set; }
+        public double TimeReduceValue { get; set; } = 1;
+        public int TimeReduceUnitId { get; set; }
+        public double ConsumeReduceValue { get; set; } = 1;
+        public int ConsumeReduceUnitId { get; set; }
+        public int BreakIndex { get; set; }
+        public long LastIncomeTime { get; set; }
+    }
+
+    private sealed class InviteMatchState
+    {
+        public int Id { get; set; }
+        public int MineScore { get; set; }
+        public int OpponentScore { get; set; }
+        public int State { get; set; }
+        public long CdEndTime { get; set; }
+        public double BaseRewardValue { get; set; }
+        public int BaseRewardUnitId { get; set; }
+        public string OpponentName { get; set; } = string.Empty;
+        public int OpponentIcon { get; set; }
+        public string Organizer { get; set; } = string.Empty;
+        public string Place { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+        public string OrganizerIcon { get; set; } = string.Empty;
     }
 
     private sealed record GiftReward(int Type, int Id, int Count);

@@ -13,10 +13,16 @@ namespace Babu
 
         private void OnDestroy()
         {
+            var delayTaskService = DelayTaskService.Instance;
+            if (delayTaskService == null)
+            {
+                return;
+            }
+
             for (int i = 0; i < AllCoroutineList.Count; i++)
             {
                 var tempCoroutine = AllCoroutineList[i];
-                DelayTaskService.Instance.StopTask(tempCoroutine);
+                delayTaskService.StopTask(tempCoroutine);
             }
         }
     }

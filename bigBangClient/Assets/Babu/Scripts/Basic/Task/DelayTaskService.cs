@@ -31,6 +31,11 @@ namespace Babu
 
         public void StopTask(Coroutine coroutine)
         {
+            if (coroutine == null)
+            {
+                return;
+            }
+
             StopCoroutine(coroutine);
         }
 

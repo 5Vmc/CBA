@@ -34,8 +34,19 @@ public sealed class TcpGameServer : BackgroundService
 
         while (!stoppingToken.IsCancellationRequested)
         {
-            var client = await _listener.AcceptTcpClientAsync(stoppingToken);
-            _ = Task.Run(() => HandleClientAsync(client, stoppingToken), stoppingToken);
+            try
+            {
+                var client = await _listener.AcceptTcpClientAsync(stoppingToken);
+                _ = Task.Run(() => HandleClientAsync(client, stoppingToken), stoppingToken);
+            }
+            catch (OperationCanceledException) when (stoppingToken.IsCancellationRequested)
+            {
+                break;
+            }
+            catch (SocketException) when (stoppingToken.IsCancellationRequested)
+            {
+                break;
+            }
         }
     }
 
@@ -96,6 +107,11 @@ public sealed class TcpGameServer : BackgroundService
             "cs_enterGame" => HandleEnterGame(envelope, connectionState),
             "activity_module.cs_receiveReward" => HandleReceiveSevenDayReward(envelope, connectionState.Session),
             "card_module.cs_recruit" => HandleRecruit(envelope, connectionState.Session),
+            "train.cs_doOfflineReward" => HandleDoOfflineReward(envelope, connectionState.Session),
+            "train.cs_doInviteMatch" => HandleDoInviteMatch(envelope, connectionState.Session),
+            "train.cs_doInviteMatchReward" => HandleDoInviteMatchReward(envelope, connectionState.Session),
+            "train.cs_fetchInviteMatchInfo" => HandleFetchInviteMatchInfo(envelope, connectionState.Session),
+            "train.cs_syncTrainEvents" => HandleSyncTrainEvents(envelope, connectionState.Session),
             "shop_module.cs_purchaseDiamondSuccess" => HandlePurchaseDiamondSuccess(envelope, connectionState.Session),
             "shop_module.cs_purchaseGiftSuccess" => HandlePurchaseGiftSuccess(envelope, connectionState.Session),
             "shop_module.cs_getMonthCardReward" => HandleGetMonthCardReward(envelope, connectionState.Session),
@@ -114,7 +130,7 @@ public sealed class TcpGameServer : BackgroundService
         var response = new LoginResponse
         {
             Session = login.Session,
-            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds(),
+            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
             ChannelInfo = new ChannelInfo
             {
                 EnableAds = 0,
@@ -192,6 +208,7 @@ public sealed class TcpGameServer : BackgroundService
         yield return CreateNotify("sc_notifyShopModule", snapshot.ShopInfo);
         yield return CreateNotify("sc_updatePlayerInfo", snapshot.PlayerInfo);
         yield return CreateNotify("sc_refreshRecruitInfo", snapshot.RecruitInfo);
+        yield return CreateNotify("sc_updateTrainInfo", snapshot.TrainInfo);
         yield return CreateNotify("sc_updateCardInfo", snapshot.CardInfo);
         yield return CreateNotify("sc_refreshPackageInfo", snapshot.PackageInfo);
         yield return CreateNotify("sc_refreshResource", snapshot.ResourceInfo);
@@ -215,6 +232,70 @@ public sealed class TcpGameServer : BackgroundService
         yield return CreateNotify("sc_notifyShopModule", result.ShopInfo);
         yield return CreateNotify("sc_refreshPackageInfo", result.PackageInfo);
         yield return CreateNotify("sc_refreshResource", result.ResourceInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleSyncTrainEvents(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = SyncTrainEventsRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("SyncTrainEvents received before connection session was established.");
+        }
+
+        var result = _gameState.SyncTrainEvents(connectionSession, request.TrainEvents);
+        yield return CreateNotify("sc_updateTrainInfo", result.TrainInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleDoOfflineReward(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = DoOfflineRewardRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("DoOfflineReward received before connection session was established.");
+        }
+
+        var result = _gameState.DoOfflineReward(connectionSession, request.VideoBuff);
+        yield return CreateNotify("sc_updateTrainInfo", result.TrainInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleFetchInviteMatchInfo(MessageEnvelope envelope, string connectionSession)
+    {
+        FetchInviteMatchInfoRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("FetchInviteMatchInfo received before connection session was established.");
+        }
+
+        var result = _gameState.FetchInviteMatchInfo(connectionSession);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleDoInviteMatch(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = DoInviteMatchRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("DoInviteMatch received before connection session was established.");
+        }
+
+        var result = _gameState.DoInviteMatch(connectionSession, request.Id);
+        yield return CreateNotify("sc_updateTrainInfo", result.TrainInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleDoInviteMatchReward(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = DoInviteMatchRewardRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("DoInviteMatchReward received before connection session was established.");
+        }
+
+        var result = _gameState.DoInviteMatchReward(connectionSession, request.Id, request.VideoBuff);
+        yield return CreateNotify("sc_updateTrainInfo", result.TrainInfo);
         yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
     }
 
@@ -325,7 +406,7 @@ public sealed class TcpGameServer : BackgroundService
         HeartRequest.Parser.ParseFrom(envelope.Payload);
         yield return CreateResponse(envelope.SessionId, envelope.MethodName, new HeartResponse
         {
-            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds()
+            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
         });
     }
 
@@ -345,7 +426,7 @@ public sealed class TcpGameServer : BackgroundService
             context.PlayerName ?? "-");
         yield return CreateResponse(envelope.SessionId, envelope.MethodName, new HeartResponse
         {
-            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds()
+            ServerTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
         });
     }
 

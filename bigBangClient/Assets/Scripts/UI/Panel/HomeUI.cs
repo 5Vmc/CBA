@@ -126,11 +126,11 @@ namespace BigBang.UI
             DevelopBtn.onClick.RemoveListener(OnDevelopBtn);
 
             homeTopButtonMore.OnClick -= OnClickMore;
-            EventManager.Instance.Unregister(EventID.OnHundredGetMineInfo, OnHundredGetMineInfo);
-            SecondUpdateManager.Instance.UnRegistAction(RefreshArenaInfo);
-            SecondUpdateManager.Instance.UnRegistAction(RefreshStageAndTime);
-            EventManager.Instance.Unregister(EventID.OnArenaGetNewInfo, OnArenaGetNewInfo);
-            EventManager.Instance.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
+            EventManager.Instance?.Unregister(EventID.OnHundredGetMineInfo, OnHundredGetMineInfo);
+            SecondUpdateManager.Instance?.UnRegistAction(RefreshArenaInfo);
+            SecondUpdateManager.Instance?.UnRegistAction(RefreshStageAndTime);
+            EventManager.Instance?.Unregister(EventID.OnArenaGetNewInfo, OnArenaGetNewInfo);
+            EventManager.Instance?.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
             jumpGuideButton.OnClick -= OnClickJumpGuideButton;
             normalTimePanelButton.OnClick -= OnClickNormalTimePanelButton;
             allStarPanelNorthButton.OnClick -= OnClickAllStarPanelNorthButton;
