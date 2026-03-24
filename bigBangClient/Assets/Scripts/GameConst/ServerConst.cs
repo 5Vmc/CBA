@@ -7,6 +7,9 @@ namespace BigBang
 {
     public class ServerConst
     {
+        private const string LocalCompatHost = "http://127.0.0.1:5000";
+        private const string LocalCompatBattleHost = "http://127.0.0.1:5000";
+
         /// <summary>
         /// 是否开放购买，需要部分界面prefab调整配合
         /// </summary>
@@ -35,6 +38,13 @@ namespace BigBang
         {
             get
             {
+                if (ShouldUseLocalCompatServer())
+                {
+                    UnityEngine.PlayerPrefs.SetString("ServerHostUrl", LocalCompatHost);
+                    UnityEngine.Debug.Log("UsedServerHostUrl = " + LocalCompatHost + " (local compat)");
+                    return LocalCompatHost;
+                }
+
                 string UsedServerHostUrl = UnityEngine.PlayerPrefs.GetString("ServerHostUrl", "");
                 if (UsedServerHostUrl == "")
                 {
@@ -56,6 +66,13 @@ namespace BigBang
         {
             get
             {
+                if (ShouldUseLocalCompatServer())
+                {
+                    UnityEngine.PlayerPrefs.SetString("ServerBattleHostUrl", LocalCompatBattleHost);
+                    UnityEngine.Debug.Log("UsedServerBattleHostUrl = " + LocalCompatBattleHost + " (local compat)");
+                    return LocalCompatBattleHost;
+                }
+
                 string UsedServerBattleHostUrl = UnityEngine.PlayerPrefs.GetString("ServerBattleHostUrl", "");
                 if (UsedServerBattleHostUrl == "")
                 {
@@ -89,6 +106,15 @@ namespace BigBang
             }
 
             return url;
+        }
+
+        static bool ShouldUseLocalCompatServer()
+        {
+#if RELEASE
+            return false;
+#else
+            return UnityEngine.PlayerPrefs.GetInt("UseLocalCompatServer", 1) == 1;
+#endif
         }
 
         public const string LOG_KEY = "CBA202403";
