@@ -42,14 +42,13 @@ internal class StateCommon : IState
         var userData = UserData as StateCommonUserData;
         userData.OpenUIAction();
         _state = State.Running;
-        return;
-#endif
-
+#else
         SimpleLoadingUI.Instance.Show();
 
         UIController.Instance.CloseAllPanelAndWindow();
 
         _state = State.Start;
+#endif
     }
 
     public virtual void OnExit()

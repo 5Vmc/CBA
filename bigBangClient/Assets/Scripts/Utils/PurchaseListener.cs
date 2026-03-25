@@ -176,7 +176,7 @@ namespace Babu
                 int count = int.Parse(str.Split(':')[2]);
                 return (type, id, count);
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 return (0, 0, 0);
             }

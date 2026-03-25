@@ -42,8 +42,9 @@ namespace Babu
         private List<KeyValuePair<string, object[]>> _triggedEventList = new List<KeyValuePair<string, object[]>>();
         private List<KeyValuePair<string, object[]>> _triggedEventListTemp = new List<KeyValuePair<string, object[]>>();
 
-        void OnDestroy()
+        public override void OnDestroy()
         {
+            base.OnDestroy();
             _triggedEventList.Clear();
             _eventMap.Clear();
         }

@@ -65,12 +65,13 @@ namespace BigBang.UI
             UIController.Instance.CloseWindow<PlayMovieUI>();
         }
 
-        public async Task PlayMovie()
+        public Task PlayMovie()
         {
             // VideoClip videoClip = await LoadMovie(Properties.movieName);
             string url = getStreamingAssetsVideoFilePath(Properties.movieName + ".mp4");
             videoPlayer.url = url;
             videoPlayer.Play();
+            return Task.CompletedTask;
         }
 
         private string getStreamingAssetsVideoFilePath(string fileName)

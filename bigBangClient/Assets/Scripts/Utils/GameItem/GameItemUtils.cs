@@ -49,7 +49,7 @@ namespace Utils.GameItem
                 var count = int.Parse(strs[2]);
                 return CreateGameItem((GameItemType)type, id, count);
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 Debug.LogWarning("GameItemUtils , CreateGameItem , int.Parse Error , content = " + content);
                 return null;

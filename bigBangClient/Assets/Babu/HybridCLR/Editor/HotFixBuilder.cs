@@ -270,7 +270,7 @@ public class HotFixBuilder
                 }
             }
         }
-        catch (Exception e)
+        catch (Exception)
         {
             throw;
         }

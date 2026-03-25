@@ -10,9 +10,7 @@ public class ByteDanceManager : Singleton<ByteDanceManager>
     private AndroidJavaClass javaClassByteDance = null;
     public void Init()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         Debug.Log("CbaMiGu , ByteDanceManager , Init , 1");
         SetAndrdoiCallBackByteDance _setAndrodCallback = new SetAndrdoiCallBackByteDance();
         Debug.Log("CbaMiGu , ByteDanceManager , Init , 2");
@@ -26,42 +24,38 @@ public class ByteDanceManager : Singleton<ByteDanceManager>
         Debug.Log("CbaMiGu , ByteDanceManager , Init , 5");
         javaClassByteDance.CallStatic("OnCreate");
         Debug.Log("CbaMiGu , ByteDanceManager , Init , 6");
+#endif
     }
 
     public void ReportRegister()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassByteDance.CallStatic("ReportRegister");
+#endif
     }
     public void ReportPay(string type, string name, string id, int yuan, bool isSuccess)
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassByteDance.CallStatic("ReportPay", type, name, id, yuan, isSuccess);
+#endif
     }
     public void SetUserUniqueID(string userId)
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassByteDance.CallStatic("SetUserUniqueID", userId);
+#endif
     }
     public void ReportLogin()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassByteDance.CallStatic("ReportLogin");
+#endif
     }
     public void ReportLevelUp(int level)
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassByteDance.CallStatic("ReportLevelUp", level);
+#endif
     }
 }
 

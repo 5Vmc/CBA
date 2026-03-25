@@ -114,8 +114,9 @@ namespace BigBang.UI
 
         private static DevelopUI _inst;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _inst = this;
         }
 
@@ -739,7 +740,7 @@ namespace BigBang.UI
                 int num = (int)f;
                 return num;
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 Debug.Log("输入有误");
                 return 0;

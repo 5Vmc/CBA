@@ -409,7 +409,7 @@ namespace BigBang.UI
             //tasks.Add(spriteTask);
             // 加载配置表
             //tasks.Add(Configs.LoadAllAsync());
-            Configs.LoadAllAsync();
+            _ = Configs.LoadAllAsync();
             Debug.Log("开始加载训练场景");
             var h = YooAssets.LoadAssetAsync<GameObject>("Prefabs/3DPrefab/Train/TrainActions.prefab");
             //tasks.Add(h.Task);
@@ -740,11 +740,11 @@ namespace BigBang.UI
         {
 #if UNITY_EDITOR || UNITY_WEBGL
             _ = OnLoadQuickCompleted();
-            return;
-#endif
+#else
             quickRetryTimes = 0;
             calInitQuickAgain = true;
             _ = CkeckQuickInit();
+#endif
         }
         //private void OnQuickInitEnd(object[] args)
         //{
@@ -800,9 +800,9 @@ namespace BigBang.UI
 
             LoginManager.Instance.IsLoadSuccess = true;
 
-            TweenSliderAsync(1.0f);
+            _ = TweenSliderAsync(1.0f);
 
-            ServerNoticeManager.Instance.GetAndShowServerNotice();
+            _ = ServerNoticeManager.Instance.GetAndShowServerNotice();
         }
 
         #region 临时保存账号密码

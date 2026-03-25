@@ -119,9 +119,9 @@ namespace BigBang.UI
             PurchaseInfo info = DataConvUtil.NewPurchase(dailyGiftItemData.giftShopConfig.ProductId, dailyGiftItemData.giftShopConfig.Name, dailyGiftItemData.giftShopConfig.Rmb, dailyGiftItemData.giftShopConfig.Id);
 #if USER_DEBUG && UNITY_EDITOR
             PurchaseUtil.TestBuyInEditor(info.ShopItemId);
-            return;
-#endif
+#else
             PurchaseServiceManager.Instance.Purchase(info);
+#endif
         }
 
         public void SetData(DailyGiftItemData dailyGiftItemData, int itemIndex)

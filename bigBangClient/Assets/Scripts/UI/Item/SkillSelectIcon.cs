@@ -14,7 +14,7 @@ namespace BigBang.UI
 
         public RectTransform SkillImgRect { get => skillImg.rectTransform; }
 
-        public void SetData(SkillConfig config)
+        public new void SetData(SkillConfig config)
         {
             base.SetData(config);
             border.gameObject.SetActive(false);

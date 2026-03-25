@@ -9,8 +9,9 @@ namespace Babu.Client.Fsm
     {
         private FiniteStateMachine _fsm = new FiniteStateMachine();
 
-        void OnDestroy()
+        public override void OnDestroy()
         {
+            base.OnDestroy();
         }
 
         void Update()

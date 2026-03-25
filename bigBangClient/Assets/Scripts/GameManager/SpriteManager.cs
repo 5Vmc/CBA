@@ -384,7 +384,7 @@ namespace BigBang
                 }
                 return sprite;
             }
-            catch (Exception _)
+            catch (Exception)
             {
                 return defaultSprite;
             }

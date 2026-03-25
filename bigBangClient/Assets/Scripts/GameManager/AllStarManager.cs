@@ -130,7 +130,7 @@ namespace BigBang
                     {
                         position = (PositionSeparatedType)signActivityModuleNotify.AllStarCardsPos[i];
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         Debug.LogWarning("AllStarManager , Unpack , prase PositionSeparatedType , signActivityModuleNotify.AllStarCardsPos[i] = " + signActivityModuleNotify.AllStarCardsPos[i]);
                         continue;

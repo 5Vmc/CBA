@@ -59,8 +59,9 @@ namespace BigBang.UI
 
         private MonthCardShopConfig confData;
 
-        private async void Awake()
+        protected override async void Awake()
         {
+            base.Awake();
             buyBtn.Anim = null;
             buyBtn.Sound = null;
             claimBtn.Anim = null;
@@ -227,9 +228,9 @@ namespace BigBang.UI
             PurchaseInfo info = DataConvUtil.NewPurchase(confData.ProductId, confData.Name, confData.Rmb, confData.Id);
 #if USER_DEBUG && UNITY_EDITOR
             PurchaseUtil.TestBuyInEditor(info.ShopItemId);
-            return;
-#endif
+#else
             PurchaseServiceManager.Instance.Purchase(info);
+#endif
         }
 
         private void OnClaim(BabuButton sender)

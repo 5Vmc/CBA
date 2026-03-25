@@ -53,7 +53,7 @@ namespace BigBang.UI
         private void OnDisable()
         {
         }
-        public async void SetData(CardUpStarItemData1 _data, int index = 0)
+        public void SetData(CardUpStarItemData1 _data, int index = 0)
         {
             imgBg1.gameObject.SetActive(index % 2 == 0);
             imgBg2.gameObject.SetActive(index % 2 != 0);

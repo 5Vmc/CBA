@@ -136,13 +136,13 @@ namespace BigBang.UI
             {
                 AudioManager.Instance.PlaySound(AudioNames.BTN_1);
                 //打开是否补签面板
-                UIController.Instance.OpenWindow<ConfirmationBoxUI>(new ConfirmationBoxUIProperties(Lang.Get(LangID.MonthRewardCostTxt), OnDetermine));
+                _ = UIController.Instance.OpenWindow<ConfirmationBoxUI>(new ConfirmationBoxUIProperties(Lang.Get(LangID.MonthRewardCostTxt), OnDetermine));
             }
             else
             {
                 AudioManager.Instance.PlaySound(AudioNames.ANI_TIPS);
                 //提示
-                UIController.Instance.OpenWindow<ItemtipsUI>(new ItemtipsUIProperties(data.gameItem));
+                _ = UIController.Instance.OpenWindow<ItemtipsUI>(new ItemtipsUIProperties(data.gameItem));
             }
         }
 
@@ -199,4 +199,3 @@ namespace BigBang.UI
         }
     }
 }
-

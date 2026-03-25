@@ -93,8 +93,9 @@ namespace Babu
             }
         }
 
-        void OnDestroy()
+        public override void OnDestroy()
         {
+            base.OnDestroy();
             if (_fileStream != null)
             {
                 _fileStream.Close();

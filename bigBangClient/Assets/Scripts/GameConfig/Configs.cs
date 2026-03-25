@@ -263,7 +263,7 @@ namespace GameConfig
             WishSign = ConfigManager.Instance.LoadTable<WishSignConfigTable>("cfg_wish_sign");
         }
 
-        public static async Task LoadAllAsync()
+        public static Task LoadAllAsync()
         {
             ConfigManager.Instance.LoadTableAsync<AchievementConfigTable>("cfg_achievement", v => { Achievement = v; --LeftCount; });
             ConfigManager.Instance.LoadTableAsync<ActivityConfigTable>("cfg_activity", v => { Activity = v; --LeftCount; });
@@ -386,7 +386,7 @@ namespace GameConfig
             ConfigManager.Instance.LoadTableAsync<WayOfDescConfigTable>("cfg_way_of_desc", v => { WayOfDesc = v; --LeftCount; });
             ConfigManager.Instance.LoadTableAsync<WayOfGainConfigTable>("cfg_way_of_gain", v => { WayOfGain = v; --LeftCount; });
             ConfigManager.Instance.LoadTableAsync<WishSignConfigTable>("cfg_wish_sign", v => { WishSign = v; --LeftCount; });
+            return System.Threading.Tasks.Task.CompletedTask;
         }
     }
 }
-

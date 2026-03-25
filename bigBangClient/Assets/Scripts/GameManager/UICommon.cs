@@ -54,7 +54,7 @@ namespace BigBang
                 }
                 else
                 {
-                    return Utility.GetScreenLerpT();
+                    return UIFrame.GetFixScreenLerpT();
                 }
             }
         }

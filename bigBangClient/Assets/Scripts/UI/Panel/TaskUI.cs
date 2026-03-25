@@ -206,10 +206,10 @@ namespace BigBang.UI
 
                 FsmManager.Instance.ChangeToState<StateHome>(new StateCommonUserData()
                 {
-                    OpenUIAction = async () =>
+                    OpenUIAction = () =>
                     {
                         UIController.Instance.HidePanel<TaskUI>();
-                        //await UIController.Instance.ShowPanel<HomeUI>();
+                        return System.Threading.Tasks.Task.CompletedTask;
                     }
                 });
             });

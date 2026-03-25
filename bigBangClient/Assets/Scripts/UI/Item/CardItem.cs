@@ -95,7 +95,7 @@ namespace BigBang.UI
         /**
         *showFakeInfo 是否显示表示升阶上来的标记
         **/
-        public async void SetData(PlayerCard card, bool showFakeInfo = true, bool showRedDot = false)
+        public void SetData(PlayerCard card, bool showFakeInfo = true, bool showRedDot = false)
         {
             Card = card;
 

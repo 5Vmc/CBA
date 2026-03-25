@@ -106,7 +106,7 @@ namespace Babu
                 {
                     EventManager.Instance.Dispatch(Event.Disconnected);
                     Debug.Log("Receive Close 1");
-                    MainThreadTaskService.Instance.AddTask(Close);
+                    MainThreadTaskService.Instance.Run(Close);
                     return;
                 }
 
@@ -125,7 +125,7 @@ namespace Babu
                     else
                     {
                         //Debug.Log("SocketOperate , OnReceiveComplete , _socket.GetHashCode() = " + _socket.GetHashCode());
-                        MainThreadTaskService.Instance.AddTask(() => OnReceiveComplete(buffer));
+                        MainThreadTaskService.Instance.Run(() => OnReceiveComplete(buffer));
                         BeginReceive(true, 4);
                     }
                 }
@@ -281,7 +281,7 @@ namespace Babu
                 {
                     EventManager.Instance.Dispatch(Event.Disconnected);
                     Debug.Log("Send Close 2");
-                    MainThreadTaskService.Instance.AddTask(Close);
+                    MainThreadTaskService.Instance.Run(Close);
                     return;
                 }
 

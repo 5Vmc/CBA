@@ -2083,7 +2083,7 @@ namespace BigBang.Battle
                 playTimeScale = newValue;
                 RefreshFrameSpeedSlider();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 RefreshFrameSpeedInputField();
             }

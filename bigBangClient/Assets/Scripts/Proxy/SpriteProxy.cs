@@ -102,7 +102,7 @@ namespace BigBang
                 var sprite = await SpriteManager.GetSprite(AtlasNames.ClubIcon, icon, await UnknownClubIcon);
                 return sprite;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return await UnknownClubIcon;
             }

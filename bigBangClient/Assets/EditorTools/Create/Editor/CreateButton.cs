@@ -51,19 +51,19 @@ public class CreateButton
         return btn;
     }
 
-    [MenuItem("GameObject/UI/Button", false, 2000)]
+    [MenuItem("GameObject/UI/CBA/Button", false, 2100)]
     public static void CreateBtn(MenuCommand menuCommand)
     {
         _ = Create(menuCommand);
     }
 
-    [MenuItem("GameObject/UI/Button - TextMeshPro", false, 2000)]
+    [MenuItem("GameObject/UI/CBA/Button - TextMeshPro", false, 2101)]
     public static void CreateTMPBtn(MenuCommand menuCommand)
     {
         _ = Create(menuCommand);
     }
 
-    [MenuItem("GameObject/UI/Button(被遗弃)", false, 2000)]
+    [MenuItem("GameObject/UI/CBA/Button(被遗弃)", false, 2102)]
     static public void CreateSource(MenuCommand menuCommand)
     {
         GameObject obj = DefaultControls.CreateButton((DefaultControls.Resources)m_miGetDefaultResource.Invoke(null, null));

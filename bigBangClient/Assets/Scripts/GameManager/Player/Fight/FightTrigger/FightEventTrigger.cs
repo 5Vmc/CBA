@@ -22,7 +22,8 @@ namespace BigBang
             switch (eventData.EventId)
             {
                 // 开球 1
-
+                default:
+                    break;
             }
         }
 

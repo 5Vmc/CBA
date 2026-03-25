@@ -68,7 +68,6 @@ namespace BigBang
 
         public bool IsNewMap()
         {
-            return false;
             var cfg = Configs.ChallengeClub.GetConfig(ChallengeId);
             return IsFirstIn(cfg.Country, cfg.Country);
         }

@@ -106,8 +106,9 @@ namespace BigBang.UI
             }
             private set { }
         }
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _inst = this;
         }
         protected override void AddListeners()

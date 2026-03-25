@@ -43,8 +43,9 @@ namespace Babu
             }
         }
 
-        private void OnDestroy()
+        public override void OnDestroy()
         {
+            base.OnDestroy();
             Close();
         }
 

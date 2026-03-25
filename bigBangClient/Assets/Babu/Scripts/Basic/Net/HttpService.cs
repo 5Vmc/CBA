@@ -188,7 +188,7 @@ namespace Babu
                     }
                     catch (Exception ex)
                     {
-                        MainThreadTaskService.Instance.AddTask(() =>
+                        MainThreadTaskService.Instance.Run(() =>
                         {
                             Debug.LogError($"Http Service Async Post  {url} Error: " + ex.Message);
                             callback(false, string.Empty);
@@ -225,7 +225,7 @@ namespace Babu
                     }
                     catch (Exception ex)
                     {
-                        MainThreadTaskService.Instance.AddTask(() =>
+                        MainThreadTaskService.Instance.Run(() =>
                         {
                             Debug.LogError($"Http Service Async Post  {url} Error: " + ex.Message);
                             callback(false, string.Empty);
@@ -333,14 +333,14 @@ namespace Babu
                 try
                 {
                     string response = GetHttpResponse(request.EndGetResponse(result) as HttpWebResponse);
-                    MainThreadTaskService.Instance.AddTask(() =>
+                    MainThreadTaskService.Instance.Run(() =>
                     {
                         callback(true, response);
                     });
                 }
                 catch (Exception e)
                 {
-                    MainThreadTaskService.Instance.AddTask(() =>
+                    MainThreadTaskService.Instance.Run(() =>
                     {
                         Debug.LogWarning($"Http Service Async Get {request.RequestUri} Response Error: " + e.Message);
                         callback(false, string.Empty);
@@ -356,14 +356,14 @@ namespace Babu
                 try
                 {
                     byte[] response = GetHttpBytesResponse(request.EndGetResponse(result) as HttpWebResponse);
-                    MainThreadTaskService.Instance.AddTask(() =>
+                    MainThreadTaskService.Instance.Run(() =>
                     {
                         callback(true, response);
                     });
                 }
                 catch (Exception e)
                 {
-                    MainThreadTaskService.Instance.AddTask(() =>
+                    MainThreadTaskService.Instance.Run(() =>
                     {
                         Debug.LogWarning($"Http Service Async Get {request.RequestUri} Response Error: " + e.Message);
                         callback(false, null);

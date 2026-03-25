@@ -81,9 +81,9 @@ namespace BigBang.UI
             PurchaseInfo info = DataConvUtil.NewPurchase(data.ProductID, "Diamonds", data.Cost, data.ShopItemId);
 #if USER_DEBUG && UNITY_EDITOR
             PurchaseUtil.TestBuyInEditor(info.ShopItemId);
-            return;
-#endif
+#else
             PurchaseServiceManager.Instance.Purchase(info);
+#endif
         }
 
         public async void SetData(ShopDiamondItemData data)

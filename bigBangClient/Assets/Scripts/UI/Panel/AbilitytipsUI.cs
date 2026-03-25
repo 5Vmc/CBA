@@ -52,7 +52,7 @@ namespace BigBang.UI
             closeBtn.onClick.RemoveListener(OnClose);
         }
 
-        protected override async void OnPropertiesSet()
+        protected override void OnPropertiesSet()
         {
             base.OnPropertiesSet();
 

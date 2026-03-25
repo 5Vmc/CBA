@@ -11,9 +11,7 @@ public class MiGuPlayManager : Singleton<MiGuPlayManager>
     private AndroidJavaClass javaClassMiGuPlay = null;
     public void Init()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         Debug.Log("CbaMiGu , MiGuPlayManager , Init , 1");
         SetAndrdoiCallBackMiGuPlay _setAndrodCallback = new SetAndrdoiCallBackMiGuPlay();
         Debug.Log("CbaMiGu , MiGuPlayManager , Init , 2");
@@ -35,42 +33,38 @@ public class MiGuPlayManager : Singleton<MiGuPlayManager>
         Debug.Log("CbaMiGu , MiGuPlayManager , Init , 9");
         javaClassMiGuPlay.CallStatic("SetAvoidGame");
         Debug.Log("CbaMiGu , MiGuPlayManager , Init , 10");
+#endif
     }
 
     private void OnDestroy()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassMiGuPlay.CallStatic("OnDestroy");
+#endif
     }
     public void ReportCPLoginResult(bool isLoginSuccess)
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassMiGuPlay.CallStatic("ReportCPLoginResult", isLoginSuccess);
+#endif
     }
     public void Login()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassMiGuPlay.CallStatic("Login");
+#endif
     }
     public void LogOut()
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassMiGuPlay.CallStatic("LogOut");
+#endif
     }
     public void Pay(string gameAccount, string orderId, int orderAmount, string propName, string gameName)
     {
-#if UNITY_EDITOR
-        return;
-#endif
+#if !UNITY_EDITOR
         javaClassMiGuPlay.CallStatic("Pay", gameAccount, orderId, orderAmount, propName, gameName);
+#endif
     }
 }
 

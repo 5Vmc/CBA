@@ -1318,9 +1318,9 @@ public class ActivityController : Singleton<ActivityController>
         PurchaseInfo info = DataConvUtil.NewPurchase(giftShopConfig.ProductId, giftShopConfig.Name, giftShopConfig.Rmb, giftShopConfig.Id);
 #if USER_DEBUG && UNITY_EDITOR
         PurchaseUtil.TestBuyInEditor(info.ShopItemId);
-        return;
-#endif
+#else
         PurchaseServiceManager.Instance.Purchase(info);
+#endif
     }
 
     public void GetRankInfo(ActivityData _data)

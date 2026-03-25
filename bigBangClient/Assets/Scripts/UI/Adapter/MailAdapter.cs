@@ -217,14 +217,14 @@ namespace BigBang.UI
                     SpriteManager.GetSprite(AtlasNames.Email, "email" + i, s => icon.sprite = s);
                     await Task.Delay(100);
                 }
-                UIController.Instance.OpenWindow<EmailDetailWindow>(new EmailDetailWindowProperties(_data));
+                _ = UIController.Instance.OpenWindow<EmailDetailWindow>(new EmailDetailWindowProperties(_data));
                 EventManager.Instance.Dispatch(EventID.OnClickMailBoxUIMail);
                 await Task.Delay(1000);
                 Player.EmailManager.ReadEmail(_data.id);
             }
             else
             {
-                UIController.Instance.OpenWindow<EmailDetailWindow>(new EmailDetailWindowProperties(_data));
+                _ = UIController.Instance.OpenWindow<EmailDetailWindow>(new EmailDetailWindowProperties(_data));
                 EventManager.Instance.Dispatch(EventID.OnClickMailBoxUIMail);
             }
         }

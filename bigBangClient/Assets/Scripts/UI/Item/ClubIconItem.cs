@@ -149,7 +149,7 @@ namespace BigBang.UI
 
                 SetIconInternal(value, frameTexture, maskTexture, patternTexture, flagTexture);
             }
-            catch(Exception ex)
+            catch(Exception)
             {
             }
 

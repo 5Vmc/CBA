@@ -174,8 +174,6 @@ namespace BigBang.UI
         {
             obtainList.Clear();
             Player.ActivityManager.SetIsSevenSignRedDot(SkinId != 1);
-            string rewardsStr = "";
-
             foreach (var item in receiveList)
             {
                 if (SkinId == 1)

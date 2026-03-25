@@ -24,3 +24,6 @@ bigBangClient/Assets/LocalAsset/Fonts/ENHY-tongyong SDF.asset
 # Compat server local runtime data
 /MyServer/src/CbaCompatServer/Data/
 /MyServer/captures/
+
+# 临时文件
+/temp/

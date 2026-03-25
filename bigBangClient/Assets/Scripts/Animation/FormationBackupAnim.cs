@@ -81,7 +81,7 @@ namespace BigBang.Animation
             }
         }
 
-        public void PlayExit(System.Action callback)
+        public override void PlayExit(System.Action callback)
         {
             //if (!animReady) return;
             //animReady = false;

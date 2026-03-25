@@ -104,8 +104,9 @@ namespace BigBang.UI
         [SerializeField] private BabuButton btnContinue;
         [SerializeField] private TMP_Text txtContinue;
         private static CardUpgradeUI _inst;
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _inst = this;
         }
 

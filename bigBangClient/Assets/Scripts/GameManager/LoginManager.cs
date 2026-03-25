@@ -442,7 +442,7 @@ namespace BigBang
                     //});
 
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     BackToLogin();
                     return;

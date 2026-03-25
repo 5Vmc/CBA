@@ -37,9 +37,7 @@ internal class StateLoading : IState
 #if !UNITY_WEBGL
         _state = State.Running;
         UIController.Instance.ShowPanel<LoadingUI>();
-        return;
-#endif
-
+#else
         if (UserData != null && (UserData as StateLoadingUserData).FromEntry)
         {
             _state = State.Running;
@@ -53,6 +51,7 @@ internal class StateLoading : IState
 
             _state = State.Start;
         }
+#endif
     }
 
     public void OnExit()

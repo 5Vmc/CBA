@@ -5,8 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// 创建Raycast Target默认为false的图片
-/// 该方法会覆盖系统自带方法
+/// 创建 Raycast Target 默认为 false 的图片。
+/// 放在项目自定义菜单下，避免与 Unity 内置 UI 菜单冲突。
 /// </summary>
 [InitializeOnLoad]
 public class CreateImage
@@ -42,7 +42,7 @@ public class CreateImage
         m_miPlaceUIElementRoot = menuOptionType.GetMethod("PlaceUIElementRoot", BindingFlags.NonPublic | BindingFlags.Static);
     }
 
-    [MenuItem("GameObject/UI/Image", false, 2000)]
+    [MenuItem("GameObject/UI/CBA/Image", false, 2100)]
     static public void Create(MenuCommand menuCommand)
     {
         GameObject obj = DefaultControls.CreateImage((DefaultControls.Resources)m_miGetDefaultResource.Invoke(null, null));

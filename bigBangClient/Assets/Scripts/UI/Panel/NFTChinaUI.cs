@@ -98,10 +98,10 @@ namespace BigBang.UI
             
             FsmManager.Instance.ChangeToState<StateHome>(new StateCommonUserData()
             {
-                OpenUIAction = async () =>
+                OpenUIAction = () =>
                 {
                     UIController.Instance.HidePanel<NFTChinaUI>();
-                    //await UIController.Instance.ShowPanel<HomeUI>();
+                    return System.Threading.Tasks.Task.CompletedTask;
                 }
             });
         }

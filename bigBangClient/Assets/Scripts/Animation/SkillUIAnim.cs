@@ -51,7 +51,7 @@ namespace BigBang.Animation
             tweens.Add(skillTrainRoomPad.gameObject.DOFade(1, 0.3f));
         }
 
-        public void PlayExit(Action callback)
+        public override void PlayExit(Action callback)
         {
             tweens.Add(skillListGroup.DOFade(0, 0.1f).OnComplete(() =>
             {

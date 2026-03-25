@@ -342,7 +342,7 @@ public class GameInitialization : MonoBehaviour
 
     }
 
-    async private Task StartInit()
+    private Task StartInit()
     {
 
 //#if UNITY_ANDROID
@@ -387,9 +387,10 @@ public class GameInitialization : MonoBehaviour
 //        {
 //            await LoadDLLs();
 //        }
+        return Task.CompletedTask;
     }
 
-    async private Task LoadDLLs()
+    private Task LoadDLLs()
     {
 //#if !UNITY_EDITOR && !UNITY_WEBGL
 //        //加载更新Dll
@@ -413,6 +414,7 @@ public class GameInitialization : MonoBehaviour
 //            return;
 //        }
 //#endif
+        return Task.CompletedTask;
     }
 
     private static GameInitialization _instance = null;
@@ -503,7 +505,7 @@ public class GameInitialization : MonoBehaviour
 
 
     //获得更新大小
-    public static async Task<double> GetDownloadSizeAsync()
+    public static Task<double> GetDownloadSizeAsync()
     {
 
 
@@ -512,14 +514,14 @@ public class GameInitialization : MonoBehaviour
             var downloadingMaxNum = int.MaxValue;
             var failedTryAgain = int.MaxValue;
             DownloaderOperation downloader = YooAssets.CreatePatchDownloader(downloadingMaxNum, failedTryAgain);
-            return downloader.TotalDownloadBytes;
+            return Task.FromResult((double)downloader.TotalDownloadBytes);
         }
         catch (Exception ex)
         {
             canContinueDoing = false;
             Debug.LogError("GetDownloadSizeAsync Error");
             Debug.LogError(ex);
-            return -1;
+            return Task.FromResult(-1d);
         }
     }
 

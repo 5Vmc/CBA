@@ -47,6 +47,21 @@ namespace Utils
             return Count.ToString();
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj switch
+            {
+                Resource other => Count == other.Count,
+                int value => Count == value,
+                _ => false
+            };
+        }
+
+        public override int GetHashCode()
+        {
+            return Count;
+        }
+
         public static implicit operator Resource(int value)
         {
             return new Resource(value);
@@ -56,12 +71,12 @@ namespace Utils
 
         public static bool operator ==(Resource a, int b)
         {
-            return a.Count == b;
+            return a?.Count == b;
         }
 
         public static bool operator !=(Resource a, int b)
         {
-            return a.Count != b;
+            return a?.Count != b;
         }
 
         public static bool operator >(Resource a, int b)

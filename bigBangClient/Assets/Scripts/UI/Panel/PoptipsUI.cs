@@ -50,7 +50,7 @@ namespace BigBang.UI
 
         private readonly int maxX = 360 - 85;
         private readonly int minX = -360 + 85;
-        protected override async void OnPropertiesSet()
+        protected override void OnPropertiesSet()
         {
             base.OnPropertiesSet();
 

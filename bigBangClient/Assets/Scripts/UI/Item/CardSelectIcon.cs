@@ -27,7 +27,7 @@ namespace BigBang.UI
                 AudioManager.Instance.PlaySound(AudioNames.BTN_TARGET);
             }
         }
-        public void SetQuality(int quality)
+        public new void SetQuality(int quality)
         {
             base.SetQuality(quality);
         }

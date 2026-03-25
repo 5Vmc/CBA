@@ -137,7 +137,7 @@ namespace BigBang.UI
             {
                 LeagueHistoryDetailKingItem leagueHistoryDetailKingItem = leagueHistoryDetailKingItemList[i];
                 TeamTopCardData teamTopCardData = teamTopCardDataList[i];
-                leagueHistoryDetailKingItem.SetDataAsync(teamTopCardData, i);
+                _ = leagueHistoryDetailKingItem.SetDataAsync(teamTopCardData, i);
             }
         }
 

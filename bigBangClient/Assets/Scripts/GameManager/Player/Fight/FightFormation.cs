@@ -82,7 +82,7 @@ namespace BigBang
         }
 
         //若在战中更换阵型，系统依然会被动使用一次自动上阵，但范围是场上的球员。
-        private List<PlayerCard> GetStarterCards()
+        private List<PlayerCard> GetFightStarterCards()
         {
             List<PlayerCard> list = new List<PlayerCard>();
             foreach (var item in StarterBoardCardDic)
@@ -98,7 +98,7 @@ namespace BigBang
             SetChangeFlag(true);
             SetBaseFormationName(temp.Name);
 
-            //List<PlayerCard> poolList = GetStarterCards();
+            //List<PlayerCard> poolList = GetFightStarterCards();
             //AutoMakeFormation_FromPool(temp.BoardIdList, poolList);
             AutoRemakeStarter(temp.BoardIdList);
 

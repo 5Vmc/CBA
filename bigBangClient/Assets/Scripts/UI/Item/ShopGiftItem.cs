@@ -168,9 +168,9 @@ namespace BigBang.UI
                 PurchaseInfo info = DataConvUtil.NewPurchase(data.cfg.ProductId, data.cfg.Name, data.cfg.Rmb, data.cfg.Id);
 #if USER_DEBUG && UNITY_EDITOR
                 PurchaseUtil.TestBuyInEditor(info.ShopItemId);
-                return;
-#endif
+#else
                 PurchaseServiceManager.Instance.Purchase(info);
+#endif
             }
             else
             {

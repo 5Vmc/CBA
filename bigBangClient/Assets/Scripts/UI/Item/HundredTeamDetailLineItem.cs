@@ -39,7 +39,7 @@ namespace BigBang.UI
         public HundredTeamDetailLineData hundredTeamDetailLineData = null;
         public int hundredStageIndex = 0;
         public HundredProgress hundredProgress = 0;
-        public async void SetData(HundredTeamDetailLineData hundredTeamDetailLineData, int hundredStageIndex, HundredProgress hundredProgress)
+        public void SetData(HundredTeamDetailLineData hundredTeamDetailLineData, int hundredStageIndex, HundredProgress hundredProgress)
         {
             this.hundredStageIndex = hundredStageIndex;
             this.hundredProgress = hundredProgress;
