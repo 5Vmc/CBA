@@ -78,11 +78,11 @@ namespace BigBang.UI
         }
         private void OnDisable()
         {
-            button.onClick.RemoveListener(OnClickButton);
-            EventManager.Instance.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
-            EventManager.Instance.Unregister(EventID.OnTeamlevelUp, RefreshState);
+            if (button != null) button.onClick.RemoveListener(OnClickButton);
+            EventManager.Instance?.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
+            EventManager.Instance?.Unregister(EventID.OnTeamlevelUp, RefreshState);
             //EventManager.Instance.Unregister(EventID.OnRefreshNavigationUIRedDot, RefreshRedDot);
-            EventManager.Instance.Unregister(EventID.RefreshBigBangUIRedDot, RefreshRedDot);
+            EventManager.Instance?.Unregister(EventID.RefreshBigBangUIRedDot, RefreshRedDot);
         }
         public Action OnClick = null;
         private void OnClickButton()

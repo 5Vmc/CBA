@@ -51,7 +51,7 @@ namespace Babu
 
         private void OnDestroy()
         {
-            EventManager.Instance.Unregister(SocketService.Event.Disconnected, OnDisconnected);
+            EventManager.Instance?.Unregister(SocketService.Event.Disconnected, OnDisconnected);
         }
     }
 }

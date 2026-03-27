@@ -41,9 +41,9 @@ namespace BigBang.UI
 
         protected void OnDisable()
         {
-            settingUIBtn.onClick.RemoveListener(OnSettingUI);
-            EventManager.Instance.Unregister(EventID.OnPlayerHeadChange, SetData);
-            popButton.OnClick -= OnClickPopButton;
+            if (settingUIBtn != null) settingUIBtn.onClick.RemoveListener(OnSettingUI);
+            EventManager.Instance?.Unregister(EventID.OnPlayerHeadChange, SetData);
+            if (popButton != null) popButton.OnClick -= OnClickPopButton;
         }
 
         private void OnClickPopButton(BabuButton button)

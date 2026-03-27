@@ -57,9 +57,9 @@ namespace BigBang.UI
 
         protected override void RemoveListeners()
         {
-            closeBtn.onClick.RemoveListener(OnClose);
-            EventManager.Instance.Unregister(EventID.OnRefreshActivityTab, RefreshActivityTab);
-            bottomToggleGroup.OnValueChanged -= OnToggleChanged;
+            if (closeBtn != null) closeBtn.onClick.RemoveListener(OnClose);
+            EventManager.Instance?.Unregister(EventID.OnRefreshActivityTab, RefreshActivityTab);
+            if (bottomToggleGroup != null) bottomToggleGroup.OnValueChanged -= OnToggleChanged;
         }
 
         protected override void OnPropertiesSet()

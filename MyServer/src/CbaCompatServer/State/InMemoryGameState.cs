@@ -54,6 +54,7 @@ public sealed class InMemoryGameState
         104009, 104010, 104011, 104012, 104013, 104014, 104015, 104016
     ];
     private static readonly int[] TrainElementIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    private static readonly int[] DefaultStarterBoardIds = [101, 102, 103, 201, 202];
 
     public InMemoryGameState(IOptions<ServerOptions> options)
     {
@@ -210,6 +211,7 @@ public sealed class InMemoryGameState
                 ToShopInfo(player, includePendingOrders: true),
                 ToBasicPlayerInfo(player),
                 ToRecruitInfo(player),
+                ToUpdatePvpInfo(player),
                 ToTrainInfo(player),
                 ToCardInfo(player),
                 ToPackageInfo(player),
@@ -605,6 +607,232 @@ public sealed class InMemoryGameState
         }
     }
 
+    public GetArenaInfoResult GetArenaInfo(string session)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var response = new ArenaInfoResponse
+            {
+                Succeed = true,
+                Info = BuildArenaInfo(player),
+                JoinSeason = false
+            };
+
+            foreach (var top in BuildArenaTopRanks(player))
+            {
+                response.Tops.Add(top);
+            }
+
+            foreach (var opponent in BuildArenaOpponents(player))
+            {
+                response.Opponents.Add(opponent);
+            }
+
+            return new GetArenaInfoResult(response);
+        }
+    }
+
+    public SaveFormationResult SaveFormation(string session, int formationId, FormationInfo? formation)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var normalized = NormalizeFormation(formationId, formation, player);
+            player.Formations[formationId] = normalized;
+            SaveSnapshotLocked();
+
+            return new SaveFormationResult(new SaveFormationResponse
+            {
+                Success = true
+            });
+        }
+    }
+
+    public GetDefaultFormationResult GetDefaultFormation(string session, int formationId)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var formation = EnsureFormationState(player, formationId);
+            return new GetDefaultFormationResult(new GetDefaultFormationResponse
+            {
+                Formation = ToFormationInfo(formation)
+            });
+        }
+    }
+
+    public GetLeagueDataResult GetLeagueData(string session, int lastLeagueId)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var leagueId = lastLeagueId > 0 ? lastLeagueId : 1;
+            var leagueState = GetDisplayedLeagueTeamState(player);
+
+            var response = new GetLeagueDataResponse
+            {
+                LeagueInfo = ToPlayerLeagueInfo(player, leagueId),
+                TeamState = leagueState
+            };
+
+            if (leagueState == 3)
+            {
+                var preview = BuildLeagueGamePreview(player, leagueId);
+                response.GamePerviewData = preview;
+                response.LeagueScorebarTeamList.Add(BuildLeagueScorebar(player, preview.HomeTeam, session: 1, obtain: 102, lost: 95));
+                response.LeagueScorebarTeamList.Add(BuildLeagueScorebar(player, preview.AwayTeam, session: 1, obtain: 95, lost: 102));
+            }
+
+            return new GetLeagueDataResult(response);
+        }
+    }
+
+    public GetLeagueSignUpResult GetLeagueSignUp(string session)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var currentState = GetLeagueTeamState(player);
+            var canSign = currentState is 1 or 4;
+            if (canSign)
+            {
+                player.LeagueTeamState = 2;
+                SaveSnapshotLocked();
+            }
+
+            return new GetLeagueSignUpResult(
+                new GetLeagueSignUpResponse
+                {
+                    Success = canSign
+                },
+                ToUpdatePvpInfo(player));
+        }
+    }
+
+    public GetLeagueHistoryResult GetLeagueHistory(string session)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var response = new GetLeagueHistoryResponse();
+            response.LeagueHistoryDataList.Add(new LeagueHistoryData
+            {
+                StartTime = DateTimeOffset.UtcNow.AddDays(-14).ToUnixTimeSeconds(),
+                EndTime = DateTimeOffset.UtcNow.AddDays(-7).ToUnixTimeSeconds(),
+                Rank = 2,
+                LeagueLevel = 1,
+                Win = 5,
+                Failed = 2,
+                Point = 128,
+                Rebound = 54,
+                Assist = 33,
+                Steal = 11,
+                Block = 7
+            });
+
+            return new GetLeagueHistoryResult(response);
+        }
+    }
+
+    public GetLeagueChampionRankResult GetLeagueChampionRank(string session)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var response = new GetLeagueChampionRankResponse();
+            response.RankList.Add(new ChampionTeamData
+            {
+                Rank = 1,
+                Team = ToPlayerTeamData(player.Gbid, player.Name, player.Icon),
+                Champion = 3,
+                Time = DateTimeOffset.UtcNow.AddDays(-7).ToUnixTimeSeconds()
+            });
+            response.RankList.Add(new ChampionTeamData
+            {
+                Rank = 2,
+                Team = ToPlayerTeamData("league-ai-1", "先锋队", 2),
+                Champion = 2,
+                Time = DateTimeOffset.UtcNow.AddDays(-30).ToUnixTimeSeconds()
+            });
+            response.RankList.Add(new ChampionTeamData
+            {
+                Rank = 3,
+                Team = ToPlayerTeamData("league-ai-2", "雷霆会", 3),
+                Champion = 1,
+                Time = DateTimeOffset.UtcNow.AddDays(-60).ToUnixTimeSeconds()
+            });
+
+            return new GetLeagueChampionRankResult(response);
+        }
+    }
+
+    public GetLeagueCourseResult GetLeagueCourse(string session, int compitionId, int leagueId, int type)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var preview = BuildLeagueGamePreview(player, leagueId);
+            var response = new GetLeagueCourseResponse
+            {
+                LeagueLevel = 1
+            };
+
+            foreach (var item in BuildLeagueCourseItems(player, preview, type))
+            {
+                response.LeagueCourseItemList.Add(item);
+            }
+
+            return new GetLeagueCourseResult(response);
+        }
+    }
+
+    public GetLeagueCardRankResult GetLeagueCardRank(string session, int compitionId, int leagueId)
+    {
+        lock (_gate)
+        {
+            var account = GetAccount(session);
+            var player = account.Players.FirstOrDefault()
+                ?? throw new InvalidOperationException($"Account '{account.AccountId}' has no player.");
+
+            var response = new GetLeagueCardRankResponse();
+            foreach (var rank in BuildLeagueCardRanks(player))
+            {
+                response.GoalsScoredRank.Add(rank.Clone());
+                response.AssistsRank.Add(rank.Clone());
+                response.StealRank.Add(rank.Clone());
+                response.BlockRank.Add(rank.Clone());
+                response.ReboundRank.Add(rank.Clone());
+            }
+
+            return new GetLeagueCardRankResult(response);
+        }
+    }
+
     public DoInviteMatchResult DoInviteMatch(string session, int id)
     {
         lock (_gate)
@@ -873,6 +1101,8 @@ public sealed class InMemoryGameState
             SumCount = new Dictionary<int, int>(player.SumCount),
             WeekCount = new Dictionary<int, int>(player.WeekCount),
             PendingOrders = player.PendingOrders.Select(ClonePendingOrderState).ToList(),
+            LeagueTeamState = player.LeagueTeamState,
+            Formations = player.Formations.ToDictionary(x => x.Key, x => CloneFormationState(x.Value)),
             Train = CloneTrainState(player.Train)
         };
     }
@@ -911,6 +1141,22 @@ public sealed class InMemoryGameState
             TodayCount = pool.TodayCount,
             TotalRecruitCount = pool.TotalRecruitCount,
             Rewards = pool.Rewards.ToList()
+        };
+    }
+
+    private static FormationState CloneFormationState(FormationState formation)
+    {
+        return new FormationState
+        {
+            FormationId = formation.FormationId,
+            BaseFormationName = formation.BaseFormationName,
+            FormationName = formation.FormationName,
+            StarterBoardCardMap = new Dictionary<int, int>(formation.StarterBoardCardMap),
+            SubstituteBoardCardMap = new Dictionary<int, int>(formation.SubstituteBoardCardMap),
+            TacticsIdList = formation.TacticsIdList.ToList(),
+            IsInitialized = formation.IsInitialized,
+            LineupShowTime = formation.LineupShowTime,
+            TacticsLevels = new Dictionary<int, int>(formation.TacticsLevels)
         };
     }
 
@@ -1289,6 +1535,578 @@ public sealed class InMemoryGameState
         }
 
         return controller;
+    }
+
+    private static UpdatePVPInfoNotify ToUpdatePvpInfo(PlayerState player)
+    {
+        return new UpdatePVPInfoNotify
+        {
+            LeagueTeamState = GetDisplayedLeagueTeamState(player),
+            LeagueSettle = false
+        };
+    }
+
+    private static PlayerLeagueInfo ToPlayerLeagueInfo(PlayerState player, int lastLeagueId)
+    {
+        var leagueId = lastLeagueId > 0 ? lastLeagueId : 1;
+        return new PlayerLeagueInfo
+        {
+            State = GetDisplayedLeagueTeamState(player),
+            LeagueId = leagueId,
+            LeagueLevel = 1,
+            LeagueRoundId = GetDisplayedLeagueTeamState(player) == 3 ? 1 : 0,
+            SeasonId = 1,
+            StartTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds()
+        };
+    }
+
+    private static int GetDisplayedLeagueTeamState(PlayerState player)
+    {
+        var storedState = GetLeagueTeamState(player);
+        return storedState == 2 ? 3 : storedState;
+    }
+
+    private static int GetLeagueTeamState(PlayerState player)
+    {
+        return player.LeagueTeamState is >= 1 and <= 4 ? player.LeagueTeamState : 1;
+    }
+
+    private static GamePerviewData BuildLeagueGamePreview(PlayerState player, int leagueId)
+    {
+        var homeTeam = BuildCourseTeamData(
+            ToPlayerTeamData(player.Gbid, player.Name, player.Icon),
+            player.Strength,
+            1,
+            1,
+            0,
+            CreateMiniCards(player, boardStart: 1, boardCount: 5, substituteStart: 11, substituteCount: 3));
+        var awayTeam = BuildCourseTeamData(
+            ToPlayerTeamData("league-ai-1", "先锋队", 2),
+            Math.Max(900, player.Strength - 40),
+            2,
+            0,
+            1,
+            CreateAiMiniCards());
+
+        var matchTime = DateTimeOffset.UtcNow.AddMinutes(10).ToUnixTimeSeconds();
+        return new GamePerviewData
+        {
+            CompitionId = 1,
+            LeagueId = leagueId,
+            LeagueLevel = 1,
+            LeagueRoundId = 1,
+            CourseId = 1001,
+            HomeTeam = homeTeam,
+            AwayTeam = awayTeam,
+            Time = matchTime,
+            StandardTime = matchTime,
+            ChangeTimeTimes = 0
+        };
+    }
+
+    private static IEnumerable<LeagueCourseItemData> BuildLeagueCourseItems(PlayerState player, GamePerviewData preview, int type)
+    {
+        var allItems = new List<LeagueCourseItemData>
+        {
+            new()
+            {
+                CourseId = 901,
+                Time = DateTimeOffset.UtcNow.AddDays(-2).ToUnixTimeSeconds(),
+                Round = 1,
+                HomeTeam = preview.HomeTeam.Team,
+                AwayTeam = ToPlayerTeamData("league-ai-2", "雷霆会", 3),
+                HomeGoal = 108,
+                AwayGoal = 99,
+                FightId = "0"
+            },
+            new()
+            {
+                CourseId = 902,
+                Time = DateTimeOffset.UtcNow.AddDays(-1).ToUnixTimeSeconds(),
+                Round = 1,
+                HomeTeam = ToPlayerTeamData("league-ai-1", "先锋队", 2),
+                AwayTeam = ToPlayerTeamData("league-ai-2", "雷霆会", 3),
+                HomeGoal = 97,
+                AwayGoal = 101,
+                FightId = "0"
+            },
+            new()
+            {
+                CourseId = preview.CourseId,
+                Time = preview.Time,
+                Round = preview.LeagueRoundId,
+                HomeTeam = preview.HomeTeam.Team,
+                AwayTeam = preview.AwayTeam.Team,
+                HomeGoal = -1,
+                AwayGoal = -1,
+                FightId = "0"
+            }
+        };
+
+        return type == 1
+            ? allItems.Where(item => item.HomeTeam.TeamId == player.Gbid || item.AwayTeam.TeamId == player.Gbid)
+            : allItems;
+    }
+
+    private static IEnumerable<LeagueCardRankData> BuildLeagueCardRanks(PlayerState player)
+    {
+        return
+        [
+            new LeagueCardRankData
+            {
+                CardId = player.Cards.Values.FirstOrDefault()?.CardId ?? 104001,
+                Team = ToPlayerTeamData(player.Gbid, player.Name, player.Icon),
+                Point = 32,
+                Rebound = 12,
+                Assist = 9,
+                Steal = 3,
+                Block = 2
+            },
+            new LeagueCardRankData
+            {
+                CardId = 104002,
+                Team = ToPlayerTeamData("league-ai-1", "先锋队", 2),
+                Point = 28,
+                Rebound = 10,
+                Assist = 11,
+                Steal = 4,
+                Block = 1
+            },
+            new LeagueCardRankData
+            {
+                CardId = 104003,
+                Team = ToPlayerTeamData("league-ai-2", "雷霆会", 3),
+                Point = 24,
+                Rebound = 13,
+                Assist = 7,
+                Steal = 2,
+                Block = 3
+            }
+        ];
+    }
+
+    private static LeagueScorebarTeam BuildLeagueScorebar(PlayerState player, CourseTeamData courseTeam, int session, int obtain, int lost)
+    {
+        var team = new LeagueScorebarTeam
+        {
+            BaseData = courseTeam.Team,
+            Session = session,
+            Win = courseTeam.Win,
+            Deuce = courseTeam.Deuce,
+            Failed = courseTeam.Failed,
+            Obtain = obtain,
+            Lost = lost,
+            Net = obtain - lost
+        };
+        team.Record.Add(courseTeam.Record);
+        return team;
+    }
+
+    private static CourseTeamData BuildCourseTeamData(PlayerTeamData team, int strength, int rank, int win, int failed, (Dictionary<int, PlayerCardMiniInfo> Board, Dictionary<int, PlayerCardMiniInfo> Substitute) cards)
+    {
+        var result = new CourseTeamData
+        {
+            Team = team,
+            Rank = rank,
+            Strength = strength,
+            Attack = Math.Max(100, strength / 10),
+            Defence = Math.Max(100, strength / 10 - 8),
+            FormationName = "均衡阵容",
+            Win = win,
+            Deuce = 0,
+            Failed = failed
+        };
+        result.Record.Add(1);
+        result.Record.Add(1);
+        result.Record.Add(2);
+        result.Record.Add(1);
+        result.Record.Add(2);
+        result.TacticsIdList.Add(101);
+        result.TacticsIdList.Add(102);
+        result.TacticsIdList.Add(103);
+        foreach (var item in cards.Board)
+        {
+            result.BoardCardMap[item.Key] = item.Value;
+        }
+
+        foreach (var item in cards.Substitute)
+        {
+            result.SubstituteCardMap[item.Key] = item.Value;
+        }
+
+        return result;
+    }
+
+    private static (Dictionary<int, PlayerCardMiniInfo> Board, Dictionary<int, PlayerCardMiniInfo> Substitute) CreateMiniCards(PlayerState player, int boardStart, int boardCount, int substituteStart, int substituteCount)
+    {
+        var ordered = player.Cards.Values.OrderBy(card => card.CardId).ToList();
+        var board = new Dictionary<int, PlayerCardMiniInfo>();
+        var substitute = new Dictionary<int, PlayerCardMiniInfo>();
+
+        for (var i = 0; i < boardCount; i++)
+        {
+            var card = ordered[i % ordered.Count];
+            board[boardStart + i] = ToPlayerCardMiniInfo(card, boardStart + i, energy: 42f - i);
+        }
+
+        for (var i = 0; i < substituteCount; i++)
+        {
+            var card = ordered[(boardCount + i) % ordered.Count];
+            substitute[substituteStart + i] = ToPlayerCardMiniInfo(card, substituteStart + i, energy: 39f - i);
+        }
+
+        return (board, substitute);
+    }
+
+    private static (Dictionary<int, PlayerCardMiniInfo> Board, Dictionary<int, PlayerCardMiniInfo> Substitute) CreateAiMiniCards()
+    {
+        var board = new Dictionary<int, PlayerCardMiniInfo>();
+        var substitute = new Dictionary<int, PlayerCardMiniInfo>();
+
+        for (var i = 0; i < 5; i++)
+        {
+            board[i + 1] = new PlayerCardMiniInfo
+            {
+                CardId = RecruitCardPool[i],
+                Star = 3,
+                Energy = 40f - i,
+                Number = i + 1,
+                CombatEffectiveness = 90 - i * 3,
+                Quality = 2,
+                BoardId = i + 1,
+                Status = 4,
+                InjuryType = 0
+            };
+        }
+
+        for (var i = 0; i < 3; i++)
+        {
+            substitute[i + 11] = new PlayerCardMiniInfo
+            {
+                CardId = RecruitCardPool[i + 5],
+                Star = 2,
+                Energy = 37f - i,
+                Number = i + 6,
+                CombatEffectiveness = 78 - i * 2,
+                Quality = 2,
+                BoardId = i + 11,
+                Status = 3,
+                InjuryType = 1
+            };
+        }
+
+        return (board, substitute);
+    }
+
+    private static PlayerCardMiniInfo ToPlayerCardMiniInfo(CardState card, int boardId, float energy)
+    {
+        return new PlayerCardMiniInfo
+        {
+            CardId = card.CardId,
+            Star = Math.Max(1, card.Star),
+            Energy = energy,
+            Number = card.PlayerCardNumber,
+            CombatEffectiveness = Math.Max(60, card.Strength),
+            Quality = Math.Max(1, card.Quality),
+            BoardId = boardId,
+            Status = 4,
+            InjuryType = 0
+        };
+    }
+
+    private static PlayerTeamData ToPlayerTeamData(string teamId, string teamName, int teamIcon)
+    {
+        return new PlayerTeamData
+        {
+            TeamId = teamId,
+            TeamName = string.IsNullOrWhiteSpace(teamName) ? "未命名战队" : teamName,
+            TeamIcon = teamIcon,
+            TeamType = 1,
+            ServerId = 1,
+            Support = 0
+        };
+    }
+
+    private static FormationState EnsureFormationState(PlayerState player, int formationId)
+    {
+        if (player.Formations.TryGetValue(formationId, out var existing))
+        {
+            existing.FormationId = formationId;
+            if (!HasValidStarterBoardIds(existing.StarterBoardCardMap))
+            {
+                existing.StarterBoardCardMap = NormalizeStarterBoardMap(existing.StarterBoardCardMap);
+                if (existing.StarterBoardCardMap.Count == 0)
+                {
+                    existing.StarterBoardCardMap = CreateDefaultFormationState(player, formationId).StarterBoardCardMap;
+                }
+            }
+            if (existing.TacticsIdList.Count != 2)
+            {
+                existing.TacticsIdList = [101, 201];
+            }
+
+            if (string.IsNullOrWhiteSpace(existing.FormationName))
+            {
+                existing.FormationName = GetDefaultFormationName(formationId);
+            }
+
+            if (string.IsNullOrWhiteSpace(existing.BaseFormationName))
+            {
+                existing.BaseFormationName = existing.FormationName;
+            }
+
+            return existing;
+        }
+
+        var created = CreateDefaultFormationState(player, formationId);
+        player.Formations[formationId] = created;
+        return created;
+    }
+
+    private static FormationState NormalizeFormation(int formationId, FormationInfo? source, PlayerState player)
+    {
+        var normalized = new FormationState
+        {
+            FormationId = formationId,
+            BaseFormationName = string.IsNullOrWhiteSpace(source?.BaseFormationName) ? GetDefaultFormationName(formationId) : source.BaseFormationName,
+            FormationName = string.IsNullOrWhiteSpace(source?.FormationName) ? GetDefaultFormationName(formationId) : source.FormationName,
+            IsInitialized = source?.IsInitialized ?? true,
+            LineupShowTime = source?.LineupShowTime ?? 0
+        };
+
+        if (source is not null)
+        {
+            foreach (var pair in source.StarterBoardCardMap)
+            {
+                normalized.StarterBoardCardMap[pair.Key] = pair.Value;
+            }
+
+            foreach (var pair in source.SubstituteBoardCardMap)
+            {
+                normalized.SubstituteBoardCardMap[pair.Key] = pair.Value;
+            }
+
+            normalized.TacticsIdList = source.TacticsIdList.ToList();
+            foreach (var pair in source.TacticsLevels)
+            {
+                normalized.TacticsLevels[pair.Key] = pair.Value;
+            }
+        }
+
+        if (normalized.StarterBoardCardMap.Count == 0)
+        {
+            var fallback = CreateDefaultFormationState(player, formationId);
+            normalized.StarterBoardCardMap = fallback.StarterBoardCardMap;
+            normalized.SubstituteBoardCardMap = fallback.SubstituteBoardCardMap;
+            if (normalized.TacticsIdList.Count == 0)
+            {
+                normalized.TacticsIdList = fallback.TacticsIdList;
+            }
+        }
+
+        if (!HasValidStarterBoardIds(normalized.StarterBoardCardMap))
+        {
+            normalized.StarterBoardCardMap = NormalizeStarterBoardMap(normalized.StarterBoardCardMap);
+            if (normalized.StarterBoardCardMap.Count == 0)
+            {
+                normalized.StarterBoardCardMap = CreateDefaultFormationState(player, formationId).StarterBoardCardMap;
+            }
+        }
+
+        if (normalized.TacticsIdList.Count != 2)
+        {
+            normalized.TacticsIdList = [101, 201];
+        }
+
+        return normalized;
+    }
+
+    private static FormationState CreateDefaultFormationState(PlayerState player, int formationId)
+    {
+        var formation = new FormationState
+        {
+            FormationId = formationId,
+            BaseFormationName = GetDefaultFormationName(formationId),
+            FormationName = GetDefaultFormationName(formationId),
+            TacticsIdList = [101, 201],
+            IsInitialized = true,
+            LineupShowTime = 0
+        };
+
+        var cards = player.Cards.Values.OrderBy(card => card.CardId).ToList();
+        for (var i = 0; i < Math.Min(5, cards.Count); i++)
+        {
+            formation.StarterBoardCardMap[DefaultStarterBoardIds[i]] = cards[i].CardId;
+        }
+
+        for (var i = 0; i < Math.Min(3, Math.Max(0, cards.Count - 5)); i++)
+        {
+            formation.SubstituteBoardCardMap[i + 1] = cards[i + 5].CardId;
+        }
+
+        return formation;
+    }
+
+    private static bool HasValidStarterBoardIds(Dictionary<int, int> starterBoardCardMap)
+    {
+        return starterBoardCardMap.Count > 0
+            && starterBoardCardMap.Keys.All(boardId => DefaultStarterBoardIds.Contains(boardId));
+    }
+
+    private static Dictionary<int, int> NormalizeStarterBoardMap(Dictionary<int, int> source)
+    {
+        var normalized = new Dictionary<int, int>();
+        var orderedCardIds = source
+            .OrderBy(pair => pair.Key)
+            .Select(pair => pair.Value)
+            .Where(cardId => cardId != 0)
+            .ToList();
+
+        for (var i = 0; i < Math.Min(DefaultStarterBoardIds.Length, orderedCardIds.Count); i++)
+        {
+            normalized[DefaultStarterBoardIds[i]] = orderedCardIds[i];
+        }
+
+        return normalized;
+    }
+
+    private static FormationInfo ToFormationInfo(FormationState formation)
+    {
+        var info = new FormationInfo
+        {
+            FormationId = formation.FormationId,
+            BaseFormationName = formation.BaseFormationName,
+            FormationName = formation.FormationName,
+            IsInitialized = formation.IsInitialized,
+            LineupShowTime = formation.LineupShowTime
+        };
+        foreach (var pair in formation.StarterBoardCardMap)
+        {
+            info.StarterBoardCardMap[pair.Key] = pair.Value;
+        }
+
+        foreach (var pair in formation.SubstituteBoardCardMap)
+        {
+            info.SubstituteBoardCardMap[pair.Key] = pair.Value;
+        }
+
+        info.TacticsIdList.Add(formation.TacticsIdList);
+        foreach (var pair in formation.TacticsLevels)
+        {
+            info.TacticsLevels[pair.Key] = pair.Value;
+        }
+
+        return info;
+    }
+
+    private static string GetDefaultFormationName(int formationId)
+    {
+        return formationId switch
+        {
+            1 => "联赛阵容",
+            2 => "副本阵容",
+            3 => "竞技场阵容",
+            4 => "经典赛阵容",
+            _ => $"阵容{formationId}"
+        };
+    }
+
+    private static ArenaInfo BuildArenaInfo(PlayerState player)
+    {
+        var info = new ArenaInfo
+        {
+            ArenaScore = 1280,
+            ArenaStage = 1,
+            ArenaRank = 32,
+            SeasonId = 1,
+            DailyClaim = true,
+            BattleTimesLeft = 5,
+            RefreshTimesLeft = 3,
+            BattleTimesBuy = 0,
+            ShopRefreshTime = DateTimeOffset.UtcNow.AddHours(8).ToUnixTimeSeconds(),
+            EndTime = DateTimeOffset.UtcNow.AddDays(2).ToUnixTimeSeconds()
+        };
+        info.ShopList.Add(new ShopInfo { Sid = 1, Stock = 1 });
+        info.ShopList.Add(new ShopInfo { Sid = 2, Stock = 1 });
+        info.ShopList.Add(new ShopInfo { Sid = 3, Stock = 1 });
+        return info;
+    }
+
+    private static IEnumerable<ArenaRankInfo> BuildArenaTopRanks(PlayerState player)
+    {
+        return
+        [
+            new ArenaRankInfo
+            {
+                Rank = 1,
+                Gbid = player.Gbid,
+                Name = player.Name,
+                Icon = player.Icon,
+                Record = 7
+            },
+            new ArenaRankInfo
+            {
+                Rank = 2,
+                Gbid = "arena-ai-1",
+                Name = "先锋队",
+                Icon = 2,
+                Record = 5
+            },
+            new ArenaRankInfo
+            {
+                Rank = 3,
+                Gbid = "arena-ai-2",
+                Name = "烈火队",
+                Icon = 3,
+                Record = -2
+            }
+        ];
+    }
+
+    private static IEnumerable<ArenaTeamData> BuildArenaOpponents(PlayerState player)
+    {
+        return
+        [
+            BuildArenaOpponent("arena-op-1", "北境队", 4, 1, 28, Math.Max(900, player.Strength - 30)),
+            BuildArenaOpponent("arena-op-2", "星海队", 5, 2, 18, Math.Max(920, player.Strength - 10)),
+            BuildArenaOpponent("arena-op-3", "赤霄队", 6, 1, 0, Math.Max(950, player.Strength + 20))
+        ];
+    }
+
+    private static ArenaTeamData BuildArenaOpponent(string id, string name, int icon, int stage, int rank, int combatEffectiveness)
+    {
+        var data = new ArenaTeamData
+        {
+            Type = 1,
+            Id = id,
+            Name = name,
+            Icon = icon,
+            Stage = stage,
+            Rank = rank,
+            CombatEffectiveness = combatEffectiveness,
+            AddScore = 15
+        };
+
+        for (var i = 0; i < 5; i++)
+        {
+            data.StarterPlayerList.Add(new PlayerCardMiniInfo
+            {
+                CardId = RecruitCardPool[i],
+                Star = 2,
+                Energy = 45f - i,
+                Number = i + 1,
+                CombatEffectiveness = Math.Max(60, combatEffectiveness / 10 - i * 2),
+                Quality = 2,
+                BoardId = i + 1,
+                Status = 4,
+                InjuryType = 0
+            });
+        }
+
+        data.TacticsIdList.Add(101);
+        data.TacticsIdList.Add(102);
+        data.TacticsIdList.Add(103);
+        return data;
     }
 
     private static RecruitPoolInfo ToRecruitPoolInfo(RecruitPoolState pool)
@@ -1711,6 +2529,7 @@ public sealed class InMemoryGameState
         ShopModuleNotify ShopInfo,
         BasicPlayerInfoNotify PlayerInfo,
         RefreshRecruitInfoNotify RecruitInfo,
+        UpdatePVPInfoNotify PvpInfo,
         TrainInfoNotify TrainInfo,
         ModuleCardInfoNotify CardInfo,
         RefreshPackageInfoNotify PackageInfo,
@@ -1770,6 +2589,34 @@ public sealed class InMemoryGameState
     public sealed record FetchInviteMatchInfoResult(
         FetchInviteMatchInfoResponse Response);
 
+    public sealed record GetArenaInfoResult(
+        ArenaInfoResponse Response);
+
+    public sealed record SaveFormationResult(
+        SaveFormationResponse Response);
+
+    public sealed record GetDefaultFormationResult(
+        GetDefaultFormationResponse Response);
+
+    public sealed record GetLeagueDataResult(
+        GetLeagueDataResponse Response);
+
+    public sealed record GetLeagueSignUpResult(
+        GetLeagueSignUpResponse Response,
+        UpdatePVPInfoNotify PvpInfo);
+
+    public sealed record GetLeagueHistoryResult(
+        GetLeagueHistoryResponse Response);
+
+    public sealed record GetLeagueChampionRankResult(
+        GetLeagueChampionRankResponse Response);
+
+    public sealed record GetLeagueCourseResult(
+        GetLeagueCourseResponse Response);
+
+    public sealed record GetLeagueCardRankResult(
+        GetLeagueCardRankResponse Response);
+
     public sealed record DoInviteMatchResult(
         DoInviteMatchResponse Response,
         TrainInfoNotify TrainInfo);
@@ -1823,6 +2670,8 @@ public sealed class InMemoryGameState
         public Dictionary<int, int> SumCount { get; set; } = [];
         public Dictionary<int, int> WeekCount { get; set; } = [];
         public List<PendingOrderState> PendingOrders { get; set; } = [];
+        public int LeagueTeamState { get; set; } = 1;
+        public Dictionary<int, FormationState> Formations { get; set; } = [];
         public TrainState? Train { get; set; }
     }
 
@@ -1852,6 +2701,19 @@ public sealed class InMemoryGameState
         public int TodayCount { get; set; }
         public int TotalRecruitCount { get; set; }
         public List<int> Rewards { get; set; } = [];
+    }
+
+    private sealed class FormationState
+    {
+        public int FormationId { get; set; }
+        public string BaseFormationName { get; set; } = string.Empty;
+        public string FormationName { get; set; } = string.Empty;
+        public Dictionary<int, int> StarterBoardCardMap { get; set; } = [];
+        public Dictionary<int, int> SubstituteBoardCardMap { get; set; } = [];
+        public List<int> TacticsIdList { get; set; } = [];
+        public bool IsInitialized { get; set; } = true;
+        public long LineupShowTime { get; set; }
+        public Dictionary<int, int> TacticsLevels { get; set; } = [];
     }
 
     private sealed class TrainState

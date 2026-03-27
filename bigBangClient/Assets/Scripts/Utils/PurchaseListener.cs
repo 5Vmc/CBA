@@ -20,8 +20,8 @@ namespace Babu
 
         private void OnDestroy()
         {
-            EventManager.Instance.Unregister(PurchaseServiceManager.Event.PurchaseResult, OnPurchaseResult);
-            EventManager.Instance.Unregister(PurchaseServiceManager.Event.PurchaseTest, OnPurchaseTest);
+            EventManager.Instance?.Unregister(PurchaseServiceManager.Event.PurchaseResult, OnPurchaseResult);
+            EventManager.Instance?.Unregister(PurchaseServiceManager.Event.PurchaseTest, OnPurchaseTest);
         }
 
         private void OnPurchaseResult(object[] args)

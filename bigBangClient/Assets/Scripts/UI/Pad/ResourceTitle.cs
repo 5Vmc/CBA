@@ -144,11 +144,11 @@ namespace BigBang.UI
 
         private void OnDisable()
         {
-            EventManager.Instance.Unregister(EventID.OnResourceChange, UpdateField);
-            EventManager.Instance.Unregister(EventID.OnRefreshGoods, UpdateField);
-            EventManager.Instance.Unregister(EventID.OnCostTowerHoner, UpdateField);
-            EventManager.Instance.Unregister(EventID.OnServerPushPackageChange, UpdateField);
-            countDown.UnRegist();
+            EventManager.Instance?.Unregister(EventID.OnResourceChange, UpdateField);
+            EventManager.Instance?.Unregister(EventID.OnRefreshGoods, UpdateField);
+            EventManager.Instance?.Unregister(EventID.OnCostTowerHoner, UpdateField);
+            EventManager.Instance?.Unregister(EventID.OnServerPushPackageChange, UpdateField);
+            countDown?.UnRegist();
             RemoveBtn();
         }
 

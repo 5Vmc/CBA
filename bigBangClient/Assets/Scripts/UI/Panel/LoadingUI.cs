@@ -120,25 +120,25 @@ namespace BigBang.UI
 
         protected override void RemoveListeners()
         {
-            startBtn.OnClick -= OnStart;
-            retryBtn.OnClick -= OnRetry;
-            ageBtn.OnClick -= OnAgePanelShow;
-            PABtn.OnClick -= OnPrivacyAgreement;
-            UMBtn.OnClick -= OnUserManual;
+            if (startBtn != null) startBtn.OnClick -= OnStart;
+            if (retryBtn != null) retryBtn.OnClick -= OnRetry;
+            if (ageBtn != null) ageBtn.OnClick -= OnAgePanelShow;
+            if (PABtn != null) PABtn.OnClick -= OnPrivacyAgreement;
+            if (UMBtn != null) UMBtn.OnClick -= OnUserManual;
             // 注销登陆成功事件
             //LoginManager.Instance.OnLoginSucceed -= OnLoginSucceed;
             // 注销登陆失败事件
-            LoginManager.Instance.OnLoginFailed -= OnLoginFailed;
+            if (LoginManager.Instance != null) LoginManager.Instance.OnLoginFailed -= OnLoginFailed;
             // 注销游戏开始事件
-            LoginManager.Instance.OnEnterGame -= OnEnterGame;
+            if (LoginManager.Instance != null) LoginManager.Instance.OnEnterGame -= OnEnterGame;
 
-            accountField.onValueChanged.RemoveListener(SaveAccount);
-            passwordField.onValueChanged.RemoveListener(SavePassword);
+            if (accountField != null) accountField.onValueChanged.RemoveListener(SaveAccount);
+            if (passwordField != null) passwordField.onValueChanged.RemoveListener(SavePassword);
 
-            serverChangeBtn.OnClick -= OnClickChangeServerBtn;
-            EventManager.Instance.Unregister(EventID.OnClickChangeServerBtn, OnClickChangeServerBtn);
-            EventManager.Instance.Unregister(EventID.QUICK_LOGIN_SUCCESS, OnQuickLoginSuccess);
-            EventManager.Instance.Unregister(EventID.QUICK_LOGIN_FAIL, OnQuickLoginFail);
+            if (serverChangeBtn != null) serverChangeBtn.OnClick -= OnClickChangeServerBtn;
+            EventManager.Instance?.Unregister(EventID.OnClickChangeServerBtn, OnClickChangeServerBtn);
+            EventManager.Instance?.Unregister(EventID.QUICK_LOGIN_SUCCESS, OnQuickLoginSuccess);
+            EventManager.Instance?.Unregister(EventID.QUICK_LOGIN_FAIL, OnQuickLoginFail);
             //EventManager.Instance.Unregister(EventID.QUICK_INIT_END, OnQuickInitEnd);
         }
 

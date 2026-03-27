@@ -118,19 +118,22 @@ namespace BigBang
         //检查并且获取到默认阵容
         public void GetAndCheckDefaultFormation(int formationId, Action<Formation> callBack)
         {
-            var formation = GetDefaultFormation(formationId);
-            callBack.Invoke(formation);
+            NetworkManager.Instance.GetDefaultFormation(formationId, response =>
+            {
+                var formation = GetDefaultFormation(formationId);
+                if (formation != null && response != null && response.Formation != null)
+                {
+                    formation.UnPack(response.Formation);
+                    formation.UpdateCardFormationInfo();
+                }
 
-            //NetworkManager.Instance.GetDefaultFormation(formationId, response =>
-            //{
-            //    var formation = GetDefaultFormation(formationId);
-            //    formation.UnPack(response.Formation);
-            //    formation.UpdateCardFormationInfo();
+                if (formation != null && (formation.TacticsIdList == null || formation.TacticsIdList.Count != 2))
+                {
+                    formation.TacticsIdList = new() { 101, 201 };
+                }
 
-            //    Debug.Log("SaveFormation callback :" + response.ToString());
-
-            //    callBack.Invoke(formation);
-            //});
+                callBack?.Invoke(formation);
+            });
         }
 
         /// <summary>

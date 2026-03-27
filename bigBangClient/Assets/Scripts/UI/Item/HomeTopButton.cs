@@ -41,15 +41,19 @@ public class HomeTopButton : MonoBehaviour
     private void OnDisable()
     {
         //Debug.LogError("OnDisable " + this.GetHashCode() + " " + this.gameObject.name);
-        button.OnClick -= OnClickButton;
-        EventManager.Instance.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
-        EventManager.Instance.Unregister(EventID.OnTeamlevelUp, RefreshLock);
+        if (button != null) button.OnClick -= OnClickButton;
+        EventManager.Instance?.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
+        EventManager.Instance?.Unregister(EventID.OnTeamlevelUp, RefreshLock);
     }
     private void OnDestroy()
     {
-        button.OnClick -= OnClickButton;
-        EventManager.Instance.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
-        EventManager.Instance.Unregister(EventID.OnTeamlevelUp, RefreshLock);
+        if (button != null)
+        {
+            button.OnClick -= OnClickButton;
+        }
+
+        EventManager.Instance?.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
+        EventManager.Instance?.Unregister(EventID.OnTeamlevelUp, RefreshLock);
     }
     bool isLock = false;
     public void RefreshLock(object[] _)

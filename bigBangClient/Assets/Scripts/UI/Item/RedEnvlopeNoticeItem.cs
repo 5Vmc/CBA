@@ -40,11 +40,11 @@ public class RedEnvlopeNoticeItem : MonoBehaviour
     {
         sequence?.Kill();
         sequence = null;
-        redEnvlopeNoticeItem.SetLocalScaleY(0);
+        if (redEnvlopeNoticeItem != null) redEnvlopeNoticeItem.SetLocalScaleY(0);
         playTimer?.Cancel();
         playTimer = null;
 
-        EventManager.Instance.Unregister(EventID.OnAfterReceiveRedEnvlopeNotify, OnAfterReceiveRedEnvlopeNotify);
+        EventManager.Instance?.Unregister(EventID.OnAfterReceiveRedEnvlopeNotify, OnAfterReceiveRedEnvlopeNotify);
     }
 
     private void OnAfterReceiveRedEnvlopeNotify(object[] args)

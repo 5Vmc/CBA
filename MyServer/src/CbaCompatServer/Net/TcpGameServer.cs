@@ -106,7 +106,16 @@ public sealed class TcpGameServer : BackgroundService
             "cs_createPlayer" => HandleCreatePlayer(envelope, connectionState),
             "cs_enterGame" => HandleEnterGame(envelope, connectionState),
             "activity_module.cs_receiveReward" => HandleReceiveSevenDayReward(envelope, connectionState.Session),
+            "arena_module.cs_arenaInfo" => HandleArenaInfo(envelope, connectionState.Session),
             "card_module.cs_recruit" => HandleRecruit(envelope, connectionState.Session),
+            "fight_module.cs_saveFormation" => HandleSaveFormation(envelope, connectionState.Session),
+            "fight_module.cs_getDefaultFormationRequest" => HandleGetDefaultFormation(envelope, connectionState.Session),
+            "pvp_module.cs_getLeagueData" => HandleGetLeagueData(envelope, connectionState.Session),
+            "pvp_module.cs_leagueSignUp" => HandleGetLeagueSignUp(envelope, connectionState.Session),
+            "pvp_module.cs_getLeagueHistory" => HandleGetLeagueHistory(envelope, connectionState.Session),
+            "pvp_module.cs_getLeagueChampionRank" => HandleGetLeagueChampionRank(envelope, connectionState.Session),
+            "pvp_module.cs_getLeagueCourse" => HandleGetLeagueCourse(envelope, connectionState.Session),
+            "pvp_module.cs_getLeagueCardRank" => HandleGetLeagueCardRank(envelope, connectionState.Session),
             "train.cs_doOfflineReward" => HandleDoOfflineReward(envelope, connectionState.Session),
             "train.cs_doInviteMatch" => HandleDoInviteMatch(envelope, connectionState.Session),
             "train.cs_doInviteMatchReward" => HandleDoInviteMatchReward(envelope, connectionState.Session),
@@ -208,6 +217,7 @@ public sealed class TcpGameServer : BackgroundService
         yield return CreateNotify("sc_notifyShopModule", snapshot.ShopInfo);
         yield return CreateNotify("sc_updatePlayerInfo", snapshot.PlayerInfo);
         yield return CreateNotify("sc_refreshRecruitInfo", snapshot.RecruitInfo);
+        yield return CreateNotify("sc_updatePVPInfo", snapshot.PvpInfo);
         yield return CreateNotify("sc_updateTrainInfo", snapshot.TrainInfo);
         yield return CreateNotify("sc_updateCardInfo", snapshot.CardInfo);
         yield return CreateNotify("sc_refreshPackageInfo", snapshot.PackageInfo);
@@ -248,6 +258,42 @@ public sealed class TcpGameServer : BackgroundService
         yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
     }
 
+    private IEnumerable<MessageEnvelope> HandleArenaInfo(MessageEnvelope envelope, string connectionSession)
+    {
+        ArenaInfoRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("ArenaInfo received before connection session was established.");
+        }
+
+        var result = _gameState.GetArenaInfo(connectionSession);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleSaveFormation(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = SaveFormationRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("SaveFormation received before connection session was established.");
+        }
+
+        var result = _gameState.SaveFormation(connectionSession, request.FormationId, request.Formation);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetDefaultFormation(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = GetDefaultFormationRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetDefaultFormation received before connection session was established.");
+        }
+
+        var result = _gameState.GetDefaultFormation(connectionSession, request.FormationId);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
     private IEnumerable<MessageEnvelope> HandleDoOfflineReward(MessageEnvelope envelope, string connectionSession)
     {
         var request = DoOfflineRewardRequest.Parser.ParseFrom(envelope.Payload);
@@ -258,6 +304,79 @@ public sealed class TcpGameServer : BackgroundService
 
         var result = _gameState.DoOfflineReward(connectionSession, request.VideoBuff);
         yield return CreateNotify("sc_updateTrainInfo", result.TrainInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueData(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = GetLeagueDataRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueData received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueData(connectionSession, request.LastLeagueId);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueSignUp(MessageEnvelope envelope, string connectionSession)
+    {
+        GetLeagueSignUpRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueSignUp received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueSignUp(connectionSession);
+        yield return CreateNotify("sc_updatePVPInfo", result.PvpInfo);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueHistory(MessageEnvelope envelope, string connectionSession)
+    {
+        GetLeagueHistoryRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueHistory received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueHistory(connectionSession);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueChampionRank(MessageEnvelope envelope, string connectionSession)
+    {
+        GetLeagueChampionRankRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueChampionRank received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueChampionRank(connectionSession);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueCourse(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = GetLeagueCourseRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueCourse received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueCourse(connectionSession, request.CompitionId, request.LeagueId, request.Type);
+        yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
+    }
+
+    private IEnumerable<MessageEnvelope> HandleGetLeagueCardRank(MessageEnvelope envelope, string connectionSession)
+    {
+        var request = GetLeagueCardRankRequest.Parser.ParseFrom(envelope.Payload);
+        if (string.IsNullOrWhiteSpace(connectionSession))
+        {
+            throw new InvalidOperationException("GetLeagueCardRank received before connection session was established.");
+        }
+
+        var result = _gameState.GetLeagueCardRank(connectionSession, request.CompitionId, request.LeagueId);
         yield return CreateResponse(envelope.SessionId, envelope.MethodName, result.Response);
     }
 

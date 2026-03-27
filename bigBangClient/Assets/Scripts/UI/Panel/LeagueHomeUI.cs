@@ -45,24 +45,24 @@ namespace BigBang.UI
         {
             base.RemoveListeners();
 
-            helpButton.OnClick -= OnClickHelpButton;
-            historyButton.OnClick -= OnClickHistoryButton;
-            peakButton.OnClick -= OnClickPeakButton;
-            rewardButton.OnClick -= OnClickRewardButton;
-            courseButton.OnClick -= OnClickCourseButton;
-            playerRankButton.OnClick -= OnClickPlayerRankButton;
-            signButton.OnClick -= OnClickSignButton;
-            signedButton.OnClick -= OnClickSignedButton;
-            recoverButton.OnClick -= OnClickRecoverButton;
-            formationButton.OnClick -= OnClickFormationButton;
+            if (helpButton != null) helpButton.OnClick -= OnClickHelpButton;
+            if (historyButton != null) historyButton.OnClick -= OnClickHistoryButton;
+            if (peakButton != null) peakButton.OnClick -= OnClickPeakButton;
+            if (rewardButton != null) rewardButton.OnClick -= OnClickRewardButton;
+            if (courseButton != null) courseButton.OnClick -= OnClickCourseButton;
+            if (playerRankButton != null) playerRankButton.OnClick -= OnClickPlayerRankButton;
+            if (signButton != null) signButton.OnClick -= OnClickSignButton;
+            if (signedButton != null) signedButton.OnClick -= OnClickSignedButton;
+            if (recoverButton != null) recoverButton.OnClick -= OnClickRecoverButton;
+            if (formationButton != null) formationButton.OnClick -= OnClickFormationButton;
 
-            recoverButton2.OnClick -= OnClickRecoverButton;
-            formationButton2.OnClick -= OnClickFormationButton;
+            if (recoverButton2 != null) recoverButton2.OnClick -= OnClickRecoverButton;
+            if (formationButton2 != null) formationButton2.OnClick -= OnClickFormationButton;
 
-            homeTeamPanel.OnClick -= OnClickHomeTeamPanel;
-            awayTeamPanel.OnClick -= OnClickAwayTeamPanel;
+            if (homeTeamPanel != null) homeTeamPanel.OnClick -= OnClickHomeTeamPanel;
+            if (awayTeamPanel != null) awayTeamPanel.OnClick -= OnClickAwayTeamPanel;
 
-            SecondUpdateManager.Instance.UnRegistAction(RefreshLeftTimeOneSec);
+            SecondUpdateManager.Instance?.UnRegistAction(RefreshLeftTimeOneSec);
         }
 
         [SerializeField] private RectTransform signPanel = null;

@@ -39,8 +39,8 @@ public class HomeCenterButton : MonoBehaviour
     private void OnDisable()
     {
         if (button != null) button.OnClick -= OnClickButton;
-        EventManager.Instance.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
-        EventManager.Instance.Unregister(EventID.OnTeamlevelUp, RefreshLock);
+        EventManager.Instance?.Unregister(EventID.RefreshUIRedDot, RefreshRedDot);
+        EventManager.Instance?.Unregister(EventID.OnTeamlevelUp, RefreshLock);
         //EventManager.Instance.Unregister(EventID.RefreshBigBangUIRedDot, RefreshRedDot);
     }
     private void RefreshLock(object[] _)

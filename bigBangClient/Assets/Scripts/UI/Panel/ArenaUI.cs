@@ -59,9 +59,9 @@ namespace BigBang.UI
         }
         protected override void RemoveListeners()
         {
-            closeBtn.onClick.RemoveListener(OnClose);
-            _padSelecter.onValueChange.RemoveListener(SelectOne);
-            EventManager.Instance.Unregister(EventID.OnClickArenaPadGotoFormationPad, OnClickArenaPadGotoFormationPad);
+            if (closeBtn != null) closeBtn.onClick.RemoveListener(OnClose);
+            if (_padSelecter != null) _padSelecter.onValueChange.RemoveListener(SelectOne);
+            EventManager.Instance?.Unregister(EventID.OnClickArenaPadGotoFormationPad, OnClickArenaPadGotoFormationPad);
         }
         private bool isNeedOpenGuide2UI = false;
         protected override void OnPropertiesSet()
@@ -127,6 +127,7 @@ namespace BigBang.UI
         private void ShowPad(SubUIID value)
         {
             Debug.Log(value);
+            var previousShowType = _lastShowType;
             _lastShowType = value;
             arenaPad.gameObject.SetActive(value == SubUIID.Arena);
             tacticsSetPad.gameObject.SetActive(value == SubUIID.Tactic);
@@ -143,7 +144,7 @@ namespace BigBang.UI
                     formationPad.OnShowArena();
                     break;
             }
-            if (value != SubUIID.First) formationPad.SaveToServer();
+            if (previousShowType == SubUIID.First && value != SubUIID.First) formationPad.SaveToServer();
         }
         private void OnClickArenaPadGotoFormationPad(object[] _)
         {

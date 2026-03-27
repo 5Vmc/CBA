@@ -50,11 +50,18 @@ namespace BigBang
 
         public FormationInfo Pack()
         {
-            FormationInfo data = new FormationInfo();
-            data.FormationName = FormationName;
-            data.BaseFormationName = BaseFormationName;
+            var packedFormationName = string.IsNullOrWhiteSpace(FormationName)
+                ? string.IsNullOrWhiteSpace(BaseFormationName) ? $"Formation-{FormationId}" : BaseFormationName
+                : FormationName;
+            var packedBaseFormationName = string.IsNullOrWhiteSpace(BaseFormationName)
+                ? packedFormationName
+                : BaseFormationName;
 
-            Debug.Log("FormationInfo Pack:" + FormationName);
+            FormationInfo data = new FormationInfo();
+            data.FormationName = packedFormationName;
+            data.BaseFormationName = packedBaseFormationName;
+
+            Debug.Log("FormationInfo Pack:" + packedFormationName);
 
             foreach (var id in TacticsIdList)
             {
